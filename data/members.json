@@ -1,0 +1,905 @@
+{
+  "members": [
+    {
+      "memberId": "member_43",
+      "name": "相川暖花",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_43.jpg",
+      "bio": "닉네임은 'ほのの'입니다. 생년월일은 2003年10月22日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"みかん大好きほののんほのの\"",
+      "details": {
+        "nickname": "ほのの",
+        "birthdate": "2003年10月22日",
+        "bloodType": "O型",
+        "hometown": "愛知県",
+        "height": "154cm",
+        "memberColor": "水色・オレンジ",
+        "hobby": "サッカー観戦、美味しいものを食べること、喋ること",
+        "specialty": "まつ毛に爪楊枝を18本／割り箸1膳のせる、全力で踊る"
+      }
+    },
+    {
+      "memberId": "member_4",
+      "name": "石黒友月",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_4.jpg",
+      "bio": "닉네임은 'ゆづぽ'입니다. 생년월일은 2003年10月11日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"ゆづの笑顔はー？キラキラー？スマイル！ゆづの笑顔が月の友達まで届きますように！(届いてるよ〜！)\"",
+      "details": {
+        "nickname": "ゆづぽ",
+        "birthdate": "2003年10月11日",
+        "bloodType": "AB型",
+        "hometown": "愛知県",
+        "height": "162.5cm",
+        "memberColor": "赤・黄",
+        "hobby": "音楽を聴くこと(特に懐メロ)、人間観察、お散歩、食べること、寝ること、おしゃべり、1人カラオケ、ドラマや映画を見ること",
+        "specialty": "耳を動かすこと、靴紐を早く結ぶこと"
+      }
+    },
+    {
+      "memberId": "member_81",
+      "name": "伊藤虹々美",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_81.jpg",
+      "bio": "닉네임은 'ここみん、にじにじ'입니다. 생년월일은 2008年12月8日입니다. 출신지는 長野県입니다. 캐치프레이즈: \"長野県からSKE48に虹をかけにやってきました！（かかってるよー）SKE48の初の長野県出身、ここみんこと伊藤虹々美です！\"",
+      "details": {
+        "nickname": "ここみん、にじにじ",
+        "birthdate": "2008年12月8日",
+        "bloodType": "A型",
+        "hometown": "長野県",
+        "height": "158 cm",
+        "memberColor": "青･青･緑",
+        "hobby": "指パッチン",
+        "specialty": "指パッチン、食べ物の好き嫌いが無い"
+      }
+    },
+    {
+      "memberId": "member_23",
+      "name": "入内嶋涼",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_23.jpg",
+      "bio": "닉네임은 'さあや'입니다. 생년월일은 1999年05月13日입니다. 출신지는 神奈川県입니다. 캐치프레이즈: \"みんなどの嶋に行きたい？(入内嶋~)入内嶋は幸せの嶋！抜け出しはダメですよ？(涼解で~す)\"",
+      "details": {
+        "nickname": "さあや",
+        "birthdate": "1999年05月13日",
+        "bloodType": "O型",
+        "hometown": "神奈川県",
+        "height": "154 cm",
+        "memberColor": "白・白・白",
+        "hobby": "生き物と戯れる、生き物観察、アニメ鑑賞、グッズ集め",
+        "specialty": "水泳、ナンプレ"
+      }
+    },
+    {
+      "memberId": "member_49",
+      "name": "熊崎晴香",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_49.jpg",
+      "bio": "닉네임은 'くまちゃん'입니다. 생년월일은 1997年08月10日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"私のことを見てくれないとみーんな、くまらしちゃうよ！くまちゃんこと熊崎晴香です！\"",
+      "details": {
+        "nickname": "くまちゃん",
+        "birthdate": "1997年08月10日",
+        "bloodType": "O型",
+        "hometown": "愛知県",
+        "height": "160 cm",
+        "memberColor": "赤・紫",
+        "hobby": "競馬、中日ドラゴンズ応援、スポーツ、スポーツ観戦、散歩、歩いていろんなお店見つけること、二次元、ドラマ・映画鑑賞",
+        "specialty": "スポーツ(球技)、人のしゃっくりを止めること"
+      }
+    },
+    {
+      "memberId": "member_50",
+      "name": "倉島杏実",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_50.jpg",
+      "bio": "닉네임은 'あみちゃん'입니다. 생년월일은 2005年06月28日입니다. 출신지는 神奈川県입니다. 캐치프레이즈: \"杏の実といえばー？（あみちゃん！）いつでも全力前のめり！\"",
+      "details": {
+        "nickname": "あみちゃん",
+        "birthdate": "2005年06月28日",
+        "bloodType": "B型",
+        "hometown": "神奈川県",
+        "height": "153.2 cm",
+        "memberColor": "黄・白",
+        "hobby": "ONE PIECE、メイク、コスメ収集",
+        "specialty": "困り眉、スキー、劇場公演"
+      }
+    },
+    {
+      "memberId": "member_96",
+      "name": "桒原椿",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_96.jpg",
+      "bio": "닉네임은 'つーちゃん'입니다. 생년월일은 2006年2月25日입니다. 출신지는 佐賀県입니다. 캐치프레이즈: \"いちばん好いとっとはー？(つー！！！)つーの花みんなに咲かせたいっちゃん！\"",
+      "details": {
+        "nickname": "つーちゃん",
+        "birthdate": "2006年2月25日",
+        "bloodType": "A型",
+        "hometown": "佐賀県",
+        "height": "167cm",
+        "memberColor": "黄・黄・黄",
+        "hobby": "アイドルのMVをみること、キャラクターショップにいくこと",
+        "specialty": "スポーツ、習字"
+      }
+    },
+    {
+      "memberId": "member_9",
+      "name": "坂本真凛",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_9.jpg",
+      "bio": "닉네임은 'まりん'입니다. 생년월일은 2002年02月02日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"2002年2月2日生まれ　冬生まれなのにー？（まりんー！！）　やったね！　皆さんをにーっと笑顔にさせちゃいます\"",
+      "details": {
+        "nickname": "まりん",
+        "birthdate": "2002年02月02日",
+        "bloodType": "B型",
+        "hometown": "愛知県",
+        "height": "161 cm",
+        "memberColor": "青・水色",
+        "hobby": "ご飯屋さん巡り、アニメを見ること、アイドル鑑賞",
+        "specialty": "どこでもたくさん寝られること"
+      }
+    },
+    {
+      "memberId": "member_76",
+      "name": "杉本りいな",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_76.jpg",
+      "bio": "닉네임은 'りぃちゃん、りいたん'입니다. 생년월일은 2008年9月20日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"りいながなりたいのは、なんばーわんじゃなくてー？(おんりぃわん！)みんなのおんりぃわんになりたい、SKE48チームSの杉本りいなです！\"",
+      "details": {
+        "nickname": "りぃちゃん、りいたん",
+        "birthdate": "2008年9月20日",
+        "bloodType": "O型",
+        "hometown": "愛知県",
+        "height": "160cm",
+        "memberColor": "赤・ピンク・白",
+        "hobby": "映画鑑賞、アニメ、料理、おかし作り",
+        "specialty": "ジャンプ、たくさんご飯を食べる、料理、バレーボール"
+      }
+    },
+    {
+      "memberId": "member_55",
+      "name": "鈴木恋奈",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_55.jpg",
+      "bio": "닉네임은 'ここな'입니다. 생년월일은 2003年12月28日입니다. 출신지는 岐阜県입니다. 캐치프레이즈: \"ぶーん ぶーん ぶーん\"",
+      "details": {
+        "nickname": "ここな",
+        "birthdate": "2003年12月28日",
+        "bloodType": "A型",
+        "hometown": "岐阜県",
+        "height": "156 cm",
+        "memberColor": "ピンク･紫",
+        "hobby": "料理をすること",
+        "specialty": "ぶんぶんごま"
+      }
+    },
+    {
+      "memberId": "member_16",
+      "name": "野村実代",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_16.jpg",
+      "bio": "닉네임은 'みよまる'입니다. 생년월일은 2003年02月01日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"SKE48のナナちゃん人形\"",
+      "details": {
+        "nickname": "みよまる",
+        "birthdate": "2003年02月01日",
+        "bloodType": "A型",
+        "hometown": "愛知県",
+        "height": "168 cm",
+        "memberColor": "赤",
+        "hobby": "生配信、アニメ、ラジオ、美容",
+        "specialty": "ゲーム、バスケットボール、おしゃべり"
+      }
+    },
+    {
+      "memberId": "member_77",
+      "name": "原優寧",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_77.jpg",
+      "bio": "닉네임은 'ゆうね'입니다. 생년월일은 2001年11月23日입니다. 출신지는 福岡県입니다. 캐치프레이즈: \"福岡県から来た建築ガール原優寧です！\"",
+      "details": {
+        "nickname": "ゆうね",
+        "birthdate": "2001年11月23日",
+        "bloodType": "O型",
+        "hometown": "福岡県",
+        "height": "152 cm",
+        "memberColor": "赤・白",
+        "hobby": "睡眠、おいしいごはんを食べる、建築物を見ること",
+        "specialty": "指の第一関節が曲がる、バルーンアート"
+      }
+    },
+    {
+      "memberId": "member_90",
+      "name": "松川みゆ",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_90.jpg",
+      "bio": "닉네임은 'みゆ、みいたん'입니다. 생년월일은 2008年4月15日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"全力投球みゆほーわんだほー！今日もバンバンヒット打っていきます！見逃し厳禁！しっかりキャッチしてください！\"",
+      "details": {
+        "nickname": "みゆ、みいたん",
+        "birthdate": "2008年4月15日",
+        "bloodType": "A型",
+        "hometown": "愛知県",
+        "height": "160 cm",
+        "memberColor": "赤･ピンク･水色",
+        "hobby": "野球観戦、スポーツ､ピアノ",
+        "specialty": "百人一首、ソフトボール、バレーボール"
+      }
+    },
+    {
+      "memberId": "member_91",
+      "name": "南澤恋々",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_91.jpg",
+      "bio": "닉네임은 'こっちゃん'입니다. 생년월일은 2007年10月26日입니다. 출신지는 長野県입니다. 캐치프레이즈: \"恋の行方はー？(こっちゃーん)あなたのハートにきゅんきゅんぷりちぃー攻撃♡SKE48をどす恋パワーで満開にします❀信濃の国からやってきました！チームS南澤恋々です！\"",
+      "details": {
+        "nickname": "こっちゃん",
+        "birthdate": "2007年10月26日",
+        "bloodType": "A型",
+        "hometown": "長野県",
+        "height": "166.4cm",
+        "memberColor": "濃いピンク･薄いピンク･濃いピンク",
+        "hobby": "かわいいお洋服を見たり着たりすること、美容",
+        "specialty": "相撲"
+      }
+    },
+    {
+      "memberId": "member_79",
+      "name": "山村さくら",
+      "position": "チームS",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_79.jpg",
+      "bio": "닉네임은 'さっくぅ、さくちゃん'입니다. 생년월일은 2006年9月20日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"さくサーチで常にあなたを監視中！キラキラアイドルさっくうこと山村さくらです\"",
+      "details": {
+        "nickname": "さっくぅ、さくちゃん",
+        "birthdate": "2006年9月20日",
+        "bloodType": "A型",
+        "hometown": "愛知県",
+        "height": "157cm",
+        "memberColor": "ピンク・黄緑",
+        "hobby": "夢の国、お笑い鑑賞、サッカー観戦",
+        "specialty": "ごはんをいっぱい食べる"
+      }
+    },
+    {
+      "memberId": "member_3",
+      "name": "荒野姫楓",
+      "position": "チームKⅡ",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_3.jpg",
+      "bio": "닉네임은 'ひめたん'입니다. 생년월일은 2002年01月09日입니다. 출신지는 神奈川県입니다. 캐치프레이즈: \"手拍子をお願いします！たんたんたたたん　たたたたん！ひめたーん！！\"",
+      "details": {
+        "nickname": "ひめたん",
+        "birthdate": "2002年01月09日",
+        "bloodType": "O型",
+        "hometown": "神奈川県",
+        "height": "168 cm",
+        "memberColor": "水色・白",
+        "hobby": "料理、ロードバイク、イラスト、お笑い、ラジオ",
+        "specialty": "似顔絵、デザイン制作、動画編集"
+      }
+    },
+    {
+      "memberId": "member_45",
+      "name": "池田楓",
+      "position": "チームKⅡ",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_45.jpg",
+      "bio": "닉네임은 'かえにゃん、ちゃんぽん池田'입니다. 생년월일은 2000年07月05日입니다. 출신지는 長崎県입니다. 캐치프레이즈: \"借方はわたし！貸方はあなた！いつも隣におってくれん？(よかよー！)\"",
+      "details": {
+        "nickname": "かえにゃん、ちゃんぽん池田",
+        "birthdate": "2000年07月05日",
+        "bloodType": "O型",
+        "hometown": "長崎県",
+        "height": "155 cm",
+        "memberColor": "赤・緑",
+        "hobby": "散歩、お絵描き、動物と遊ぶこと、クレーンゲーム",
+        "specialty": "四つ葉のクローバー探し、クレーンゲーム"
+      }
+    },
+    {
+      "memberId": "member_67",
+      "name": "伊藤実希",
+      "position": "チームKⅡ",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_67.jpg",
+      "bio": "닉네임은 'みき、みきちゃん、みきてぃやん'입니다. 생년월일은 2002年08月11日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"いーとーみきみき いーとーみきみき 引いてー (だめだめー) 推してー (推すよー) スポーツ基本なんでも出来ます！\"",
+      "details": {
+        "nickname": "みき、みきちゃん、みきてぃやん",
+        "birthdate": "2002年08月11日",
+        "bloodType": "A型",
+        "hometown": "愛知県",
+        "height": "165 cm",
+        "memberColor": "紫",
+        "hobby": "歌って踊ること、スポーツ、アイドル鑑賞、人間観察、睡眠",
+        "specialty": "スポーツ（東京マラソン2024 完走）"
+      }
+    },
+    {
+      "memberId": "member_5",
+      "name": "井上瑠夏",
+      "position": "チームKⅡ",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_5.jpg",
+      "bio": "닉네임은 'るーちゃん、おるー'입니다. 생년월일은 2001年06月12日입니다. 출신지는 熊本県입니다. 캐치프레이즈: \"火の国熊本からやってきました！推しメンで困ったときは、のるか〜？そるか〜？推してみ〜？(るかー！)\"",
+      "details": {
+        "nickname": "るーちゃん、おるー",
+        "birthdate": "2001年06月12日",
+        "bloodType": "O型",
+        "hometown": "熊本県",
+        "height": "156 cm",
+        "memberColor": "ピンク･ピンク",
+        "hobby": "ガチャガチャのミニチュア集め、1人〇〇、赤ちゃんの動画を見る、洗濯",
+        "specialty": "バドミントン、一輪車、プロフィール警察により掲載自粛中"
+      }
+    },
+    {
+      "memberId": "member_82",
+      "name": "奥野心羽",
+      "position": "チームKⅡ",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_82.jpg",
+      "bio": "닉네임은 'ここは'입니다. 생년월일은 2005年2月20日입니다. 출신지는 広島県입니다. 캐치프레이즈: \"あなたは何派ー？(ここ派ー！)\"",
+      "details": {
+        "nickname": "ここは",
+        "birthdate": "2005年2月20日",
+        "bloodType": "A型",
+        "hometown": "広島県",
+        "height": "168 cm",
+        "memberColor": "青・黄",
+        "hobby": "映画鑑賞、映画の感想を書く事、アイドルオタク",
+        "specialty": "バレーボール"
+      }
+    },
+    {
+      "memberId": "member_48",
+      "name": "鎌田菜月",
+      "position": "チームKⅡ",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_48.jpg",
+      "bio": "닉네임은 'なっきぃ'입니다. 생년월일은 1996年08月29日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"あっち？こっち？どっち？なっきぃ！方向音痴でも思いはまっすぐなっきぃこと、鎌田菜月です\"",
+      "details": {
+        "nickname": "なっきぃ",
+        "birthdate": "1996年08月29日",
+        "bloodType": "O型",
+        "hometown": "愛知県",
+        "height": "163 cm",
+        "memberColor": "白・紫・白",
+        "hobby": "活字、二次元、将棋",
+        "specialty": "水泳、イラスト"
+      }
+    },
+    {
+      "memberId": "member_8",
+      "name": "北川愛乃",
+      "position": "チームKⅡ",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_8.jpg",
+      "bio": "닉네임은 'よこにゃん'입니다. 생년월일은 2001年01月24日입니다. 출신지는 大阪府입니다. 캐치프레이즈: \"横から見てもー（にゃんにゃん）　どこから見てもー（にゃんにゃん）　よこにゃーんビーム（わぁーーー）（からのーーしゃちほこ）よこにゃんこと北川愛乃です！\"",
+      "details": {
+        "nickname": "よこにゃん",
+        "birthdate": "2001年01月24日",
+        "bloodType": "O型",
+        "hometown": "大阪府",
+        "height": "160 cm",
+        "memberColor": "水色・ピンク",
+        "hobby": "歌、ダンス、コスプレ、プラモデル、演技",
+        "specialty": "お絵描き、モノづくり、ワン・ツーからのローキック"
+      }
+    },
+    {
+      "memberId": "member_95",
+      "name": "雲井紗菜",
+      "position": "チームKⅡ",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_95.jpg",
+      "bio": "닉네임은 'さなちゃん'입니다. 생년월일은 2005年11月27日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"雲から生まれた天使といえば？(さなちゃーん)\"",
+      "details": {
+        "nickname": "さなちゃん",
+        "birthdate": "2005年11月27日",
+        "bloodType": "B型",
+        "hometown": "愛知県",
+        "height": "157cm",
+        "memberColor": "ピンク・白・白",
+        "hobby": "アイドルを見ること、カフェ巡り",
+        "specialty": "習字"
+      }
+    },
+    {
+      "memberId": "member_86",
+      "name": "倉本羽菜",
+      "position": "チームKⅡ",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_86.jpg",
+      "bio": "닉네임은 'はななん'입니다. 생년월일은 2004年9月13日입니다. 출신지는 岐阜県입니다. 캐치프레이즈: \"どんなおはなよりー？（はながすきー！）ちょっぴり泣き虫だけど、今日もみんなに笑顔のタネ撒いちゃいます！\"",
+      "details": {
+        "nickname": "はななん",
+        "birthdate": "2004年9月13日",
+        "bloodType": "A型",
+        "hometown": "岐阜県",
+        "height": "156 cm",
+        "memberColor": "黄･黄緑",
+        "hobby": "1人映画、1人カラオケ",
+        "specialty": "舌を３つに折りたたむ"
+      }
+    },
+    {
+      "memberId": "member_97",
+      "name": "近藤海琴",
+      "position": "チームKⅡ",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_97.jpg",
+      "bio": "닉네임은 'みーこ'입니다. 생년월일은 2003年11月25日입니다. 출신지는 鳥取県입니다. 캐치프레이즈: \"今日のみーこのエンジンはー？（ぜんかーい！！）鳥取砂丘を全力ドライブしてきました！車大好きチームKllのみーここと近藤海琴です！\"",
+      "details": {
+        "nickname": "みーこ",
+        "birthdate": "2003年11月25日",
+        "bloodType": "A型",
+        "hometown": "鳥取県",
+        "height": "160cm",
+        "memberColor": "水色・黄・白",
+        "hobby": "猫と遊ぶ、旧車を見る",
+        "specialty": "高速で洗い物ができる、猫と話す"
+      }
+    },
+    {
+      "memberId": "member_52",
+      "name": "佐藤佳穂",
+      "position": "チームKⅡ",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_52.jpg",
+      "bio": "닉네임은 'かほりん、さとかほ'입니다. 생년월일은 1997年05月16日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"水兵リーベ！（ぼくのかほ！）元素記号Kはカリウムじゃなくて？（カホリウム！）かほりんこと佐藤佳穂です！\"",
+      "details": {
+        "nickname": "かほりん、さとかほ",
+        "birthdate": "1997年05月16日",
+        "bloodType": "A型",
+        "hometown": "愛知県",
+        "height": "160 cm",
+        "memberColor": "黄色･オレンジ",
+        "hobby": "TikTok（＠bcnokaho_516）",
+        "specialty": "カメラ目線、沼るレスポンス"
+      }
+    },
+    {
+      "memberId": "member_75",
+      "name": "篠原京香",
+      "position": "チームKⅡ",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_75.jpg",
+      "bio": "닉네임은 'きょっぴー'입니다. 생년월일은 2004年6月3日입니다. 출신지는 兵庫県입니다. 캐치프레이즈: \"今日もきょうかはさいきょーちゃん！今日もきょうかと？（はっぴーきょっぴー！）\"",
+      "details": {
+        "nickname": "きょっぴー",
+        "birthdate": "2004年6月3日",
+        "bloodType": "A型",
+        "hometown": "兵庫県",
+        "height": "155 cm",
+        "memberColor": "水色",
+        "hobby": "HIPHOPを聴くこと、タピオカ巡り、メイク研究、深海魚を見ること",
+        "specialty": "ダンス、反復横跳び、石焼ビビンバを混ぜること、モノマネ"
+      }
+    },
+    {
+      "memberId": "member_19",
+      "name": "松本慈子",
+      "position": "チームKⅡ",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_19.jpg",
+      "bio": "닉네임은 'ちかこ'입니다. 생년월일은 1999年11月19日입니다. 출신지는 大阪府입니다. 캐치프레이즈: \"あなたの瞳にチカチカ光る一番星☆\"",
+      "details": {
+        "nickname": "ちかこ",
+        "birthdate": "1999年11月19日",
+        "bloodType": "O型",
+        "hometown": "大阪府",
+        "height": "160 cm",
+        "memberColor": "赤・水色",
+        "hobby": "映画鑑賞、お酒、占い、お菓子作り、早起き、神社巡り",
+        "specialty": "スノーボード、ピアノ、料理"
+      }
+    },
+    {
+      "memberId": "member_1",
+      "name": "青海ひな乃",
+      "position": "チームE",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_1.jpg",
+      "bio": "닉네임은 'ひなの'입니다. 생년월일은 2000年11月02日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"みんなが好きなのは誰なのー？（ひなのー）\"",
+      "details": {
+        "nickname": "ひなの",
+        "birthdate": "2000年11月02日",
+        "bloodType": "A型",
+        "hometown": "愛知県",
+        "height": "163 cm",
+        "memberColor": "青･青",
+        "hobby": "カラオケ、スポーツ観戦、映画鑑賞",
+        "specialty": "運動"
+      }
+    },
+    {
+      "memberId": "member_64",
+      "name": "青木莉樺",
+      "position": "チームE",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_64.jpg",
+      "bio": "닉네임은 'あおき、りか、りあん'입니다. 생년월일은 1999年09月02日입니다. 출신지는 大阪府입니다. 캐치프레이즈: \"やる気！元気！青木！なんでやねんっ！\"",
+      "details": {
+        "nickname": "あおき、りか、りあん",
+        "birthdate": "1999年09月02日",
+        "bloodType": "A型",
+        "hometown": "大阪府",
+        "height": "165.6 cm",
+        "memberColor": "青･白",
+        "hobby": "60年代〜の音楽を聴くこと、映画鑑賞、バスケ観戦、スポーツ漫画＆アニメをみる",
+        "specialty": "プロフィール警察により掲載自粛中、ギター"
+      }
+    },
+    {
+      "memberId": "member_2",
+      "name": "赤堀君江",
+      "position": "チームE",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_2.jpg",
+      "bio": "닉네임은 'きみちゃん'입니다. 생년월일은 2002年01月21日입니다. 출신지는 静岡県입니다. 캐치프레이즈: \"君の推しは〜？君に決めた〜！\"",
+      "details": {
+        "nickname": "きみちゃん",
+        "birthdate": "2002年01月21日",
+        "bloodType": "A型",
+        "hometown": "静岡県",
+        "height": "157 cm",
+        "memberColor": "水色･紫",
+        "hobby": "洋服を着たり・見たり・買ったりすること、絵を描くこと",
+        "specialty": "メンバーの写真可愛く撮れます。"
+      }
+    },
+    {
+      "memberId": "member_44",
+      "name": "浅井裕華",
+      "position": "チームE",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_44.jpg",
+      "bio": "닉네임은 'ゆうかたん'입니다. 생년월일은 2003年11月10日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"キノコと言えば？（えのきだけ！）好きになるのは？（裕華だけ！）\"",
+      "details": {
+        "nickname": "ゆうかたん",
+        "birthdate": "2003年11月10日",
+        "bloodType": "O型",
+        "hometown": "愛知県",
+        "height": "163 cm",
+        "memberColor": "ピンク",
+        "hobby": "海外旅行、音楽を聴くこと、ギター",
+        "specialty": "マッサージ"
+      }
+    },
+    {
+      "memberId": "member_47",
+      "name": "井田玲音名",
+      "position": "チームE",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_47.jpg",
+      "bio": "닉네임은 'れおな、井田ちゃん'입니다. 생년월일은 1998年12月03日입니다. 출신지는 三重県입니다. 캐치프레이즈: \"ハイッ！私の笑顔とこの大きな手でみなさんのハートを鷲掴みっ！チームＥの井田玲音名です(*^^*)\"",
+      "details": {
+        "nickname": "れおな、井田ちゃん",
+        "birthdate": "1998年12月03日",
+        "bloodType": "AB型",
+        "hometown": "三重県",
+        "height": "165.5cm",
+        "memberColor": "ピンク・黄・水色",
+        "hobby": "ダンス、カメラ、音楽を聴く、定点ライブカメラを見る、キャンプ、スキー、SKE48内部活動（キャンプ部、須田会、二次元同好会）",
+        "specialty": "ノートを綺麗にまとめる、ダンス"
+      }
+    },
+    {
+      "memberId": "member_26",
+      "name": "太田彩夏",
+      "position": "チームE",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_26.jpg",
+      "bio": "닉네임은 'あやめろ'입니다. 생년월일은 2000年08月17日입니다. 출신지는 岐阜県입니다. 캐치프레이즈: \"みんなの心にメロディを響かせちゃいます。せーの (あやめろでぃー！)\"",
+      "details": {
+        "nickname": "あやめろ",
+        "birthdate": "2000年08月17日",
+        "bloodType": "B型",
+        "hometown": "岐阜県",
+        "height": "153 cm",
+        "memberColor": "赤・オレンジ・黄",
+        "hobby": "競馬、スポーツ観戦、ホールケーキを食べること",
+        "specialty": "書道"
+      }
+    },
+    {
+      "memberId": "member_92",
+      "name": "太田愛恵",
+      "position": "チームE",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_92.jpg",
+      "bio": "닉네임은 'まなえ'입니다. 생년월일은 2007年12月16日입니다. 출신지는 兵庫県입니다. 캐치프레이즈: \"愛に恵まれているのはー？（まなえー！）今日も笑顔全開でいくでー！\"",
+      "details": {
+        "nickname": "まなえ",
+        "birthdate": "2007年12月16日",
+        "bloodType": "B型",
+        "hometown": "兵庫県",
+        "height": "164cm",
+        "memberColor": "紫・黄",
+        "hobby": "動画を見ること、人間観察",
+        "specialty": "ダンス"
+      }
+    },
+    {
+      "memberId": "member_74",
+      "name": "大村杏",
+      "position": "チームE",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_74.jpg",
+      "bio": "닉네임은 'あずあず'입니다. 생년월일은 2005年09月20日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"今日も1日ー？（いちずーちゃん！）今日もあんずのこと一途に好きでいてね？\"",
+      "details": {
+        "nickname": "あずあず",
+        "birthdate": "2005年09月20日",
+        "bloodType": "O型",
+        "hometown": "愛知県",
+        "height": "152 cm",
+        "memberColor": "紫・紫・紫",
+        "hobby": "踊ること、可愛い洋服を探すこと",
+        "specialty": "笑顔と変顔"
+      }
+    },
+    {
+      "memberId": "member_85",
+      "name": "河村優愛",
+      "position": "チームE",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_85.jpg",
+      "bio": "닉네임은 'ゆあにゃん'입니다. 생년월일은 2006年1月31日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"猫目、猫舌、猫っ毛のーアイドルはー？（ゆあにゃーん）皆様の優しさを愛に変えて届けたい！チームE 愛知県出身 アイドル年齢 じゅうはちさい！本当は、◯◯歳のゆあにゃんこと河村優愛です！\"",
+      "details": {
+        "nickname": "ゆあにゃん",
+        "birthdate": "2006年1月31日",
+        "bloodType": "A型",
+        "hometown": "愛知県",
+        "height": "152.4 cm",
+        "memberColor": "ピンク･赤･紫",
+        "hobby": "ハンドボール、メイク研究、雑学、星を見ること",
+        "specialty": "アイソレーション、連想ゲーム、人の長所を見つけること"
+      }
+    },
+    {
+      "memberId": "member_34",
+      "name": "鈴木愛菜",
+      "position": "チームE",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_34.jpg",
+      "bio": "닉네임은 'えなたん'입니다. 생년월일은 2004年01月09日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"えなたんスマイルであなたのハートを狙い撃ち(ずっきゅーん)\"",
+      "details": {
+        "nickname": "えなたん",
+        "birthdate": "2004年01月09日",
+        "bloodType": "A型",
+        "hometown": "愛知県",
+        "height": "158 cm",
+        "memberColor": "赤･ピンク",
+        "hobby": "スポーツ観戦、映画鑑賞、メイク、お菓子作り",
+        "specialty": "人たらし"
+      }
+    },
+    {
+      "memberId": "member_13",
+      "name": "中坂美祐",
+      "position": "チームE",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_13.jpg",
+      "bio": "닉네임은 'なかちゃん'입니다. 생년월일은 2005年06月11日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"私を(me)あなたは(you)好きになるー(みゆー)SKE48にやって来た元気娘！\"",
+      "details": {
+        "nickname": "なかちゃん",
+        "birthdate": "2005年06月11日",
+        "bloodType": "O型",
+        "hometown": "愛知県",
+        "height": "159 cm",
+        "memberColor": "オレンジ・緑",
+        "hobby": "スポーツ観戦、ものを集めること、地下鉄に乗ること",
+        "specialty": "サッカー、名古屋市営地下鉄の駅名全部言えること！"
+      }
+    },
+    {
+      "memberId": "member_72",
+      "name": "西井美桜",
+      "position": "チームE",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_72.jpg",
+      "bio": "닉네임은 'みおたん、みおちゃん'입니다. 생년월일은 2001年03月16日입니다. 출신지는 大阪府입니다. 캐치프레이즈: \"みんなで一緒に24130！さんじゅうまる〜\"",
+      "details": {
+        "nickname": "みおたん、みおちゃん",
+        "birthdate": "2001年03月16日",
+        "bloodType": "不明",
+        "hometown": "大阪府",
+        "height": "154 cm",
+        "memberColor": "緑･黄緑",
+        "hobby": "ダンス、旅行",
+        "specialty": "ボール蹴り、ジェットコースターに何にでも乗れる"
+      }
+    },
+    {
+      "memberId": "member_89",
+      "name": "長谷川雅",
+      "position": "チームE",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_89.jpg",
+      "bio": "닉네임은 'みーちゃん、みやびーむ'입니다. 생년월일은 2010年11月20日입니다. 출신지는 愛知県입니다. 캐치프레이즈: \"みやびーむに〜？（撃たれたい！）\"",
+      "details": {
+        "nickname": "みーちゃん、みやびーむ",
+        "birthdate": "2010年11月20日",
+        "bloodType": "A型",
+        "hometown": "愛知県",
+        "height": "155cm",
+        "memberColor": "ピンク･水色･白",
+        "hobby": "レジン小物作り、読書、アニメ･漫画を見ること、キャラクターのグッズ集め",
+        "specialty": "開脚、Y字バランス、本の速読み、ゲームのキャラクターの声真似"
+      }
+    },
+    {
+      "memberId": "member_78",
+      "name": "森本くるみ",
+      "position": "チームE",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_78.jpg",
+      "bio": "닉네임은 'くるみん'입니다. 생년월일은 2007年9月3日입니다. 출신지는 奈良県입니다. 캐치프레이즈: \"今日も皆さんをまんまる笑顔で癒したい♡SKE48の癒し担当♡奈良県出身くるみんこと森本くるみです！\"",
+      "details": {
+        "nickname": "くるみん",
+        "birthdate": "2007年9月3日",
+        "bloodType": "B型",
+        "hometown": "奈良県",
+        "height": "163 cm",
+        "memberColor": "緑",
+        "hobby": "お菓子作り、宝塚観劇",
+        "specialty": "モデルウォーキング"
+      }
+    },
+    {
+      "memberId": "member_93",
+      "name": "川村昇子",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_93.jpg",
+      "bio": "닉네임은 'しょうこ'입니다. 생년월일은 2007年9月15日입니다. 출신지는 岐阜県입니다.",
+      "details": {
+        "nickname": "しょうこ",
+        "birthdate": "2007年9月15日",
+        "bloodType": "B型",
+        "hometown": "岐阜県",
+        "height": "162cm",
+        "memberColor": "青",
+        "hobby": "お星さまを見る、読書、音楽を聴く",
+        "specialty": "リフレーミング"
+      }
+    },
+    {
+      "memberId": "member_94",
+      "name": "久保田怜",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_94.jpg",
+      "bio": "닉네임은 'れい、くぼっち'입니다. 생년월일은 2009年11月23日입니다. 출신지는 愛知県입니다.",
+      "details": {
+        "nickname": "れい、くぼっち",
+        "birthdate": "2009年11月23日",
+        "bloodType": "A型",
+        "hometown": "愛知県",
+        "height": "155cm",
+        "memberColor": "青・黄・ピンク",
+        "hobby": "アニメ鑑賞、バレーボール",
+        "specialty": "モノマネ、笑顔"
+      }
+    },
+    {
+      "memberId": "member_98",
+      "name": "桜井愛莉咲",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_98.jpg",
+      "bio": "닉네임은 'りさにゃ'입니다. 생년월일은 2003年11月7日입니다. 출신지는 東京都입니다.",
+      "details": {
+        "nickname": "りさにゃ",
+        "birthdate": "2003年11月7日",
+        "bloodType": "A型",
+        "hometown": "東京都",
+        "height": "159cm",
+        "memberColor": "白",
+        "hobby": "料理、手芸、アイドル鑑賞",
+        "specialty": "バトントワリング"
+      }
+    },
+    {
+      "memberId": "member_99",
+      "name": "佐々木希美",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_99.jpg",
+      "bio": "닉네임은 'のんたん'입니다. 생년월일은 2010年10月19日입니다. 출신지는 愛知県입니다.",
+      "details": {
+        "nickname": "のんたん",
+        "birthdate": "2010年10月19日",
+        "bloodType": "O型",
+        "hometown": "愛知県",
+        "height": "160cm",
+        "memberColor": "赤・黄・ピンク",
+        "hobby": "自分の世界に浸ること",
+        "specialty": "中国語、二胡"
+      }
+    },
+    {
+      "memberId": "member_88",
+      "name": "高村紗弥",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_88.jpg",
+      "bio": "닉네임은 'さや'입니다. 생년월일은 2004年7月4日입니다. 출신지는 神奈川県입니다.",
+      "details": {
+        "nickname": "さや",
+        "birthdate": "2004年7月4日",
+        "bloodType": "O型",
+        "hometown": "神奈川県",
+        "height": "153 cm",
+        "memberColor": "青･紫･白",
+        "hobby": "音楽を聴くこと",
+        "specialty": "解剖、俳句"
+      }
+    },
+    {
+      "memberId": "member_100",
+      "name": "立花菖",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_100.jpg",
+      "bio": "닉네임은 'あめちゃん'입니다. 생년월일은 2009年6月24日입니다. 출신지는 東京都입니다.",
+      "details": {
+        "nickname": "あめちゃん",
+        "birthdate": "2009年6月24日",
+        "bloodType": "B型",
+        "hometown": "東京都",
+        "height": "154cm",
+        "memberColor": "ピンク・紫・水色",
+        "hobby": "ゲーム、漫画、アニメ鑑賞、トレーディングカードを集めること",
+        "specialty": "ジョジョ立ち、動物とすぐに仲良くなれる"
+      }
+    },
+    {
+      "memberId": "member_101",
+      "name": "田村真悠",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_101.jpg",
+      "bio": "닉네임은 'まゆまゆ'입니다. 생년월일은 2007年9月18日입니다. 출신지는 東京都입니다.",
+      "details": {
+        "nickname": "まゆまゆ",
+        "birthdate": "2007年9月18日",
+        "bloodType": "不明",
+        "hometown": "東京都",
+        "height": "161cm",
+        "memberColor": "オレンジ・オレンジ・オレンジ",
+        "hobby": "友達と遊ぶこと、温泉巡り、スポーツ観戦",
+        "specialty": "だじゃれ、大食い、パン作り、イラスト"
+      }
+    },
+    {
+      "memberId": "member_102",
+      "name": "聖遥花",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_102.jpg",
+      "bio": "닉네임은 'はるる'입니다. 생년월일은 2007年2月4日입니다. 출신지는 東京都입니다.",
+      "details": {
+        "nickname": "はるる",
+        "birthdate": "2007年2月4日",
+        "bloodType": "不明",
+        "hometown": "東京都",
+        "height": "162cm",
+        "memberColor": "水色・水色・水色",
+        "hobby": "アイドル鑑賞、美容の研究",
+        "specialty": "インラインスケート、体操(アクロバット)"
+      }
+    },
+    {
+      "memberId": "member_103",
+      "name": "福原心春",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_103.jpg",
+      "bio": "닉네임은 'こはたん'입니다. 생년월일은 2006年1月7日입니다. 출신지는 愛知県입니다.",
+      "details": {
+        "nickname": "こはたん",
+        "birthdate": "2006年1月7日",
+        "bloodType": "B型",
+        "hometown": "愛知県",
+        "height": "155cm",
+        "memberColor": "ピンク・オレンジ・白",
+        "hobby": "おいしいご飯をたくさん食べること",
+        "specialty": "大きな声を出すこと"
+      }
+    },
+    {
+      "memberId": "member_104",
+      "name": "宮本倫花",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_104.jpg",
+      "bio": "닉네임은 'りんか'입니다. 생년월일은 2007年9月10日입니다. 출신지는 熊本県입니다.",
+      "details": {
+        "nickname": "りんか",
+        "birthdate": "2007年9月10日",
+        "bloodType": "O型",
+        "hometown": "熊本県",
+        "height": "157cm",
+        "memberColor": "赤・緑・白",
+        "hobby": "ホラー映画をみること",
+        "specialty": "人の顔を覚えること"
+      }
+    },
+    {
+      "memberId": "member_105",
+      "name": "横井志穂",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_105.jpg",
+      "bio": "닉네임은 'しーたん'입니다. 생년월일은 2011年11月8日입니다. 출신지는 愛知県입니다.",
+      "details": {
+        "nickname": "しーたん",
+        "birthdate": "2011年11月8日",
+        "bloodType": "B型",
+        "hometown": "愛知県",
+        "height": "145cm",
+        "memberColor": "緑・オレンジ・白",
+        "hobby": "知りたい事を深く調べること",
+        "specialty": "長い間見てる人の癖を見つけること"
+      }
+    }
+  ]
+}
