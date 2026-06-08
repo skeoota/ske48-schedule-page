@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKE48 Theater Schedule & Profile Portal</title>
+    <style>
+        :root {
+            --ske-mint: #bfeae5; /* SKE48 고유 민트 배경색 */
+            --ske-border: #444;
+            --primary-bg: #ffffff;
+            --text-color: #222;
+            --light-bg: #f9f9f9;
+            --accent-color: #ff3366;
+            --accent-light: #ffe6eb;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+            color: var(--text-color);
+            background-color: #eceff1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* 메인 컨테이너 레이아웃 */
+        .app-container {
+            display: flex;
+            width: 1200px;
+            height: 800px;
+            background: var(--primary-bg);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        /* 1. 좌측 패널: 멤버 프로필 및 개인 스케줄 리스트 */
+        .left-panel {
+            width: 360px;
+            background-color: var(--light-bg);
+            border-right: 1px solid #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+
+        .profile-placeholder {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: #888;
+            text-align: center;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .profile-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: 2px dashed #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* 4:5 세로형 이미지 액자 */
+        .profile-img-wrapper {
+            width: 140px;
+            height: 175px;
+            background-color: var(--ske-mint);
+            border: 1px solid var(--ske-border);
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        .profile-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 12px 0 4px 0;
+            text-align: center;
+        }
+
+        .profile-team {
+            font-size: 13px;
+            color: #666;
+            background: #e0f2f1;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-weight: 500;
+        }
+
+        .profile-bio {
+            font-size: 13px;
+            color: #555;
+            margin-top: 10px;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        .member-schedule-title {
+            font-size: 15px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 12px;
+        }
+
+        .member-schedule-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .member-schedule-item {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 10px;
+            font-size: 12px;
+            line-height: 1.4;
+            transition: border-color 0.2s;
+        }
+
+        .member-schedule-item .highlight-name {
+            color: var(--accent-color);
+            background-color: var(--accent-light);
+            font-weight: bold;
+            padding: 0 4px;
+            border-radius: 2px;
+        }
+
+        /* 2. 우측 메인 패널 */
+        .main-panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* 년월 상단 헤더 */
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 24px;
+            border-bottom: 1px solid #eee;
+            background: #fff;
+        }
+
+        .nav-controls {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-nav h2 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: bold;
+            color: #111;
+            min-width: 150px;
+            text-align: center;
+        }
+
+        .nav-btn {
+            background: #f0f0f0;
+            border: none;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .nav-btn:hover {
+            background: #e0e0e0;
+        }
+
+        /* 다국어 선택 드롭다운 */
+        .lang-select-wrapper select {
+            padding: 8px 12px;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            cursor: pointer;
+            outline: none;
+        }
+
+        /* 하단 타임라인 분할 레이아웃 */
+        .content-area {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        /* 달력 타임라인 리스트 */
+        .timeline-wrapper {
+            width: 320px;
+            border-right: 1px solid #eee;
+            display: flex;
+            flex-direction: column;
+            background: #fcfcfc;
+        }
+
+        .timeline-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 16px;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        .timeline-day {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 8px;
+            transition: background-color 0.2s, border-color 0.2s;
+            border: 1px solid transparent;
+        }
+
+        .timeline-day:hover {
+            background-color: #f1f1f1;
+        }
+
+        .timeline-day.active {
+            background-color: #e0f2f1;
+            border-color: #80cbc4;
+        }
+
+        .timeline-day.today-highlight {
+            border: 2px solid var(--accent-color);
+            background-color: #fff9fa;
+        }
+
+        .day-num {
+            font-size: 18px;
+            font-weight: bold;
+            color: #777;
+            width: 24px;
+            text-align: right;
+        }
+
+        .timeline-day.active .day-num {
+            color: #00796b;
+        }
+
+        .day-content {
+            flex: 1;
+            font-size: 13px;
+        }
+
+        .day-title {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 2px;
+        }
+
+        .day-cast-summary {
+            font-size: 11px;
+            color: #777;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 220px;
+        }
+
+        /* 캐스트 정보 그리드 상세 표시 */
+        .detail-wrapper {
+            flex: 1;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            box-sizing: border-box;
+        }
+
+        .detail-header {
+            margin-bottom: 24px;
+        }
+
+        .detail-title {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 0 0 8px 0;
+            color: #111;
+        }
+
+        .detail-meta {
+            font-size: 13px;
+            color: #666;
+            display: flex;
+            gap: 16px;
+        }
+
+        .cast-container {
+            margin-top: 20px;
+        }
+
+        .cast-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            border-left: 4px solid #00796b;
+            padding-left: 8px;
+            margin-bottom: 16px;
+        }
+
+        .cast-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+            gap: 16px;
+        }
+
+        /* SKE48 스타일 그리드 미니 카드 */
+        .member-mini-card {
+            background-color: var(--primary-bg);
+            border: 1px solid #ddd;
+            padding: 6px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .member-mini-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .member-mini-card .img-frame {
+            width: 100%;
+            aspect-ratio: 4 / 5;
+            background-color: var(--ske-mint);
+            border: 1px solid var(--ske-border);
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .member-mini-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .member-mini-card .card-name {
+            margin-top: 8px;
+            font-size: 12px;
+            font-weight: bold;
+            color: #111;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .loading-text {
+            font-size: 14px;
+            color: #888;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="app-container">
+    <!-- 좌측 멤버 상세 패널 -->
+    <aside class="left-panel" id="left-panel">
+        <!-- 스크립트에서 다국어 지원 플레이스홀더 출력 -->
+    </aside>
+
+    <!-- 우측 메인 패널 -->
+    <main class="main-panel">
+        <!-- 년월 조절 및 다국어 콤보박스 헤더 -->
+        <header class="header-nav">
+            <div class="nav-controls">
+                <button class="nav-btn" onclick="changeMonth(-1)" id="btn-prev-month">&lt;</button>
+                <h2 id="view-month-label">...</h2>
+                <button class="nav-btn" onclick="changeMonth(1)" id="btn-next-month">&gt;</button>
+            </div>
+            
+            <!-- 다국어 콤보박스 추가 -->
+            <div class="lang-select-wrapper">
+                <select id="lang-select" onchange="switchLanguage(this.value)">
+                    <option value="ko">한국어 (KO)</option>
+                    <option value="ja">日本語 (JA)</option>
+                    <option value="en">English (EN)</option>
+                </select>
+            </div>
+        </header>
+
+        <!-- 달력 타임라인 및 상세 분할 레이아웃 -->
+        <div class="content-area">
+            <!-- 일별 타임라인 리스트 -->
+            <div class="timeline-wrapper">
+                <div class="timeline-container" id="timeline-container">
+                    <div class="loading-text">Loading...</div>
+                </div>
+            </div>
+
+            <!-- 스케줄 및 캐스트 정보 그리드 상세 표시 -->
+            <div class="detail-wrapper" id="detail-wrapper">
+                <!-- 스크립트에서 다국어 지원 플레이스홀더 출력 -->
+            </div>
+        </div>
+    </main>
+</div>
+
+<script>
+    // 1. 국제화(i18n) 번역 데이터 사전 구성
+    const translations = {
+        ko: {
+            title: "SKE48 극장 스케줄 & 프로필 포탈",
+            monthLabel: "{year}년 {month}월",
+            prevMonth: "이전 달",
+            nextMonth: "다음 달",
+            profilePlaceholder: "우측 공연의 출연 멤버 카드를 클릭하면<br>상세 프로필과 이번 달 개인 스케줄 리스트를 이곳에 표시합니다.",
+            detailPlaceholder: "타임라인에서 날짜를 선택해주시면 해당일의 세부 정보가 여기에 등장합니다.",
+            noPerformance: "공연 없음",
+            noPerformanceDetail: "이 날은 예정된 극장 공연이 존재하지 않습니다.",
+            castLineup: "출연진 라인업 ({count}명)",
+            date: "날짜",
+            time: "시간",
+            location: "장소",
+            personalSchedule: "📅 {month}월 개인 스케줄 리스트",
+            noPersonalSchedule: "이번 달 지정된 공연 스케줄이 존재하지 않습니다.",
+            datetime: "일시",
+            performance: "공연",
+            cast: "출연진",
+            errLoadMembers: "data/members.json 로드 실패. 서버 CORS 차단 유무 및 경로를 검사해 주세요.",
+            errLoadSchedule: "스케줄 로딩 실패 ({year}년 {month}월)",
+            loadingMembers: "멤버 데이터 로딩 중...",
+            loadingSchedule: "data/performances_{year}_{month}.json 스케줄 로딩 중..."
+        },
+        ja: {
+            title: "SKE48 劇場スケジュール＆プロフィールポータル",
+            monthLabel: "{year}年 {month}月",
+            prevMonth: "前月",
+            nextMonth: "翌月",
+            profilePlaceholder: "右側の出演メンバーカードをクリックすると、<br>詳細プロフィールと今月の個人スケジュールがここに表示されます。",
+            detailPlaceholder: "タイムラインから日付を選択すると、その日の詳細情報がここに表示されます。",
+            noPerformance: "公演なし",
+            noPerformanceDetail: "この日は予定されている劇場公演がありません。",
+            castLineup: "出演キャスト ({count}名)",
+            date: "日付",
+            time: "時間",
+            location: "場所",
+            personalSchedule: "📅 {month}月の個人スケジュール一覧",
+            noPersonalSchedule: "今月の公演スケジュールはありません。",
+            datetime: "日時",
+            performance: "公演",
+            cast: "出演キャスト",
+            errLoadMembers: "data/members.json の読み込みに失敗しました。CORS制限またはパスを確認してください。",
+            errLoadSchedule: "スケジュールの読み込みに失敗しました（{year}年{month}月）",
+            loadingMembers: "メンバーデータ読み込み中...",
+            loadingSchedule: "data/performances_{year}_{month}.json スケジュール読み込み中..."
+        },
+        en: {
+            title: "SKE48 Theater Schedule & Profile Portal",
+            monthLabel: "{year}-{month}",
+            prevMonth: "Prev Month",
+            nextMonth: "Next Month",
+            profilePlaceholder: "Click a member card on the right<br>to view their detailed profile and personal schedule for this month.",
+            detailPlaceholder: "Select a date from the timeline to view detailed performance information here.",
+            noPerformance: "No Performance",
+            noPerformanceDetail: "There are no theater performances scheduled for this day.",
+            castLineup: "Cast Lineup ({count} members)",
+            date: "Date",
+            time: "Time",
+            location: "Location",
+            personalSchedule: "📅 {month} Personal Schedule",
+            noPersonalSchedule: "No scheduled performances for this month.",
+            datetime: "Date/Time",
+            performance: "Performance",
+            cast: "Cast",
+            errLoadMembers: "Failed to load data/members.json. Please check local server CORS restrictions and path.",
+            errLoadSchedule: "Failed to load schedule ({year}-{month})",
+            loadingMembers: "Loading member data...",
+            loadingSchedule: "Loading schedule data/performances_{year}_{month}.json..."
+        }
+    };
+
+    // 로컬스토리지에 저장된 값이 있으면 사용하고, 없으면 브라우저 기본값 또는 ko(한국어)로 초기값 지정 [1]
+    let currentLang = localStorage.getItem("ske_lang") || (navigator.language.startsWith("ja") ? "ja" : navigator.language.startsWith("en") ? "en" : "ko");
+    
+    // 2. 다국어 치환 전용 유틸리티 함수 (치환용 변수를 객체 형태로 받아 처리 가능)
+    function t(key, vars = {}) {
+        let text = translations[currentLang][key] || key;
+        for (const [k, v] of Object.entries(vars)) {
+            text = text.replace(new RegExp(`\\{${k}\\}`, 'g'), v);
+        }
+        return text;
+    }
+
+    // 전역 상태 관리 변수
+    let membersData = []; 
+    let currentMonthPerformances = []; 
+    let activeSelectedDay = null; // 현재 타임라인에서 사용자가 선택한 일자 기억
+    
+    // 기준 시각 고정 (2026년 6월 8일 대응)
+    let viewYear = 2026;
+    let viewMonth = 6;
+    const systemToday = new Date("2026-06-08");
+
+    // 3. 앱 초기 구동
+    async function initApplication() {
+        // 드롭다운 현재 활성화 언어 표시 동기화
+        document.getElementById("lang-select").value = currentLang;
+        updateStaticPlaceholders();
+
+        try {
+            const response = await fetch("data/members.json");
+            if (!response.ok) {
+                throw new Error("members.json 데이터 로드 실패");
+            }
+            const data = await response.json();
+            membersData = data.members || [];
+        } catch (error) {
+            console.error("초기 기동 에러:", error);
+            showInitializationError(t("errLoadMembers"));
+            return;
+        }
+        
+        await loadTimeline();
+    }
+
+    // 플레이스홀더 텍스트 다국어 새로고침
+    function updateStaticPlaceholders() {
+        document.title = t("title");
+        document.getElementById("btn-prev-month").textContent = `< ${t("prevMonth")}`;
+        document.getElementById("btn-next-month").textContent = `${t("nextMonth")} >`;
+
+        // 아직 아무도 선택하지 않은 비어있는 상태인 경우 다국어 문구로 동기화
+        const leftPanel = document.getElementById("left-panel");
+        if (!leftPanel.querySelector(".profile-card")) {
+            leftPanel.innerHTML = `<div class="profile-placeholder"><p>${t("profilePlaceholder")}</p></div>`;
+        }
+
+        const detailWrapper = document.getElementById("detail-wrapper");
+        if (!detailWrapper.querySelector(".detail-header") && !detailWrapper.querySelector(".loading-text")) {
+            detailWrapper.innerHTML = `<div class="profile-placeholder"><p>${t("detailPlaceholder")}</p></div>`;
+        }
+    }
+
+    // 4. 월별 공연 파일 동적 로딩 및 타임라인 렌더링
+    async function loadTimeline() {
+        const formattedMonth = String(viewMonth).padStart(2, '0');
+        const yearMonthKey = `${viewYear}-${formattedMonth}`;
+        
+        document.getElementById("view-month-label").textContent = t("monthLabel", { year: viewYear, month: formattedMonth });
+        
+        const timelineContainer = document.getElementById("timeline-container");
+        timelineContainer.innerHTML = `<div class="loading-text">${t("loadingSchedule", { year: viewYear, month: formattedMonth })}</div>`;
+
+        try {
+            const response = await fetch(`data/performances_${viewYear}_${formattedMonth}.json`);
+            if (!response.ok) {
+                throw new Error(`performances_${viewYear}_${formattedMonth}.json 로드 실패`);
+            }
+            const data = await response.json();
+            currentMonthPerformances = data.performances || [];
+        } catch (error) {
+            console.warn(`스케줄 로딩 실패 (${viewYear}-${formattedMonth}):`, error);
+            currentMonthPerformances = [];
+        }
+
+        timelineContainer.innerHTML = "";
+        const daysInMonth = new Date(viewYear, viewMonth, 0).getDate();
+
+        // 1일부터 차례로 돔 생성
+        for (let day = 1; day <= daysInMonth; day++) {
+            const dateStr = `${viewYear}-${formattedMonth}-${String(day).padStart(2, '0')}`;
+            const targetPerf = currentMonthPerformances.find(p => p.date === dateStr);
+
+            const dayDiv = document.createElement("div");
+            dayDiv.className = "timeline-day";
+            dayDiv.id = `day-element-${day}`;
+            dayDiv.setAttribute("data-day", day);
+
+            // 실제 당일(6월 8일)에 해당하는 태그 보정
+            if (viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1) && day === systemToday.getDate()) {
+                dayDiv.classList.add("today-highlight");
+            }
+
+            let contentHTML = `
+                <div class="day-num">${day}</div>
+                <div class="day-content">
+            `;
+
+            if (targetPerf) {
+                const castNames = targetPerf.castIds.map(id => {
+                    const m = membersData.find(mem => mem.memberId === id);
+                    return m ? m.name : "";
+                }).filter(name => name).join(", ");
+
+                contentHTML += `
+                    <div class="day-title">${targetPerf.title}</div>
+                    <div class="day-cast-summary">${castNames}</div>
+                `;
+                dayDiv.onclick = () => {
+                    activeSelectedDay = day;
+                    selectPerformance(targetPerf, dayDiv);
+                };
+            } else {
+                contentHTML += `
+                    <div class="day-title" style="color: #bbb; font-weight: normal;">${t("noPerformance")}</div>
+                    <div class="day-cast-summary">-</div>
+                `;
+                dayDiv.onclick = () => {
+                    activeSelectedDay = day;
+                    selectEmptyDay(dateStr, dayDiv);
+                };
+            }
+
+            contentHTML += `</div>`;
+            dayDiv.innerHTML = contentHTML;
+            timelineContainer.appendChild(dayDiv);
+        }
+
+        // 스크롤 동기화 & 디폴트 타겟 요소 트리거
+        setTimeout(() => {
+            if (viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1)) {
+                const todayElement = document.getElementById(`day-element-${systemToday.getDate()}`);
+                if (todayElement) {
+                    todayElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    todayElement.click(); 
+                }
+            } else {
+                const firstDayElement = document.getElementById(`day-element-1`);
+                if (firstDayElement) firstDayElement.click();
+            }
+        }, 100);
+    }
+
+    // 5. 날짜 이전/이후 이동 핸들러
+    async function changeMonth(step) {
+        viewMonth += step;
+        if (viewMonth > 12) {
+            viewMonth = 1;
+            viewYear += 1;
+        } else if (viewMonth < 1) {
+            viewMonth = 12;
+            viewYear -= 1;
+        }
+        await loadTimeline();
+    }
+
+    // 6. 다국어 선택 콤보박스 변경 핸들러
+    async function switchLanguage(lang) {
+        currentLang = lang;
+        localStorage.setItem("ske_lang", lang); // 선호 언어 기억 [1]
+        
+        // 1. 헤더 텍스트 변경 적용
+        updateStaticPlaceholders();
+        
+        // 2. 타임라인 재구성 (언어 변환 적용)
+        await loadTimeline();
+
+        // 3. 만약 이미 유저가 상세 보기를 하고 있었다면 선택 영역 재호출
+        if (activeSelectedDay) {
+            const currentElement = document.getElementById(`day-element-${activeSelectedDay}`);
+            if (currentElement) {
+                currentElement.click();
+            }
+        }
+    }
+
+    // 7. 공연이 없는 빈 날짜 상세 정보창
+    function selectEmptyDay(dateStr, element) {
+        clearActiveDay();
+        element.classList.add("active");
+
+        const detailWrapper = document.getElementById("detail-wrapper");
+        detailWrapper.innerHTML = `
+            <div class="detail-header">
+                <h3 class="detail-title">${dateStr}</h3>
+                <div class="detail-meta"><span>${t("noPerformanceDetail")}</span></div>
+            </div>
+        `;
+    }
+
+    // 8. 특정 공연 정보 클릭 시 세부 라인업 화면 렌더링
+    function selectPerformance(perf, element) {
+        clearActiveDay();
+        element.classList.add("active");
+
+        const detailWrapper = document.getElementById("detail-wrapper");
+        
+        let castCardsHTML = "";
+        perf.castIds.forEach(id => {
+            const member = membersData.find(mem => mem.memberId === id);
+            if (member) {
+                castCardsHTML += `
+                    <div class="member-mini-card" onclick="selectMember('${member.memberId}')">
+                        <div class="img-frame">
+                            <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
+                        </div>
+                        <div class="card-name">${member.name}</div>
+                    </div>
+                `;
+            }
+        });
+
+        detailWrapper.innerHTML = `
+            <div class="detail-header">
+                <h1 class="detail-title">${perf.title}</h1>
+                <div class="detail-meta">
+                    <span><strong>${t("date")}:</strong> ${perf.date}</span>
+                    <span><strong>${t("time")}:</strong> ${perf.time}</span>
+                    <span><strong>${t("location")}:</strong> ${perf.venue}</span>
+                </div>
+            </div>
+            <div class="cast-container">
+                <div class="cast-title">${t("castLineup", { count: perf.castIds.length })}</div>
+                <div class="cast-grid">
+                    ${castCardsHTML}
+                </div>
+            </div>
+        `;
+    }
+
+    function clearActiveDay() {
+        const activeDays = document.querySelectorAll(".timeline-day.active");
+        activeDays.forEach(d => d.classList.remove("active"));
+    }
+
+    // 9. 특정 멤버 클릭 시 좌측 패널 정보 매핑
+    function selectMember(memberId) {
+        const member = membersData.find(m => m.memberId === memberId);
+        if (!member) return;
+
+        const leftPanel = document.getElementById("left-panel");
+        const personalSchedules = currentMonthPerformances.filter(p => p.castIds.includes(memberId));
+
+        let personalScheduleHTML = "";
+        if (personalSchedules.length > 0) {
+            personalSchedules.forEach(schedule => {
+                const rawCastNames = schedule.castIds.map(id => {
+                    const m = membersData.find(mem => mem.memberId === id);
+                    if (!m) return "";
+                    return m.memberId === memberId 
+                        ? `<span class="highlight-name">${m.name}</span>`
+                        : m.name;
+                }).filter(name => name).join(", ");
+
+                personalScheduleHTML += `
+                    <div class="member-schedule-item">
+                        <strong>${t("datetime")}:</strong> ${schedule.date} (${schedule.time})<br>
+                        <strong>${t("performance")}:</strong> ${schedule.title}<br>
+                        <strong>${t("cast")}:</strong> ${rawCastNames}
+                    </div>
+                `;
+            });
+        } else {
+            personalScheduleHTML = `<div class="profile-placeholder" style="padding:10px;">${t("noPersonalSchedule")}</div>`;
+        }
+
+        leftPanel.innerHTML = `
+            <div class="profile-card">
+                <div class="profile-img-wrapper">
+                    <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
+                </div>
+                <div class="profile-name">${member.name}</div>
+                <div class="profile-team">${member.position}</div>
+                <p class="profile-bio">${member.bio}</p>
+            </div>
+            <div>
+                <div class="member-schedule-title">${t("personalSchedule", { month: viewMonth })}</div>
+                <div class="member-schedule-list">
+                    ${personalScheduleHTML}
+                </div>
+            </div>
+        `;
+    }
+
+    function showInitializationError(message) {
+        document.getElementById("timeline-container").innerHTML = `<div class="loading-text" style="color:red; font-weight:bold;">${message}</div>`;
+    }
+
+    window.onload = function() {
+        initApplication();
+    };
+</script>
+
+</body>
+</html>
