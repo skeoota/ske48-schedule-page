@@ -67,8 +67,8 @@
             flex-direction: column;
             align-items: center;
             border-bottom: 2px dashed #ddd;
-            padding-bottom: 20px;
-            margin-bottom: 20px;
+            padding-bottom: 16px;
+            margin-bottom: 16px;
         }
 
         /* 4:5 세로형 이미지 액자 */
@@ -114,11 +114,66 @@
             text-align: center;
         }
 
-        .member-schedule-title {
-            font-size: 15px;
+        /* 아코디언 접고 펴기 헤더 스타일 */
+        .accordion-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #eaeaea;
+            padding: 10px 14px;
+            font-size: 14px;
             font-weight: bold;
-            color: #333;
-            margin-bottom: 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 12px;
+            user-select: none;
+            transition: background-color 0.2s;
+        }
+
+        .accordion-header:hover {
+            background-color: #ddd;
+        }
+
+        .accordion-content {
+            margin-top: 8px;
+        }
+
+        .accordion-content.collapsed {
+            display: none; /* 접혀있을 때 숨김 */
+        }
+
+        .arrow-indicator {
+            font-size: 12px;
+            color: #555;
+        }
+
+        /* 세부 상세 프로필 테이블 양식 */
+        .profile-details-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            overflow: hidden;
+            margin-bottom: 4px;
+        }
+
+        .profile-details-table td {
+            padding: 8px 12px;
+            border-bottom: 1px solid #eee;
+            line-height: 1.4;
+        }
+
+        .profile-details-table td.label-td {
+            font-weight: bold;
+            color: #555;
+            background-color: #f7f7f7;
+            width: 35%;
+        }
+
+        .profile-details-table tr:last-child td {
+            border-bottom: none;
         }
 
         .member-schedule-list {
@@ -153,13 +208,12 @@
             overflow: hidden;
         }
 
-        /* 년월 상단 헤더 */
+        /* 상단 네비게이션 헤더 */
         .header-nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 16px 24px;
-            border-bottom: 1px solid #eee;
             background: #fff;
         }
 
@@ -203,6 +257,35 @@
             background-color: #fff;
             cursor: pointer;
             outline: none;
+        }
+
+        /* 탭 가로 메뉴 스타일 */
+        .tab-menu-container {
+            display: flex;
+            background-color: #f0f0f0;
+            padding: 4px;
+            border-radius: 8px;
+            margin: 0 24px 16px 24px;
+            gap: 4px;
+        }
+
+        .tab-menu-btn {
+            flex: 1;
+            border: none;
+            background: none;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #555;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .tab-menu-btn.active {
+            background-color: #fff;
+            color: #00796b;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
         }
 
         /* 하단 타임라인 분할 레이아웃 */
@@ -334,6 +417,20 @@
             gap: 16px;
         }
 
+        /* 프로필 보기 모드일 때의 전체 리스트 영역 */
+        .profiles-view-wrapper {
+            flex: 1;
+            overflow-y: auto;
+            padding: 24px;
+            box-sizing: border-box;
+            display: none; /* 디폴트는 가림 */
+        }
+
+        /* 팀별 섹션 레이아웃 */
+        .team-section {
+            margin-bottom: 32px;
+        }
+
         /* SKE48 스타일 그리드 미니 카드 */
         .member-mini-card {
             background-color: var(--primary-bg);
@@ -391,12 +488,12 @@
 <div class="app-container">
     <!-- 좌측 멤버 상세 패널 -->
     <aside class="left-panel" id="left-panel">
-        <!-- 스크립트에서 다국어 지원 플레이스홀더 출력 -->
+        <!-- 플레이스홀더 -->
     </aside>
 
     <!-- 우측 메인 패널 -->
     <main class="main-panel">
-        <!-- 년월 조절 및 다국어 콤보박스 헤더 -->
+        <!-- 년월 조절 및 다국어 헤더 -->
         <header class="header-nav">
             <div class="nav-controls">
                 <button class="nav-btn" onclick="changeMonth(-1)" id="btn-prev-month">&lt;</button>
@@ -404,7 +501,6 @@
                 <button class="nav-btn" onclick="changeMonth(1)" id="btn-next-month">&gt;</button>
             </div>
             
-            <!-- 다국어 콤보박스 추가 -->
             <div class="lang-select-wrapper">
                 <select id="lang-select" onchange="switchLanguage(this.value)">
                     <option value="ko">한국어 (KO)</option>
@@ -414,8 +510,14 @@
             </div>
         </header>
 
-        <!-- 달력 타임라인 및 상세 분할 레이아웃 -->
-        <div class="content-area">
+        <!-- 탭 가로 셀렉터 -->
+        <nav class="tab-menu-container">
+            <button class="tab-menu-btn active" id="tab-btn-schedule" onclick="switchViewMode('schedule')">극장 스케줄</button>
+            <button class="tab-menu-btn" id="tab-btn-profiles" onclick="switchViewMode('profiles')">멤버 프로필</button>
+        </nav>
+
+        <!-- 모드 1: 달력 스케줄 뷰 영역 -->
+        <div class="content-area" id="schedule-view-area">
             <!-- 일별 타임라인 리스트 -->
             <div class="timeline-wrapper">
                 <div class="timeline-container" id="timeline-container">
@@ -425,21 +527,29 @@
 
             <!-- 스케줄 및 캐스트 정보 그리드 상세 표시 -->
             <div class="detail-wrapper" id="detail-wrapper">
-                <!-- 스크립트에서 다국어 지원 플레이스홀더 출력 -->
+                <!-- 상세 화면 플레이스홀더 -->
             </div>
+        </div>
+
+        <!-- 모드 2: 팀별 분류 조회 영역 -->
+        <div class="profiles-view-wrapper" id="profiles-view-area">
+            <!-- 멤버들이 팀별로 그룹화되어 구조적으로 렌더링됩니다 -->
         </div>
     </main>
 </div>
 
 <script>
-    // 1. 국제화(i18n) 번역 데이터 사전 구성
+    // i18n 번역 사전 보완 (세부 프로필 다국어 레이블 탑재)
     const translations = {
         ko: {
             title: "SKE48 극장 스케줄 & 프로필 포탈",
             monthLabel: "{year}년 {month}월",
             prevMonth: "이전 달",
             nextMonth: "다음 달",
-            profilePlaceholder: "우측 공연의 출연 멤버 카드를 클릭하면<br>상세 프로필과 이번 달 개인 스케줄 리스트를 이곳에 표시합니다.",
+            tabSchedule: "극장 스케줄",
+            tabProfiles: "멤버 프로필",
+            teamCountLabel: "({count}명)",
+            profilePlaceholder: "우측 멤버 카드 또는 라인업을 선택하면<br>상세 프로필과 이번 달 개인 스케줄이 이곳에 나타납니다.",
             detailPlaceholder: "타임라인에서 날짜를 선택해주시면 해당일의 세부 정보가 여기에 등장합니다.",
             noPerformance: "공연 없음",
             noPerformanceDetail: "이 날은 예정된 극장 공연이 존재하지 않습니다.",
@@ -455,37 +565,64 @@
             errLoadMembers: "data/members.json 로드 실패. 서버 CORS 차단 유무 및 경로를 검사해 주세요.",
             errLoadSchedule: "스케줄 로딩 실패 ({year}년 {month}월)",
             loadingMembers: "멤버 데이터 로딩 중...",
-            loadingSchedule: "data/performances_{year}_{month}.json 스케줄 로딩 중..."
+            loadingSchedule: "data/performances_{year}_{month}.json 스케줄 로딩 중...",
+            
+            // 세부 프로필 번역 키값 추가
+            accordionDetail: "세부 프로필 정보",
+            labelNickname: "닉네임",
+            labelBirthdate: "생년월일",
+            labelBloodType: "혈액형",
+            labelHometown: "출신지",
+            labelHeight: "신장",
+            labelMemberColor: "멤버 컬러",
+            labelHobby: "취미",
+            labelSpecialty: "특기"
         },
         ja: {
             title: "SKE48 劇場スケジュール＆プロフィールポータル",
             monthLabel: "{year}年 {month}月",
             prevMonth: "前月",
             nextMonth: "翌月",
-            profilePlaceholder: "右側の出演メンバーカードをクリックすると、<br>詳細プロフィールと今月の個人スケジュールがここに表示されます。",
-            detailPlaceholder: "タイムラインから日付を選択すると、その日の詳細情報がここに表示されます。",
+            tabSchedule: "劇場スケジュール",
+            tabProfiles: "メンバープロフィール",
+            teamCountLabel: "({count}人)",
+            profilePlaceholder: "メンバーカードまたは出演キャストを選択すると、<br>詳細プロフィールと今月のスケジュールがここに表示されます.",
+            detailPlaceholder: "タイムラインから日付を選択すると、その日の詳細情報가 여기에 표시됩니다.",
             noPerformance: "公演なし",
-            noPerformanceDetail: "この日は予定されている劇場公演がありません。",
+            noPerformanceDetail: "この日は 예정된 劇場公演이 없습니다.",
             castLineup: "出演キャスト ({count}名)",
             date: "日付",
             time: "時間",
             location: "場所",
             personalSchedule: "📅 {month}月の個人スケジュール一覧",
-            noPersonalSchedule: "今月の公演スケジュールはありません。",
+            noPersonalSchedule: "今月の公演スケジュールはありません.",
             datetime: "日時",
             performance: "公演",
             cast: "出演キャスト",
-            errLoadMembers: "data/members.json の読み込みに失敗しました。CORS制限またはパスを確認してください。",
+            errLoadMembers: "data/members.json の読み込みに失敗しました。CORS制限またはパスを確認してください.",
             errLoadSchedule: "スケジュールの読み込みに失敗しました（{year}年{month}月）",
             loadingMembers: "メンバーデータ読み込み中...",
-            loadingSchedule: "data/performances_{year}_{month}.json スケジュール読み込み中..."
+            loadingSchedule: "data/performances_{year}_{month}.json schedule 読み込み중...",
+            
+            accordionDetail: "詳細プロフィール",
+            labelNickname: "ニックネーム",
+            labelBirthdate: "生年月日",
+            labelBloodType: "血液型",
+            labelHometown: "出身地",
+            labelHeight: "身長",
+            labelMemberColor: "メンバーカラー",
+            labelHobby: "趣味",
+            labelSpecialty: "特技"
         },
         en: {
             title: "SKE48 Theater Schedule & Profile Portal",
             monthLabel: "{year}-{month}",
             prevMonth: "Prev Month",
             nextMonth: "Next Month",
-            profilePlaceholder: "Click a member card on the right<br>to view their detailed profile and personal schedule for this month.",
+            tabSchedule: "Theater Schedule",
+            tabProfiles: "Member Profiles",
+            teamCountLabel: "({count} members)",
+            profilePlaceholder: "Select a member card or cast member<br>to view their profile and personal schedule for this month here.",
             detailPlaceholder: "Select a date from the timeline to view detailed performance information here.",
             noPerformance: "No Performance",
             noPerformanceDetail: "There are no theater performances scheduled for this day.",
@@ -498,17 +635,25 @@
             datetime: "Date/Time",
             performance: "Performance",
             cast: "Cast",
-            errLoadMembers: "Failed to load data/members.json. Please check local server CORS restrictions and path.",
+            errLoadMembers: "Failed to load data/members.json. Please check local server CORS restrictions.",
             errLoadSchedule: "Failed to load schedule ({year}-{month})",
             loadingMembers: "Loading member data...",
-            loadingSchedule: "Loading schedule data/performances_{year}_{month}.json..."
+            loadingSchedule: "Loading schedule data/performances_{year}_{month}.json...",
+            
+            accordionDetail: "Detailed Profile",
+            labelNickname: "Nickname",
+            labelBirthdate: "Birthdate",
+            labelBloodType: "Blood Type",
+            labelHometown: "Hometown",
+            labelHeight: "Height",
+            labelMemberColor: "Member Color",
+            labelHobby: "Hobby",
+            labelSpecialty: "Specialty"
         }
     };
 
-    // 로컬스토리지에 저장된 값이 있으면 사용하고, 없으면 브라우저 기본값 또는 ko(한국어)로 초기값 지정 [1]
     let currentLang = localStorage.getItem("ske_lang") || (navigator.language.startsWith("ja") ? "ja" : navigator.language.startsWith("en") ? "en" : "ko");
     
-    // 2. 다국어 치환 전용 유틸리티 함수 (치환용 변수를 객체 형태로 받아 처리 가능)
     function t(key, vars = {}) {
         let text = translations[currentLang][key] || key;
         for (const [k, v] of Object.entries(vars)) {
@@ -517,19 +662,18 @@
         return text;
     }
 
-    // 전역 상태 관리 변수
+    // 전역 상태 변수
     let membersData = []; 
     let currentMonthPerformances = []; 
-    let activeSelectedDay = null; // 현재 타임라인에서 사용자가 선택한 일자 기억
+    let activeSelectedDay = null; 
+    let activeViewMode = "schedule"; 
     
-    // 기준 시각 고정 (2026년 6월 8일 대응)
     let viewYear = 2026;
     let viewMonth = 6;
     const systemToday = new Date("2026-06-08");
 
-    // 3. 앱 초기 구동
+    // 초기 실행 환경 구성
     async function initApplication() {
-        // 드롭다운 현재 활성화 언어 표시 동기화
         document.getElementById("lang-select").value = currentLang;
         updateStaticPlaceholders();
 
@@ -547,15 +691,39 @@
         }
         
         await loadTimeline();
+        renderTeamBasedProfiles(); 
     }
 
-    // 플레이스홀더 텍스트 다국어 새로고침
+    // 뷰 전환 통제
+    function switchViewMode(mode) {
+        activeViewMode = mode;
+        
+        const tabBtnSchedule = document.getElementById("tab-btn-schedule");
+        const tabBtnProfiles = document.getElementById("tab-btn-profiles");
+        const scheduleArea = document.getElementById("schedule-view-area");
+        const profilesArea = document.getElementById("profiles-view-area");
+
+        if (mode === "schedule") {
+            tabBtnSchedule.classList.add("active");
+            tabBtnProfiles.classList.remove("active");
+            scheduleArea.style.display = "flex";
+            profilesArea.style.display = "none";
+        } else if (mode === "profiles") {
+            tabBtnSchedule.classList.remove("active");
+            tabBtnProfiles.classList.add("active");
+            scheduleArea.style.display = "none";
+            profilesArea.style.display = "block";
+            renderTeamBasedProfiles(); 
+        }
+    }
+
     function updateStaticPlaceholders() {
         document.title = t("title");
         document.getElementById("btn-prev-month").textContent = `< ${t("prevMonth")}`;
         document.getElementById("btn-next-month").textContent = `${t("nextMonth")} >`;
+        document.getElementById("tab-btn-schedule").textContent = t("tabSchedule");
+        document.getElementById("tab-btn-profiles").textContent = t("tabProfiles");
 
-        // 아직 아무도 선택하지 않은 비어있는 상태인 경우 다국어 문구로 동기화
         const leftPanel = document.getElementById("left-panel");
         if (!leftPanel.querySelector(".profile-card")) {
             leftPanel.innerHTML = `<div class="profile-placeholder"><p>${t("profilePlaceholder")}</p></div>`;
@@ -567,7 +735,64 @@
         }
     }
 
-    // 4. 월별 공연 파일 동적 로딩 및 타임라인 렌더링
+    // 멤버를 팀별로 그룹화 및 순서(S -> KII -> E -> 연구생)대로 구분 나열
+    function renderTeamBasedProfiles() {
+        const container = document.getElementById("profiles-view-area");
+        container.innerHTML = ""; 
+
+        const grouped = {};
+        membersData.forEach(member => {
+            const team = member.position || "SKE48";
+            if (!grouped[team]) {
+                grouped[team] = [];
+            }
+            grouped[team].push(member);
+        });
+
+        const officialOrder = ["Team S", "チームS", "Team KⅡ", "Team KII", "チームKⅡ", "Team E", "チームE", "研究生"];
+        const sortedTeamNames = Object.keys(grouped).sort((a, b) => {
+            const indexA = officialOrder.findIndex(term => a.toUpperCase().includes(term.toUpperCase()) || term.toUpperCase().includes(a.toUpperCase()));
+            const indexB = officialOrder.findIndex(term => b.toUpperCase().includes(term.toUpperCase()) || term.toUpperCase().includes(b.toUpperCase()));
+            
+            if (indexA === -1 && indexB === -1) return a.localeCompare(b);
+            if (indexA === -1) return 1;
+            if (indexB === -1) return -1;
+            return indexA - indexB;
+        });
+
+        sortedTeamNames.forEach(teamName => {
+            const membersInTeam = grouped[teamName];
+            
+            const sectionDiv = document.createElement("div");
+            sectionDiv.className = "team-section";
+
+            const titleDiv = document.createElement("div");
+            titleDiv.className = "cast-title";
+            titleDiv.textContent = `${teamName} ${t("teamCountLabel", { count: membersInTeam.length })}`;
+            sectionDiv.appendChild(titleDiv);
+
+            const gridDiv = document.createElement("div");
+            gridDiv.className = "cast-grid";
+
+            membersInTeam.forEach(member => {
+                const card = document.createElement("div");
+                card.className = "member-mini-card";
+                card.onclick = () => selectMember(member.memberId);
+                card.innerHTML = `
+                    <div class="img-frame">
+                        <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
+                    </div>
+                    <div class="card-name">${member.name}</div>
+                `;
+                gridDiv.appendChild(card);
+            });
+
+            sectionDiv.appendChild(gridDiv);
+            container.appendChild(sectionDiv);
+        });
+    }
+
+    // 달력 데이터 취합 및 타임라인 생성
     async function loadTimeline() {
         const formattedMonth = String(viewMonth).padStart(2, '0');
         const yearMonthKey = `${viewYear}-${formattedMonth}`;
@@ -585,14 +810,13 @@
             const data = await response.json();
             currentMonthPerformances = data.performances || [];
         } catch (error) {
-            console.warn(`스케줄 로딩 실패 (${viewYear}-${formattedMonth}):`, error);
+            console.warn(`스케줄 데이터 로드 실패 (${viewYear}-${formattedMonth}):`, error);
             currentMonthPerformances = [];
         }
 
         timelineContainer.innerHTML = "";
         const daysInMonth = new Date(viewYear, viewMonth, 0).getDate();
 
-        // 1일부터 차례로 돔 생성
         for (let day = 1; day <= daysInMonth; day++) {
             const dateStr = `${viewYear}-${formattedMonth}-${String(day).padStart(2, '0')}`;
             const targetPerf = currentMonthPerformances.find(p => p.date === dateStr);
@@ -602,7 +826,6 @@
             dayDiv.id = `day-element-${day}`;
             dayDiv.setAttribute("data-day", day);
 
-            // 실제 당일(6월 8일)에 해당하는 태그 보정
             if (viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1) && day === systemToday.getDate()) {
                 dayDiv.classList.add("today-highlight");
             }
@@ -642,7 +865,6 @@
             timelineContainer.appendChild(dayDiv);
         }
 
-        // 스크롤 동기화 & 디폴트 타겟 요소 트리거
         setTimeout(() => {
             if (viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1)) {
                 const todayElement = document.getElementById(`day-element-${systemToday.getDate()}`);
@@ -657,7 +879,6 @@
         }, 100);
     }
 
-    // 5. 날짜 이전/이후 이동 핸들러
     async function changeMonth(step) {
         viewMonth += step;
         if (viewMonth > 12) {
@@ -668,29 +889,35 @@
             viewYear -= 1;
         }
         await loadTimeline();
+        
+        const activeProfileCard = document.querySelector(".profile-card .profile-name");
+        if (activeProfileCard) {
+            const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
+            if (memberObj) selectMember(memberObj.memberId);
+        }
     }
 
-    // 6. 다국어 선택 콤보박스 변경 핸들러
     async function switchLanguage(lang) {
         currentLang = lang;
-        localStorage.setItem("ske_lang", lang); // 선호 언어 기억 [1]
+        localStorage.setItem("ske_lang", lang); 
         
-        // 1. 헤더 텍스트 변경 적용
         updateStaticPlaceholders();
-        
-        // 2. 타임라인 재구성 (언어 변환 적용)
         await loadTimeline();
 
-        // 3. 만약 이미 유저가 상세 보기를 하고 있었다면 선택 영역 재호출
-        if (activeSelectedDay) {
+        if (activeSelectedDay && activeViewMode === "schedule") {
             const currentElement = document.getElementById(`day-element-${activeSelectedDay}`);
             if (currentElement) {
                 currentElement.click();
             }
         }
+        
+        const activeProfileCard = document.querySelector(".profile-card .profile-name");
+        if (activeProfileCard) {
+            const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
+            if (memberObj) selectMember(memberObj.memberId);
+        }
     }
 
-    // 7. 공연이 없는 빈 날짜 상세 정보창
     function selectEmptyDay(dateStr, element) {
         clearActiveDay();
         element.classList.add("active");
@@ -704,7 +931,6 @@
         `;
     }
 
-    // 8. 특정 공연 정보 클릭 시 세부 라인업 화면 렌더링
     function selectPerformance(perf, element) {
         clearActiveDay();
         element.classList.add("active");
@@ -749,7 +975,22 @@
         activeDays.forEach(d => d.classList.remove("active"));
     }
 
-    // 9. 특정 멤버 클릭 시 좌측 패널 정보 매핑
+    // [신규 요구사항] 아코디언 토글 제어 함수 (세부 정보 기본 접힘 / 스케줄 기본 열림 보정)
+    function toggleAccordion(bodyId, arrowId) {
+        const body = document.getElementById(bodyId);
+        const arrow = document.getElementById(arrowId);
+        if (!body || !arrow) return;
+        
+        if (body.classList.contains("collapsed")) {
+            body.classList.remove("collapsed");
+            arrow.textContent = "▼";
+        } else {
+            body.classList.add("collapsed");
+            arrow.textContent = "▶";
+        }
+    }
+
+    // [신규 요구사항] 특정 멤버 클릭 시 프로필 세부사항(details) 및 아코디언 바인딩
     function selectMember(memberId) {
         const member = membersData.find(m => m.memberId === memberId);
         if (!member) return;
@@ -757,6 +998,39 @@
         const leftPanel = document.getElementById("left-panel");
         const personalSchedules = currentMonthPerformances.filter(p => p.castIds.includes(memberId));
 
+        // A. 세부 프로필(details) 데이터 매핑용 HTML 테이블 빌드 [1]
+        let detailsTableHTML = "";
+        const d = member.details || member.detail; // JSON 속성명 유연성 확보 (details/detail)
+        
+        if (d) {
+            const labelMap = {
+                "nickname": t("labelNickname"),
+                "birthdate": t("labelBirthdate"),
+                "bloodType": t("labelBloodType"),
+                "hometown": t("labelHometown"),
+                "height": t("labelHeight"),
+                "memberColor": t("labelMemberColor"),
+                "hobby": t("labelHobby"),
+                "specialty": t("labelSpecialty")
+            };
+
+            detailsTableHTML += `<table class="profile-details-table">`;
+            for (const [key, label] of Object.entries(labelMap)) {
+                if (d[key]) {
+                    detailsTableHTML += `
+                        <tr>
+                            <td class="label-td">${label}</td>
+                            <td>${d[key]}</td>
+                        </tr>
+                    `;
+                }
+            }
+            detailsTableHTML += `</table>`;
+        } else {
+            detailsTableHTML = `<div class="profile-placeholder" style="padding:10px;">No detailed info.</div>`;
+        }
+
+        // B. 개인 스케줄 HTML 빌드
         let personalScheduleHTML = "";
         if (personalSchedules.length > 0) {
             personalSchedules.forEach(schedule => {
@@ -780,6 +1054,7 @@
             personalScheduleHTML = `<div class="profile-placeholder" style="padding:10px;">${t("noPersonalSchedule")}</div>`;
         }
 
+        // C. 좌측 패널 갱신 및 아코디언 설정 (상세: collapsed 클래스 포함, 스케줄: collapsed 없음)
         leftPanel.innerHTML = `
             <div class="profile-card">
                 <div class="profile-img-wrapper">
@@ -789,8 +1064,22 @@
                 <div class="profile-team">${member.position}</div>
                 <p class="profile-bio">${member.bio}</p>
             </div>
-            <div>
-                <div class="member-schedule-title">${t("personalSchedule", { month: viewMonth })}</div>
+            
+            <!-- 아코디언 1: 세부 정보 프로필 (기본값: 접힘 ▶) -->
+            <div class="accordion-header" onclick="toggleAccordion('member-details-body', 'details-arrow-indicator')">
+                <span>🔍 ${t("accordionDetail")}</span>
+                <span class="arrow-indicator" id="details-arrow-indicator">▶</span>
+            </div>
+            <div id="member-details-body" class="accordion-content collapsed">
+                ${detailsTableHTML}
+            </div>
+
+            <!-- 아코디언 2: 이번 달 스케줄 (기본값: 열림 ▼) -->
+            <div class="accordion-header" onclick="toggleAccordion('member-schedule-body', 'schedule-arrow-indicator')">
+                <span>${t("personalSchedule", { month: viewMonth })}</span>
+                <span class="arrow-indicator" id="schedule-arrow-indicator">▼</span>
+            </div>
+            <div id="member-schedule-body" class="accordion-content">
                 <div class="member-schedule-list">
                     ${personalScheduleHTML}
                 </div>
