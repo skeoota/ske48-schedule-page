@@ -1,0 +1,54 @@
+name: SKE48 Theater Schedule Auto Scraper
+
+on:
+  schedule:
+    # KST(한국 시간) 19:00는 UTC 기준으로 10:00입니다.
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+    # 깃허브 웹 페이지에서 개발자가 버튼을 눌러 수동으로 즉시 가동하고 싶을 때 사용합니다.
+
+permissions:
+  # 액션 봇이 깃 리포지토리에 새 스케줄 JSON 파일을 추가하고 푸시하려면 쓰기 권한이 꼭 필요합니다.
+  contents: write
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. 레포지토리 코드 복사해 가기
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # 2. 파이썬 가상 실행 환경 설치
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    # 3. 크롤링용 필수 라이브러리 설치
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4
+
+    # 4. 파이썬 스크립트 실행 (이번달/다음달 스캔하여 data/ 내부에 생성)
+    - name: Run SKE48 Scraper
+      run: python scrape_schedule.py
+
+    # 5. 생성된 데이터를 Git에 추가하고 차이가 있다면 자동으로 Push 처리
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        
+        # 새롭게 생성/갱신된 스케줄 데이터 스테이징
+        git add data/
+        
+        # 파일 변화가 있었는지 점검 후 변경사항이 있을 경우에만 커밋 및 푸시
+        if git diff --staged --quiet; then
+          echo "공연 일정 데이터에 변동 사항이 없습니다."
+        else
+          git commit -m "chore: [자동 업데이트] SKE48 극장 스케줄 업데이트"
+          git push
+        fi
