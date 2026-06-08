@@ -27,7 +27,7 @@
             overflow: hidden;
         }
 
-        /* 메인 컨테이너 레이아웃 (기본 데스크톱 사양) */
+        /* 메인 컨테이너 레이아웃 (데스크톱 사양) */
         .app-container {
             display: flex;
             width: 1200px;
@@ -52,7 +52,7 @@
             position: relative;
         }
 
-        /* 모바일 닫기 버튼 (기본 데스크톱에서는 미노출) */
+        /* 모바일 닫기 버튼 */
         .drawer-close-btn {
             display: none;
             background: none;
@@ -66,7 +66,7 @@
             line-height: 1;
         }
 
-        /* 모바일 오버레이 배경 레이어 (기본 데스크톱에서는 미노출) */
+        /* 모바일 오버레이 배경 레이어 */
         .drawer-overlay {
             display: none;
             position: fixed;
@@ -510,16 +510,13 @@
             margin-top: 20px;
         }
 
-        /* ==========================================
-           3. [추가] 모바일 반응형 768px 이하 대응 미디어 쿼리 [1]
-           ========================================== */
+        /* 반응형 768px 이하 대응 미디어 쿼리 */
         @media (max-width: 768px) {
             body {
                 height: 100%;
                 overflow: auto;
             }
 
-            /* 컨테이너 전체화면화 및 세로형 흐름 전환 */
             .app-container {
                 width: 100%;
                 height: 100vh;
@@ -532,7 +529,7 @@
             .left-panel {
                 position: fixed;
                 top: 0;
-                left: -100%; /* 디폴트 상태에서는 좌측 화면 밖 배치 */
+                left: -100%; 
                 width: 85%;
                 max-width: 340px;
                 height: 100%;
@@ -718,7 +715,7 @@
             tabSchedule: "劇場スケジュール",
             tabProfiles: "メンバープロフィール",
             teamCountLabel: "({count}人)",
-            profilePlaceholder: "メンバーカードまたは出演キャストを選択すると、<br>詳細プロフィールと今月のスケジュールがここに表示されます.",
+            profilePlaceholder: "メンバーカード 또는 출연キャストを選択すると、<br>詳細プロフィール와 今月のスケジュール이 여기에 표시됩니다.",
             detailPlaceholder: "タイムラインから日付を選択すると、その日の詳細情報가 여기에 표시됩니다.",
             noPerformance: "公演なし",
             noPerformanceDetail: "この日は 예정된 劇場公演이 없습니다.",
@@ -915,7 +912,7 @@
             membersInTeam.forEach(member => {
                 const card = document.createElement("div");
                 card.className = "member-mini-card";
-                card.onclick = () => selectMember(member.memberId);
+                card.onclick = () => selectMember(member.memberId, true); // 사용자가 직접 터치하여 강제 오픈 유도
                 card.innerHTML = `
                     <div class="img-frame">
                         <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
@@ -1028,10 +1025,11 @@
         }
         await loadTimeline();
         
+        // [버그 수정 완료] forceOpen 파라미터를 false로 주어 서랍장을 강제로 열지 않고 내부 데이터만 동기화 [1]
         const activeProfileCard = document.querySelector(".profile-card .profile-name");
         if (activeProfileCard) {
             const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
-            if (memberObj) selectMember(memberObj.memberId);
+            if (memberObj) selectMember(memberObj.memberId, false);
         }
     }
 
@@ -1049,10 +1047,11 @@
             }
         }
         
+        // [버그 수정 완료] forceOpen 파라미터를 false로 주어 서랍장을 강제로 열지 않고 내부 데이터만 동기화 [1]
         const activeProfileCard = document.querySelector(".profile-card .profile-name");
         if (activeProfileCard) {
             const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
-            if (memberObj) selectMember(memberObj.memberId);
+            if (memberObj) selectMember(memberObj.memberId, false);
         }
     }
 
@@ -1080,7 +1079,7 @@
             const member = membersData.find(mem => mem.memberId === id);
             if (member) {
                 castCardsHTML += `
-                    <div class="member-mini-card" onclick="selectMember('${member.memberId}')">
+                    <div class="member-mini-card" onclick="selectMember('${member.memberId}', true)">
                         <div class="img-frame">
                             <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
                         </div>
@@ -1127,8 +1126,8 @@
         }
     }
 
-    // 특정 멤버 카드 클릭 시 프로필 세부사항(details) 및 아코디언 바인딩
-    function selectMember(memberId) {
+    // [버그 수정 반영] forceOpen 매개변수 도입: 수동 클릭 시에만 모바일 서랍장을 슬라이드 활성화 [1]
+    function selectMember(memberId, forceOpen = true) {
         const member = membersData.find(m => m.memberId === memberId);
         if (!member) return;
 
@@ -1191,7 +1190,7 @@
             personalScheduleHTML = `<div class="profile-placeholder" style="padding:10px;">${t("noPersonalSchedule")}</div>`;
         }
 
-        // C. 동적 콘텐츠 영역 교체 (Close 버튼은 유지하기 위해 left-panel-content 내부에 주입)
+        // C. 동적 콘텐츠 영역 교체
         leftPanelContent.innerHTML = `
             <div class="profile-card">
                 <div class="profile-img-wrapper">
@@ -1223,9 +1222,15 @@
             </div>
         `;
 
-        // D. [모바일 인터랙션] 클릭 시 오버레이 서랍장과 어두운 배경화면 활성화 [1]
-        document.getElementById("left-panel").classList.add("drawer-active");
-        document.getElementById("drawer-overlay").classList.add("active");
+        // D. [모바일 인터랙션 제어] 
+        // 1) 사용자가 직접 클릭하여 강제로 열기를 원하거나, 2) 이미 모바일 서랍장이 열려있는 상태일 때만 슬라이드 유도 [1]
+        const leftPanel = document.getElementById("left-panel");
+        const isDrawerOpen = leftPanel.classList.contains("drawer-active");
+        
+        if (forceOpen || isDrawerOpen) {
+            leftPanel.classList.add("drawer-active");
+            document.getElementById("drawer-overlay").classList.add("active");
+        }
     }
 
     function showInitializationError(message) {
