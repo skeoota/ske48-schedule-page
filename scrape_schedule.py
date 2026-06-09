@@ -156,6 +156,7 @@ def parse_schedule_detail(url, session, members_list):
             
     return {
         "title": title,
+        "link": url,
         "date": date_formatted,
         "time": time_str,
         "venue": venue_str,

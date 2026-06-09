@@ -4,6 +4,7 @@
     {
       "performanceId": "P2604_01",
       "title": "チーム KⅡ「 シアターの女神」公演＜18:30開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/57860",
       "date": "2026-04-01",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -26,6 +27,7 @@
     {
       "performanceId": "P2604_02",
       "title": "チームE「RESET」公演＜18:30開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/57861",
       "date": "2026-04-02",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -48,6 +50,7 @@
     {
       "performanceId": "P2604_03",
       "title": "チームS「僕の太陽」公演＜18:30開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/57862",
       "date": "2026-04-03",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -70,6 +73,7 @@
     {
       "performanceId": "P2604_04",
       "title": "12期生、13期生「可能性こそが未来」公演＜18:00開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/57990",
       "date": "2026-04-06",
       "time": "18:00",
       "venue": "SKE48劇場",
@@ -92,6 +96,7 @@
     {
       "performanceId": "P2604_05",
       "title": "チームKⅡ 「シアターの女神」公演＜18:30開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/57991",
       "date": "2026-04-07",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -114,6 +119,7 @@
     {
       "performanceId": "P2604_06",
       "title": "チームE「RESET」公演＜18:30開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/57992",
       "date": "2026-04-10",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -136,6 +142,7 @@
     {
       "performanceId": "P2604_07",
       "title": "チームS「僕の太陽」公演 千秋楽＜17:00開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/57993",
       "date": "2026-04-11",
       "time": "17:00",
       "venue": "SKE48劇場",
@@ -160,6 +167,7 @@
     {
       "performanceId": "P2604_08",
       "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/57994",
       "date": "2026-04-13",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -182,6 +190,7 @@
     {
       "performanceId": "P2604_09",
       "title": "12期生、13期生「可能性こそが未来」公演＜18:00開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/58058",
       "date": "2026-04-14",
       "time": "18:00",
       "venue": "SKE48劇場",
@@ -204,6 +213,7 @@
     {
       "performanceId": "P2604_10",
       "title": "「制服の芽」公演＜18:00開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/58059",
       "date": "2026-04-15",
       "time": "18:00",
       "venue": "SKE48劇場",
@@ -226,6 +236,7 @@
     {
       "performanceId": "P2604_11",
       "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/58060",
       "date": "2026-04-16",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -248,9 +259,10 @@
     {
       "performanceId": "P2604_12",
       "title": "SKE48 バラエティアイドル育成プロジェクト「ミカンのむき方」 19:00開演",
+      "link": "https://ske48.co.jp/schedule/detail/58111",
       "date": "2026-04-17",
       "time": "19:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_76",
@@ -268,6 +280,7 @@
     {
       "performanceId": "P2604_13",
       "title": "チームE「RESET」公演＜18:30開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/58061",
       "date": "2026-04-21",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -290,6 +303,7 @@
     {
       "performanceId": "P2604_14",
       "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/58138",
       "date": "2026-04-24",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -312,6 +326,7 @@
     {
       "performanceId": "P2604_15",
       "title": "Team S「ずっと君を探している」公演初日＜17:00開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/58162",
       "date": "2026-04-26",
       "time": "17:00",
       "venue": "SKE48劇場",
@@ -337,6 +352,7 @@
     {
       "performanceId": "P2604_16",
       "title": "チームE「RESET」公演＜18:30開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/58139",
       "date": "2026-04-27",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -359,6 +375,7 @@
     {
       "performanceId": "P2604_17",
       "title": "12期生、13期生「可能性こそが未来」公演＜18:00開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/58140",
       "date": "2026-04-28",
       "time": "18:00",
       "venue": "SKE48劇場",
@@ -381,13 +398,14 @@
     {
       "performanceId": "P2604_18",
       "title": "「制服の芽」公演＜18:30開演＞",
+      "link": "https://ske48.co.jp/schedule/detail/58141",
       "date": "2026-04-30",
       "time": "18:30",
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
       "castIds": [
-        "member_4",
         "member_81",
+        "member_4",
         "member_50",
         "member_91",
         "member_86",
