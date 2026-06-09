@@ -1,0 +1,433 @@
+{
+  "yearMonth": "2025-10",
+  "performances": [
+    {
+      "performanceId": "P2510_01",
+      "title": "SKE48劇場17周年特別公演＜17:00開演＞",
+      "date": "2025-10-05",
+      "time": "17:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_79",
+        "member_44",
+        "member_88",
+        "feature",
+        "login"
+      ]
+    },
+    {
+      "performanceId": "P2510_02",
+      "title": "チームS「僕の太陽」公演＜18:30開演＞",
+      "date": "2025-10-09",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_4",
+        "member_81",
+        "member_23",
+        "member_49",
+        "member_50",
+        "member_9",
+        "member_76",
+        "member_55",
+        "member_16",
+        "member_77",
+        "member_90"
+      ]
+    },
+    {
+      "performanceId": "P2510_03",
+      "title": "12期生、13期生「可能性こそが未来」公演 倉本羽菜生誕祭＜17:00開演＞",
+      "date": "2025-10-13",
+      "time": "17:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_82",
+        "member_89",
+        "member_92",
+        "member_94",
+        "member_95",
+        "member_86",
+        "member_96",
+        "member_97",
+        "member_99",
+        "member_91",
+        "member_104",
+        "member_105"
+      ]
+    },
+    {
+      "performanceId": "P2510_04",
+      "title": "チームE「RESET」公演＜18:30開演＞",
+      "date": "2025-10-14",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_2",
+        "member_44",
+        "member_47",
+        "member_26",
+        "member_74",
+        "member_85",
+        "member_13",
+        "仲村和泉",
+        "member_72",
+        "member_89",
+        "member_78"
+      ]
+    },
+    {
+      "performanceId": "P2510_05",
+      "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
+      "date": "2025-10-15",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_45",
+        "member_67",
+        "member_5",
+        "member_82",
+        "member_48",
+        "member_52",
+        "member_75",
+        "member_19",
+        "member_92",
+        "member_86",
+        "member_97"
+      ]
+    },
+    {
+      "performanceId": "P2510_06",
+      "title": "チームE「RESET」公演＜18:30開演＞",
+      "date": "2025-10-16",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_2",
+        "member_44",
+        "member_47",
+        "member_26",
+        "member_74",
+        "member_85",
+        "member_13",
+        "仲村和泉",
+        "member_72",
+        "member_89",
+        "member_78"
+      ]
+    },
+    {
+      "performanceId": "P2510_07",
+      "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
+      "date": "2025-10-17",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_45",
+        "member_67",
+        "member_5",
+        "member_82",
+        "member_48",
+        "member_52",
+        "member_75",
+        "member_19",
+        "member_92",
+        "member_86",
+        "member_97"
+      ]
+    },
+    {
+      "performanceId": "P2510_08",
+      "title": "12期生、13期生「可能性こそが未来」公演　田村真悠生誕祭＜17:00開演＞",
+      "date": "2025-10-18",
+      "time": "17:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_82",
+        "member_92",
+        "member_94",
+        "member_95",
+        "member_86",
+        "member_97",
+        "member_99",
+        "member_100",
+        "member_101",
+        "member_91",
+        "member_104",
+        "member_105"
+      ]
+    },
+    {
+      "performanceId": "P2510_09",
+      "title": "■10月19日（日）「制服の芽」公演＜17:00開演＞",
+      "date": "2025-10-19",
+      "time": "17:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_81",
+        "member_76",
+        "member_77",
+        "member_5",
+        "member_47",
+        "member_78",
+        "member_92",
+        "member_94",
+        "member_86",
+        "member_97",
+        "member_99",
+        "member_91"
+      ]
+    },
+    {
+      "performanceId": "P2510_10",
+      "title": "チームE「RESET」公演＜18:30開演＞",
+      "date": "2025-10-20",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_2",
+        "member_44",
+        "member_47",
+        "member_26",
+        "member_74",
+        "member_85",
+        "member_34",
+        "member_13",
+        "仲村和泉",
+        "member_72",
+        "member_89"
+      ]
+    },
+    {
+      "performanceId": "P2510_11",
+      "title": "チームS「僕の太陽」公演 山村さくら生誕祭＜18:30開演＞",
+      "date": "2025-10-21",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_4",
+        "member_81",
+        "member_23",
+        "member_49",
+        "member_50",
+        "member_9",
+        "member_76",
+        "member_55",
+        "member_16",
+        "member_77",
+        "member_79"
+      ]
+    },
+    {
+      "performanceId": "P2510_12",
+      "title": "12期生、13期生「可能性こそが未来」公演 川村昇子生誕祭＜18:00開演＞",
+      "date": "2025-10-22",
+      "time": "18:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_81",
+        "member_90",
+        "member_89",
+        "member_92",
+        "member_93",
+        "member_94",
+        "member_86",
+        "member_97",
+        "member_99",
+        "member_101",
+        "member_91"
+      ]
+    },
+    {
+      "performanceId": "P2510_13",
+      "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
+      "date": "2025-10-23",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_45",
+        "member_67",
+        "member_5",
+        "member_82",
+        "member_48",
+        "member_52",
+        "member_75",
+        "member_19",
+        "member_92",
+        "member_86",
+        "member_97"
+      ]
+    },
+    {
+      "performanceId": "P2510_14",
+      "title": "「制服の芽」公演＜17:00開演＞",
+      "date": "2025-10-25",
+      "time": "17:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_76",
+        "member_75",
+        "member_2",
+        "member_47",
+        "member_72",
+        "member_78",
+        "member_92",
+        "member_94",
+        "member_86",
+        "member_97",
+        "member_99",
+        "member_91"
+      ]
+    },
+    {
+      "performanceId": "P2510_15",
+      "title": "チームS「僕の太陽」公演 石黒友月生誕祭＜17:00開演＞",
+      "date": "2025-10-26",
+      "time": "17:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_81",
+        "member_23",
+        "member_50",
+        "member_49",
+        "member_9",
+        "member_76",
+        "member_55",
+        "member_77",
+        "member_90",
+        "member_79",
+        "member_92"
+      ]
+    },
+    {
+      "performanceId": "P2510_16",
+      "title": "ドラマ「IDOL OF THE DEAD〜あなたの隣は死にました〜」スペシャルイベント<19:00開演>",
+      "date": "2025-10-27",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_9",
+        "member_77",
+        "member_3",
+        "member_48",
+        "member_19",
+        "member_47",
+        "member_74"
+      ]
+    },
+    {
+      "performanceId": "P2510_17",
+      "title": "12期生、13期生「可能性こそが未来」公演 南澤恋々生誕祭＜18:00開演＞",
+      "date": "2025-10-28",
+      "time": "18:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_90",
+        "member_82",
+        "member_89",
+        "member_92",
+        "member_93",
+        "member_94",
+        "member_86",
+        "member_97",
+        "member_101",
+        "member_91",
+        "member_104",
+        "member_105"
+      ]
+    },
+    {
+      "performanceId": "P2510_18",
+      "title": "「制服の芽公演」＜18:30開演＞",
+      "date": "2025-10-29",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67",
+        "member_82",
+        "member_75",
+        "member_2",
+        "member_47",
+        "member_74",
+        "member_13",
+        "member_89",
+        "member_78",
+        "member_92",
+        "member_86",
+        "member_97"
+      ]
+    },
+    {
+      "performanceId": "P2510_19",
+      "title": "チームE「RESET」公演＜18:30開演＞",
+      "date": "2025-10-30",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_1",
+        "member_64",
+        "member_2",
+        "member_47",
+        "member_26",
+        "member_74",
+        "member_85",
+        "member_13",
+        "仲村和泉",
+        "member_72",
+        "member_89",
+        "member_78"
+      ]
+    },
+    {
+      "performanceId": "P2510_20",
+      "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
+      "date": "2025-10-31",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_45",
+        "member_67",
+        "member_5",
+        "member_82",
+        "member_48",
+        "member_52",
+        "member_75",
+        "member_19",
+        "member_92",
+        "member_86",
+        "member_97"
+      ]
+    }
+  ]
+}
