@@ -28,7 +28,7 @@
       "title": "SKE48カジノシアター＜19:00開演＞",
       "date": "2026-02-03",
       "time": "19:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_49",
@@ -40,6 +40,7 @@
         "member_1",
         "member_44",
         "member_26",
+        "仲村和泉",
         "member_103"
       ]
     },
@@ -70,7 +71,7 @@
       "title": "真冬のホーンテッドシアター＜19:00開演＞",
       "date": "2026-02-05",
       "time": "19:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_49",
@@ -90,7 +91,7 @@
       "title": "SKE48 裏切り者を探せ スパイ2/10＜19:00開演＞",
       "date": "2026-02-06",
       "time": "19:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_4",
@@ -102,6 +103,7 @@
         "member_82",
         "member_44",
         "member_26",
+        "仲村和泉",
         "member_78"
       ]
     },
@@ -117,8 +119,8 @@
         "member_50",
         "member_77",
         "member_91",
-        "member_5",
         "member_82",
+        "member_5",
         "member_86",
         "member_2",
         "member_44",
@@ -132,7 +134,7 @@
       "title": "<FC会員限定版>SKE48 Family 6周年大感謝SP＜13:00開演＞",
       "date": "2026-02-08",
       "time": "13:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_43",
@@ -144,6 +146,7 @@
         "member_75",
         "member_1",
         "member_92",
+        "仲村和泉",
         "member_89",
         "member_98",
         "member_105"
@@ -154,7 +157,7 @@
       "title": "SKE48 人狼ゲーム〜SKE(サカエ)の夜〜 第2夜＜17:00開演＞",
       "date": "2026-02-08",
       "time": "17:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_43",
@@ -201,8 +204,8 @@
       "status": "SCHEDULED",
       "castIds": [
         "member_96",
-        "member_55",
         "member_3",
+        "member_55",
         "member_67",
         "member_82",
         "member_86",
@@ -219,7 +222,7 @@
       "title": "バレンタイン特別企画 先輩！大好きです！大作戦♡〜第1部＜13:00開演＞",
       "date": "2026-02-14",
       "time": "13:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_43",
@@ -245,7 +248,7 @@
       "title": "バレンタイン特別企画 先輩！大好きです！大作戦♡〜第2部＜17:00開演＞",
       "date": "2026-02-14",
       "time": "17:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_43",
@@ -277,11 +280,11 @@
         "member_96",
         "member_91",
         "member_82",
-        "member_95",
         "member_86",
         "member_92",
         "member_93",
         "member_94",
+        "member_95",
         "member_99",
         "member_100",
         "member_101",
@@ -293,7 +296,7 @@
       "title": "SKE48 THEATER IDOL COLLECTION＜19:00開演＞",
       "date": "2026-02-16",
       "time": "19:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_4",
@@ -314,6 +317,7 @@
         "member_26",
         "member_92",
         "member_85",
+        "仲村和泉",
         "member_89",
         "member_78",
         "member_93",
@@ -328,7 +332,6 @@
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
       "castIds": [
-        "member_23",
         "member_9",
         "member_55",
         "member_90",
@@ -336,8 +339,7 @@
         "member_45",
         "member_5",
         "member_1",
-        "member_85",
-        "member_103"
+        "member_85"
       ]
     },
     {
@@ -352,9 +354,9 @@
         "member_49",
         "member_55",
         "member_91",
+        "member_82",
         "member_67",
         "member_5",
-        "member_82",
         "member_86",
         "member_92",
         "member_85",
@@ -367,7 +369,7 @@
       "title": "SKE48 本気(マジ)の本気(マジ)！12期生vs13期生ガチンコバトル＜19:00開演＞",
       "date": "2026-02-20",
       "time": "19:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_96",
@@ -437,7 +439,7 @@
       "title": "■2月22日（日）ちーかま歌謡祭DX＜17:30開演＞",
       "date": "2026-02-22",
       "time": "17:30",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_43",
@@ -467,8 +469,8 @@
         "member_3",
         "member_67",
         "member_82",
-        "member_86",
         "member_64",
+        "member_86",
         "member_2",
         "member_92",
         "member_72",
@@ -481,14 +483,14 @@
       "title": "SKE48サミット 徹底討論終演まで生テレビ＜19:00開演＞",
       "date": "2026-02-26",
       "time": "19:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_43",
         "member_55",
         "member_3",
-        "member_67",
         "member_5",
+        "member_67",
         "member_82",
         "member_48",
         "member_86",
@@ -537,7 +539,12 @@
         "member_44",
         "member_26",
         "member_85",
-        "member_89"
+        "member_89",
+        "一律￥2",
+        "feature",
+        "同伴者氏名",
+        "代表者",
+        "login"
       ]
     },
     {
@@ -545,7 +552,7 @@
       "title": "みつ吉フェス反省会&オーディション(仮)＜17:30開演＞",
       "date": "2026-02-28",
       "time": "17:30",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_43",

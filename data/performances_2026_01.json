@@ -82,6 +82,7 @@
         "member_26",
         "member_92",
         "member_85",
+        "仲村和泉",
         "member_72",
         "member_89",
         "member_78",
@@ -124,6 +125,7 @@
         "member_47",
         "member_26",
         "member_85",
+        "仲村和泉",
         "member_72",
         "member_89",
         "member_78",
@@ -183,6 +185,7 @@
         "member_74",
         "member_85",
         "member_34",
+        "仲村和泉",
         "member_72",
         "member_89",
         "member_78",
@@ -249,6 +252,7 @@
         "member_74",
         "member_85",
         "member_34",
+        "仲村和泉",
         "member_72",
         "member_89",
         "member_78"
@@ -290,8 +294,8 @@
         "member_5",
         "member_82",
         "member_48",
-        "member_95",
         "member_86",
+        "member_95",
         "member_97",
         "member_52",
         "member_75",
@@ -325,7 +329,7 @@
       "title": "SKE48 人狼ゲーム 〜SKE(サカエ)の夜〜＜19:00開演＞",
       "date": "2026-01-26",
       "time": "19:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_4",
@@ -337,6 +341,7 @@
         "member_75",
         "member_26",
         "member_34",
+        "仲村和泉",
         "member_94"
       ]
     },
@@ -345,7 +350,7 @@
       "title": "SKE48 裏切り者を探せ スパイ1/10＜19:00開演＞",
       "date": "2026-01-27",
       "time": "19:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_43",
@@ -366,7 +371,7 @@
       "title": "SKE48 7時だよ全員集合！水曜日＜19:00開演＞",
       "date": "2026-01-28",
       "time": "19:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_4",
@@ -386,7 +391,7 @@
       "title": "SKE48 7時だよ全員集合！木曜日＜19:00開演＞",
       "date": "2026-01-29",
       "time": "19:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_96",
@@ -406,7 +411,7 @@
       "title": "SKE48 7時だよ全員集合！金曜日＜19:00開演＞",
       "date": "2026-01-30",
       "time": "19:00",
-      "venue": "미정/외부 행사장",
+      "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
         "member_43",
@@ -416,6 +421,7 @@
         "member_95",
         "member_19",
         "member_64",
+        "仲村和泉",
         "member_72",
         "member_93"
       ]
