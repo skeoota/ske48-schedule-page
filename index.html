@@ -669,7 +669,7 @@
 </div>
 
 <script>
-    // i18n 번역 사전
+    // i18n 번역 사전 (출연 횟수 변수인 {count}를 라벨 템플릿에 추가)
     const translations = {
         ko: {
             title: "SKE48 극장 스케줄 & 프로필 포탈",
@@ -687,7 +687,9 @@
             date: "날짜",
             time: "시간",
             location: "장소",
-            personalSchedule: "📅 {month}월 개인 스케줄 리스트",
+            
+            // 개인 스케줄 타이틀에 가변 횟수({count}) 표기 추가 [1]
+            personalSchedule: "📅 {month}월 개인 스케줄 리스트 ({count}회 출연)",
             noPersonalSchedule: "이번 달 지정된 공연 스케줄이 존재하지 않습니다.",
             datetime: "일시",
             performance: "공연",
@@ -716,14 +718,14 @@
             tabProfiles: "メンバープロフィール",
             teamCountLabel: "({count}人)",
             profilePlaceholder: "メンバーカード 또는 출연キャストを選択すると、<br>詳細プロフィール와 今月のスケジュール이 여기에 표시됩니다.",
-            detailPlaceholder: "タイムラインから日付を選択すると、その日の詳細情報가 여기에 표시됩니다.",
+            detailPlaceholder: "タイムラインから日付を選択すると、その日の詳細정보가 여기에 표시됩니다.",
             noPerformance: "公演なし",
             noPerformanceDetail: "この日は 예정된 劇場公演이 없습니다.",
             castLineup: "出演キャスト ({count}名)",
             date: "日付",
             time: "時間",
             location: "場所",
-            personalSchedule: "📅 {month}月の個人スケジュール一覧",
+            personalSchedule: "📅 {month}月の個人スケジュール一覧 ({count}回出演)",
             noPersonalSchedule: "今月の公演スケジュールはありません.",
             datetime: "日時",
             performance: "公演",
@@ -759,7 +761,7 @@
             date: "Date",
             time: "Time",
             location: "Location",
-            personalSchedule: "📅 {month} Personal Schedule",
+            personalSchedule: "📅 {month} Personal Schedule ({count} shows)",
             noPersonalSchedule: "No scheduled performances for this month.",
             datetime: "Date/Time",
             performance: "Performance",
@@ -797,9 +799,10 @@
     let activeSelectedDay = null; 
     let activeViewMode = "schedule"; 
     
-    let viewYear = 2026;
-    let viewMonth = 6;
-    const systemToday = new Date("2026-06-08");
+    // [요구사항 반영] 하드코딩된 특정 시점을 제거하고 실제 '오늘 날짜' 데이터를 실시간으로 가져와 전역 설정합니다 [1].
+    const systemToday = new Date();
+    let viewYear = systemToday.getFullYear();
+    let viewMonth = systemToday.getMonth() + 1; // getMonth()는 0부터 시작하므로 1을 더합니다.
 
     // 초기 실행 환경 구성
     async function initApplication() {
@@ -864,7 +867,7 @@
         }
     }
 
-    // [모바일 인터랙션] 서랍장 닫기 제어 함수 [1]
+    // 모바일 전용 서랍장 닫기 제어 함수 [1]
     function closeMobileDrawer() {
         document.getElementById("left-panel").classList.remove("drawer-active");
         document.getElementById("drawer-overlay").classList.remove("active");
@@ -1025,7 +1028,6 @@
         }
         await loadTimeline();
         
-        // [버그 수정 완료] forceOpen 파라미터를 false로 주어 서랍장을 강제로 열지 않고 내부 데이터만 동기화 [1]
         const activeProfileCard = document.querySelector(".profile-card .profile-name");
         if (activeProfileCard) {
             const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
@@ -1047,7 +1049,6 @@
             }
         }
         
-        // [버그 수정 완료] forceOpen 파라미터를 false로 주어 서랍장을 강제로 열지 않고 내부 데이터만 동기화 [1]
         const activeProfileCard = document.querySelector(".profile-card .profile-name");
         if (activeProfileCard) {
             const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
@@ -1126,7 +1127,7 @@
         }
     }
 
-    // [버그 수정 반영] forceOpen 매개변수 도입: 수동 클릭 시에만 모바일 서랍장을 슬라이드 활성화 [1]
+    // 특정 멤버 카드 클릭 시 프로필 세부사항 및 아코디언 바인딩
     function selectMember(memberId, forceOpen = true) {
         const member = membersData.find(m => m.memberId === memberId);
         if (!member) return;
@@ -1210,9 +1211,9 @@
                 ${detailsTableHTML}
             </div>
 
-            <!-- 아코디언 2: 이번 달 스케줄 (기본값: 열림 ▼) -->
+            <!-- 아코디언 2: 이번 달 스케줄 (기본값: 열림 ▼ - [요구사항 반영] 총 몇 개 출연하는지 count를 템플릿에 실시간 주입) [1] -->
             <div class="accordion-header" onclick="toggleAccordion('member-schedule-body', 'schedule-arrow-indicator')">
-                <span>${t("personalSchedule", { month: viewMonth })}</span>
+                <span>${t("personalSchedule", { month: viewMonth, count: personalSchedules.length })}</span>
                 <span class="arrow-indicator" id="schedule-arrow-indicator">▼</span>
             </div>
             <div id="member-schedule-body" class="accordion-content">
@@ -1222,8 +1223,7 @@
             </div>
         `;
 
-        // D. [모바일 인터랙션 제어] 
-        // 1) 사용자가 직접 클릭하여 강제로 열기를 원하거나, 2) 이미 모바일 서랍장이 열려있는 상태일 때만 슬라이드 유도 [1]
+        // D. 모바일 인터랙션 제어
         const leftPanel = document.getElementById("left-panel");
         const isDrawerOpen = leftPanel.classList.contains("drawer-active");
         
