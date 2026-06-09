@@ -976,7 +976,7 @@
             if (targetPerf) {
                 const castNames = targetPerf.castIds.map(id => {
                     const m = membersData.find(mem => mem.memberId === id);
-                    return m ? m.name : "";
+                    return m ? m.name : id; // 매핑되지 않은 멤버는 이름을 그대로 타임라인 요약에 보존
                 }).filter(name => name).join(", ");
 
                 contentHTML += `
@@ -1028,6 +1028,7 @@
         }
         await loadTimeline();
         
+        // forceOpen 파라미터를 false로 주어 서랍장을 강제로 열지 않고 내부 데이터만 동기화 [1]
         const activeProfileCard = document.querySelector(".profile-card .profile-name");
         if (activeProfileCard) {
             const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
@@ -1049,6 +1050,7 @@
             }
         }
         
+        // forceOpen 파라미터를 false로 주어 서랍장을 강제로 열지 않고 내부 데이터만 동기화 [1]
         const activeProfileCard = document.querySelector(".profile-card .profile-name");
         if (activeProfileCard) {
             const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
@@ -1069,6 +1071,7 @@
         `;
     }
 
+    // 특정 공연 클릭 시 라인업 상세 표시 (매핑 멤버 유실 시 텍스트 및 기본 민트 액자 대응)
     function selectPerformance(perf, element) {
         clearActiveDay();
         element.classList.add("active");
@@ -1085,6 +1088,16 @@
                             <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
                         </div>
                         <div class="card-name">${member.name}</div>
+                    </div>
+                `;
+            } else {
+                // [신규 기능 연동] members.json에 매핑되는 식별자가 없을 경우 텍스트 명칭 그대로 카드 생성 [1]
+                castCardsHTML += `
+                    <div class="member-mini-card" style="cursor: default;">
+                        <div class="img-frame">
+                            <img src="https://placehold.co/140x175/bfeae5/333333?text=${id}" alt="${id}">
+                        </div>
+                        <div class="card-name">${id}</div>
                     </div>
                 `;
             }
@@ -1173,7 +1186,7 @@
             personalSchedules.forEach(schedule => {
                 const rawCastNames = schedule.castIds.map(id => {
                     const m = membersData.find(mem => mem.memberId === id);
-                    if (!m) return "";
+                    if (!m) return id; // 매핑 멤버가 없을 경우 이름 텍스트 그대로 목록에 보존
                     return m.memberId === memberId 
                         ? `<span class="highlight-name">${m.name}</span>`
                         : m.name;

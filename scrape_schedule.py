@@ -4,12 +4,11 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import time
-import datetime # 연월 자동 연산을 위해 임포트
+import datetime
 
 def load_local_members():
     """로컬 폴더의 data/members.json 파일을 읽어옵니다."""
     try:
-        # 웹서버 경로에 대응하도록 data/members.json을 읽습니다.
         with open("data/members.json", "r", encoding="utf-8") as f:
             data = json.load(f)
             return data.get("members", [])
@@ -20,22 +19,79 @@ def load_local_members():
         print(f"[오류] members.json 로드 실패: {e}")
         return []
 
+def is_valid_member_name(token):
+    """
+    본문 파싱 토큰 중 메타 데이터나 불필요한 단어를 배제하고 
+    순수 이름 형태의 토큰만 거르는 헬퍼 함수입니다.
+    """
+    token = token.strip()
+    if not token:
+        return False
+    # 블랙리스트 키워드 필터링
+    blacklist = ["出演", "멤버", "メンバー", "変更", "休演", "公演", "予定", "一覧", "詳細", "チケット", "受付"]
+    if any(word in token for word in blacklist):
+        return False
+    # 특수기호나 대괄호 배제
+    if any(char in token for char in ["【", "】", "[", "]", "：", ":", "■", "※"]):
+        return False
+    # SKE48 이름 길이는 대개 공백 제외 2글자에서 8글자 사이입니다.
+    if len(token) < 2 or len(token) > 8:
+        return False
+    return True
+
 def clean_and_match_members(text, members_list):
+    """
+    본문 텍스트를 기호 기준으로 쪼개어 매칭합니다.
+    [해결] 멤버 이름에 붙은 접두사(멤버:, メンバー：, ※ 등)를 먼저 정교하게 잘라냅니다.
+    """
     if not text:
         return []
-    cleaned_target_text = re.sub(r"\s+", "", text)
+        
+    # 가운뎃점(・), 일본식 쉼표(、), 쉼표(,), 슬래시(/), 줄바꿈 기준으로 토큰 분리
+    raw_tokens = re.split(r"[・、，,/\n\r]+", text)
     matched_ids = []
     
+    # members.json 매핑용 사전 생성
+    member_map = {}
     for member in members_list:
         member_name = member.get("name", "")
         member_id = member.get("memberId", "")
         if member_name:
-            cleaned_member_name = re.sub(r"\s+", "", member_name)
-            if cleaned_member_name and cleaned_member_name in cleaned_target_text:
-                if member_id not in matched_ids:
-                    matched_ids.append(member_id)
+            cleaned_m_name = re.sub(r"\s+", "", member_name)
+            member_map[cleaned_m_name] = member_id
+            
+    for token in raw_tokens:
+        token = token.strip()
+        
+        # ==========================================
+        # 💡 [신규 전처리 추가] 이름에 붙은 메타 접두사를 순차 제거 [1]
+        # ==========================================
+        # 1단계: 대괄호 헤더 제거 (예: 【出演メンバー】멤버명 -> 멤버명)
+        token = re.sub(r"^【[^】]+】", "", token).strip()
+        
+        # 2단계: 멤버/출연 키워드, 콜론, 가운뎃점, 특수 기호 제거 (예: メンバー：멤버명 -> 멤버명)
+        # 한국어 표기(멤버:, 출연:)와 일본어 표기(メンバー：, 出演：) 모두 대응합니다.
+        token = re.sub(r"^(?:멤버|출연멤버|出演멤버|出演メンバー|メンバー|出演|※|・)[:：\s・]*", "", token).strip()
+        
+        # 필터링 통과 여부 검사 (이름 정제 후에 검사해야 "멤버" 블랙리스트에 걸리지 않습니다)
+        if not is_valid_member_name(token):
+            continue
+            
+        # 매치용 임시 무공백 텍스트
+        cleaned_token = re.sub(r"\s+", "", token)
+        
+        if cleaned_token in member_map:
+            # 1. members.json에 매칭되는 멤버는 ID로 수집
+            m_id = member_map[cleaned_token]
+            if m_id not in matched_ids:
+                matched_ids.append(m_id)
+        else:
+            # 2. 매칭되는 멤버가 없는 경우 본래 이름 문자열 그대로 보존
+            if token not in matched_ids:
+                matched_ids.append(token)
+                
     return matched_ids
-
+    
 def normalize_date(date_text):
     date_text = date_text.strip()
     match = re.search(r"(\d{4})[\./](\d{1,2})[\./](\d{1,2})", date_text)
@@ -158,7 +214,6 @@ def scrape_monthly_schedules(year, month, members_list):
         "performances": performances
     }
     
-    # 웹앱 호출 경로 규격에 맞춰 data/ 폴더 내부에 안전하게 생성합니다.
     os.makedirs("data", exist_ok=True)
     file_name = f"data/performances_{year}_{int(month):02d}.json"
     
@@ -167,22 +222,17 @@ def scrape_monthly_schedules(year, month, members_list):
     print(f"-> 저장 완료: {file_name} ({len(performances)}건)")
 
 if __name__ == "__main__":
-    # 라이브 시간 연산을 사용하여 '이번 달'과 '다음 달'을 실시간으로 추적합니다 [1].
     today = datetime.date.today()
     
-    # 1. 이번 달 (Current Month)
     current_year = today.year
     current_month = today.month
     
-    # 2. 다음 달 (Next Month - 월이 12월일 경우 연도를 안전하게 밀어내기 처리)
     first_day_of_current_month = today.replace(day=1)
     next_month_date = first_day_of_current_month + datetime.timedelta(days=32)
     next_year = next_month_date.year
     next_month = next_month_date.month
     
-    # 공통 멤버 사전 1회 일괄 로드
     members_list = load_local_members()
     
-    # 이번 달과 다음 달의 전체 일정 스캔
     scrape_monthly_schedules(current_year, current_month, members_list)
     scrape_monthly_schedules(next_year, next_month, members_list)
