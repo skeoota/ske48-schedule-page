@@ -41,14 +41,13 @@ def is_valid_member_name(token):
 
 def clean_and_match_members(text, members_list):
     """
-    본문 텍스트를 기호 기준으로 쪼개어 매칭합니다.
-    [해결] 멤버 이름에 붙은 접두사(멤버:, メンバー：, ※ 등)를 먼저 정교하게 잘라냅니다.
+    [live02용] 본문 텍스트를 기호 기준으로 쪼개어 매칭합니다.
     """
     if not text:
         return []
         
-    # 가운뎃점(・), 일본식 쉼표(、), 쉼표(,), 슬래시(/), 줄바꿈 기준으로 토큰 분리
-    raw_tokens = re.split(r"[・、，,/\n\r]+", text)
+    # 가운뎃점(・), 일본식 쉼표(、), 쉼표(,), 슬래시(/), 전각 슬래시(／), 줄바꿈 기준으로 토큰 분리
+    raw_tokens = re.split(r"[・、，,/\n\r／]+", text)
     matched_ids = []
     
     # members.json 매핑용 사전 생성
@@ -63,17 +62,13 @@ def clean_and_match_members(text, members_list):
     for token in raw_tokens:
         token = token.strip()
         
-        # ==========================================
-        # 💡 [신규 전처리 추가] 이름에 붙은 메타 접두사를 순차 제거 [1]
-        # ==========================================
         # 1단계: 대괄호 헤더 제거 (예: 【出演メンバー】멤버명 -> 멤버명)
         token = re.sub(r"^【[^】]+】", "", token).strip()
         
-        # 2단계: 멤버/출연 키워드, 콜론, 가운뎃점, 특수 기호 제거 (예: メンバー：멤버명 -> 멤버명)
-        # 한국어 표기(멤버:, 출연:)와 일본어 표기(メンバー：, 出演：) 모두 대응합니다.
-        token = re.sub(r"^(?:멤버|출연멤버|出演멤버|出演メンバー|メンバー|出演|※|・)[:：\s・]*", "", token).strip()
+        # 2단계: 멤버/출연 키워드 및 앞에 붙은 특수기호(■, ※ 등), 그리고 콜론, 슬래시 정밀 제거
+        token = re.sub(r"^[■※●★◆▲▼]*?(?:멤버|출연멤버|出演멤버|出演멤버|出演メンバー|メンバー|出演|※|・)[:：\s・／/]*", "", token).strip()
         
-        # 필터링 통과 여부 검사 (이름 정제 후에 검사해야 "멤버" 블랙리스트에 걸리지 않습니다)
+        # 필터링 통과 여부 검사 (이름 정제 후에 검사해야 "멤버"나 "출연" 블랙리스트에 걸리지 않습니다)
         if not is_valid_member_name(token):
             continue
             
@@ -81,17 +76,53 @@ def clean_and_match_members(text, members_list):
         cleaned_token = re.sub(r"\s+", "", token)
         
         if cleaned_token in member_map:
-            # 1. members.json에 매칭되는 멤버는 ID로 수집
+            # members.json에 매칭되는 멤버는 ID로 수집
             m_id = member_map[cleaned_token]
             if m_id not in matched_ids:
                 matched_ids.append(m_id)
         else:
-            # 2. 매칭되는 멤버가 없는 경우 본래 이름 문자열 그대로 보존
+            # 매칭되는 멤버가 없는 경우 본래 이름 문자열 그대로 보존
             if token not in matched_ids:
                 matched_ids.append(token)
                 
     return matched_ids
+
+def parse_tags_members(soup, members_list):
+    """
+    [live04, live06용] 상세페이지 내 해시태그 영역에서 
+    #로 시작하는 멤버들을 찾아 #를 제외하고 매칭합니다.
+    """
+    cast_ids = []
+    span_tags = soup.select("div.tag_list ul li a span")
     
+    # members.json 매핑용 사전 생성
+    member_map = {}
+    for member in members_list:
+        member_name = member.get("name", "")
+        member_id = member.get("memberId", "")
+        if member_name:
+            cleaned_m_name = re.sub(r"\s+", "", member_name)
+            member_map[cleaned_m_name] = member_id
+            
+    for span in span_tags:
+        text = span.get_text(strip=True)
+        # '#'으로 시작하는 멤버를 출연진 데이터에 '#'를 제외하고 파싱
+        if text.startswith("#"):
+            text = text[1:].strip()
+            
+        cleaned_token = re.sub(r"\s+", "", text)
+        
+        if cleaned_token in member_map:
+            m_id = member_map[cleaned_token]
+            if m_id not in cast_ids:
+                cast_ids.append(m_id)
+        else:
+            # 매칭되지 않아도 이름 형태를 보존하여 격자 대응을 돕습니다.
+            if text and text not in cast_ids:
+                cast_ids.append(text)
+                
+    return cast_ids
+
 def normalize_date(date_text):
     date_text = date_text.strip()
     match = re.search(r"(\d{4})[\./](\d{1,2})[\./](\d{1,2})", date_text)
@@ -114,7 +145,11 @@ def extract_venue(text):
         return "SKE48劇場"
     return "외부 행사장"
 
-def parse_schedule_detail(url, session, members_list):
+def parse_schedule_detail(url, session, members_list, item_type, category):
+    """
+    개별 세부 스케줄 페이지를 방문하여 공연정보를 획득하고,
+    타입(live02, live04, live05, live06) 분기에 맞추어 출연진을 빌드합니다.
+    """
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
@@ -147,21 +182,33 @@ def parse_schedule_detail(url, session, members_list):
         
     time_str = extract_performance_time(first_p_text)
     venue_str = extract_venue(first_p_text)
-    cast_ids = clean_and_match_members(second_p_text, members_list)
     
-    if not cast_ids and len(mso_elements) > 0:
-        full_text_area = soup.select_one("div.wrap--main div.txt")
-        if full_text_area:
-            cast_ids = clean_and_match_members(full_text_area.get_text(), members_list)
+    # 스케줄 유형(Type)에 따른 출연 멤버 매핑 분기 제어
+    cast_ids = []
+    
+    if item_type == "live05":
+        # 모든 멤버 일괄 포함
+        cast_ids = [m.get("memberId") for m in members_list if m.get("memberId")]
+    elif item_type in ["live04", "live06"]:
+        # 상세페이지 하단 해시태그 스팬 리스트 매핑
+        cast_ids = parse_tags_members(soup, members_list)
+    else:
+        # 기존 live02 본문 문자열 슬라이싱 매핑 방식
+        cast_ids = clean_and_match_members(second_p_text, members_list)
+        if not cast_ids and len(mso_elements) > 0:
+            full_text_area = soup.select_one("div.wrap--main div.txt")
+            if full_text_area:
+                cast_ids = clean_and_match_members(full_text_area.get_text(), members_list)
             
     return {
+        "category": category, 
         "title": title,
-        "link": url,
         "date": date_formatted,
         "time": time_str,
         "venue": venue_str,
         "status": "SCHEDULED",
-        "castIds": cast_ids
+        "castIds": cast_ids,
+        "link": url
     }
 
 def scrape_monthly_schedules(year, month, members_list):
@@ -182,33 +229,83 @@ def scrape_monthly_schedules(year, month, members_list):
         return
         
     soup = BeautifulSoup(response.text, "html.parser")
-    schedule_links = soup.select("div.live02 > a")
     
-    detail_urls = []
-    for a_tag in schedule_links:
-        href = a_tag.get("href")
-        if not href:
-            continue
-        if href.startswith("/"):
-            href = "https://ske48.co.jp" + href
-        if href not in detail_urls:
-            detail_urls.append(href)
+    target_classes = ["live02", "live04", "live05", "live06"]
+    schedule_items = []
+    seen_urls = set()  # 데이터 중복 수집 차단용 셋(Set)
+    
+    for class_name in target_classes:
+        # [해결] div.entry.[클래스명] 형태로 타겟팅 범위를 정교화합니다 [1].
+        for parent_div in soup.select(f"div.entry.{class_name}"):
+            a_tag = parent_div.select_one("a")
+            if not a_tag:
+                continue
+                
+            href = a_tag.get("href")
+            if not href:
+                continue
+                
+            if href.startswith("/"):
+                href = "https://ske48.co.jp" + href
+                
+            # [중복 방지] 이미 스캔 대상에 추가된 URL이라면 스킵합니다.
+            if href in seen_urls:
+                continue
+            seen_urls.add(href)
+                
+            # [해결] a 태그 하위에 직접 속해있는 p.cat.scheduleCateIco 요소를 추출합니다 [1].
+            category_text = "기타"
+            cat_tag = a_tag.select_one("p.cat.scheduleCateIco")
+            if not cat_tag:
+                # 폴백: parent_div 내부의 모든 p.cat 혹은 .scheduleCateIco를 검색해 안전을 기합니다.
+                cat_tag = parent_div.select_one("p.cat.scheduleCateIco, p.cat, .scheduleCateIco")
+                
+            if cat_tag:
+                # [해결] 자식 span 태그를 제외한 p 노드 본래의 카테고리 텍스트(예: メディア)만 분리해 가져옵니다 [1].
+                category_text = "".join([c for c in cat_tag.contents if isinstance(c, str)]).strip()
+                
+            schedule_items.append({
+                "url": href,
+                "type": class_name,
+                "category": category_text
+            })
             
-    total_schedules = len(detail_urls)
-    print(f"총 {total_schedules}개의 스케줄 발견")
+    total_schedules = len(schedule_items)
+    print(f"총 {total_schedules}개의 필터링된 스케줄을 수집했습니다. (중복 배제 완료)")
     
+    raw_performances = []
+    
+    # 1. 상세 페이지 분석 후 데이터를 가배열(raw_performances)에 적재
+    for idx, item in enumerate(schedule_items, 1):
+        print(f"[{idx}/{total_schedules}] 스케줄 상세 분석 ({item['type']}): {item['url']}")
+        
+        perf_data = parse_schedule_detail(
+            item["url"], 
+            session, 
+            members_list, 
+            item_type=item["type"], 
+            category=item["category"]
+        )
+        
+        if perf_data:
+            raw_performances.append(perf_data)
+        time.sleep(0.2)
+        
+    # 2. 수집된 모든 일정을 날짜(date) -> 시간(time) 오름차순으로 완벽하게 재정렬합니다 [1].
+    raw_performances.sort(key=lambda x: (x.get("date", "9999-12-31"), x.get("time", "23:59")))
+        
+    # 3. 시간 순서대로 정렬이 완료된 상태에서 최종 고유 ID를 부여하여 취합합니다.
     performances = []
     year_short = str(year)[-2:]
     month_formatted = f"{int(month):02d}"
     id_prefix = f"P{year_short}{month_formatted}"
     
-    for idx, detail_url in enumerate(detail_urls, 1):
+    for idx, perf_data in enumerate(raw_performances, 1):
         performance_id = f"{id_prefix}_{idx:02d}"
-        perf_data = parse_schedule_detail(detail_url, session, members_list)
-        if perf_data:
-            perf_data = {"performanceId": performance_id, **perf_data}
-            performances.append(perf_data)
-        time.sleep(0.5)
+        performances.append({
+            "performanceId": performance_id,
+            **perf_data
+        })
         
     output_data = {
         "yearMonth": f"{int(year):04d}-{int(month):02d}",
@@ -220,7 +317,7 @@ def scrape_monthly_schedules(year, month, members_list):
     
     with open(file_name, "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
-    print(f"-> 저장 완료: {file_name} ({len(performances)}건)")
+    print(f"-> 최종 정렬 및 병합 수집 완료: {file_name} ({len(performances)}건)")
 
 if __name__ == "__main__":
     today = datetime.date.today()

@@ -1,4 +1,282 @@
 {
   "yearMonth": "2026-07",
-  "performances": []
+  "performances": [
+    {
+      "performanceId": "P2607_01",
+      "category": "イベント",
+      "title": "SKE48 SUMMER Tour 2026〜じゅーしーすぷらっしゅ だぜ！〜  愛知公演",
+      "date": "2026-07-04",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/58433"
+    },
+    {
+      "performanceId": "P2607_02",
+      "category": "イベント",
+      "title": "SKE48 SUMMER Tour 2026〜じゅーしーすぷらっしゅ だぜ！〜 愛知公演",
+      "date": "2026-07-05",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/58434"
+    },
+    {
+      "performanceId": "P2607_03",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-07-06",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58800"
+    },
+    {
+      "performanceId": "P2607_04",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-07-06",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_3",
+        "member_8"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58811"
+    },
+    {
+      "performanceId": "P2607_05",
+      "category": "メディア",
+      "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
+      "date": "2026-07-08",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_100"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58510"
+    },
+    {
+      "performanceId": "P2607_06",
+      "category": "イベント",
+      "title": "SKE48野村実代 1st写真集『美しい方程式』お渡し会",
+      "date": "2026-07-11",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58542"
+    },
+    {
+      "performanceId": "P2607_07",
+      "category": "イベント",
+      "title": "TOKAI RADIO みつ吉と名門大洋フェリーで行く！SKE48 SUMMER Tour 2026 応援ツアー～瀬戸内海クルーズと福岡満喫の旅PartⅡ～",
+      "date": "2026-07-11",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58621"
+    },
+    {
+      "performanceId": "P2607_08",
+      "category": "イベント",
+      "title": "SKE48 SUMMER Tour 2026〜じゅーしーすぷらっしゅ だぜ！〜　福岡公演",
+      "date": "2026-07-12",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/58435"
+    },
+    {
+      "performanceId": "P2607_09",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-07-13",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58801"
+    },
+    {
+      "performanceId": "P2607_10",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-07-13",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_3",
+        "member_8"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58812"
+    },
+    {
+      "performanceId": "P2607_11",
+      "category": "イベント",
+      "title": "SKE48野村実代 1st写真集『美しい方程式』お渡し会",
+      "date": "2026-07-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58543"
+    },
+    {
+      "performanceId": "P2607_12",
+      "category": "イベント",
+      "title": "『水族館の達人に聞いてみた　ぜったいに行きたくなる37の発見』お渡し会",
+      "date": "2026-07-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58528"
+    },
+    {
+      "performanceId": "P2607_13",
+      "category": "イベント",
+      "title": "東海ウォーカー 2026 夏号特典会（お渡し会）",
+      "date": "2026-07-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58805"
+    },
+    {
+      "performanceId": "P2607_14",
+      "category": "イベント",
+      "title": "『水族館の達人に聞いてみた　ぜったいに行きたくなる37の発見』お渡し会",
+      "date": "2026-07-19",
+      "time": "13:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58529"
+    },
+    {
+      "performanceId": "P2607_15",
+      "category": "メディア",
+      "title": "NATSLIVE「グイグイちかちゃん横丁」",
+      "date": "2026-07-19",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58491"
+    },
+    {
+      "performanceId": "P2607_16",
+      "category": "イベント",
+      "title": "SKE48 SUMMER Tour 2026〜じゅーしーすぷらっしゅ だぜ！〜　北海道公演",
+      "date": "2026-07-20",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/58436"
+    },
+    {
+      "performanceId": "P2607_17",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-07-20",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_3",
+        "member_8"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58813"
+    },
+    {
+      "performanceId": "P2607_18",
+      "category": "イベント",
+      "title": "SKE48 SUMMER Tour 2026〜じゅーしーすぷらっしゅ だぜ！〜　大阪公演",
+      "date": "2026-07-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/58437"
+    },
+    {
+      "performanceId": "P2607_19",
+      "category": "イベント",
+      "title": "劇団☆龍(Dragon)童子produce『月の子- Lunae Hostia -』",
+      "date": "2026-07-30",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58723"
+    },
+    {
+      "performanceId": "P2607_20",
+      "category": "イベント",
+      "title": "THANKS 10TH GIGA  Special  LIVE  POPPIN BASE  in GIGA",
+      "date": "2026-07-30",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_50",
+        "member_74",
+        "member_75",
+        "member_76",
+        "member_78",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58708"
+    },
+    {
+      "performanceId": "P2607_21",
+      "category": "イベント",
+      "title": "劇団☆龍(Dragon)童子produce『月の子- Lunae Hostia -』",
+      "date": "2026-07-31",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58724"
+    }
+  ]
 }

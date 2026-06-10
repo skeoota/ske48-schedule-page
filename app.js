@@ -1,10 +1,11 @@
-// i18n 번역 사전
+// i18n 번역 사전 (연도 접미사 및 월 이름 다국어 리소스 보강)
 const translations = {
     ko: {
         title: "SKE48 극장 스케줄 & 프로필 포탈",
         monthLabel: "{year}년 {month}월",
         prevMonth: "이전 달",
         nextMonth: "다음 달",
+        btnToday: "오늘", 
         tabSchedule: "극장 스케줄",
         tabProfiles: "멤버 프로필",
         teamCountLabel: "({count}명)",
@@ -34,18 +35,25 @@ const translations = {
         labelHeight: "신장",
         labelMemberColor: "멤버 컬러",
         labelHobby: "취미",
-        labelSpecialty: "특기"
+        labelSpecialty: "특기",
+        
+        weekdays: ["일", "월", "화", "수", "목", "금", "토"],
+        
+        // 💡 [신규] 선택기 전용 다국어 리소스 [1]
+        yearSuffix: "년",
+        months: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"]
     },
     ja: {
         title: "SKE48 劇場スケジュール＆プロフィールポータル",
         monthLabel: "{year}年 {month}月",
         prevMonth: "前月",
         nextMonth: "翌月",
+        btnToday: "今日",
         tabSchedule: "劇場スケジュール",
         tabProfiles: "メンバープロフィール",
         teamCountLabel: "({count}人)",
         profilePlaceholder: "メンバーカード 또는 출연キャストを選択すると、<br>詳細プロフィール와 今月のスケジュール이 여기에 표시됩니다.",
-        detailPlaceholder: "タイムラインから日付を選択すると、その日の詳細情報가 여기에 표시됩니다.",
+        detailPlaceholder: "タイムラインから日付を選択すると、그날의 상세정보가 여기에 표시됩니다.",
         noPerformance: "公演なし",
         noPerformanceDetail: "この日は 예정된 劇場公演이 없습니다.",
         castLineup: "出演キャスト ({count}名)",
@@ -57,9 +65,9 @@ const translations = {
         datetime: "日時",
         performance: "公演",
         cast: "出演キャスト",
-        errLoadMembers: "data/members.json の読み込みに失敗しました。CORS制限またはパスを確認してください.",
+        errLoadMembers: "data/members.json の読み込みに失敗しました。CORS制限 또는 경로를 확인해주세요.",
         errLoadSchedule: "スケジュールの読み込みに失敗しました（{year}年{month}月）",
-        loadingMembers: "メンバーデータ読み込み중...",
+        loadingMembers: "멤버 데이터 읽기 중...",
         loadingSchedule: "data/performances_{year}_{month}.json schedule 読み込み중...",
         
         accordionDetail: "詳細プロフィール",
@@ -70,13 +78,19 @@ const translations = {
         labelHeight: "身長",
         labelMemberColor: "メンバーカラー",
         labelHobby: "趣味",
-        labelSpecialty: "特技"
+        labelSpecialty: "特技",
+        
+        weekdays: ["日", "月", "火", "水", "木", "金", "土"],
+        
+        yearSuffix: "年",
+        months: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"]
     },
     en: {
         title: "SKE48 Theater Schedule & Profile Portal",
         monthLabel: "{year}-{month}",
         prevMonth: "Prev Month",
         nextMonth: "Next Month",
+        btnToday: "Today",
         tabSchedule: "Theater Schedule",
         tabProfiles: "Member Profiles",
         teamCountLabel: "({count} members)",
@@ -106,7 +120,12 @@ const translations = {
         labelHeight: "Height",
         labelMemberColor: "Member Color",
         labelHobby: "Hobby",
-        labelSpecialty: "Specialty"
+        labelSpecialty: "Specialty",
+        
+        weekdays: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+        
+        yearSuffix: " ",
+        months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     }
 };
 
@@ -126,10 +145,10 @@ let currentMonthPerformances = [];
 let activeSelectedDay = null; 
 let activeViewMode = "schedule"; 
 
-// 실제 '오늘 날짜' 데이터를 실시간으로 가져와 전역 설정합니다 [1].
+// 오늘 날짜 데이터를 실시간으로 가져와 전역 설정합니다 [1].
 const systemToday = new Date();
 let viewYear = systemToday.getFullYear();
-let viewMonth = systemToday.getMonth() + 1; // getMonth()는 0부터 시작하므로 1을 더합니다.
+let viewMonth = systemToday.getMonth() + 1;
 
 // 초기 실행 환경 구성
 async function initApplication() {
@@ -180,6 +199,7 @@ function updateStaticPlaceholders() {
     document.title = t("title");
     document.getElementById("btn-prev-month").textContent = `< ${t("prevMonth")}`;
     document.getElementById("btn-next-month").textContent = `${t("nextMonth")} >`;
+    document.getElementById("btn-today").textContent = t("btnToday"); 
     document.getElementById("tab-btn-schedule").textContent = t("tabSchedule");
     document.getElementById("tab-btn-profiles").textContent = t("tabProfiles");
 
@@ -257,12 +277,13 @@ function renderTeamBasedProfiles() {
     });
 }
 
-// 달력 데이터 취합 및 타임라인 생성 시 하루 복수 공연 적층 렌더링 지원 [1]
+// 달력 데이터 취합 및 타임라인 생성 시 하루 복수 공연 개별 분할 렌더링 지원 [1]
 async function loadTimeline() {
     const formattedMonth = String(viewMonth).padStart(2, '0');
     const yearMonthKey = `${viewYear}-${formattedMonth}`;
     
-    document.getElementById("view-month-label").textContent = t("monthLabel", { year: viewYear, month: formattedMonth });
+    // 💡 [신규 고도화] 현재 조회 중인 연월 드롭다운 옵션들을 현지 다국어 리소스 기반으로 재생성 및 바인딩 [1]
+    updateDateSelects();
     
     const timelineContainer = document.getElementById("timeline-container");
     timelineContainer.innerHTML = `<div class="loading-text">${t("loadingSchedule", { year: viewYear, month: formattedMonth })}</div>`;
@@ -275,7 +296,7 @@ async function loadTimeline() {
         const data = await response.json();
         currentMonthPerformances = data.performances || [];
     } catch (error) {
-        console.warn(`스케줄 데이터 로드 실패 (${viewYear}-${formattedMonth}):`, error);
+        console.warn("스케줄 데이터 로드 실패:", error);
         currentMonthPerformances = [];
     }
 
@@ -285,25 +306,32 @@ async function loadTimeline() {
     for (let day = 1; day <= daysInMonth; day++) {
         const dateStr = `${viewYear}-${formattedMonth}-${String(day).padStart(2, '0')}`;
         
-        // 하루에 공연이 2개 이상 있을 경우를 대비하여 filter를 사용해 모두 수집합니다 [1].
+        // 하루에 등록된 모든 공연 수집
         const dayPerfs = currentMonthPerformances.filter(p => p.date === dateStr);
+
+        // 요일 연산 적용
+        const dateObj = new Date(viewYear, viewMonth - 1, day);
+        const dayOfWeek = dateObj.getDay(); // 0(일) ~ 6(토)
+        const weekdayName = t("weekdays")[dayOfWeek];
+        const dayClass = dayOfWeek === 6 ? "sat" : (dayOfWeek === 0 ? "sun" : "");
 
         const dayDiv = document.createElement("div");
         dayDiv.className = "timeline-day";
-        dayDiv.id = `day-element-${day}`;
-        dayDiv.setAttribute("data-day", day);
+        dayDiv.id = `day-container-${day}`; // 일자별 그룹화 그릇 생성
 
-        if (viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1) && day === systemToday.getDate()) {
+        const isToday = viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1) && day === systemToday.getDate();
+        if (isToday) {
             dayDiv.classList.add("today-highlight");
         }
 
+        // 들여쓰기가 뒤죽박죽되지 않도록 .day-num(날짜)과 .day-content(스케줄들) 구조 일치 적용
         let contentHTML = `
-            <div class="day-num">${day}</div>
+            <div class="day-num ${dayClass}">${day}<span class="weekday">(${weekdayName})</span></div>
             <div class="day-content">
         `;
 
         if (dayPerfs.length > 0) {
-            // 수집된 당일의 모든 공연 정보를 루프돌며 리스트업합니다.
+            // 한 날짜 아래에 각각의 스케줄 카드(.perf-item-link)를 개별 배치하여 각자 터치해 세부 조회가 되도록 구현합니다.
             dayPerfs.forEach((perf, idx) => {
                 const castNames = perf.castIds.map(id => {
                     const m = membersData.find(mem => mem.memberId === id);
@@ -311,26 +339,22 @@ async function loadTimeline() {
                 }).filter(name => name).join(", ");
 
                 contentHTML += `
-                    <div class="perf-item-wrapper" style="${idx > 0 ? 'margin-top: 8px; padding-top: 8px; border-top: 1px dotted #eee;' : ''}">
-                        <div class="day-title" style="color: #00796b;">[${perf.time}] ${perf.title}</div>
+                    <div class="perf-item-link" id="perf-link-${day}-${idx}" onclick="handlePerfClick('${day}-${idx}', '${perf.performanceId}', this)">
+                        <div class="day-title" style="color: #00796b;">
+                            <span class="category-badge">${perf.category || "기타"}</span> [${perf.time}] ${perf.title}
+                        </div>
                         <div class="day-cast-summary">${castNames}</div>
                     </div>
                 `;
             });
-
-            dayDiv.onclick = () => {
-                activeSelectedDay = day;
-                selectPerformance(dayPerfs, dayDiv); // 해당 날짜의 모든 공연 배열을 인자로 위임
-            };
         } else {
+            // 공연이 없는 날도 동일 구조 매핑을 통해 가로 세로 들여쓰기 선 정합성을 확보합니다.
             contentHTML += `
-                <div class="day-title" style="color: #bbb; font-weight: normal;">${t("noPerformance")}</div>
-                <div class="day-cast-summary">-</div>
+                <div class="perf-item-link empty" id="perf-link-${day}-0" onclick="handleEmptyClick('${day}-0', '${dateStr}', this)">
+                    <div class="day-title" style="color: #bbb; font-weight: normal;">${t("noPerformance")}</div>
+                    <div class="day-cast-summary">-</div>
+                </div>
             `;
-            dayDiv.onclick = () => {
-                activeSelectedDay = day;
-                selectEmptyDay(dateStr, dayDiv);
-            };
         }
 
         contentHTML += `</div>`;
@@ -338,18 +362,100 @@ async function loadTimeline() {
         timelineContainer.appendChild(dayDiv);
     }
 
+    // 초기 로딩 시 오늘 날짜의 첫 번째 일정 카드(0번 인덱스)를 자동으로 찾아서 스크롤 및 클릭 처리합니다.
     setTimeout(() => {
         if (viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1)) {
-            const todayElement = document.getElementById(`day-element-${systemToday.getDate()}`);
-            if (todayElement) {
-                todayElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                todayElement.click(); 
+            const todayFirstId = `perf-link-${systemToday.getDate()}-0`;
+            const todayFirstElement = document.getElementById(todayFirstId);
+            if (todayFirstElement) {
+                todayFirstElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                todayFirstElement.click(); 
             }
         } else {
-            const firstDayElement = document.getElementById(`day-element-1`);
-            if (firstDayElement) firstDayElement.click();
+            const firstElement = timelineContainer.querySelector(".perf-item-link");
+            if (firstElement) firstElement.click();
         }
     }, 100);
+}
+
+// 💡 [신규 고도화] 연/월 개별 드롭다운 셀렉터를 다국어 사전에 맞게 생성하고 바인딩하는 함수 [1]
+function updateDateSelects() {
+    const yearSelect = document.getElementById("year-select");
+    const monthSelect = document.getElementById("month-select");
+    if (!yearSelect || !monthSelect) return;
+
+    // 기존 내용 지우기
+    yearSelect.innerHTML = "";
+    monthSelect.innerHTML = "";
+
+    // A. 연도 드롭다운 (2024년부터 내년도까지 동적 바인딩)
+    const startYear = 2024;
+    const endYear = (new Date()).getFullYear() + 1;
+    const suffix = t("yearSuffix");
+
+    for (let y = startYear; y <= endYear; y++) {
+        const opt = document.createElement("option");
+        opt.value = y;
+        opt.textContent = `${y}${suffix}`;
+        if (y === viewYear) opt.selected = true;
+        yearSelect.appendChild(opt);
+    }
+
+    // B. 월 드롭다운 (다국어에 보관된 고유 로컬 월 표기 적용) [1]
+    const monthNames = t("months");
+    for (let m = 1; m <= 12; m++) {
+        const opt = document.createElement("option");
+        opt.value = m;
+        opt.textContent = monthNames[m - 1];
+        if (m === viewMonth) opt.selected = true;
+        monthSelect.appendChild(opt);
+    }
+}
+
+// 💡 [신규 고도화] 수동으로 연도나 월 드롭다운을 변경했을 때의 감지 이벤트 헨들러 [1]
+async function handleSelectDateChange() {
+    const yearSelect = document.getElementById("year-select");
+    const monthSelect = document.getElementById("month-select");
+    if (!yearSelect || !monthSelect) return;
+
+    viewYear = parseInt(yearSelect.value, 10);
+    viewMonth = parseInt(monthSelect.value, 10);
+
+    await loadTimeline();
+}
+
+// 언제든 실제 오늘 연월일 일정으로 귀환하는 함수
+async function goToToday() {
+    const today = new Date();
+    viewYear = today.getFullYear();
+    viewMonth = today.getMonth() + 1;
+    
+    // 타임라인을 새로 빌딩하면 내부의 오토포커싱 루틴에 의해 오늘의 첫 일정을 자동 타겟팅 및 클릭하게 됩니다.
+    await loadTimeline(); 
+}
+
+// 개별 스케줄을 클릭했을 때의 통합 인터랙션 함수
+function handlePerfClick(selectedKey, perfId, element) {
+    const perf = currentMonthPerformances.find(p => p.performanceId === perfId);
+    if (!perf) return;
+
+    activeSelectedDay = selectedKey;
+
+    // 타임라인 전반의 모든 액티브 효과 제거 및 타겟 요소에만 액티브 마킹
+    document.querySelectorAll(".perf-item-link").forEach(el => el.classList.remove("active"));
+    element.classList.add("active");
+
+    selectPerformance(perf);
+}
+
+// 일정이 없는 날을 클릭했을 때의 통합 인터랙션 함수
+function handleEmptyClick(selectedKey, dateStr, element) {
+    activeSelectedDay = selectedKey;
+
+    document.querySelectorAll(".perf-item-link").forEach(el => el.classList.remove("active"));
+    element.classList.add("active");
+
+    selectEmptyDay(dateStr);
 }
 
 async function changeMonth(step) {
@@ -377,8 +483,9 @@ async function switchLanguage(lang) {
     updateStaticPlaceholders();
     await loadTimeline();
 
+    // 개별 복수 일정 전환 보존을 위해 `perf-link-` ID를 추적하도록 매핑을 보완합니다.
     if (activeSelectedDay && activeViewMode === "schedule") {
-        const currentElement = document.getElementById(`day-element-${activeSelectedDay}`);
+        const currentElement = document.getElementById(`perf-link-${activeSelectedDay}`);
         if (currentElement) {
             currentElement.click();
         }
@@ -391,10 +498,7 @@ async function switchLanguage(lang) {
     }
 }
 
-function selectEmptyDay(dateStr, element) {
-    clearActiveDay();
-    element.classList.add("active");
-
+function selectEmptyDay(dateStr) {
     const detailWrapper = document.getElementById("detail-wrapper");
     detailWrapper.innerHTML = `
         <div class="detail-header">
@@ -404,85 +508,57 @@ function selectEmptyDay(dateStr, element) {
     `;
 }
 
-// 특정 날짜의 모든 공연 정보(perfList)를 아울러 화면 우측에 적층 렌더링 지원 [1]
-function selectPerformance(perfList, element) {
-    clearActiveDay();
-    element.classList.add("active");
-
+// 개별 스케줄 단일 건(perf)을 받아서 상세 바인딩 처리합니다.
+function selectPerformance(perf) {
     const detailWrapper = document.getElementById("detail-wrapper");
-    
-    // 단일 객체 전달 시에도 배열 형태로 일관성 있게 변환하여 순회합니다.
-    const perfs = Array.isArray(perfList) ? perfList : [perfList];
-    let contentHTML = "";
+    let castCardsHTML = "";
 
-    perfs.forEach((perf, pIdx) => {
-        let castCardsHTML = "";
-        perf.castIds.forEach(id => {
-            const member = membersData.find(mem => mem.memberId === id);
-            if (member) {
-                castCardsHTML += `
-                    <div class="member-mini-card" onclick="selectMember('${member.memberId}', true)">
-                        <div class="img-frame">
-                            <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
-                        </div>
-                        <div class="card-name">${member.name}</div>
+    perf.castIds.forEach(id => {
+        const member = membersData.find(mem => mem.memberId === id);
+        if (member) {
+            castCardsHTML += `
+                <div class="member-mini-card" onclick="selectMember('${member.memberId}', true)">
+                    <div class="img-frame">
+                        <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
                     </div>
-                `;
-            } else {
-                castCardsHTML += `
-                    <div class="member-mini-card" style="cursor: default;">
-                        <div class="img-frame">
-                            <img src="https://placehold.co/140x175/bfeae5/333333?text=${id}" alt="${id}">
-                        </div>
-                        <div class="card-name">${id}</div>
-                    </div>
-                `;
-            }
-        });
-
-        // 공연이 여러 개일 경우 구분선을 두고 차례대로 쌓습니다.
-        contentHTML += `
-            <div class="perf-detail-block" style="${pIdx > 0 ? 'margin-top: 40px; border-top: 1px dashed #ccc; padding-top: 30px;' : ''}">
-                <div class="detail-header">
-                    <h1 class="detail-title">
-                        <a href="${perf.link}" target="_blank" rel="noopener noreferrer">${perf.title}</a>
-                    </h1>
-                    <div class="detail-meta">
-                        <span><strong>${t("date")}:</strong> ${perf.date}</span>
-                        <span><strong>${t("time")}:</strong> ${perf.time}</span>
-                        <span><strong>${t("location")}:</strong> ${perf.venue}</span>
-                    </div>
+                    <div class="card-name">${member.name}</div>
                 </div>
-                <div class="cast-container">
-                    <div class="cast-title">${t("castLineup", { count: perf.castIds.length })}</div>
-                    <div class="cast-grid">
-                        ${castCardsHTML}
+            `;
+        } else {
+            castCardsHTML += `
+                <div class="member-mini-card" style="cursor: default;">
+                    <div class="img-frame">
+                        <img src="https://placehold.co/140x175/bfeae5/333333?text=${id}" alt="${id}">
                     </div>
+                    <div class="card-name">${id}</div>
                 </div>
-            </div>
-        `;
+            `;
+        }
     });
 
-    detailWrapper.innerHTML = contentHTML;
-}
-
-function clearActiveDay() {
-    const activeDays = document.querySelectorAll(".timeline-day.active");
-    activeDays.forEach(d => d.classList.remove("active"));
-}
-
-function toggleAccordion(bodyId, arrowId) {
-    const body = document.getElementById(bodyId);
-    const arrow = document.getElementById(arrowId);
-    if (!body || !arrow) return;
-    
-    if (body.classList.contains("collapsed")) {
-        body.classList.remove("collapsed");
-        arrow.textContent = "▼";
-    } else {
-        body.classList.add("collapsed");
-        arrow.textContent = "▶";
-    }
+    detailWrapper.innerHTML = `
+        <div class="perf-detail-block">
+            <div class="detail-header">
+                <div style="margin-bottom: 8px;">
+                    <span class="category-badge" style="font-size: 11px; padding: 3px 8px;">${perf.category || "기타"}</span>
+                </div>
+                <h1 class="detail-title">
+                    <a href="${perf.link}" target="_blank" rel="noopener noreferrer">${perf.title}</a>
+                </h1>
+                <div class="detail-meta">
+                    <span><strong>${t("date")}:</strong> ${perf.date}</span>
+                    <span><strong>${t("time")}:</strong> ${perf.time}</span>
+                    <span><strong>${t("location")}:</strong> ${perf.venue}</span>
+                </div>
+            </div>
+            <div class="cast-container">
+                <div class="cast-title">${t("castLineup", { count: perf.castIds.length })}</div>
+                <div class="cast-grid">
+                    ${castCardsHTML}
+                </div>
+            </div>
+        </div>
+    `;
 }
 
 // 특정 멤버 카드 클릭 시 프로필 세부사항 및 아코디언 바인딩
@@ -493,7 +569,6 @@ function selectMember(memberId, forceOpen = true) {
     const leftPanelContent = document.getElementById("left-panel-content");
     const personalSchedules = currentMonthPerformances.filter(p => p.castIds.includes(memberId));
 
-    // A. 세부 프로필(details) 데이터 매핑용 HTML 테이블 빌드 [1]
     let detailsTableHTML = "";
     const d = member.details || member.detail; 
     
@@ -525,13 +600,12 @@ function selectMember(memberId, forceOpen = true) {
         detailsTableHTML = `<div class="profile-placeholder" style="padding:10px;">No detailed info.</div>`;
     }
 
-    // B. 개인 스케줄 HTML 빌드
     let personalScheduleHTML = "";
     if (personalSchedules.length > 0) {
         personalSchedules.forEach(schedule => {
             const rawCastNames = schedule.castIds.map(id => {
                 const m = membersData.find(mem => mem.memberId === id);
-                if (!m) return id; // 매핑 멤버가 없을 경우 이름 텍스트 그대로 목록에 보존
+                if (!m) return id; 
                 return m.memberId === memberId 
                     ? `<span class="highlight-name">${m.name}</span>`
                     : m.name;
@@ -549,7 +623,6 @@ function selectMember(memberId, forceOpen = true) {
         personalScheduleHTML = `<div class="profile-placeholder" style="padding:10px;">${t("noPersonalSchedule")}</div>`;
     }
 
-    // C. 동적 콘텐츠 영역 교체
     leftPanelContent.innerHTML = `
         <div class="profile-card">
             <div class="profile-img-wrapper">
@@ -569,7 +642,7 @@ function selectMember(memberId, forceOpen = true) {
             ${detailsTableHTML}
         </div>
 
-        <!-- 아코디언 2: 이번 달 스케줄 (기본값: 열림 ▼ - [요구사항 반영] 총 몇 개 출연하는지 count를 템플릿에 실시간 주입) [1] -->
+        <!-- 아코디언 2: 이번 달 스케줄 (기본값: 열림 ▼) -->
         <div class="accordion-header" onclick="toggleAccordion('member-schedule-body', 'schedule-arrow-indicator')">
             <span>${t("personalSchedule", { month: viewMonth, count: personalSchedules.length })}</span>
             <span class="arrow-indicator" id="schedule-arrow-indicator">▼</span>
@@ -581,7 +654,6 @@ function selectMember(memberId, forceOpen = true) {
         </div>
     `;
 
-    // D. 모바일 인터랙션 제어
     const leftPanel = document.getElementById("left-panel");
     const isDrawerOpen = leftPanel.classList.contains("drawer-active");
     
@@ -595,7 +667,6 @@ function showInitializationError(message) {
     document.getElementById("timeline-container").innerHTML = `<div class="loading-text" style="color:red; font-weight:bold;">${message}</div>`;
 }
 
-// 윈도우 로드 핸들러 연결
 window.onload = function() {
     initApplication();
 };

@@ -6,7 +6,7 @@
     <title>SKE48 Theater Schedule & Profile Portal</title>
     <!-- 외부 스타일시트 로드 -->
     <link rel="stylesheet" href="style.css">
-    <!-- 자바스크립트 파일 로드 (DOM 로드 후 실행되도록 defer 추가) -->
+    <!-- 자바스크립트 파일 로드 (defer로 DOM 로드 후 실행) -->
     <script src="app.js" defer></script>
 </head>
 <body>
@@ -19,7 +19,7 @@
     <aside class="left-panel" id="left-panel">
         <!-- 모바일 닫기 (X) 버튼 -->
         <button class="drawer-close-btn" id="drawer-close-btn" onclick="closeMobileDrawer()">&times;</button>
-        <!-- 동적 렌더링 컨텐츠 컨테이너 -->
+        <!-- 동적 렌더링 콘텐츠 컨테이너 -->
         <div id="left-panel-content" style="height: 100%;">
             <!-- 플레이스홀더 -->
         </div>
@@ -31,8 +31,16 @@
         <header class="header-nav">
             <div class="nav-controls">
                 <button class="nav-btn" onclick="changeMonth(-1)" id="btn-prev-month">&lt;</button>
-                <h2 id="view-month-label">...</h2>
+                
+                <!-- 💡 [수정] 다국어 지원이 불가한 기본 인풋을 다국어 연동 드롭다운 컨테이너로 교체 [1] -->
+                <div class="month-select-container">
+                    <select id="year-select" onchange="handleSelectDateChange()" class="month-select-dropdown"></select>
+                    <select id="month-select" onchange="handleSelectDateChange()" class="month-select-dropdown"></select>
+                </div>
+                
                 <button class="nav-btn" onclick="changeMonth(1)" id="btn-next-month">&gt;</button>
+                <!-- 언제든 오늘로 귀환하는 단독 버튼 탑재 -->
+                <button class="nav-btn today-btn" onclick="goToToday()" id="btn-today">오늘</button>
             </div>
             
             <div class="lang-select-wrapper">
