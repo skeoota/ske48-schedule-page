@@ -23,8 +23,8 @@ const translations = {
         performance: "공연",
         cast: "출연진",
         errLoadMembers: "data/members.json 로드 실패. 서버 CORS 차단 유무 및 경로를 검사해 주세요.",
-        errLoadSchedule: "스케줄 로딩 실패 ({year}년 {month}월)",
         noCategoryPerformances: "선택한 카테고리의 일정이 없습니다.",
+        searchPlaceholder: "공연명, 출연진, 장소 검색...",
 
         accordionDetail: "세부 프로필 정보",
         labelNickname: "닉네임",
@@ -65,8 +65,8 @@ const translations = {
         performance: "公演",
         cast: "出演キャスト",
         errLoadMembers: "data/members.json の読み込みに失敗しました。CORS制限 또는 경로를 확인해주세요.",
-        errLoadSchedule: "スケジュールの読み込みに失敗しました（{year}年{month}月）",
         noCategoryPerformances: "選択されたカテゴリのスケジュールがありません。",
+        searchPlaceholder: "公演名、出演キャスト、場所で検索...",
 
         accordionDetail: "詳細プロフィール",
         labelNickname: "ニックネーム",
@@ -106,8 +106,8 @@ const translations = {
         performance: "Performance",
         cast: "Cast",
         errLoadMembers: "Failed to load data/members.json. Please check local server CORS restrictions.",
-        errLoadSchedule: "Failed to load schedule ({year}-{month})",
         noCategoryPerformances: "No schedules found for the selected category.",
+        searchPlaceholder: "Search by title, cast, venue...",
 
         accordionDetail: "Detailed Profile",
         labelNickname: "Nickname",
@@ -170,6 +170,7 @@ let currentMonthPerformances = [];
 let activeSelectedDay = null;
 let activeViewMode = "schedule";
 let activeCategoryFilter = "all";
+let activeSearchQuery = "";
 
 // 오늘 날짜 데이터를 실시간으로 가져와 전역 설정합니다 [1].
 const systemToday = new Date();
@@ -244,6 +245,11 @@ function updateStaticPlaceholders() {
     const detailWrapper = document.getElementById("detail-wrapper");
     if (!detailWrapper.querySelector(".detail-header") && !detailWrapper.querySelector(".loading-text")) {
         detailWrapper.innerHTML = `<div class="profile-placeholder"><p>${t("detailPlaceholder")}</p></div>`;
+    }
+
+    const searchInput = document.getElementById("timeline-search-input");
+    if (searchInput) {
+        searchInput.placeholder = t("searchPlaceholder");
     }
 }
 
@@ -334,6 +340,13 @@ async function loadTimeline(resetFilter = true) {
 
     if (resetFilter) {
         activeCategoryFilter = "all";
+        activeSearchQuery = "";
+        const searchInput = document.getElementById("timeline-search-input");
+        if (searchInput) {
+            searchInput.value = "";
+            const clearBtn = document.getElementById("search-clear-btn");
+            if (clearBtn) clearBtn.style.display = "none";
+        }
     }
 
     renderTimeline();
@@ -406,12 +419,25 @@ function renderTimeline() {
     const formattedMonth = String(viewMonth).padStart(2, '0');
     const daysInMonth = new Date(viewYear, viewMonth, 0).getDate();
 
-    // 카테고리 필터링 적용
+    // 카테고리 필터링 및 텍스트 검색어 필터링 적용
     let filteredPerformances = currentMonthPerformances;
     if (activeCategoryFilter !== "all") {
-        filteredPerformances = currentMonthPerformances.filter(p => (p.category || "기타") === activeCategoryFilter);
+        filteredPerformances = filteredPerformances.filter(p => (p.category || "기타") === activeCategoryFilter);
+    }
+    if (activeSearchQuery.trim() !== "") {
+        const query = activeSearchQuery.toLowerCase().trim();
+        filteredPerformances = filteredPerformances.filter(p => {
+            const titleMatch = p.title && p.title.toLowerCase().includes(query);
+            const venueMatch = p.venue && p.venue.toLowerCase().includes(query);
+            const castMatch = p.castIds && p.castIds.some(id => {
+                const member = membersData.find(m => m.memberId === id);
+                return member && member.name.toLowerCase().includes(query);
+            });
+            return titleMatch || venueMatch || castMatch;
+        });
     }
 
+    const hasActiveFilters = activeCategoryFilter !== "all" || activeSearchQuery.trim() !== "";
     let hasAnyPerformance = filteredPerformances.length > 0;
 
     for (let day = 1; day <= daysInMonth; day++) {
@@ -420,8 +446,8 @@ function renderTimeline() {
         // 하루에 등록된 공연 중 필터 조건에 부합하는 공연들 수집
         const dayPerfs = filteredPerformances.filter(p => p.date === dateStr);
 
-        // 필터가 'all'이 아니며 해당 날짜에 부합하는 공연이 한 건도 없는 경우 날짜 자체를 타임라인에서 생략합니다.
-        if (activeCategoryFilter !== "all" && dayPerfs.length === 0) {
+        // 필터가 켜진 상태이며 해당 날짜에 부합하는 공연이 한 건도 없는 경우 날짜 자체를 타임라인에서 생략합니다.
+        if (hasActiveFilters && dayPerfs.length === 0) {
             continue;
         }
 
@@ -464,7 +490,7 @@ function renderTimeline() {
                 `;
             });
         } else {
-            // 필터가 'all'이면서 일정이 없는 날 (기본 빈 카드를 보여줌)
+            // 필터가 없고 일정이 없는 날 (기본 빈 카드를 보여줌)
             contentHTML += `
                 <div class="perf-item-link empty" id="perf-link-${day}-0" onclick="handleEmptyClick('${day}-0', '${dateStr}', this)">
                     <div class="day-title" style="color: #bbb; font-weight: normal;">${t("noPerformance")}</div>
@@ -479,7 +505,7 @@ function renderTimeline() {
     }
 
     // 만약 필터 결과 일치하는 일정이 없으면 예쁜 결과 없음 메시지를 띄웁니다.
-    if (activeCategoryFilter !== "all" && !hasAnyPerformance) {
+    if (hasActiveFilters && !hasAnyPerformance) {
         timelineContainer.innerHTML = `
             <div class="no-filter-results">
                 ${t("noCategoryPerformances")}
@@ -711,10 +737,24 @@ function selectMember(memberId, forceOpen = true) {
 
     const leftPanelContent = document.getElementById("left-panel-content");
 
-    // activeViewMode === "schedule" 이고 카테고리 필터가 "all"이 아닌 경우에만 개인 일정을 필터링합니다.
+    // activeViewMode === "schedule" 이고 카테고리 필터 또는 검색어가 입력된 경우에만 개인 일정을 필터링합니다.
     let personalSchedules = currentMonthPerformances.filter(p => p.castIds.includes(memberId));
-    if (activeViewMode === "schedule" && activeCategoryFilter !== "all") {
-        personalSchedules = personalSchedules.filter(p => (p.category || "기타") === activeCategoryFilter);
+    if (activeViewMode === "schedule") {
+        if (activeCategoryFilter !== "all") {
+            personalSchedules = personalSchedules.filter(p => (p.category || "기타") === activeCategoryFilter);
+        }
+        if (activeSearchQuery.trim() !== "") {
+            const query = activeSearchQuery.toLowerCase().trim();
+            personalSchedules = personalSchedules.filter(p => {
+                const titleMatch = p.title && p.title.toLowerCase().includes(query);
+                const venueMatch = p.venue && p.venue.toLowerCase().includes(query);
+                const castMatch = p.castIds && p.castIds.some(id => {
+                    const member = membersData.find(m => m.memberId === id);
+                    return member && member.name.toLowerCase().includes(query);
+                });
+                return titleMatch || venueMatch || castMatch;
+            });
+        }
     }
 
     let detailsTableHTML = "";
@@ -815,6 +855,40 @@ function showInitializationError(message) {
     document.getElementById("timeline-container").innerHTML = `<div class="loading-text" style="color:red; font-weight:bold;">${message}</div>`;
 }
 
+// 검색 입력 처리기
+function handleSearchInput(value) {
+    activeSearchQuery = value;
+
+    // X 버튼 표시 여부 제어
+    const clearBtn = document.getElementById("search-clear-btn");
+    if (clearBtn) {
+        clearBtn.style.display = value ? "flex" : "none";
+    }
+
+    renderTimeline();
+
+    // 좌측 패널에 활성화된 멤버가 있다면 검색어 변경에 맞추어 스케줄 목록을 새로 고쳐줍니다.
+    refreshActiveMemberProfile();
+}
+
+// 검색어 초기화
+function clearSearchInput() {
+    const searchInput = document.getElementById("timeline-search-input");
+    if (searchInput) {
+        searchInput.value = "";
+        searchInput.focus();
+    }
+    handleSearchInput("");
+}
+
+// 활성화된 멤버 프로필 정보 및 일정 새로고침
+function refreshActiveMemberProfile() {
+    const activeProfileCard = document.querySelector(".profile-card .profile-name");
+    if (activeProfileCard) {
+        const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
+        if (memberObj) selectMember(memberObj.memberId, false);
+    }
+}
 
 function toggleAccordion(bodyId, arrowId) {
     const body = document.getElementById(bodyId);

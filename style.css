@@ -316,6 +316,55 @@ body {
     font-size: 14px;
 }
 
+/* 검색창 영역 */
+.timeline-search-wrapper {
+    position: relative;
+    padding: 8px 16px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+}
+
+.timeline-search-wrapper input {
+    width: 100%;
+    padding: 8px 32px 8px 12px; /* 우측에 지우기 버튼 여백 확보 */
+    font-size: 13px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.2s, background-color 0.2s, box-shadow 0.2s;
+    background-color: #f8f9fa;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.timeline-search-wrapper input:focus {
+    border-color: #00796b;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(0, 121, 107, 0.1);
+}
+
+.search-clear-btn {
+    position: absolute;
+    right: 24px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #999;
+    cursor: pointer;
+    display: none; /* 기본 숨김, 검색어 입력 시 표시 */
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.search-clear-btn:hover {
+    color: #333;
+}
+
 /* 💡 [신규] 연/월 개별 선택용 셀렉터 컨테이너 및 인풋 디자인 정의 [1] */
 .month-select-container {
     display: flex;
