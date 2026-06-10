@@ -24,8 +24,7 @@ const translations = {
         cast: "출연진",
         errLoadMembers: "data/members.json 로드 실패. 서버 CORS 차단 유무 및 경로를 검사해 주세요.",
         errLoadSchedule: "스케줄 로딩 실패 ({year}년 {month}월)",
-        loadingMembers: "멤버 데이터 로딩 중...",
-        loadingSchedule: "data/performances_{year}_{month}.json 스케줄 로딩 중...",
+        noCategoryPerformances: "선택한 카테고리의 일정이 없습니다.",
         
         accordionDetail: "세부 프로필 정보",
         labelNickname: "닉네임",
@@ -67,8 +66,7 @@ const translations = {
         cast: "出演キャスト",
         errLoadMembers: "data/members.json の読み込みに失敗しました。CORS制限 또는 경로를 확인해주세요.",
         errLoadSchedule: "スケジュールの読み込みに失敗しました（{year}年{month}月）",
-        loadingMembers: "멤버 데이터 읽기 중...",
-        loadingSchedule: "data/performances_{year}_{month}.json schedule 読み込み중...",
+        noCategoryPerformances: "選択されたカテゴリのスケジュールがありません。",
         
         accordionDetail: "詳細プロフィール",
         labelNickname: "ニックネーム",
@@ -109,8 +107,7 @@ const translations = {
         cast: "Cast",
         errLoadMembers: "Failed to load data/members.json. Please check local server CORS restrictions.",
         errLoadSchedule: "Failed to load schedule ({year}-{month})",
-        loadingMembers: "Loading member data...",
-        loadingSchedule: "Loading schedule data/performances_{year}_{month}.json...",
+        noCategoryPerformances: "No schedules found for the selected category.",
         
         accordionDetail: "Detailed Profile",
         labelNickname: "Nickname",
@@ -139,11 +136,40 @@ function t(key, vars = {}) {
     return text;
 }
 
+// 카테고리 다국어 번역 사전
+const categoryTranslations = {
+    ko: {
+        "公演": "극장 공연",
+        "メディア": "미디어",
+        "イベント": "이벤트",
+        "その他": "기타",
+        "기타": "기타",
+        "all": "전체"
+    },
+    ja: {
+        "公演": "公演",
+        "メディア": "メディア",
+        "イベント": "イベント",
+        "その他": "その他",
+        "기타": "その他",
+        "all": "全て"
+    },
+    en: {
+        "公演": "Show",
+        "メディア": "Media",
+        "イベント": "Event",
+        "other": "Other",
+        "기타": "Other",
+        "all": "All"
+    }
+};
+
 // 전역 상태 변수
 let membersData = []; 
 let currentMonthPerformances = []; 
 let activeSelectedDay = null; 
 let activeViewMode = "schedule"; 
+let activeCategoryFilter = "all"; 
 
 // 오늘 날짜 데이터를 실시간으로 가져와 전역 설정합니다 [1].
 const systemToday = new Date();
@@ -192,6 +218,13 @@ function switchViewMode(mode) {
         scheduleArea.style.display = "none";
         profilesArea.style.display = "block";
         renderTeamBasedProfiles(); 
+    }
+
+    // 좌측 패널에 활성화된 멤버가 있다면 탭 전환 시점의 모드에 맞추어 스케줄 목록을 새로 고쳐줍니다.
+    const activeProfileCard = document.querySelector(".profile-card .profile-name");
+    if (activeProfileCard) {
+        const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
+        if (memberObj) selectMember(memberObj.memberId, false);
     }
 }
 
@@ -278,9 +311,8 @@ function renderTeamBasedProfiles() {
 }
 
 // 달력 데이터 취합 및 타임라인 생성 시 하루 복수 공연 개별 분할 렌더링 지원 [1]
-async function loadTimeline() {
+async function loadTimeline(resetFilter = true) {
     const formattedMonth = String(viewMonth).padStart(2, '0');
-    const yearMonthKey = `${viewYear}-${formattedMonth}`;
     
     // 💡 [신규 고도화] 현재 조회 중인 연월 드롭다운 옵션들을 현지 다국어 리소스 기반으로 재생성 및 바인딩 [1]
     updateDateSelects();
@@ -300,14 +332,98 @@ async function loadTimeline() {
         currentMonthPerformances = [];
     }
 
+    if (resetFilter) {
+        activeCategoryFilter = "all";
+    }
+
+    renderTimeline();
+}
+
+// 필터 바를 동적으로 렌더링하는 함수
+function renderFilterBar() {
+    const filterBar = document.getElementById("timeline-filter-bar");
+    if (!filterBar) return;
+
+    // 현재 로드된 월의 모든 공연 데이터에서 고유 카테고리 추출 (null 또는 undefined 제외)
+    const rawCategories = currentMonthPerformances.map(p => p.category || "기타");
+    const categories = Array.from(new Set(rawCategories)).filter(c => c);
+
+    // 카테고리 정렬 순서 정의 (공연 -> 미디어 -> 이벤트 -> 기타 순)
+    const categoryOrder = ["公演", "メディア", "イベント", "기타"];
+    categories.sort((a, b) => {
+        const idxA = categoryOrder.indexOf(a);
+        const idxB = categoryOrder.indexOf(b);
+        if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+        if (idxA !== -1) return -1;
+        if (idxB !== -1) return 1;
+        return a.localeCompare(b);
+    });
+
+    const getCategoryLabel = (cat) => {
+        if (categoryTranslations[currentLang] && categoryTranslations[currentLang][cat]) {
+            return categoryTranslations[currentLang][cat];
+        }
+        return cat;
+    };
+
+    let filterHTML = `
+        <button class="filter-pill ${activeCategoryFilter === 'all' ? 'active' : ''}" onclick="setCategoryFilter('all')">
+            ${getCategoryLabel('all')}
+        </button>
+    `;
+
+    categories.forEach(cat => {
+        filterHTML += `
+            <button class="filter-pill ${activeCategoryFilter === cat ? 'active' : ''}" onclick="setCategoryFilter('${cat}')">
+                ${getCategoryLabel(cat)}
+            </button>
+        `;
+    });
+
+    filterBar.innerHTML = filterHTML;
+}
+
+// 카테고리 필터 선택 시 실행되는 함수
+function setCategoryFilter(category) {
+    activeCategoryFilter = category;
+    renderTimeline();
+
+    // 좌측 패널에 활성화된 멤버가 있다면 필터 변경에 맞추어 스케줄 목록을 새로 고쳐줍니다.
+    const activeProfileCard = document.querySelector(".profile-card .profile-name");
+    if (activeProfileCard) {
+        const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
+        if (memberObj) selectMember(memberObj.memberId, false);
+    }
+}
+
+// 타임라인 그리기 함수
+function renderTimeline() {
+    renderFilterBar();
+
+    const timelineContainer = document.getElementById("timeline-container");
     timelineContainer.innerHTML = "";
+
+    const formattedMonth = String(viewMonth).padStart(2, '0');
     const daysInMonth = new Date(viewYear, viewMonth, 0).getDate();
+
+    // 카테고리 필터링 적용
+    let filteredPerformances = currentMonthPerformances;
+    if (activeCategoryFilter !== "all") {
+        filteredPerformances = currentMonthPerformances.filter(p => (p.category || "기타") === activeCategoryFilter);
+    }
+
+    let hasAnyPerformance = filteredPerformances.length > 0;
 
     for (let day = 1; day <= daysInMonth; day++) {
         const dateStr = `${viewYear}-${formattedMonth}-${String(day).padStart(2, '0')}`;
         
-        // 하루에 등록된 모든 공연 수집
-        const dayPerfs = currentMonthPerformances.filter(p => p.date === dateStr);
+        // 하루에 등록된 공연 중 필터 조건에 부합하는 공연들 수집
+        const dayPerfs = filteredPerformances.filter(p => p.date === dateStr);
+
+        // 필터가 'all'이 아니며 해당 날짜에 부합하는 공연이 한 건도 없는 경우 날짜 자체를 타임라인에서 생략합니다.
+        if (activeCategoryFilter !== "all" && dayPerfs.length === 0) {
+            continue;
+        }
 
         // 요일 연산 적용
         const dateObj = new Date(viewYear, viewMonth - 1, day);
@@ -317,21 +433,21 @@ async function loadTimeline() {
 
         const dayDiv = document.createElement("div");
         dayDiv.className = "timeline-day";
-        dayDiv.id = `day-container-${day}`; // 일자별 그룹화 그릇 생성
+        dayDiv.id = `day-container-${day}`;
 
         const isToday = viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1) && day === systemToday.getDate();
         if (isToday) {
             dayDiv.classList.add("today-highlight");
         }
 
-        // 들여쓰기가 뒤죽박죽되지 않도록 .day-num(날짜)과 .day-content(스케줄들) 구조 일치 적용
+        // 들여쓰기 구조를 완벽히 통일시킵니다.
         let contentHTML = `
             <div class="day-num ${dayClass}">${day}<span class="weekday">(${weekdayName})</span></div>
             <div class="day-content">
         `;
 
         if (dayPerfs.length > 0) {
-            // 한 날짜 아래에 각각의 스케줄 카드(.perf-item-link)를 개별 배치하여 각자 터치해 세부 조회가 되도록 구현합니다.
+            // 한 날짜의 여러 스케줄을 순서대로 생성
             dayPerfs.forEach((perf, idx) => {
                 const castNames = perf.castIds.map(id => {
                     const m = membersData.find(mem => mem.memberId === id);
@@ -348,7 +464,7 @@ async function loadTimeline() {
                 `;
             });
         } else {
-            // 공연이 없는 날도 동일 구조 매핑을 통해 가로 세로 들여쓰기 선 정합성을 확보합니다.
+            // 필터가 'all'이면서 일정이 없는 날 (기본 빈 카드를 보여줌)
             contentHTML += `
                 <div class="perf-item-link empty" id="perf-link-${day}-0" onclick="handleEmptyClick('${day}-0', '${dateStr}', this)">
                     <div class="day-title" style="color: #bbb; font-weight: normal;">${t("noPerformance")}</div>
@@ -362,18 +478,45 @@ async function loadTimeline() {
         timelineContainer.appendChild(dayDiv);
     }
 
-    // 초기 로딩 시 오늘 날짜의 첫 번째 일정 카드(0번 인덱스)를 자동으로 찾아서 스크롤 및 클릭 처리합니다.
+    // 만약 필터 결과 일치하는 일정이 없으면 예쁜 결과 없음 메시지를 띄웁니다.
+    if (activeCategoryFilter !== "all" && !hasAnyPerformance) {
+        timelineContainer.innerHTML = `
+            <div class="no-filter-results">
+                ${t("noCategoryPerformances")}
+            </div>
+        `;
+    }
+
+    // 필터링 적용 후, 자동으로 클릭 및 포커싱할 타겟 설정
     setTimeout(() => {
-        if (viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1)) {
-            const todayFirstId = `perf-link-${systemToday.getDate()}-0`;
-            const todayFirstElement = document.getElementById(todayFirstId);
-            if (todayFirstElement) {
-                todayFirstElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                todayFirstElement.click(); 
+        const firstElement = timelineContainer.querySelector(".perf-item-link");
+        if (firstElement) {
+            let clickTarget = null;
+            if (viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1)) {
+                const todayDay = systemToday.getDate();
+                const todayLinks = timelineContainer.querySelectorAll(`.perf-item-link[id^="perf-link-${todayDay}-"]`);
+                const validTodayLink = Array.from(todayLinks).find(el => !el.classList.contains("empty"));
+                if (validTodayLink) {
+                    clickTarget = validTodayLink;
+                } else if (todayLinks.length > 0) {
+                    clickTarget = todayLinks[0];
+                }
+            }
+
+            if (!clickTarget) {
+                clickTarget = firstElement;
+            }
+
+            if (clickTarget) {
+                clickTarget.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                clickTarget.click();
             }
         } else {
-            const firstElement = timelineContainer.querySelector(".perf-item-link");
-            if (firstElement) firstElement.click();
+            // 클릭할 요소가 아예 없으면 우측 상세창을 비워둡니다.
+            const detailWrapper = document.getElementById("detail-wrapper");
+            if (detailWrapper) {
+                detailWrapper.innerHTML = `<div class="profile-placeholder"><p>${t("detailPlaceholder")}</p></div>`;
+            }
         }
     }, 100);
 }
@@ -481,7 +624,7 @@ async function switchLanguage(lang) {
     localStorage.setItem("ske_lang", lang); 
     
     updateStaticPlaceholders();
-    await loadTimeline();
+    await loadTimeline(false);
 
     // 개별 복수 일정 전환 보존을 위해 `perf-link-` ID를 추적하도록 매핑을 보완합니다.
     if (activeSelectedDay && activeViewMode === "schedule") {
@@ -567,7 +710,12 @@ function selectMember(memberId, forceOpen = true) {
     if (!member) return;
 
     const leftPanelContent = document.getElementById("left-panel-content");
-    const personalSchedules = currentMonthPerformances.filter(p => p.castIds.includes(memberId));
+    
+    // activeViewMode === "schedule" 이고 카테고리 필터가 "all"이 아닌 경우에만 개인 일정을 필터링합니다.
+    let personalSchedules = currentMonthPerformances.filter(p => p.castIds.includes(memberId));
+    if (activeViewMode === "schedule" && activeCategoryFilter !== "all") {
+        personalSchedules = personalSchedules.filter(p => (p.category || "기타") === activeCategoryFilter);
+    }
 
     let detailsTableHTML = "";
     const d = member.details || member.detail; 

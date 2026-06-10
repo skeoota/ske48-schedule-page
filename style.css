@@ -247,6 +247,75 @@ body {
     gap: 12px;
 }
 
+/* 상단 헤더 버튼 일반 디자인 */
+.nav-btn {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: inherit;
+    color: var(--text-color);
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 6px 14px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+.nav-btn:hover {
+    border-color: #00796b;
+    background-color: #fafafa;
+}
+
+/* 카테고리 필터 바 및 알약 버튼 스타일 */
+.timeline-filter-bar {
+    display: flex;
+    gap: 8px;
+    padding: 12px 16px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none; /* Firefox */
+}
+
+.timeline-filter-bar::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+.filter-pill {
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #666;
+    background-color: #f1f3f4;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+    font-family: inherit;
+}
+
+.filter-pill:hover {
+    background-color: #e8eaed;
+    color: #333;
+}
+
+.filter-pill.active {
+    background-color: var(--accent-light);
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    box-shadow: 0 2px 6px rgba(255, 51, 102, 0.15);
+}
+
+.no-filter-results {
+    padding: 40px 20px;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
+
 /* 💡 [신규] 연/월 개별 선택용 셀렉터 컨테이너 및 인풋 디자인 정의 [1] */
 .month-select-container {
     display: flex;
@@ -674,21 +743,48 @@ body {
 
     /* 헤더 크기 및 정렬 조절 */
     .header-nav {
-        padding: 12px 16px;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        padding: 10px 12px;
+        border-bottom: 1px solid #eee;
     }
 
-    .header-nav h2 {
-        font-size: 16px;
-        min-width: 110px;
+    .nav-controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 8px;
+    }
+
+    .month-select-container {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .month-select-dropdown {
+        font-size: 14px;
+        padding: 5px 6px;
+        font-weight: bold;
     }
 
     .nav-btn {
-        padding: 6px 12px;
+        padding: 5px 10px;
         font-size: 12px;
     }
 
+    .lang-select-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     .lang-select-wrapper select {
-        padding: 6px 8px;
+        width: 100%;
+        max-width: 180px;
+        padding: 5px 10px;
         font-size: 12px;
     }
 
