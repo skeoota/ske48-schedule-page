@@ -5,7 +5,7 @@ const translations = {
         monthLabel: "{year}년 {month}월",
         prevMonth: "이전 달",
         nextMonth: "다음 달",
-        btnToday: "오늘", 
+        btnToday: "오늘",
         tabSchedule: "극장 스케줄",
         tabProfiles: "멤버 프로필",
         teamCountLabel: "({count}명)",
@@ -25,7 +25,7 @@ const translations = {
         errLoadMembers: "data/members.json 로드 실패. 서버 CORS 차단 유무 및 경로를 검사해 주세요.",
         errLoadSchedule: "스케줄 로딩 실패 ({year}년 {month}월)",
         noCategoryPerformances: "선택한 카테고리의 일정이 없습니다.",
-        
+
         accordionDetail: "세부 프로필 정보",
         labelNickname: "닉네임",
         labelBirthdate: "생년월일",
@@ -35,9 +35,9 @@ const translations = {
         labelMemberColor: "멤버 컬러",
         labelHobby: "취미",
         labelSpecialty: "특기",
-        
+
         weekdays: ["일", "월", "화", "수", "목", "금", "토"],
-        
+
         // 💡 [신규] 선택기 전용 다국어 리소스 [1]
         yearSuffix: "년",
         months: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"]
@@ -67,7 +67,7 @@ const translations = {
         errLoadMembers: "data/members.json の読み込みに失敗しました。CORS制限 또는 경로를 확인해주세요.",
         errLoadSchedule: "スケジュールの読み込みに失敗しました（{year}年{month}月）",
         noCategoryPerformances: "選択されたカテゴリのスケジュールがありません。",
-        
+
         accordionDetail: "詳細プロフィール",
         labelNickname: "ニックネーム",
         labelBirthdate: "生年月日",
@@ -77,9 +77,9 @@ const translations = {
         labelMemberColor: "メンバーカラー",
         labelHobby: "趣味",
         labelSpecialty: "特技",
-        
+
         weekdays: ["日", "月", "火", "水", "木", "金", "土"],
-        
+
         yearSuffix: "年",
         months: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"]
     },
@@ -108,7 +108,7 @@ const translations = {
         errLoadMembers: "Failed to load data/members.json. Please check local server CORS restrictions.",
         errLoadSchedule: "Failed to load schedule ({year}-{month})",
         noCategoryPerformances: "No schedules found for the selected category.",
-        
+
         accordionDetail: "Detailed Profile",
         labelNickname: "Nickname",
         labelBirthdate: "Birthdate",
@@ -118,9 +118,9 @@ const translations = {
         labelMemberColor: "Member Color",
         labelHobby: "Hobby",
         labelSpecialty: "Specialty",
-        
+
         weekdays: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-        
+
         yearSuffix: " ",
         months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     }
@@ -165,11 +165,11 @@ const categoryTranslations = {
 };
 
 // 전역 상태 변수
-let membersData = []; 
-let currentMonthPerformances = []; 
-let activeSelectedDay = null; 
-let activeViewMode = "schedule"; 
-let activeCategoryFilter = "all"; 
+let membersData = [];
+let currentMonthPerformances = [];
+let activeSelectedDay = null;
+let activeViewMode = "schedule";
+let activeCategoryFilter = "all";
 
 // 오늘 날짜 데이터를 실시간으로 가져와 전역 설정합니다 [1].
 const systemToday = new Date();
@@ -193,15 +193,15 @@ async function initApplication() {
         showInitializationError(t("errLoadMembers"));
         return;
     }
-    
+
     await loadTimeline();
-    renderTeamBasedProfiles(); 
+    renderTeamBasedProfiles();
 }
 
 // 뷰 전환 통제
 function switchViewMode(mode) {
     activeViewMode = mode;
-    
+
     const tabBtnSchedule = document.getElementById("tab-btn-schedule");
     const tabBtnProfiles = document.getElementById("tab-btn-profiles");
     const scheduleArea = document.getElementById("schedule-view-area");
@@ -217,7 +217,7 @@ function switchViewMode(mode) {
         tabBtnProfiles.classList.add("active");
         scheduleArea.style.display = "none";
         profilesArea.style.display = "block";
-        renderTeamBasedProfiles(); 
+        renderTeamBasedProfiles();
     }
 
     // 좌측 패널에 활성화된 멤버가 있다면 탭 전환 시점의 모드에 맞추어 스케줄 목록을 새로 고쳐줍니다.
@@ -232,7 +232,7 @@ function updateStaticPlaceholders() {
     document.title = t("title");
     document.getElementById("btn-prev-month").textContent = `< ${t("prevMonth")}`;
     document.getElementById("btn-next-month").textContent = `${t("nextMonth")} >`;
-    document.getElementById("btn-today").textContent = t("btnToday"); 
+    document.getElementById("btn-today").textContent = t("btnToday");
     document.getElementById("tab-btn-schedule").textContent = t("tabSchedule");
     document.getElementById("tab-btn-profiles").textContent = t("tabProfiles");
 
@@ -256,7 +256,7 @@ function closeMobileDrawer() {
 // 멤버를 팀별로 그룹화 및 순서(S -> KII -> E -> 연구생)대로 구분 나열
 function renderTeamBasedProfiles() {
     const container = document.getElementById("profiles-view-area");
-    container.innerHTML = ""; 
+    container.innerHTML = "";
 
     const grouped = {};
     membersData.forEach(member => {
@@ -271,7 +271,7 @@ function renderTeamBasedProfiles() {
     const sortedTeamNames = Object.keys(grouped).sort((a, b) => {
         const indexA = officialOrder.findIndex(term => a.toUpperCase().includes(term.toUpperCase()) || term.toUpperCase().includes(a.toUpperCase()));
         const indexB = officialOrder.findIndex(term => b.toUpperCase().includes(term.toUpperCase()) || term.toUpperCase().includes(b.toUpperCase()));
-        
+
         if (indexA === -1 && indexB === -1) return a.localeCompare(b);
         if (indexA === -1) return 1;
         if (indexB === -1) return -1;
@@ -280,7 +280,7 @@ function renderTeamBasedProfiles() {
 
     sortedTeamNames.forEach(teamName => {
         const membersInTeam = grouped[teamName];
-        
+
         const sectionDiv = document.createElement("div");
         sectionDiv.className = "team-section";
 
@@ -313,10 +313,10 @@ function renderTeamBasedProfiles() {
 // 달력 데이터 취합 및 타임라인 생성 시 하루 복수 공연 개별 분할 렌더링 지원 [1]
 async function loadTimeline(resetFilter = true) {
     const formattedMonth = String(viewMonth).padStart(2, '0');
-    
+
     // 💡 [신규 고도화] 현재 조회 중인 연월 드롭다운 옵션들을 현지 다국어 리소스 기반으로 재생성 및 바인딩 [1]
     updateDateSelects();
-    
+
     const timelineContainer = document.getElementById("timeline-container");
     timelineContainer.innerHTML = `<div class="loading-text">${t("loadingSchedule", { year: viewYear, month: formattedMonth })}</div>`;
 
@@ -416,7 +416,7 @@ function renderTimeline() {
 
     for (let day = 1; day <= daysInMonth; day++) {
         const dateStr = `${viewYear}-${formattedMonth}-${String(day).padStart(2, '0')}`;
-        
+
         // 하루에 등록된 공연 중 필터 조건에 부합하는 공연들 수집
         const dayPerfs = filteredPerformances.filter(p => p.date === dateStr);
 
@@ -572,9 +572,9 @@ async function goToToday() {
     const today = new Date();
     viewYear = today.getFullYear();
     viewMonth = today.getMonth() + 1;
-    
+
     // 타임라인을 새로 빌딩하면 내부의 오토포커싱 루틴에 의해 오늘의 첫 일정을 자동 타겟팅 및 클릭하게 됩니다.
-    await loadTimeline(); 
+    await loadTimeline();
 }
 
 // 개별 스케줄을 클릭했을 때의 통합 인터랙션 함수
@@ -611,7 +611,7 @@ async function changeMonth(step) {
         viewYear -= 1;
     }
     await loadTimeline();
-    
+
     const activeProfileCard = document.querySelector(".profile-card .profile-name");
     if (activeProfileCard) {
         const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
@@ -621,8 +621,8 @@ async function changeMonth(step) {
 
 async function switchLanguage(lang) {
     currentLang = lang;
-    localStorage.setItem("ske_lang", lang); 
-    
+    localStorage.setItem("ske_lang", lang);
+
     updateStaticPlaceholders();
     await loadTimeline(false);
 
@@ -633,7 +633,7 @@ async function switchLanguage(lang) {
             currentElement.click();
         }
     }
-    
+
     const activeProfileCard = document.querySelector(".profile-card .profile-name");
     if (activeProfileCard) {
         const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
@@ -710,7 +710,7 @@ function selectMember(memberId, forceOpen = true) {
     if (!member) return;
 
     const leftPanelContent = document.getElementById("left-panel-content");
-    
+
     // activeViewMode === "schedule" 이고 카테고리 필터가 "all"이 아닌 경우에만 개인 일정을 필터링합니다.
     let personalSchedules = currentMonthPerformances.filter(p => p.castIds.includes(memberId));
     if (activeViewMode === "schedule" && activeCategoryFilter !== "all") {
@@ -718,8 +718,8 @@ function selectMember(memberId, forceOpen = true) {
     }
 
     let detailsTableHTML = "";
-    const d = member.details || member.detail; 
-    
+    const d = member.details || member.detail;
+
     if (d) {
         const labelMap = {
             "nickname": t("labelNickname"),
@@ -753,8 +753,8 @@ function selectMember(memberId, forceOpen = true) {
         personalSchedules.forEach(schedule => {
             const rawCastNames = schedule.castIds.map(id => {
                 const m = membersData.find(mem => mem.memberId === id);
-                if (!m) return id; 
-                return m.memberId === memberId 
+                if (!m) return id;
+                return m.memberId === memberId
                     ? `<span class="highlight-name">${m.name}</span>`
                     : m.name;
             }).filter(name => name).join(", ");
@@ -804,7 +804,7 @@ function selectMember(memberId, forceOpen = true) {
 
     const leftPanel = document.getElementById("left-panel");
     const isDrawerOpen = leftPanel.classList.contains("drawer-active");
-    
+
     if (forceOpen || isDrawerOpen) {
         leftPanel.classList.add("drawer-active");
         document.getElementById("drawer-overlay").classList.add("active");
@@ -815,6 +815,21 @@ function showInitializationError(message) {
     document.getElementById("timeline-container").innerHTML = `<div class="loading-text" style="color:red; font-weight:bold;">${message}</div>`;
 }
 
-window.onload = function() {
+
+function toggleAccordion(bodyId, arrowId) {
+    const body = document.getElementById(bodyId);
+    const arrow = document.getElementById(arrowId);
+    if (!body || !arrow) return;
+
+    if (body.classList.contains("collapsed")) {
+        body.classList.remove("collapsed");
+        arrow.textContent = "▼";
+    } else {
+        body.classList.add("collapsed");
+        arrow.textContent = "▶";
+    }
+}
+
+window.onload = function () {
     initApplication();
 };
