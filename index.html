@@ -65,6 +65,12 @@
                 <!-- 카테고리 필터 바 -->
                 <div class="timeline-filter-bar" id="timeline-filter-bar"></div>
                 
+                <!-- 검색 필터 영역 -->
+                <div class="timeline-search-wrapper">
+                    <input type="text" id="timeline-search-input" oninput="handleSearchInput(this.value)" placeholder="공연명, 출연진, 장소 검색...">
+                    <button class="search-clear-btn" id="search-clear-btn" onclick="clearSearchInput()">&times;</button>
+                </div>
+                
                 <div class="timeline-container" id="timeline-container">
                     <div class="loading-text">Loading...</div>
                 </div>
