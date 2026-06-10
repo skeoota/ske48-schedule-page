@@ -3,8 +3,48 @@
   "performances": [
     {
       "performanceId": "P2501_01",
+      "category": "メディア",
+      "title": "CBCラジオ特番「SKE48 西井美桜と伊藤実希の新春みおみきまつり」",
+      "date": "2025-01-01",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67",
+        "member_72"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52466"
+    },
+    {
+      "performanceId": "P2501_02",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-01",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52534"
+    },
+    {
+      "performanceId": "P2501_03",
+      "category": "メディア",
+      "title": "シーシーエヌ『笠松けいば応援番組　SKE48 太田彩夏の笠馬X』（前編）",
+      "date": "2025-01-01",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52659"
+    },
+    {
+      "performanceId": "P2501_04",
+      "category": "公演",
       "title": "SKE48劇場　2025年元日『新チーム発表＆ご挨拶』＜16:00開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52715",
       "date": "2025-01-01",
       "time": "16:00",
       "venue": "SKE48劇場",
@@ -13,12 +53,205 @@
         "dmm.com",
         "lod",
         "ske48"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52715"
     },
     {
-      "performanceId": "P2501_02",
+      "performanceId": "P2501_05",
+      "category": "メディア",
+      "title": "FM AICHI「TAKE ON ENERGY MUSIC ～NEW YEAR SPECIAL～」",
+      "date": "2025-01-01",
+      "time": "18:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52622"
+    },
+    {
+      "performanceId": "P2501_06",
+      "category": "イベント",
+      "title": "名古屋栄三越「初売りイベント」",
+      "date": "2025-01-02",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_16",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52502"
+    },
+    {
+      "performanceId": "P2501_07",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-02",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52535"
+    },
+    {
+      "performanceId": "P2501_08",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-03",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_55"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52536"
+    },
+    {
+      "performanceId": "P2501_09",
+      "category": "メディア",
+      "title": "CBCラジオ「城所あゆねのグランパスタイム」",
+      "date": "2025-01-03",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52525"
+    },
+    {
+      "performanceId": "P2501_10",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2025-01-03",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8",
+        "member_44",
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52671"
+    },
+    {
+      "performanceId": "P2501_11",
+      "category": "メディア",
+      "title": "「東京スポーツ」発売",
+      "date": "2025-01-04",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52317"
+    },
+    {
+      "performanceId": "P2501_12",
+      "category": "メディア",
+      "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
+      "date": "2025-01-04",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52330"
+    },
+    {
+      "performanceId": "P2501_13",
+      "category": "メディア",
+      "title": "テレビ愛知「Fishing Lover東海」",
+      "date": "2025-01-04",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52500"
+    },
+    {
+      "performanceId": "P2501_14",
+      "category": "メディア",
+      "title": "MID-FM761『キャプテン☆kazukiの「SKE48とアッセンブル」』",
+      "date": "2025-01-04",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52667"
+    },
+    {
+      "performanceId": "P2501_15",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2025-01-04",
+      "time": "19:40",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52675"
+    },
+    {
+      "performanceId": "P2501_16",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2025-01-04",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52679"
+    },
+    {
+      "performanceId": "P2501_17",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2025-01-04",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_9",
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52660"
+    },
+    {
+      "performanceId": "P2501_18",
+      "category": "メディア",
+      "title": "東海テレビ「競馬BEAT」",
+      "date": "2025-01-05",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52393"
+    },
+    {
+      "performanceId": "P2501_19",
+      "category": "公演",
       "title": "チームKⅡ「時間がない」公演＜17:00開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52606",
       "date": "2025-01-05",
       "time": "17:00",
       "venue": "SKE48劇場",
@@ -40,12 +273,105 @@
         "member_82",
         "member_85",
         "member_89"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52606"
     },
     {
-      "performanceId": "P2501_03",
+      "performanceId": "P2501_20",
+      "category": "メディア",
+      "title": "「東スポweb」",
+      "date": "2025-01-05",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/53680"
+    },
+    {
+      "performanceId": "P2501_21",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」（フード企画）",
+      "date": "2025-01-06",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52720"
+    },
+    {
+      "performanceId": "P2501_22",
+      "category": "メディア",
+      "title": "ラジオ大阪×ミクチャ「サクラバシ919」",
+      "date": "2025-01-06",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52304"
+    },
+    {
+      "performanceId": "P2501_23",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 坂本真凛のりんりんらじお」",
+      "date": "2025-01-06",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52450"
+    },
+    {
+      "performanceId": "P2501_24",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-06",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_45",
+        "member_72"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52532"
+    },
+    {
+      "performanceId": "P2501_25",
+      "category": "メディア",
+      "title": "KBS京都「うまDOKI」",
+      "date": "2025-01-06",
+      "time": "15:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52735"
+    },
+    {
+      "performanceId": "P2501_26",
+      "category": "メディア",
+      "title": "NHK名古屋「まるっと！」",
+      "date": "2025-01-06",
+      "time": "18:10",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52626"
+    },
+    {
+      "performanceId": "P2501_27",
+      "category": "公演",
       "title": "チームS「愛を君に、愛を僕に」公演＜18:30開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52607",
       "date": "2025-01-06",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -67,12 +393,170 @@
         "member_19",
         "岡本彩夏",
         "member_90"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52607"
     },
     {
-      "performanceId": "P2501_04",
+      "performanceId": "P2501_28",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2025-01-06",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_45",
+        "member_47",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52654"
+    },
+    {
+      "performanceId": "P2501_29",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2025-01-06",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52695"
+    },
+    {
+      "performanceId": "P2501_30",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」（フード企画）",
+      "date": "2025-01-07",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52722"
+    },
+    {
+      "performanceId": "P2501_31",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-07",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52533"
+    },
+    {
+      "performanceId": "P2501_32",
+      "category": "メディア",
+      "title": "ボートレース多摩川公式YouTube「どちゃんこTV」",
+      "date": "2025-01-07",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52739"
+    },
+    {
+      "performanceId": "P2501_33",
+      "category": "メディア",
+      "title": "CSフジテレビTWO特番『IDOL SQUARE 6』",
+      "date": "2025-01-07",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_26",
+        "member_44",
+        "member_48",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_64",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52763"
+    },
+    {
+      "performanceId": "P2501_34",
+      "category": "メディア",
+      "title": "「週刊SPA!」",
+      "date": "2025-01-07",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52862"
+    },
+    {
+      "performanceId": "P2501_35",
+      "category": "メディア",
+      "title": "NHK名古屋「ぐるっと！」",
+      "date": "2025-01-07",
+      "time": "11:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52627"
+    },
+    {
+      "performanceId": "P2501_36",
+      "category": "メディア",
+      "title": "「東スポweb」",
+      "date": "2025-01-07",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_89"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/53679"
+    },
+    {
+      "performanceId": "P2501_37",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-08",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52539"
+    },
+    {
+      "performanceId": "P2501_38",
+      "category": "メディア",
+      "title": "響-HiBiKi Radio Station-「SKE48・⼆次元同好会 好きが⾼じて少し暴⾛してしまうこともあるかもしれません！」",
+      "date": "2025-01-08",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52130"
+    },
+    {
+      "performanceId": "P2501_39",
+      "category": "公演",
       "title": "チームE「声出していこーぜ!!!」公演＜18:30開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52608",
       "date": "2025-01-08",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -94,12 +578,67 @@
         "member_81",
         "member_82",
         "member_85"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52608"
     },
     {
-      "performanceId": "P2501_05",
+      "performanceId": "P2501_40",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-09",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52540"
+    },
+    {
+      "performanceId": "P2501_41",
+      "category": "メディア",
+      "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
+      "date": "2025-01-09",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52723"
+    },
+    {
+      "performanceId": "P2501_42",
+      "category": "メディア",
+      "title": "メ～テレ「Digった！」",
+      "date": "2025-01-09",
+      "time": "11:40",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52524"
+    },
+    {
+      "performanceId": "P2501_43",
+      "category": "メディア",
+      "title": "愛知北エフエム放送『SKE48ゆうねと千成工業がものづくりやってみた！』",
+      "date": "2025-01-09",
+      "time": "12:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52759"
+    },
+    {
+      "performanceId": "P2501_44",
+      "category": "公演",
       "title": "「制服の芽」公演＜18:00開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52609",
       "date": "2025-01-09",
       "time": "18:00",
       "venue": "SKE48劇場",
@@ -117,12 +656,38 @@
         "member_89",
         "member_90",
         "member_91"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52609"
     },
     {
-      "performanceId": "P2501_06",
+      "performanceId": "P2501_45",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-10",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_75",
+        "member_76"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52541"
+    },
+    {
+      "performanceId": "P2501_46",
+      "category": "メディア",
+      "title": "テレビ愛知「キン・ドニーチ」",
+      "date": "2025-01-10",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/52599"
+    },
+    {
+      "performanceId": "P2501_47",
+      "category": "公演",
       "title": "SKE48 ミミフィーユ特別公演＜18:30開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52610",
       "date": "2025-01-10",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -134,12 +699,331 @@
         "member_75",
         "member_50",
         "member_78"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52610"
     },
     {
-      "performanceId": "P2501_07",
+      "performanceId": "P2501_48",
+      "category": "メディア",
+      "title": "SKE48 ミミフィーユ特別公演 アフター生配信",
+      "date": "2025-01-10",
+      "time": "21:15",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_50",
+        "member_74",
+        "member_75",
+        "member_76",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52778"
+    },
+    {
+      "performanceId": "P2501_49",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2025-01-10",
+      "time": "25:13",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52810"
+    },
+    {
+      "performanceId": "P2501_50",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2025-01-10",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52672"
+    },
+    {
+      "performanceId": "P2501_51",
+      "category": "握手会",
+      "title": "SKE48 33rdシングル「告白心拍数｣（劇場盤）現地でツーショット撮影会 ※着席形式 @AICHI SKY EXPO",
+      "date": "2025-01-11",
+      "time": "00:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_4",
+        "member_81",
+        "member_23",
+        "member_49",
+        "member_50",
+        "member_96",
+        "member_9",
+        "member_76",
+        "member_55",
+        "member_16",
+        "member_77",
+        "member_90",
+        "member_91",
+        "member_79",
+        "member_3",
+        "member_45",
+        "member_67",
+        "member_5",
+        "member_82",
+        "member_48",
+        "member_8",
+        "member_95",
+        "member_86",
+        "member_97",
+        "member_52",
+        "member_75",
+        "member_19",
+        "member_1",
+        "member_64",
+        "member_2",
+        "member_44",
+        "member_47",
+        "member_26",
+        "member_92",
+        "member_74",
+        "member_85",
+        "member_34",
+        "member_13",
+        "member_72",
+        "member_89",
+        "member_78",
+        "member_93",
+        "member_94",
+        "member_98",
+        "member_99",
+        "member_88",
+        "member_100",
+        "member_101",
+        "member_102",
+        "member_103",
+        "member_104",
+        "member_105"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/51223"
+    },
+    {
+      "performanceId": "P2501_52",
+      "category": "メディア",
+      "title": "「東京スポーツ」発売",
+      "date": "2025-01-11",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52318"
+    },
+    {
+      "performanceId": "P2501_53",
+      "category": "メディア",
+      "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
+      "date": "2025-01-11",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52331"
+    },
+    {
+      "performanceId": "P2501_54",
+      "category": "メディア",
+      "title": "メ〜テレ「ドデスカ！」",
+      "date": "2025-01-11",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52394"
+    },
+    {
+      "performanceId": "P2501_55",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2025-01-11",
+      "time": "19:40",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52676"
+    },
+    {
+      "performanceId": "P2501_56",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2025-01-11",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52680"
+    },
+    {
+      "performanceId": "P2501_57",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2025-01-11",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_75",
+        "member_82",
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52661"
+    },
+    {
+      "performanceId": "P2501_58",
+      "category": "握手会",
+      "title": "SKE48 33rdシングル「告白心拍数｣（劇場盤）現地でツーショット撮影会 ※スタンディング形式 @AICHI SKY EXPO",
+      "date": "2025-01-12",
+      "time": "00:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_4",
+        "member_81",
+        "member_23",
+        "member_49",
+        "member_50",
+        "member_96",
+        "member_9",
+        "member_76",
+        "member_55",
+        "member_16",
+        "member_77",
+        "member_90",
+        "member_91",
+        "member_79",
+        "member_3",
+        "member_45",
+        "member_67",
+        "member_5",
+        "member_82",
+        "member_48",
+        "member_8",
+        "member_95",
+        "member_86",
+        "member_97",
+        "member_52",
+        "member_75",
+        "member_19",
+        "member_1",
+        "member_64",
+        "member_2",
+        "member_44",
+        "member_47",
+        "member_26",
+        "member_92",
+        "member_74",
+        "member_85",
+        "member_34",
+        "member_13",
+        "member_72",
+        "member_89",
+        "member_78",
+        "member_93",
+        "member_94",
+        "member_98",
+        "member_99",
+        "member_88",
+        "member_100",
+        "member_101",
+        "member_102",
+        "member_103",
+        "member_104",
+        "member_105"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/51224"
+    },
+    {
+      "performanceId": "P2501_59",
+      "category": "メディア",
+      "title": "テレビ愛知「SKE48の未完全TV」",
+      "date": "2025-01-12",
+      "time": "24:50",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_47",
+        "member_48",
+        "member_67",
+        "member_78",
+        "member_81",
+        "member_82",
+        "member_85",
+        "member_86",
+        "member_90",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52630"
+    },
+    {
+      "performanceId": "P2501_60",
+      "category": "メディア",
+      "title": "ラジオ大阪×ミクチャ「サクラバシ919」",
+      "date": "2025-01-13",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52305"
+    },
+    {
+      "performanceId": "P2501_61",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 坂本真凛のりんりんらじお」",
+      "date": "2025-01-13",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52451"
+    },
+    {
+      "performanceId": "P2501_62",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-13",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52537"
+    },
+    {
+      "performanceId": "P2501_63",
+      "category": "公演",
       "title": "2025年 SKE48 二十歳のつどい劇場イベント＜17:00開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52753",
       "date": "2025-01-13",
       "time": "17:00",
       "venue": "SKE48劇場",
@@ -149,12 +1033,116 @@
         "澤田奏音",
         "member_82",
         "member_86"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52753"
     },
     {
-      "performanceId": "P2501_08",
+      "performanceId": "P2501_64",
+      "category": "メディア",
+      "title": "SKE48 末永桜花卒業コンサート 情報解禁生配信",
+      "date": "2025-01-13",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/52809"
+    },
+    {
+      "performanceId": "P2501_65",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2025-01-13",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_72",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52793"
+    },
+    {
+      "performanceId": "P2501_66",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2025-01-13",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52696"
+    },
+    {
+      "performanceId": "P2501_67",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-14",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52538"
+    },
+    {
+      "performanceId": "P2501_68",
+      "category": "メディア",
+      "title": "「ヤングチャンピオン」新年No.3",
+      "date": "2025-01-14",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52603"
+    },
+    {
+      "performanceId": "P2501_69",
+      "category": "メディア",
+      "title": "ボートレース多摩川公式YouTube「どちゃんこTV」",
+      "date": "2025-01-14",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52740"
+    },
+    {
+      "performanceId": "P2501_70",
+      "category": "メディア",
+      "title": "SKE48 34thシングル選抜メンバー発表＆情報解禁生配信",
+      "date": "2025-01-14",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/52807"
+    },
+    {
+      "performanceId": "P2501_71",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-15",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52544"
+    },
+    {
+      "performanceId": "P2501_72",
+      "category": "公演",
       "title": "「手をつなぎながら」公演＜18:30開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52754",
       "date": "2025-01-15",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -172,12 +1160,308 @@
         "澤田奏音",
         "菅原茉椰",
         "member_78"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52754"
     },
     {
-      "performanceId": "P2501_09",
+      "performanceId": "P2501_73",
+      "category": "メディア",
+      "title": "ニコニコチャンネル「SKE48非公式ちゃんねる」",
+      "date": "2025-01-15",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_16",
+        "member_49",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52808"
+    },
+    {
+      "performanceId": "P2501_74",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-16",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52545"
+    },
+    {
+      "performanceId": "P2501_75",
+      "category": "メディア",
+      "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
+      "date": "2025-01-16",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52724"
+    },
+    {
+      "performanceId": "P2501_76",
+      "category": "メディア",
+      "title": "シーシーエヌ『笠松けいば応援番組　SKE48 太田彩夏の笠馬X』（後編）",
+      "date": "2025-01-16",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52833"
+    },
+    {
+      "performanceId": "P2501_77",
+      "category": "イベント",
+      "title": "アイチポリス 10 万ダウンロード記念! SKE48出演による特別防犯イベント",
+      "date": "2025-01-16",
+      "time": "14:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52799"
+    },
+    {
+      "performanceId": "P2501_78",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-17",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8",
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52546"
+    },
+    {
+      "performanceId": "P2501_79",
+      "category": "イベント",
+      "title": "「このマンガ読んだ？2025」TikTok LIVE",
+      "date": "2025-01-17",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52770"
+    },
+    {
+      "performanceId": "P2501_80",
+      "category": "メディア",
+      "title": "広島エフエム「REN光石火」",
+      "date": "2025-01-17",
+      "time": "21:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/52428"
+    },
+    {
+      "performanceId": "P2501_81",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2025-01-17",
+      "time": "25:23",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_44",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52811"
+    },
+    {
+      "performanceId": "P2501_82",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2025-01-17",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_50",
+        "member_75"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52673"
+    },
+    {
+      "performanceId": "P2501_83",
+      "category": "イベント",
+      "title": "豊田自動織機シャトルズ愛知ホストゲーム",
+      "date": "2025-01-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_9"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52805"
+    },
+    {
+      "performanceId": "P2501_84",
+      "category": "メディア",
+      "title": "「東京スポーツ」発売",
+      "date": "2025-01-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52319"
+    },
+    {
+      "performanceId": "P2501_85",
+      "category": "メディア",
+      "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
+      "date": "2025-01-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52332"
+    },
+    {
+      "performanceId": "P2501_86",
+      "category": "メディア",
+      "title": "MID-FM761『キャプテン☆kazukiの「SKE48とアッセンブル」』",
+      "date": "2025-01-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52668"
+    },
+    {
+      "performanceId": "P2501_87",
+      "category": "イベント",
+      "title": "東京・品川プリンスホテル内クラブeX「第5回“ふたりはプリンセス”Max Heartトーナメント」",
+      "date": "2025-01-18",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/52795"
+    },
+    {
+      "performanceId": "P2501_88",
+      "category": "イベント",
+      "title": "テレ朝動画logirs（ロガール）「WAGEI」公開収録",
+      "date": "2025-01-18",
+      "time": "12:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52434"
+    },
+    {
+      "performanceId": "P2501_89",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2025-01-18",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52837"
+    },
+    {
+      "performanceId": "P2501_90",
+      "category": "メディア",
+      "title": "佐賀競馬公式YouTube「てっちゃんのSAGAリベンジャーズ」",
+      "date": "2025-01-18",
+      "time": "17:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52834"
+    },
+    {
+      "performanceId": "P2501_91",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2025-01-18",
+      "time": "19:40",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52677"
+    },
+    {
+      "performanceId": "P2501_92",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2025-01-18",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52681"
+    },
+    {
+      "performanceId": "P2501_93",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2025-01-18",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8",
+        "member_13",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52803"
+    },
+    {
+      "performanceId": "P2501_94",
+      "category": "メディア",
+      "title": "やしの実FM『やしの実高校～school of ユーモ豊橋2025～（公開生放送）』",
+      "date": "2025-01-19",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52762"
+    },
+    {
+      "performanceId": "P2501_95",
+      "category": "公演",
       "title": "チームS「愛を君に、愛を僕に」公演 荒野姫楓生誕祭＜17:00開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52785",
       "date": "2025-01-19",
       "time": "17:00",
       "venue": "SKE48劇場",
@@ -199,12 +1483,131 @@
         "member_82",
         "member_86",
         "member_90"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52785"
     },
     {
-      "performanceId": "P2501_10",
+      "performanceId": "P2501_96",
+      "category": "メディア",
+      "title": "ラジオ大阪×ミクチャ「サクラバシ919」",
+      "date": "2025-01-20",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52306"
+    },
+    {
+      "performanceId": "P2501_97",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 坂本真凛のりんりんらじお」",
+      "date": "2025-01-20",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52452"
+    },
+    {
+      "performanceId": "P2501_98",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-20",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_89"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52542"
+    },
+    {
+      "performanceId": "P2501_99",
+      "category": "メディア",
+      "title": "ボートレース多摩川公式YouTube「どちゃんこTV」",
+      "date": "2025-01-20",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52741"
+    },
+    {
+      "performanceId": "P2501_100",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2025-01-20",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8",
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52794"
+    },
+    {
+      "performanceId": "P2501_101",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2025-01-20",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_76"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52697"
+    },
+    {
+      "performanceId": "P2501_102",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-21",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52543"
+    },
+    {
+      "performanceId": "P2501_103",
+      "category": "メディア",
+      "title": "「Forty-Eight Times」",
+      "date": "2025-01-21",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_75"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52859"
+    },
+    {
+      "performanceId": "P2501_104",
+      "category": "メディア",
+      "title": "「週刊SPA!」",
+      "date": "2025-01-21",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/52863"
+    },
+    {
+      "performanceId": "P2501_105",
+      "category": "公演",
       "title": "チームE「声出していこーぜ!!!」公演 菅原茉椰生誕祭＜18:30開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52786",
       "date": "2025-01-21",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -226,12 +1629,66 @@
         "member_82",
         "柿元礼愛",
         "member_85"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52786"
     },
     {
-      "performanceId": "P2501_11",
+      "performanceId": "P2501_106",
+      "category": "メディア",
+      "title": "TVer「推しかるちゃーTVer特別編 YELL交換アイドルだから知っているスゴイ私立恵比寿中学」",
+      "date": "2025-01-21",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52857"
+    },
+    {
+      "performanceId": "P2501_107",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-22",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52549"
+    },
+    {
+      "performanceId": "P2501_108",
+      "category": "メディア",
+      "title": "「Forty-Eight Times」",
+      "date": "2025-01-22",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_82",
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52860"
+    },
+    {
+      "performanceId": "P2501_109",
+      "category": "メディア",
+      "title": "響-HiBiKi Radio Station-「SKE48・⼆次元同好会 好きが⾼じて少し暴⾛してしまうこともあるかもしれません！」",
+      "date": "2025-01-22",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52131"
+    },
+    {
+      "performanceId": "P2501_110",
+      "category": "公演",
       "title": "「手をつなぎながら」公演＜18:30開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52821",
       "date": "2025-01-22",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -249,12 +1706,54 @@
         "member_44",
         "member_45",
         "澤田奏音"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52821"
     },
     {
-      "performanceId": "P2501_12",
+      "performanceId": "P2501_111",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-23",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52550"
+    },
+    {
+      "performanceId": "P2501_112",
+      "category": "メディア",
+      "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
+      "date": "2025-01-23",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52725"
+    },
+    {
+      "performanceId": "P2501_113",
+      "category": "メディア",
+      "title": "愛知北エフエム放送『SKE48ゆうねと千成工業がものづくりやってみた！』",
+      "date": "2025-01-23",
+      "time": "12:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52760"
+    },
+    {
+      "performanceId": "P2501_114",
+      "category": "公演",
       "title": "「制服の芽」公演＜18:00開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52822",
       "date": "2025-01-23",
       "time": "18:00",
       "venue": "SKE48劇場",
@@ -272,12 +1771,279 @@
         "member_89",
         "member_90",
         "member_91"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52822"
     },
     {
-      "performanceId": "P2501_13",
+      "performanceId": "P2501_115",
+      "category": "メディア",
+      "title": "フジテレビ系音楽情報番組「Tune」",
+      "date": "2025-01-23",
+      "time": "27:35",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_26",
+        "member_44",
+        "member_48",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_64",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52842"
+    },
+    {
+      "performanceId": "P2501_116",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」",
+      "date": "2025-01-24",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_3",
+        "member_8",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52919"
+    },
+    {
+      "performanceId": "P2501_117",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-24",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52551"
+    },
+    {
+      "performanceId": "P2501_118",
+      "category": "メディア",
+      "title": "交通新聞社 「JR時刻表」発売",
+      "date": "2025-01-24",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/52835"
+    },
+    {
+      "performanceId": "P2501_119",
+      "category": "メディア",
+      "title": "「ENCOUNT」",
+      "date": "2025-01-24",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/52917"
+    },
+    {
+      "performanceId": "P2501_120",
+      "category": "メディア",
+      "title": "テレビ愛知「キン・ドニーチ」",
+      "date": "2025-01-24",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52886"
+    },
+    {
+      "performanceId": "P2501_121",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2025-01-24",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_44",
+        "member_75"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52674"
+    },
+    {
+      "performanceId": "P2501_122",
+      "category": "メディア",
+      "title": "「東京スポーツ」発売",
+      "date": "2025-01-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52320"
+    },
+    {
+      "performanceId": "P2501_123",
+      "category": "メディア",
+      "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
+      "date": "2025-01-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52333"
+    },
+    {
+      "performanceId": "P2501_124",
+      "category": "イベント",
+      "title": "東京・新宿FACE「第5回“ふたりはプリンセス”Max Heartトーナメント」",
+      "date": "2025-01-25",
+      "time": "10:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/52796"
+    },
+    {
+      "performanceId": "P2501_125",
+      "category": "イベント",
+      "title": "「SL大樹 小江戸とちぎ」特別運行 出発式",
+      "date": "2025-01-25",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/52881"
+    },
+    {
+      "performanceId": "P2501_126",
+      "category": "イベント",
+      "title": "ポップカルチャーフェス in 幸田",
+      "date": "2025-01-25",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_9",
+        "member_16",
+        "member_23"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/51871"
+    },
+    {
+      "performanceId": "P2501_127",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2025-01-25",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52838"
+    },
+    {
+      "performanceId": "P2501_128",
+      "category": "メディア",
+      "title": "佐賀競馬公式YouTube「てっちゃんのSAGAリベンジャーズ」",
+      "date": "2025-01-25",
+      "time": "17:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52851"
+    },
+    {
+      "performanceId": "P2501_129",
+      "category": "メディア",
+      "title": "NATSLIVE「#モグモグちかちゃんスイーツ」",
+      "date": "2025-01-25",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52926"
+    },
+    {
+      "performanceId": "P2501_130",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2025-01-25",
+      "time": "19:40",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52678"
+    },
+    {
+      "performanceId": "P2501_131",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2025-01-25",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52682"
+    },
+    {
+      "performanceId": "P2501_132",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2025-01-25",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_50",
+        "member_74",
+        "member_75"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52853"
+    },
+    {
+      "performanceId": "P2501_133",
+      "category": "イベント",
+      "title": "「miniちかっぱ祭ver.15.0inNAGOYA」",
+      "date": "2025-01-26",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_50",
+        "member_74",
+        "member_75",
+        "member_76",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52193"
+    },
+    {
+      "performanceId": "P2501_134",
+      "category": "公演",
       "title": "チームS「愛を君に、愛を僕に」公演 赤堀君江生誕祭＜17:00開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52823",
       "date": "2025-01-26",
       "time": "17:00",
       "venue": "SKE48劇場",
@@ -299,12 +2065,185 @@
         "member_82",
         "member_89",
         "member_90"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52823"
     },
     {
-      "performanceId": "P2501_14",
+      "performanceId": "P2501_135",
+      "category": "メディア",
+      "title": "佐賀競馬公式YouTube「てっちゃんのSAGAリベンジャーズ」",
+      "date": "2025-01-26",
+      "time": "17:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52852"
+    },
+    {
+      "performanceId": "P2501_136",
+      "category": "メディア",
+      "title": "テレビ愛知「SKE48の未完全TV」",
+      "date": "2025-01-26",
+      "time": "24:50",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_47",
+        "member_48",
+        "member_67",
+        "member_75",
+        "member_78",
+        "member_82",
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52631"
+    },
+    {
+      "performanceId": "P2501_137",
+      "category": "メディア",
+      "title": "ラジオ大阪×ミクチャ「サクラバシ919」",
+      "date": "2025-01-27",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52307"
+    },
+    {
+      "performanceId": "P2501_138",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 坂本真凛のりんりんらじお」",
+      "date": "2025-01-27",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52453"
+    },
+    {
+      "performanceId": "P2501_139",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-27",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52547"
+    },
+    {
+      "performanceId": "P2501_140",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2025-01-27",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_16",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52896"
+    },
+    {
+      "performanceId": "P2501_141",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2025-01-27",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_76",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52698"
+    },
+    {
+      "performanceId": "P2501_142",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-28",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52548"
+    },
+    {
+      "performanceId": "P2501_143",
+      "category": "メディア",
+      "title": "「週刊SPA!」",
+      "date": "2025-01-28",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52864"
+    },
+    {
+      "performanceId": "P2501_144",
+      "category": "メディア",
+      "title": "ニコニコチャンネル「SKE48非公式ちゃんねる」",
+      "date": "2025-01-28",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_48",
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52875"
+    },
+    {
+      "performanceId": "P2501_145",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-29",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52554"
+    },
+    {
+      "performanceId": "P2501_146",
+      "category": "メディア",
+      "title": "東海テレビ『SKE48のはじたび〜旅の恥はかき捨て〜』in神戸",
+      "date": "2025-01-29",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52876"
+    },
+    {
+      "performanceId": "P2501_147",
+      "category": "公演",
       "title": "「制服の芽」公演＜18:00開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52845",
       "date": "2025-01-29",
       "time": "18:00",
       "venue": "SKE48劇場",
@@ -322,12 +2261,51 @@
         "member_89",
         "member_90",
         "member_91"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52845"
     },
     {
-      "performanceId": "P2501_15",
+      "performanceId": "P2501_148",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-30",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67",
+        "member_75"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52555"
+    },
+    {
+      "performanceId": "P2501_149",
+      "category": "メディア",
+      "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
+      "date": "2025-01-30",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52726"
+    },
+    {
+      "performanceId": "P2501_150",
+      "category": "メディア",
+      "title": "「中京スポーツ」",
+      "date": "2025-01-30",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/52947"
+    },
+    {
+      "performanceId": "P2501_151",
+      "category": "公演",
       "title": "「手をつなぎながら」公演＜18:30開演＞",
-      "link": "https://ske48.co.jp/schedule/detail/52846",
       "date": "2025-01-30",
       "time": "18:30",
       "venue": "SKE48劇場",
@@ -345,7 +2323,46 @@
         "member_72",
         "member_43",
         "member_50"
-      ]
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52846"
+    },
+    {
+      "performanceId": "P2501_152",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2025-01-31",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_8"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52556"
+    },
+    {
+      "performanceId": "P2501_153",
+      "category": "メディア",
+      "title": "テレビ愛知「キン・ドニーチ」",
+      "date": "2025-01-31",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/52916"
+    },
+    {
+      "performanceId": "P2501_154",
+      "category": "メディア",
+      "title": "東北総合ポータルtopo『宮城でもてなし隊「梅じい＆まーやん＆よっちゃん　未公開車内トーク」』",
+      "date": "2025-01-31",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/52933"
     }
   ]
 }
