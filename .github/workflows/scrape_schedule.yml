@@ -2,8 +2,8 @@ name: SKE48 Theater Schedule Auto Scraper
 
 on:
   schedule:
-    # KST(한국 시간) 19:00는 UTC 기준으로 10:00입니다.
-    - cron: '0 10 * * *'
+    # KST(한국 시간) 18:47에 실행됩니다.
+    - cron: '47 9 * * *'
   workflow_dispatch:
     # 깃허브 웹 페이지에서 개발자가 버튼을 눌러 수동으로 즉시 가동하고 싶을 때 사용합니다.
 
