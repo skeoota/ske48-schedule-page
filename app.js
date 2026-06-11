@@ -142,16 +142,17 @@ function parseMemberColors(colorStr) {
     const colorMap = {
         "水色": "#00b0ff",      // Light Blue
         "オレンジ": "#ff9100",  // Orange
-        "赤": "#e53935",        // Red
+        "赤": "#ff0000",        // Red (pure red)
         "黄": "#ffeb3b",        // Yellow
         "黄色": "#ffeb3b",      // Yellow
         "青": "#1976d2",        // Blue
         "緑": "#4caf50",        // Green
         "白": "#ffffff",        // White
         "紫": "#9c27b0",        // Purple
-        "ピンク": "#e91e63",    // Pink
-        "濃いピンク": "#c2185b", // Dark Pink
-        "薄いピンク": "#f48fb1", // Light Pink
+        "핑크": "#ff66cc",
+        "ピンク": "#ff66cc",      // Pink (bright bubblegum pink)
+        "濃いピンク": "#e91e63", // Dark Pink (magenta)
+        "薄いピンク": "#ffb6c1", // Light Pink (pastel pink)
         "黄緑": "#8bc34a"       // Light Green
     };
     return parts.map(part => part.trim()).filter(part => part).map(part => {
