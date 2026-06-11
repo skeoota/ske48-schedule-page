@@ -136,7 +136,31 @@ function t(key, vars = {}) {
     return text;
 }
 
+function parseMemberColors(colorStr) {
+    if (!colorStr) return [];
+    const parts = colorStr.split(/[・･\s,，、・]+/);
+    const colorMap = {
+        "水色": "#00b0ff",      // Light Blue
+        "オレンジ": "#ff9100",  // Orange
+        "赤": "#e53935",        // Red
+        "黄": "#ffeb3b",        // Yellow
+        "黄色": "#ffeb3b",      // Yellow
+        "青": "#1976d2",        // Blue
+        "緑": "#4caf50",        // Green
+        "白": "#ffffff",        // White
+        "紫": "#9c27b0",        // Purple
+        "ピンク": "#e91e63",    // Pink
+        "濃いピンク": "#c2185b", // Dark Pink
+        "薄いピンク": "#f48fb1", // Light Pink
+        "黄緑": "#8bc34a"       // Light Green
+    };
+    return parts.map(part => part.trim()).filter(part => part).map(part => {
+        return colorMap[part] || "#777777";
+    });
+}
+
 // 카테고리 다국어 번역 사전
+
 const categoryTranslations = {
     ko: {
         "公演": "극장 공연",
@@ -302,11 +326,24 @@ function renderTeamBasedProfiles() {
             const card = document.createElement("div");
             card.className = "member-mini-card";
             card.onclick = () => selectMember(member.memberId, true); // 사용자가 직접 터치하여 강제 오픈 유도
+            
+            const memberColorStr = (member.details && member.details.memberColor) || (member.detail && member.detail.memberColor) || "";
+            const colors = parseMemberColors(memberColorStr);
+            let colorDotsHTML = "";
+            if (colors.length > 0) {
+                colorDotsHTML = `
+                    <div class="member-card-colors">
+                        ${colors.map(c => `<span class="member-card-color-dot" style="background-color: ${c}; border: 1px solid ${c === '#ffffff' ? '#ccc' : c};"></span>`).join("")}
+                    </div>
+                `;
+            }
+
             card.innerHTML = `
                 <div class="img-frame">
                     <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
                 </div>
                 <div class="card-name">${member.name}</div>
+                ${colorDotsHTML}
             `;
             gridDiv.appendChild(card);
         });
@@ -614,6 +651,9 @@ function handlePerfClick(selectedKey, perfId, element) {
     document.querySelectorAll(".perf-item-link").forEach(el => el.classList.remove("active"));
     element.classList.add("active");
 
+    // 선택된 항목이 타임라인 가운데에 정렬되도록 스크롤 처리
+    element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
     selectPerformance(perf);
 }
 
@@ -623,6 +663,9 @@ function handleEmptyClick(selectedKey, dateStr, element) {
 
     document.querySelectorAll(".perf-item-link").forEach(el => el.classList.remove("active"));
     element.classList.add("active");
+
+    // 선택된 항목이 타임라인 가운데에 정렬되도록 스크롤 처리
+    element.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
     selectEmptyDay(dateStr);
 }
@@ -685,12 +728,25 @@ function selectPerformance(perf) {
     perf.castIds.forEach(id => {
         const member = membersData.find(mem => mem.memberId === id);
         if (member) {
+            let colorDotsHTML = "";
+            if (perf.category === "公演") {
+                const memberColorStr = (member.details && member.details.memberColor) || (member.detail && member.detail.memberColor) || "";
+                const colors = parseMemberColors(memberColorStr);
+                if (colors.length > 0) {
+                    colorDotsHTML = `
+                        <div class="member-card-colors">
+                            ${colors.map(c => `<span class="member-card-color-dot" style="background-color: ${c}; border: 1px solid ${c === '#ffffff' ? '#ccc' : c};"></span>`).join("")}
+                        </div>
+                    `;
+                }
+            }
             castCardsHTML += `
                 <div class="member-mini-card" onclick="selectMember('${member.memberId}', true)">
                     <div class="img-frame">
                         <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
                     </div>
                     <div class="card-name">${member.name}</div>
+                    ${colorDotsHTML}
                 </div>
             `;
         } else {
@@ -775,12 +831,28 @@ function selectMember(memberId, forceOpen = true) {
         detailsTableHTML += `<table class="profile-details-table">`;
         for (const [key, label] of Object.entries(labelMap)) {
             if (d[key]) {
-                detailsTableHTML += `
-                    <tr>
-                        <td class="label-td">${label}</td>
-                        <td>${d[key]}</td>
-                    </tr>
-                `;
+                if (key === "memberColor") {
+                    const colors = parseMemberColors(d[key]);
+                    const colorDots = colors.map(c => `<span class="member-color-dot" style="background-color: ${c}; border: 1px solid ${c === '#ffffff' ? '#ccc' : c};"></span>`).join("");
+                    detailsTableHTML += `
+                        <tr>
+                            <td class="label-td">${label}</td>
+                            <td>
+                                <div class="member-colors-wrapper">
+                                    ${colorDots}
+                                    <span class="member-color-text">${d[key]}</span>
+                                </div>
+                            </td>
+                        </tr>
+                    `;
+                } else {
+                    detailsTableHTML += `
+                        <tr>
+                            <td class="label-td">${label}</td>
+                            <td>${d[key]}</td>
+                        </tr>
+                    `;
+                }
             }
         }
         detailsTableHTML += `</table>`;
@@ -811,12 +883,24 @@ function selectMember(memberId, forceOpen = true) {
         personalScheduleHTML = `<div class="profile-placeholder" style="padding:10px;">${t("noPersonalSchedule")}</div>`;
     }
 
+    const memberColorStr = (member.details && member.details.memberColor) || (member.detail && member.detail.memberColor) || "";
+    const headerColors = parseMemberColors(memberColorStr);
+    let headerColorsHTML = "";
+    if (headerColors.length > 0) {
+        headerColorsHTML = `
+            <div class="profile-card-colors">
+                ${headerColors.map(c => `<span class="profile-card-color-dot" style="background-color: ${c}; border: 1px solid ${c === '#ffffff' ? '#ccc' : c};"></span>`).join("")}
+            </div>
+        `;
+    }
+
     leftPanelContent.innerHTML = `
         <div class="profile-card">
             <div class="profile-img-wrapper">
                 <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
             </div>
             <div class="profile-name">${member.name}</div>
+            ${headerColorsHTML}
             <div class="profile-team">${member.position}</div>
             <p class="profile-bio">${member.bio}</p>
         </div>
