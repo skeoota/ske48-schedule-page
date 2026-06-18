@@ -172,19 +172,6 @@
     {
       "performanceId": "P2607_14",
       "category": "イベント",
-      "title": "『水族館の達人に聞いてみた　ぜったいに行きたくなる37の発見』お渡し会",
-      "date": "2026-07-18",
-      "time": "00:00",
-      "venue": "외부 행사장",
-      "status": "SCHEDULED",
-      "castIds": [
-        "member_48"
-      ],
-      "link": "https://ske48.co.jp/schedule/detail/58528"
-    },
-    {
-      "performanceId": "P2607_15",
-      "category": "イベント",
       "title": "東海ウォーカー 2026 夏号特典会（お渡し会）",
       "date": "2026-07-18",
       "time": "00:00",
@@ -195,6 +182,19 @@
         "member_78"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58805"
+    },
+    {
+      "performanceId": "P2607_15",
+      "category": "イベント",
+      "title": "『水族館の達人に聞いてみた　ぜったいに行きたくなる37の発見』お渡し会",
+      "date": "2026-07-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58528"
     },
     {
       "performanceId": "P2607_16",
@@ -301,6 +301,24 @@
     {
       "performanceId": "P2607_24",
       "category": "イベント",
+      "title": "「CBCラジオ夏まつり2026」",
+      "date": "2026-07-26",
+      "time": "15:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_77",
+        "member_94",
+        "member_99",
+        "member_101",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58893"
+    },
+    {
+      "performanceId": "P2607_25",
+      "category": "イベント",
       "title": "劇団☆龍(Dragon)童子produce『月の子- Lunae Hostia -』",
       "date": "2026-07-30",
       "time": "00:00",
@@ -312,7 +330,7 @@
       "link": "https://ske48.co.jp/schedule/detail/58723"
     },
     {
-      "performanceId": "P2607_25",
+      "performanceId": "P2607_26",
       "category": "イベント",
       "title": "THANKS 10TH GIGA  Special  LIVE  POPPIN BASE  in GIGA",
       "date": "2026-07-30",
@@ -331,7 +349,7 @@
       "link": "https://ske48.co.jp/schedule/detail/58708"
     },
     {
-      "performanceId": "P2607_26",
+      "performanceId": "P2607_27",
       "category": "イベント",
       "title": "劇団☆龍(Dragon)童子produce『月の子- Lunae Hostia -』",
       "date": "2026-07-31",
