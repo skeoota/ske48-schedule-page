@@ -291,33 +291,82 @@ def scrape_monthly_schedules(year, month, members_list):
             raw_performances.append(perf_data)
         time.sleep(0.2)
         
-    # 2. 수집된 모든 일정을 날짜(date) -> 시간(time) 오름차순으로 완벽하게 재정렬합니다 [1].
-    raw_performances.sort(key=lambda x: (x.get("date", "9999-12-31"), x.get("time", "23:59")))
-        
-    # 3. 시간 순서대로 정렬이 완료된 상태에서 최종 고유 ID를 부여하여 취합합니다.
-    performances = []
+    # 2. 기존 파일이 존재하면 읽어옵니다.
+    file_name = f"data/performances_{year}_{int(month):02d}.json"
+    existing_performances = []
+    if os.path.exists(file_name):
+        try:
+            with open(file_name, "r", encoding="utf-8") as f:
+                existing_data = json.load(f)
+                existing_performances = existing_data.get("performances", [])
+            print(f"기존 '{file_name}'에서 {len(existing_performances)}개의 일정을 불러왔습니다.")
+        except Exception as e:
+            print(f"[경고] 기존 '{file_name}' 파일 로드 실패 (새로 생성합니다): {e}")
+
+    # 3. ID 접두사 정의 및 기존 ID 매핑 / 최대 인덱스 파악
     year_short = str(year)[-2:]
     month_formatted = f"{int(month):02d}"
     id_prefix = f"P{year_short}{month_formatted}"
     
-    for idx, perf_data in enumerate(raw_performances, 1):
-        performance_id = f"{id_prefix}_{idx:02d}"
-        performances.append({
-            "performanceId": performance_id,
-            **perf_data
-        })
-        
+    existing_map = {p.get("link"): p for p in existing_performances if p.get("link")}
+    
+    max_idx = 0
+    for p in existing_performances:
+        p_id = p.get("performanceId", "")
+        if p_id.startswith(id_prefix + "_"):
+            try:
+                suffix = int(p_id.split("_")[1])
+                if suffix > max_idx:
+                    max_idx = suffix
+            except (ValueError, IndexError):
+                pass
+                
+    updated_count = 0
+    added_count = 0
+    merged_performances = list(existing_performances)
+    
+    for perf_data in raw_performances:
+        url = perf_data.get("link")
+        if url and url in existing_map:
+            # 기존 공연이 있으므로 정보 업데이트 (기존 ID 및 status 보존)
+            existing_perf = existing_map[url]
+            current_status = existing_perf.get("status", "SCHEDULED")
+            
+            # 정보 업데이트
+            existing_perf.update(perf_data)
+            # status 복구
+            existing_perf["status"] = current_status
+            updated_count += 1
+        else:
+            # 새로운 공연이므로 ID 신규 부여 후 추가
+            max_idx += 1
+            new_id = f"{id_prefix}_{max_idx:02d}"
+            new_perf = {
+                "performanceId": new_id,
+                **perf_data
+            }
+            merged_performances.append(new_perf)
+            if url:
+                existing_map[url] = new_perf
+            added_count += 1
+            
+    # 최종 병합된 리스트를 날짜(date) -> 시간(time) 오름차순으로 정렬
+    merged_performances.sort(key=lambda x: (x.get("date", "9999-12-31"), x.get("time", "23:59")))
+    
     output_data = {
         "yearMonth": f"{int(year):04d}-{int(month):02d}",
-        "performances": performances
+        "performances": merged_performances
     }
     
     os.makedirs("data", exist_ok=True)
-    file_name = f"data/performances_{year}_{int(month):02d}.json"
     
     with open(file_name, "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
-    print(f"-> 최종 정렬 및 병합 수집 완료: {file_name} ({len(performances)}건)")
+        
+    print(f"-> 수집 및 업데이트 완료: {file_name}")
+    print(f"   - 신규 추가 일정: {added_count}건")
+    print(f"   - 기존 정보 업데이트: {updated_count}건")
+    print(f"   - 최종 총 일정 수: {len(merged_performances)}건")
 
 if __name__ == "__main__":
     today = datetime.date.today()
