@@ -900,6 +900,91 @@
         "hobby": "知りたい事を深く調べること",
         "specialty": "長い間見てる人の癖を見つけること"
       }
+    },
+    {
+      "memberId": "member_106",
+      "name": "飯田ゆら",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_106.jpg",
+      "bio": "닉네임은 'ゆらゆら'입니다. 생년월일은 2012年7月4日입니다. 출신지는 愛知県입니다.",
+      "details": {
+        "nickname": "ゆらゆら",
+        "birthdate": "2012年7月4日",
+        "bloodType": "A型",
+        "hometown": "愛知県",
+        "height": "156 cm",
+        "memberColor": "オレンジ・ピンク",
+        "hobby": "アニメ鑑賞、わんこと遊ぶこと",
+        "specialty": "綺麗に字を書くこと（硬筆）、変顔"
+      }
+    },
+    {
+      "memberId": "member_107",
+      "name": "池田有沙",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_107.jpg",
+      "bio": "닉네임은 'ありたん'입니다. 생년월일은 2011年8月25日입니다. 출신지는 愛知県입니다.",
+      "details": {
+        "nickname": "ありたん",
+        "birthdate": "2011年8月25日",
+        "bloodType": "B型",
+        "hometown": "愛知県",
+        "height": "164 cm",
+        "memberColor": "緑・紫",
+        "hobby": "色んな曲を聴くこと、バスケットボール、ディズニーの園内BGMを聴くこと、ゲーム",
+        "specialty": "魚を捌くこと、変顔"
+      }
+    },
+    {
+      "memberId": "member_108",
+      "name": "竹下茉莉花",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_108.jpg",
+      "bio": "닉네임은 'まりぴ'입니다. 생년월일은 2005年12月17日입니다. 출신지는 大阪府입니다.",
+      "details": {
+        "nickname": "まりぴ",
+        "birthdate": "2005年12月17日",
+        "bloodType": "A型",
+        "hometown": "大阪府",
+        "height": "166 cm",
+        "memberColor": "黄緑・白",
+        "hobby": "アニメ、ゲーム",
+        "specialty": "もんじゃ焼きを高速で焼く"
+      }
+    },
+    {
+      "memberId": "member_109",
+      "name": "中尾楓華",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_109.jpg",
+      "bio": "닉네임은 'ふうかちゃん'입니다. 생년월일은 2007年1月17日입니다. 출신지는 愛知県입니다.",
+      "details": {
+        "nickname": "ふうかちゃん",
+        "birthdate": "2007年1月17日",
+        "bloodType": "O型",
+        "hometown": "愛知県",
+        "height": "155 cm",
+        "memberColor": "赤・赤",
+        "hobby": "散歩、お笑い鑑賞、野球観戦、カラオケ",
+        "specialty": "クラリネット、古文を読むこと、耳が良いこと（遠くで流れている曲を聞き分けられる）、旅行プランを考えること"
+      }
+    },
+    {
+      "memberId": "member_110",
+      "name": "矢島凪",
+      "position": "研究生",
+      "profileImageUrl": "https://ske48.co.jp/image/profile/member_110.jpg",
+      "bio": "닉네임은 'なぎち'입니다. 생년월일은 2008年9月9日입니다. 출신지는 愛知県입니다.",
+      "details": {
+        "nickname": "なぎち",
+        "birthdate": "2008年9月9日",
+        "bloodType": "O型",
+        "hometown": "愛知県",
+        "height": "151 cm",
+        "memberColor": "オレンジ・オレンジ・白",
+        "hobby": "アイドル鑑賞、食べること、読書、音楽を聴くこと",
+        "specialty": "オーボエ、ピアノ、指回し体操、アヒルの真似、骨を鳴らすこと"
+      }
     }
   ]
 }
