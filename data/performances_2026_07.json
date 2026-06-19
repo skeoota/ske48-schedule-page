@@ -2,6 +2,30 @@
   "yearMonth": "2026-07",
   "performances": [
     {
+      "performanceId": "P2607_28",
+      "category": "公演",
+      "title": "チームE「RESET」公演＜18:30開演＞",
+      "date": "2026-07-01",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_2",
+        "member_44",
+        "member_47",
+        "member_26",
+        "member_92",
+        "member_74",
+        "member_85",
+        "member_34",
+        "member_72",
+        "member_89",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58928"
+    },
+    {
       "performanceId": "P2607_01",
       "category": "イベント",
       "title": "SKE48 SUMMER Tour 2026〜じゅーしーすぷらっしゅ だぜ！〜  愛知公演",
@@ -79,6 +103,30 @@
       "link": "https://ske48.co.jp/schedule/detail/58510"
     },
     {
+      "performanceId": "P2607_29",
+      "category": "公演",
+      "title": "12期生、13期生「可能性こそが未来」公演＜18:00開演＞",
+      "date": "2026-07-08",
+      "time": "18:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_91",
+        "member_86",
+        "member_92",
+        "member_89",
+        "member_93",
+        "member_94",
+        "member_98",
+        "member_99",
+        "member_100",
+        "member_102",
+        "member_104",
+        "member_105"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58929"
+    },
+    {
       "performanceId": "P2607_07",
       "category": "イベント",
       "title": "SKE48野村実代 1st写真集『美しい方程式』お渡し会",
@@ -127,6 +175,19 @@
         "member_47"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58838"
+    },
+    {
+      "performanceId": "P2607_30",
+      "category": "メディア",
+      "title": "BSN新潟放送「NGT48とひなたまつり」",
+      "date": "2026-07-13",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58925"
     },
     {
       "performanceId": "P2607_11",
@@ -245,6 +306,19 @@
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/58436"
+    },
+    {
+      "performanceId": "P2607_31",
+      "category": "メディア",
+      "title": "BSN新潟放送「NGT48とひなたまつり」",
+      "date": "2026-07-20",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58926"
     },
     {
       "performanceId": "P2607_20",
