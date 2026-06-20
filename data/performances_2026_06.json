@@ -1980,6 +1980,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58647"
     },
     {
+      "performanceId": "P2606_177",
+      "category": "メディア",
+      "title": "「Yahoo!ニュース」",
+      "date": "2026-06-20",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58941"
+    },
+    {
       "performanceId": "P2606_126",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -2249,6 +2262,25 @@
       "link": "https://ske48.co.jp/schedule/detail/58261"
     },
     {
+      "performanceId": "P2606_178",
+      "category": "メディア",
+      "title": "SKE48 初恋の瞬間 SHOWROOM緊急特番",
+      "date": "2026-06-23",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_81",
+        "member_85",
+        "member_86",
+        "member_96",
+        "member_97",
+        "member_102"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58990"
+    },
+    {
       "performanceId": "P2606_143",
       "category": "公演",
       "title": "「制服の芽」＜18:00開演＞",
@@ -2500,6 +2532,22 @@
         "member_103"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58265"
+    },
+    {
+      "performanceId": "P2606_179",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-06-26",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_16",
+        "member_50",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58731"
     },
     {
       "performanceId": "P2606_159",
@@ -2761,6 +2809,20 @@
       "link": "https://ske48.co.jp/schedule/detail/58799"
     },
     {
+      "performanceId": "P2606_180",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-06-29",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58918"
+    },
+    {
       "performanceId": "P2606_175",
       "category": "メディア",
       "title": "「Top Yell NEO 2026 SUMMER」発売日",
@@ -2798,6 +2860,20 @@
         "member_78"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58856"
+    },
+    {
+      "performanceId": "P2606_181",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-06-30",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58919"
     }
   ]
 }
