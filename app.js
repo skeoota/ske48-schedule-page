@@ -204,25 +204,57 @@ const systemToday = new Date();
 let viewYear = systemToday.getFullYear();
 let viewMonth = systemToday.getMonth() + 1;
 
-// 특정 날짜에 가장 가까운 공연을 찾는 헬퍼 함수
+function parseLocalDate(dateStr) {
+    const parts = dateStr.split('-');
+    return new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, parseInt(parts[2], 10));
+}
+
+// 특정 날짜에 가장 가까운 공연을 찾는 헬퍼 함수 (오늘 이후 우선으로 계산)
 function getClosestPerformanceToToday(performances, targetDate) {
     if (!performances || performances.length === 0) return null;
     
     // 시간 부분을 제거한 비교용 target Date 생성
     const targetMidnight = new Date(targetDate.getFullYear(), targetDate.getMonth(), targetDate.getDate());
     
-    let closest = performances[0];
-    let minDiff = Math.abs(new Date(closest.date) - targetMidnight);
+    const futureOrToday = [];
+    const past = [];
     
-    for (let i = 1; i < performances.length; i++) {
-        const perfDate = new Date(performances[i].date);
-        const diff = Math.abs(perfDate - targetMidnight);
-        if (diff < minDiff) {
-            minDiff = diff;
-            closest = performances[i];
+    performances.forEach(p => {
+        const perfMidnight = parseLocalDate(p.date);
+        if (perfMidnight >= targetMidnight) {
+            futureOrToday.push({ perf: p, date: perfMidnight });
+        } else {
+            past.push({ perf: p, date: perfMidnight });
         }
+    });
+    
+    if (futureOrToday.length > 0) {
+        // 오늘 포함 이후 날짜 중 가장 가까운 것
+        let closest = futureOrToday[0];
+        let minDiff = closest.date - targetMidnight;
+        
+        for (let i = 1; i < futureOrToday.length; i++) {
+            const diff = futureOrToday[i].date - targetMidnight;
+            if (diff < minDiff) {
+                minDiff = diff;
+                closest = futureOrToday[i];
+            }
+        }
+        return closest.perf;
+    } else {
+        // 오늘 이전 날짜 중 가장 가까운 것
+        let closest = past[0];
+        let minDiff = targetMidnight - closest.date;
+        
+        for (let i = 1; i < past.length; i++) {
+            const diff = targetMidnight - past[i].date;
+            if (diff < minDiff) {
+                minDiff = diff;
+                closest = past[i];
+            }
+        }
+        return closest.perf;
     }
-    return closest;
 }
 
 // 초기 실행 환경 구성
@@ -249,7 +281,7 @@ async function initApplication() {
     // 즐겨찾기 멤버 로드 및 선택
     const favMemberId = localStorage.getItem("ske_favorite_member");
     if (favMemberId) {
-        selectMember(favMemberId, true);
+        selectMember(favMemberId, true, true);
     }
 }
 
@@ -353,7 +385,7 @@ function renderTeamBasedProfiles() {
         membersInTeam.forEach(member => {
             const card = document.createElement("div");
             card.className = "member-mini-card";
-            card.onclick = () => selectMember(member.memberId, true); // 사용자가 직접 터치하여 강제 오픈 유도
+            card.onclick = () => selectMember(member.memberId, true, true); // 사용자가 직접 터치하여 강제 오픈 및 타임라인 오토포커스 유도
             
             const memberColorStr = (member.details && member.details.memberColor) || (member.detail && member.detail.memberColor) || "";
             const colors = parseMemberColors(memberColorStr);
@@ -589,20 +621,29 @@ function renderTimeline() {
         if (firstElement) {
             let clickTarget = null;
 
-            // 1. 활성화된 멤버가 있는 경우 그 멤버의 오늘 또는 가장 가까운 공연 찾기
+            const isTodayMonth = viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1);
+
+            // 1. 활성화된 멤버가 있는 경우
             if (activeSelectedMemberId) {
                 const memberPerfs = filteredPerformances.filter(p => p.castIds.includes(activeSelectedMemberId));
                 if (memberPerfs.length > 0) {
-                    const closestPerf = getClosestPerformanceToToday(memberPerfs, systemToday);
-                    if (closestPerf) {
-                        clickTarget = timelineContainer.querySelector(`.perf-item-link[onclick*="${closestPerf.performanceId}"]`);
+                    let targetPerf = null;
+                    if (isTodayMonth) {
+                        // 오늘 포함된 달일 때만 오늘에 가장 가까운 공연 찾기
+                        targetPerf = getClosestPerformanceToToday(memberPerfs, systemToday);
+                    } else {
+                        // 오늘 포함된 달이 아니면 해당 월의 첫 번째 공연 선택
+                        targetPerf = memberPerfs[0];
+                    }
+                    if (targetPerf) {
+                        clickTarget = timelineContainer.querySelector(`.perf-item-link[onclick*="${targetPerf.performanceId}"]`);
                     }
                 }
             }
 
             // 2. 활성화된 멤버가 없거나 해당 멤버의 공연이 없는 경우 일반적인 자동 선택 수행
             if (!clickTarget) {
-                if (viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1)) {
+                if (isTodayMonth) {
                     const todayDay = systemToday.getDate();
                     const todayLinks = timelineContainer.querySelectorAll(`.perf-item-link[id^="perf-link-${todayDay}-"]`);
                     const validTodayLink = Array.from(todayLinks).find(el => !el.classList.contains("empty"));
@@ -803,7 +844,7 @@ function selectPerformance(perf) {
                 }
             }
             castCardsHTML += `
-                <div class="member-mini-card" onclick="selectMember('${member.memberId}', true)">
+                <div class="member-mini-card" onclick="selectMember('${member.memberId}', true, false)">
                     <div class="img-frame">
                         <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
                     </div>
@@ -849,7 +890,7 @@ function selectPerformance(perf) {
 }
 
 // 특정 멤버 카드 클릭 시 프로필 세부사항 및 아코디언 바인딩
-async function selectMember(memberId, forceOpen = true) {
+async function selectMember(memberId, forceOpen = true, autoSelectOnTimeline = false) {
     const member = membersData.find(m => m.memberId === memberId);
     if (!member) return;
 
@@ -859,14 +900,7 @@ async function selectMember(memberId, forceOpen = true) {
         // 스케줄 뷰 모드로 강제 전환
         switchViewMode("schedule");
 
-        // 오늘 날짜 연월로 이동
-        const targetYear = systemToday.getFullYear();
-        const targetMonth = systemToday.getMonth() + 1;
-        if (viewYear !== targetYear || viewMonth !== targetMonth) {
-            viewYear = targetYear;
-            viewMonth = targetMonth;
-            await loadTimeline();
-        } else {
+        if (autoSelectOnTimeline) {
             renderTimeline();
         }
     }
@@ -941,7 +975,8 @@ async function selectMember(memberId, forceOpen = true) {
     }
 
     let personalScheduleHTML = "";
-    const closestPerf = getClosestPerformanceToToday(personalSchedules, systemToday);
+    const isTodayMonth = viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1);
+    const closestPerf = isTodayMonth ? getClosestPerformanceToToday(personalSchedules, systemToday) : null;
 
     if (personalSchedules.length > 0) {
         personalSchedules.forEach(schedule => {
