@@ -196,11 +196,34 @@ let activeSelectedDay = null;
 let activeViewMode = "schedule";
 let activeCategoryFilter = "all";
 let activeSearchQuery = "";
+let activeSelectedMemberId = null;
+let renderTimelineTimeoutId = null;
 
 // 오늘 날짜 데이터를 실시간으로 가져와 전역 설정합니다 [1].
 const systemToday = new Date();
 let viewYear = systemToday.getFullYear();
 let viewMonth = systemToday.getMonth() + 1;
+
+// 특정 날짜에 가장 가까운 공연을 찾는 헬퍼 함수
+function getClosestPerformanceToToday(performances, targetDate) {
+    if (!performances || performances.length === 0) return null;
+    
+    // 시간 부분을 제거한 비교용 target Date 생성
+    const targetMidnight = new Date(targetDate.getFullYear(), targetDate.getMonth(), targetDate.getDate());
+    
+    let closest = performances[0];
+    let minDiff = Math.abs(new Date(closest.date) - targetMidnight);
+    
+    for (let i = 1; i < performances.length; i++) {
+        const perfDate = new Date(performances[i].date);
+        const diff = Math.abs(perfDate - targetMidnight);
+        if (diff < minDiff) {
+            minDiff = diff;
+            closest = performances[i];
+        }
+    }
+    return closest;
+}
 
 // 초기 실행 환경 구성
 async function initApplication() {
@@ -222,6 +245,12 @@ async function initApplication() {
 
     await loadTimeline();
     renderTeamBasedProfiles();
+
+    // 즐겨찾기 멤버 로드 및 선택
+    const favMemberId = localStorage.getItem("ske_favorite_member");
+    if (favMemberId) {
+        selectMember(favMemberId, true);
+    }
 }
 
 // 뷰 전환 통제
@@ -247,10 +276,8 @@ function switchViewMode(mode) {
     }
 
     // 좌측 패널에 활성화된 멤버가 있다면 탭 전환 시점의 모드에 맞추어 스케줄 목록을 새로 고쳐줍니다.
-    const activeProfileCard = document.querySelector(".profile-card .profile-name");
-    if (activeProfileCard) {
-        const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
-        if (memberObj) selectMember(memberObj.memberId, false);
+    if (activeSelectedMemberId) {
+        selectMember(activeSelectedMemberId, false);
     }
 }
 
@@ -339,9 +366,13 @@ function renderTeamBasedProfiles() {
                 `;
             }
 
+            const isFav = localStorage.getItem("ske_favorite_member") === member.memberId;
+            const favBadgeHTML = isFav ? `<span class="mini-card-fav-badge">★</span>` : "";
+
             card.innerHTML = `
-                <div class="img-frame">
+                <div class="img-frame" style="position: relative;">
                     <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
+                    ${favBadgeHTML}
                 </div>
                 <div class="card-name">${member.name}</div>
                 ${colorDotsHTML}
@@ -440,10 +471,8 @@ function setCategoryFilter(category) {
     renderTimeline();
 
     // 좌측 패널에 활성화된 멤버가 있다면 필터 변경에 맞추어 스케줄 목록을 새로 고쳐줍니다.
-    const activeProfileCard = document.querySelector(".profile-card .profile-name");
-    if (activeProfileCard) {
-        const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
-        if (memberObj) selectMember(memberObj.memberId, false);
+    if (activeSelectedMemberId) {
+        selectMember(activeSelectedMemberId, false);
     }
 }
 
@@ -552,18 +581,46 @@ function renderTimeline() {
     }
 
     // 필터링 적용 후, 자동으로 클릭 및 포커싱할 타겟 설정
-    setTimeout(() => {
+    if (renderTimelineTimeoutId) {
+        clearTimeout(renderTimelineTimeoutId);
+    }
+    renderTimelineTimeoutId = setTimeout(() => {
         const firstElement = timelineContainer.querySelector(".perf-item-link");
         if (firstElement) {
             let clickTarget = null;
-            if (viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1)) {
-                const todayDay = systemToday.getDate();
-                const todayLinks = timelineContainer.querySelectorAll(`.perf-item-link[id^="perf-link-${todayDay}-"]`);
-                const validTodayLink = Array.from(todayLinks).find(el => !el.classList.contains("empty"));
-                if (validTodayLink) {
-                    clickTarget = validTodayLink;
-                } else if (todayLinks.length > 0) {
-                    clickTarget = todayLinks[0];
+
+            // 1. 활성화된 멤버가 있는 경우 그 멤버의 오늘 또는 가장 가까운 공연 찾기
+            if (activeSelectedMemberId) {
+                const memberPerfs = filteredPerformances.filter(p => p.castIds.includes(activeSelectedMemberId));
+                if (memberPerfs.length > 0) {
+                    const closestPerf = getClosestPerformanceToToday(memberPerfs, systemToday);
+                    if (closestPerf) {
+                        clickTarget = timelineContainer.querySelector(`.perf-item-link[onclick*="${closestPerf.performanceId}"]`);
+                    }
+                }
+            }
+
+            // 2. 활성화된 멤버가 없거나 해당 멤버의 공연이 없는 경우 일반적인 자동 선택 수행
+            if (!clickTarget) {
+                if (viewYear === systemToday.getFullYear() && viewMonth === (systemToday.getMonth() + 1)) {
+                    const todayDay = systemToday.getDate();
+                    const todayLinks = timelineContainer.querySelectorAll(`.perf-item-link[id^="perf-link-${todayDay}-"]`);
+                    const validTodayLink = Array.from(todayLinks).find(el => !el.classList.contains("empty"));
+                    if (validTodayLink) {
+                        clickTarget = validTodayLink;
+                    } else {
+                        // 오늘 공연이 없는 경우 가장 가까운 날의 공연 찾기
+                        if (filteredPerformances.length > 0) {
+                            const closestPerf = getClosestPerformanceToToday(filteredPerformances, systemToday);
+                            if (closestPerf) {
+                                clickTarget = timelineContainer.querySelector(`.perf-item-link[onclick*="${closestPerf.performanceId}"]`);
+                            }
+                        }
+                        // 그것도 없는 경우에만 오늘 빈 칸(공연 없음) 선택
+                        if (!clickTarget && todayLinks.length > 0) {
+                            clickTarget = todayLinks[0];
+                        }
+                    }
                 }
             }
 
@@ -629,10 +686,16 @@ async function handleSelectDateChange() {
     viewMonth = parseInt(monthSelect.value, 10);
 
     await loadTimeline();
+
+    // 연월 변경 시 활성화된 멤버가 있다면 해당 연월 정보에 맞게 개인 스케줄 갱신
+    if (activeSelectedMemberId) {
+        selectMember(activeSelectedMemberId, false);
+    }
 }
 
 // 언제든 실제 오늘 연월일 일정으로 귀환하는 함수
 async function goToToday() {
+    activeSelectedMemberId = null;
     const today = new Date();
     viewYear = today.getFullYear();
     viewMonth = today.getMonth() + 1;
@@ -643,6 +706,7 @@ async function goToToday() {
 
 // 개별 스케줄을 클릭했을 때의 통합 인터랙션 함수
 function handlePerfClick(selectedKey, perfId, element) {
+    activeSelectedMemberId = null;
     const perf = currentMonthPerformances.find(p => p.performanceId === perfId);
     if (!perf) return;
 
@@ -660,6 +724,7 @@ function handlePerfClick(selectedKey, perfId, element) {
 
 // 일정이 없는 날을 클릭했을 때의 통합 인터랙션 함수
 function handleEmptyClick(selectedKey, dateStr, element) {
+    activeSelectedMemberId = null;
     activeSelectedDay = selectedKey;
 
     document.querySelectorAll(".perf-item-link").forEach(el => el.classList.remove("active"));
@@ -682,10 +747,8 @@ async function changeMonth(step) {
     }
     await loadTimeline();
 
-    const activeProfileCard = document.querySelector(".profile-card .profile-name");
-    if (activeProfileCard) {
-        const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
-        if (memberObj) selectMember(memberObj.memberId, false);
+    if (activeSelectedMemberId) {
+        selectMember(activeSelectedMemberId, false);
     }
 }
 
@@ -704,10 +767,8 @@ async function switchLanguage(lang) {
         }
     }
 
-    const activeProfileCard = document.querySelector(".profile-card .profile-name");
-    if (activeProfileCard) {
-        const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
-        if (memberObj) selectMember(memberObj.memberId, false);
+    if (activeSelectedMemberId) {
+        selectMember(activeSelectedMemberId, false);
     }
 }
 
@@ -788,9 +849,27 @@ function selectPerformance(perf) {
 }
 
 // 특정 멤버 카드 클릭 시 프로필 세부사항 및 아코디언 바인딩
-function selectMember(memberId, forceOpen = true) {
+async function selectMember(memberId, forceOpen = true) {
     const member = membersData.find(m => m.memberId === memberId);
     if (!member) return;
+
+    activeSelectedMemberId = memberId;
+
+    if (forceOpen) {
+        // 스케줄 뷰 모드로 강제 전환
+        switchViewMode("schedule");
+
+        // 오늘 날짜 연월로 이동
+        const targetYear = systemToday.getFullYear();
+        const targetMonth = systemToday.getMonth() + 1;
+        if (viewYear !== targetYear || viewMonth !== targetMonth) {
+            viewYear = targetYear;
+            viewMonth = targetMonth;
+            await loadTimeline();
+        } else {
+            renderTimeline();
+        }
+    }
 
     const leftPanelContent = document.getElementById("left-panel-content");
 
@@ -862,6 +941,8 @@ function selectMember(memberId, forceOpen = true) {
     }
 
     let personalScheduleHTML = "";
+    const closestPerf = getClosestPerformanceToToday(personalSchedules, systemToday);
+
     if (personalSchedules.length > 0) {
         personalSchedules.forEach(schedule => {
             const rawCastNames = schedule.castIds.map(id => {
@@ -872,8 +953,10 @@ function selectMember(memberId, forceOpen = true) {
                     : m.name;
             }).filter(name => name).join(", ");
 
+            const isClosest = closestPerf && schedule.performanceId === closestPerf.performanceId;
+
             personalScheduleHTML += `
-                <div class="member-schedule-item">
+                <div class="member-schedule-item ${isClosest ? 'active-schedule-item' : ''}">
                     <strong>${t("datetime")}:</strong> ${schedule.date} (${schedule.time})<br>
                     <strong>${t("performance")}:</strong> ${schedule.title}<br>
                     <strong>${t("cast")}:</strong> ${rawCastNames}
@@ -895,14 +978,32 @@ function selectMember(memberId, forceOpen = true) {
         `;
     }
 
+    const isFav = localStorage.getItem("ske_favorite_member") === memberId;
+    const favButtonHTML = `
+        <button class="favorite-button ${isFav ? 'active' : ''}" onclick="toggleFavorite('${member.memberId}')" title="${isFav ? '즐겨찾기 해제' : '즐겨찾기 등록'}">
+            ${isFav ? '★' : '☆'}
+        </button>
+    `;
+
+    const nicknameText = (d && d.nickname) || "";
+
     leftPanelContent.innerHTML = `
-        <div class="profile-card">
+        <div class="profile-sticky-header" data-member-id="${member.memberId}">
+            <div class="profile-name">
+                ${member.name}
+                ${favButtonHTML}
+            </div>
+            <div class="profile-header-meta">
+                <span class="profile-nickname">${t("labelNickname")}: ${nicknameText}</span>
+                ${headerColorsHTML}
+            </div>
+        </div>
+        
+        <div class="profile-card" data-member-id="${member.memberId}" style="border-bottom: none; margin-bottom: 12px; padding-bottom: 0;">
             <div class="profile-img-wrapper">
                 <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
             </div>
-            <div class="profile-name">${member.name}</div>
-            ${headerColorsHTML}
-            <div class="profile-team">${member.position}</div>
+            <div class="profile-team" style="margin-top: 10px;">${member.position}</div>
             <p class="profile-bio">${member.bio}</p>
         </div>
         
@@ -934,6 +1035,30 @@ function selectMember(memberId, forceOpen = true) {
         leftPanel.classList.add("drawer-active");
         document.getElementById("drawer-overlay").classList.add("active");
     }
+
+    // 개인 스케줄 리스트에서 오늘(혹은 가장 가까운 날)의 공연 항목으로 스크롤 이동
+    if (closestPerf) {
+        setTimeout(() => {
+            const activeItem = leftPanelContent.querySelector(".member-schedule-item.active-schedule-item");
+            if (activeItem) {
+                activeItem.scrollIntoView({ behavior: "smooth", block: "nearest" });
+            }
+        }, 150);
+    }
+}
+
+// 멤버 즐겨찾기 토글 기능
+function toggleFavorite(memberId) {
+    const currentFav = localStorage.getItem("ske_favorite_member");
+    if (currentFav === memberId) {
+        localStorage.removeItem("ske_favorite_member");
+    } else {
+        localStorage.setItem("ske_favorite_member", memberId);
+    }
+    // 상세 프로필 갱신 (forceOpen = false로 설정해 타임라인 자동 이동 방지)
+    selectMember(memberId, false);
+    // 멤버 프로필 탭의 미니 카드들 별 표시 갱신
+    renderTeamBasedProfiles();
 }
 
 function showInitializationError(message) {
@@ -968,10 +1093,8 @@ function clearSearchInput() {
 
 // 활성화된 멤버 프로필 정보 및 일정 새로고침
 function refreshActiveMemberProfile() {
-    const activeProfileCard = document.querySelector(".profile-card .profile-name");
-    if (activeProfileCard) {
-        const memberObj = membersData.find(m => m.name === activeProfileCard.textContent);
-        if (memberObj) selectMember(memberObj.memberId, false);
+    if (activeSelectedMemberId) {
+        selectMember(activeSelectedMemberId, false);
     }
 }
 

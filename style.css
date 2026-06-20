@@ -813,6 +813,15 @@ body {
         transition: left 0.3s ease;
         box-shadow: 5px 0 20px rgba(0,0,0,0.15);
         border-right: none;
+        overflow: hidden; /* 모바일 외곽 스크롤 방지 */
+        padding: 0; /* 모바일 외곽 패딩 제거 */
+    }
+
+    #left-panel-content {
+        height: 100%;
+        overflow-y: auto; /* 모바일 내측 스크롤 활성화 */
+        box-sizing: border-box;
+        padding: 24px; /* 모바일 내측 패딩 */
     }
 
     /* 활성화 시 부드럽게 등장 */
@@ -820,9 +829,19 @@ body {
         left: 0;
     }
 
-    /* 모바일 닫기 버튼 활성화 */
+    /* 모바일 닫기 버튼 활성화 및 상단 고정 */
     .drawer-close-btn {
         display: block;
+        position: absolute;
+        top: 12px;
+        right: 16px;
+        z-index: 2100;
+        margin-bottom: 0;
+    }
+
+    /* 모바일 환경에서 우측 상단 닫기 버튼과 겹침 방지 */
+    .profile-sticky-header {
+        padding-right: 48px;
     }
 
     /* 타임라인 분할 영역이 모바일에서는 위아래 적층 레이아웃으로 변경 */
@@ -945,4 +964,107 @@ body {
     .member-mini-card .card-name {
         font-size: 11px;
     }
+}
+
+/* 즐겨찾기 버튼 스타일 */
+.favorite-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #b0bec5; /* 비활성화 상태의 부드러운 회색 */
+    cursor: pointer;
+    transition: color 0.2s, transform 0.2s;
+    outline: none;
+    padding: 0;
+    margin-left: 6px;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.favorite-button:hover {
+    transform: scale(1.2);
+    color: #ffa000;
+}
+
+.favorite-button.active {
+    color: #ffb300; /* 활성화 상태의 고급스러운 황금색 */
+    text-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+/* 멤버 미니 카드 즐겨찾기 별 배지 */
+.mini-card-fav-badge {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #ffb300;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    font-weight: bold;
+    z-index: 10;
+}
+
+/* 개인 스케줄 리스트 활성화 항목 강조 스타일 */
+.member-schedule-item.active-schedule-item {
+    border-color: var(--accent-color);
+    background-color: var(--accent-light);
+    box-shadow: 0 2px 8px rgba(255, 51, 102, 0.1);
+}
+
+/* 프로필 상단 고정 헤더 */
+.profile-sticky-header {
+    position: sticky;
+    top: -24px;
+    margin-top: -24px;
+    margin-left: -24px;
+    margin-right: -24px;
+    padding: 16px 24px;
+    background-color: var(--light-bg);
+    z-index: 100;
+    border-bottom: 2px dashed #ddd;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-sticky-header .profile-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.profile-header-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 6px;
+}
+
+.profile-sticky-header .profile-nickname {
+    font-size: 13px;
+    color: #555;
+    font-weight: 500;
+}
+
+.profile-sticky-header .profile-card-colors {
+    margin: 0;
+    display: flex;
+    gap: 6px;
+}
+
+#left-panel-content {
+    min-height: 100%;
+    flex-shrink: 0;
 }
