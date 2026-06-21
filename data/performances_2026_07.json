@@ -105,6 +105,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58649"
     },
     {
+      "performanceId": "P2607_54",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2026-07-04",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58991"
+    },
+    {
       "performanceId": "P2607_40",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -306,6 +319,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58650"
     },
     {
+      "performanceId": "P2607_55",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2026-07-11",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58992"
+    },
+    {
       "performanceId": "P2607_43",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -463,6 +489,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58651"
     },
     {
+      "performanceId": "P2607_56",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2026-07-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58993"
+    },
+    {
       "performanceId": "P2607_46",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -615,6 +654,19 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58652"
+    },
+    {
+      "performanceId": "P2607_57",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2026-07-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58994"
     },
     {
       "performanceId": "P2607_50",
