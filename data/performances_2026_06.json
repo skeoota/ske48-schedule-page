@@ -2145,6 +2145,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58823"
     },
     {
+      "performanceId": "P2606_182",
+      "category": "メディア",
+      "title": "「エンタメnext」",
+      "date": "2026-06-21",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59003"
+    },
+    {
       "performanceId": "P2606_136",
       "category": "公演",
       "title": "チームKⅡ「シアターの女神」公演 篠原京香生誕祭＜17:00開演＞",
@@ -2193,6 +2206,32 @@
         "member_77"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58553"
+    },
+    {
+      "performanceId": "P2606_183",
+      "category": "メディア",
+      "title": "「メクリメクル」",
+      "date": "2026-06-22",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58942"
+    },
+    {
+      "performanceId": "P2606_184",
+      "category": "メディア",
+      "title": "NHK名古屋「まるっと！」",
+      "date": "2026-06-22",
+      "time": "18:10",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59000"
     },
     {
       "performanceId": "P2606_139",
@@ -2348,6 +2387,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58612"
     },
     {
+      "performanceId": "P2606_185",
+      "category": "メディア",
+      "title": "ウォーカープラス",
+      "date": "2026-06-24",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59002"
+    },
+    {
       "performanceId": "P2606_147",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -2414,6 +2466,19 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/57927"
+    },
+    {
+      "performanceId": "P2606_186",
+      "category": "メディア",
+      "title": "ウォーカープラス",
+      "date": "2026-06-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59001"
     },
     {
       "performanceId": "P2606_152",
@@ -2807,6 +2872,20 @@
         "member_104"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58799"
+    },
+    {
+      "performanceId": "P2606_187",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-06-29",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_1",
+        "member_2"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58814"
     },
     {
       "performanceId": "P2606_180",
