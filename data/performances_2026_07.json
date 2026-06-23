@@ -126,7 +126,12 @@
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
-        "member_48"
+        "member_48",
+        "member_106",
+        "member_107",
+        "member_108",
+        "member_109",
+        "member_110"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58962"
     },
@@ -500,6 +505,24 @@
         "member_16"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58993"
+    },
+    {
+      "performanceId": "P2607_58",
+      "category": "メディア",
+      "title": "【FM AICHI】　沢井里奈のさわやか#さわーたいむ",
+      "date": "2026-07-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48",
+        "member_106",
+        "member_107",
+        "member_108",
+        "member_109",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59005"
     },
     {
       "performanceId": "P2607_46",

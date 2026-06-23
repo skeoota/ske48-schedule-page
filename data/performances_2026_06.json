@@ -2208,6 +2208,32 @@
       "link": "https://ske48.co.jp/schedule/detail/58553"
     },
     {
+      "performanceId": "P2606_185",
+      "category": "メディア",
+      "title": "ウォーカープラス",
+      "date": "2026-06-22",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59002"
+    },
+    {
+      "performanceId": "P2606_186",
+      "category": "メディア",
+      "title": "ウォーカープラス",
+      "date": "2026-06-22",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59001"
+    },
+    {
       "performanceId": "P2606_183",
       "category": "メディア",
       "title": "「メクリメクル」",
@@ -2387,19 +2413,6 @@
       "link": "https://ske48.co.jp/schedule/detail/58612"
     },
     {
-      "performanceId": "P2606_185",
-      "category": "メディア",
-      "title": "ウォーカープラス",
-      "date": "2026-06-24",
-      "time": "00:00",
-      "venue": "외부 행사장",
-      "status": "SCHEDULED",
-      "castIds": [
-        "member_85"
-      ],
-      "link": "https://ske48.co.jp/schedule/detail/59002"
-    },
-    {
       "performanceId": "P2606_147",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -2466,19 +2479,6 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/57927"
-    },
-    {
-      "performanceId": "P2606_186",
-      "category": "メディア",
-      "title": "ウォーカープラス",
-      "date": "2026-06-25",
-      "time": "00:00",
-      "venue": "외부 행사장",
-      "status": "SCHEDULED",
-      "castIds": [
-        "member_48"
-      ],
-      "link": "https://ske48.co.jp/schedule/detail/59001"
     },
     {
       "performanceId": "P2606_152",
@@ -2915,6 +2915,22 @@
         "member_90"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58908"
+    },
+    {
+      "performanceId": "P2606_188",
+      "category": "メディア",
+      "title": "「BUBKA 8月号」発売日",
+      "date": "2026-06-30",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_1",
+        "member_50",
+        "member_77",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59004"
     },
     {
       "performanceId": "P2606_176",
