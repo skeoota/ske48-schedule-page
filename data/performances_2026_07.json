@@ -136,6 +136,23 @@
       "link": "https://ske48.co.jp/schedule/detail/58962"
     },
     {
+      "performanceId": "P2607_59",
+      "category": "メディア",
+      "title": "岐阜放送「ときめきステーション ダブジェネカウントダウン」",
+      "date": "2026-07-04",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_106",
+        "member_107",
+        "member_108",
+        "member_109",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59043"
+    },
+    {
       "performanceId": "P2607_39",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
@@ -219,6 +236,34 @@
       "link": "https://ske48.co.jp/schedule/detail/58811"
     },
     {
+      "performanceId": "P2607_60",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-07-06",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59022"
+    },
+    {
+      "performanceId": "P2607_61",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-07-07",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_92",
+        "member_100"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59023"
+    },
+    {
       "performanceId": "P2607_06",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -257,6 +302,20 @@
       "link": "https://ske48.co.jp/schedule/detail/58929"
     },
     {
+      "performanceId": "P2607_62",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-07-08",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_75",
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59024"
+    },
+    {
       "performanceId": "P2607_41",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
@@ -268,6 +327,20 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58976"
+    },
+    {
+      "performanceId": "P2607_63",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-07-09",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_5"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59025"
     },
     {
       "performanceId": "P2607_32",
@@ -283,6 +356,20 @@
         "member_74"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58948"
+    },
+    {
+      "performanceId": "P2607_64",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-07-10",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_95",
+        "member_103"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59026"
     },
     {
       "performanceId": "P2607_07",
@@ -348,6 +435,23 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58963"
+    },
+    {
+      "performanceId": "P2607_65",
+      "category": "メディア",
+      "title": "岐阜放送「ラジオ土曜便」",
+      "date": "2026-07-11",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_106",
+        "member_107",
+        "member_108",
+        "member_109",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59044"
     },
     {
       "performanceId": "P2607_42",
@@ -747,6 +851,22 @@
         "member_104"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58893"
+    },
+    {
+      "performanceId": "P2607_66",
+      "category": "メディア",
+      "title": "SHOWROOM『恋シュンの旬』",
+      "date": "2026-07-29",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_67",
+        "member_77",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59019"
     },
     {
       "performanceId": "P2607_25",

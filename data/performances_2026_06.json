@@ -2481,6 +2481,19 @@
       "link": "https://ske48.co.jp/schedule/detail/57927"
     },
     {
+      "performanceId": "P2606_189",
+      "category": "メディア",
+      "title": "「中京スポーツ」",
+      "date": "2026-06-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59013"
+    },
+    {
       "performanceId": "P2606_152",
       "category": "公演",
       "title": "12期生、13期生「可能性こそが未来」公演 立花菖生誕祭＜18:00開演＞",
@@ -2689,6 +2702,24 @@
       "link": "https://ske48.co.jp/schedule/detail/58648"
     },
     {
+      "performanceId": "P2606_191",
+      "category": "メディア",
+      "title": "岐阜放送「土曜日の推し事」",
+      "date": "2026-06-27",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_106",
+        "member_107",
+        "member_108",
+        "member_109",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59042"
+    },
+    {
       "performanceId": "P2606_164",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -2724,6 +2755,19 @@
         "member_104"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58853"
+    },
+    {
+      "performanceId": "P2606_190",
+      "category": "メディア",
+      "title": "佐賀競馬公式YouTube「てっちゃんのSAGAリベンジャーズ」",
+      "date": "2026-06-27",
+      "time": "17:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_45"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59014"
     },
     {
       "performanceId": "P2606_166",
@@ -2931,6 +2975,37 @@
         "member_81"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59004"
+    },
+    {
+      "performanceId": "P2606_192",
+      "category": "メディア",
+      "title": "「Zipper」",
+      "date": "2026-06-30",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59012"
+    },
+    {
+      "performanceId": "P2606_193",
+      "category": "メディア",
+      "title": "岐阜放送「ヒダミノ」",
+      "date": "2026-06-30",
+      "time": "18:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_106",
+        "member_107",
+        "member_108",
+        "member_109",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59045"
     },
     {
       "performanceId": "P2606_176",
