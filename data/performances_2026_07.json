@@ -118,6 +118,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58991"
     },
     {
+      "performanceId": "P2607_69",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2026-07-04",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59049"
+    },
+    {
       "performanceId": "P2607_40",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -151,6 +164,19 @@
         "member_110"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59043"
+    },
+    {
+      "performanceId": "P2607_68",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2026-07-04",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59054"
     },
     {
       "performanceId": "P2607_39",
@@ -424,6 +450,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58992"
     },
     {
+      "performanceId": "P2607_70",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2026-07-11",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59050"
+    },
+    {
       "performanceId": "P2607_43",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -629,6 +668,36 @@
       "link": "https://ske48.co.jp/schedule/detail/59005"
     },
     {
+      "performanceId": "P2607_67",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」",
+      "date": "2026-07-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_13",
+        "member_50",
+        "member_75",
+        "member_100"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59057"
+    },
+    {
+      "performanceId": "P2607_71",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2026-07-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59051"
+    },
+    {
       "performanceId": "P2607_46",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -794,6 +863,19 @@
         "member_16"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58994"
+    },
+    {
+      "performanceId": "P2607_72",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2026-07-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59052"
     },
     {
       "performanceId": "P2607_50",

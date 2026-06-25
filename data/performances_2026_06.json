@@ -2494,6 +2494,45 @@
       "link": "https://ske48.co.jp/schedule/detail/59013"
     },
     {
+      "performanceId": "P2606_194",
+      "category": "メディア",
+      "title": "「Yahoo!ニュース」",
+      "date": "2026-06-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59048"
+    },
+    {
+      "performanceId": "P2606_195",
+      "category": "メディア",
+      "title": "「Pop'n'Roll」",
+      "date": "2026-06-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59071"
+    },
+    {
+      "performanceId": "P2606_196",
+      "category": "メディア",
+      "title": "「WEBザテレビジョン」",
+      "date": "2026-06-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59072"
+    },
+    {
       "performanceId": "P2606_152",
       "category": "公演",
       "title": "12期生、13期生「可能性こそが未来」公演 立花菖生誕祭＜18:00開演＞",
@@ -2558,6 +2597,19 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58613"
+    },
+    {
+      "performanceId": "P2606_197",
+      "category": "メディア",
+      "title": "「日刊スポーツ」",
+      "date": "2026-06-26",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59073"
     },
     {
       "performanceId": "P2606_156",
@@ -2630,7 +2682,7 @@
     {
       "performanceId": "P2606_159",
       "category": "イベント",
-      "title": "「UP-T presents HERO SONIC 2026」",
+      "title": "【開催中止】「UP-T presents HERO SONIC 2026」",
       "date": "2026-06-27",
       "time": "00:00",
       "venue": "외부 행사장",
@@ -2731,6 +2783,19 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/57906"
+    },
+    {
+      "performanceId": "P2606_198",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2026-06-27",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59053"
     },
     {
       "performanceId": "P2606_165",
