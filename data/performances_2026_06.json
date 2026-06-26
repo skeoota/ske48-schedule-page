@@ -2612,6 +2612,32 @@
       "link": "https://ske48.co.jp/schedule/detail/59073"
     },
     {
+      "performanceId": "P2606_199",
+      "category": "メディア",
+      "title": "KUMON now! 「特別対談 水族館の達人・下村実さん×SKE48・鎌田菜月さん(前編)」",
+      "date": "2026-06-26",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59020"
+    },
+    {
+      "performanceId": "P2606_200",
+      "category": "メディア",
+      "title": "「KUMON now!」",
+      "date": "2026-06-26",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59078"
+    },
+    {
       "performanceId": "P2606_156",
       "category": "公演",
       "title": "「制服の芽」公演＜18:00開演＞",
@@ -2648,6 +2674,19 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58637"
+    },
+    {
+      "performanceId": "P2606_201",
+      "category": "メディア",
+      "title": "「ガラスガール」",
+      "date": "2026-06-26",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_1"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59083"
     },
     {
       "performanceId": "P2606_158",

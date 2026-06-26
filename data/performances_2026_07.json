@@ -2,6 +2,19 @@
   "yearMonth": "2026-07",
   "performances": [
     {
+      "performanceId": "P2607_77",
+      "category": "メディア",
+      "title": "シーシーエヌ『笠松けいば応援番組　SKE48 太田彩夏の笠馬X』（♯19前編）",
+      "date": "2026-07-01",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58878"
+    },
+    {
       "performanceId": "P2607_28",
       "category": "公演",
       "title": "チームE「RESET」公演＜18:30開演＞",
@@ -147,6 +160,20 @@
         "member_110"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58962"
+    },
+    {
+      "performanceId": "P2607_78",
+      "category": "メディア",
+      "title": "MID-FM761『キャプテン☆kazukiの「SKE48とアッセンブル」』",
+      "date": "2026-07-04",
+      "time": "11:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59076"
     },
     {
       "performanceId": "P2607_59",
@@ -493,6 +520,30 @@
       "link": "https://ske48.co.jp/schedule/detail/59044"
     },
     {
+      "performanceId": "P2607_73",
+      "category": "公演",
+      "title": "「制服の芽」公演＜17:00開演＞",
+      "date": "2026-07-11",
+      "time": "17:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_76",
+        "member_55",
+        "member_91",
+        "member_5",
+        "member_82",
+        "member_48",
+        "member_13",
+        "member_72",
+        "member_89",
+        "member_99",
+        "member_101",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59063"
+    },
+    {
       "performanceId": "P2607_42",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -543,6 +594,30 @@
       "link": "https://ske48.co.jp/schedule/detail/58925"
     },
     {
+      "performanceId": "P2607_74",
+      "category": "公演",
+      "title": "12期生、13期生「可能性こそが未来」公演＜18:00開演＞",
+      "date": "2026-07-13",
+      "time": "18:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_96",
+        "member_90",
+        "member_82",
+        "member_95",
+        "member_89",
+        "member_93",
+        "member_94",
+        "member_99",
+        "member_100",
+        "member_101",
+        "member_103",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59064"
+    },
+    {
       "performanceId": "P2607_11",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
@@ -582,6 +657,54 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58977"
+    },
+    {
+      "performanceId": "P2607_75",
+      "category": "公演",
+      "title": "「制服の芽」公演＜18:30開演＞",
+      "date": "2026-07-16",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_96",
+        "member_55",
+        "member_45",
+        "member_67",
+        "member_82",
+        "member_86",
+        "member_26",
+        "member_92",
+        "member_85",
+        "member_13",
+        "member_72"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59065"
+    },
+    {
+      "performanceId": "P2607_76",
+      "category": "公演",
+      "title": "チームS「ずっと君を探している」公演＜18:30開演＞",
+      "date": "2026-07-17",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_4",
+        "member_81",
+        "member_23",
+        "member_49",
+        "member_50",
+        "member_9",
+        "member_96",
+        "member_55",
+        "member_16",
+        "member_90",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59066"
     },
     {
       "performanceId": "P2607_13",
@@ -709,6 +832,20 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58964"
+    },
+    {
+      "performanceId": "P2607_79",
+      "category": "メディア",
+      "title": "MID-FM761『キャプテン☆kazukiの「SKE48とアッセンブル」』",
+      "date": "2026-07-18",
+      "time": "11:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59077"
     },
     {
       "performanceId": "P2607_16",
