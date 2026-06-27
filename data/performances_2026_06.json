@@ -2811,6 +2811,17 @@
       "link": "https://ske48.co.jp/schedule/detail/59042"
     },
     {
+      "performanceId": "P2606_165",
+      "category": "公演",
+      "title": "【公演中止】チームKⅡ「シアターの女神」公演＜17:00開演＞",
+      "date": "2026-06-27",
+      "time": "00:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/58853"
+    },
+    {
       "performanceId": "P2606_164",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -2835,30 +2846,6 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59053"
-    },
-    {
-      "performanceId": "P2606_165",
-      "category": "公演",
-      "title": "チームKⅡ「シアターの女神」公演＜17:00開演＞",
-      "date": "2026-06-27",
-      "time": "17:00",
-      "venue": "SKE48劇場",
-      "status": "SCHEDULED",
-      "castIds": [
-        "member_67",
-        "member_5",
-        "member_82",
-        "member_48",
-        "member_95",
-        "member_86",
-        "member_52",
-        "member_19",
-        "member_94",
-        "member_99",
-        "member_100",
-        "member_104"
-      ],
-      "link": "https://ske48.co.jp/schedule/detail/58853"
     },
     {
       "performanceId": "P2606_190",
@@ -2983,6 +2970,22 @@
         "member_64"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58593"
+    },
+    {
+      "performanceId": "P2606_202",
+      "category": "イベント",
+      "title": "「WONDER WEST LIVE vol.9」",
+      "date": "2026-06-29",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_75",
+        "member_86",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59088"
     },
     {
       "performanceId": "P2606_173",

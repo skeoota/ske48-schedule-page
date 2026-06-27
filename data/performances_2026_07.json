@@ -94,6 +94,22 @@
       "link": "https://ske48.co.jp/schedule/detail/58922"
     },
     {
+      "performanceId": "P2607_80",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-07-03",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_64",
+        "member_77",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59079"
+    },
+    {
       "performanceId": "P2607_01",
       "category": "イベント",
       "title": "SKE48 SUMMER Tour 2026〜じゅーしーすぷらっしゅ だぜ！〜  愛知公演",
@@ -259,6 +275,32 @@
         "member_74"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58824"
+    },
+    {
+      "performanceId": "P2607_82",
+      "category": "メディア",
+      "title": "J SPORTS「Cycle*2026　ツール・ド・フランス 第2ステージ」",
+      "date": "2026-07-05",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59096"
+    },
+    {
+      "performanceId": "P2607_81",
+      "category": "メディア",
+      "title": "佐賀競馬公式YouTube「てっちゃんのSAGAリベンジャーズ」",
+      "date": "2026-07-05",
+      "time": "17:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59097"
     },
     {
       "performanceId": "P2607_04",
