@@ -3005,7 +3005,7 @@
         "member_76",
         "member_55",
         "member_16",
-        "member_77",
+        "member_90",
         "member_79"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58855"
@@ -3094,6 +3094,20 @@
         "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59012"
+    },
+    {
+      "performanceId": "P2606_203",
+      "category": "メディア",
+      "title": "「週刊SPA!」",
+      "date": "2026-06-30",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_94"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59115"
     },
     {
       "performanceId": "P2606_193",
