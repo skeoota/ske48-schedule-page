@@ -3110,6 +3110,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59115"
     },
     {
+      "performanceId": "P2606_204",
+      "category": "メディア",
+      "title": "「東スポWEB」",
+      "date": "2026-06-30",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_1"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59134"
+    },
+    {
       "performanceId": "P2606_193",
       "category": "メディア",
       "title": "岐阜放送「ヒダミノ」",
