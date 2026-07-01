@@ -28,6 +28,32 @@
       "link": "https://ske48.co.jp/schedule/detail/59108"
     },
     {
+      "performanceId": "P2607_104",
+      "category": "メディア",
+      "title": "「Walker+」",
+      "date": "2026-07-01",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59138"
+    },
+    {
+      "performanceId": "P2607_105",
+      "category": "メディア",
+      "title": "ポッドキャスト『働く女と○○と。』",
+      "date": "2026-07-01",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59147"
+    },
+    {
       "performanceId": "P2607_92",
       "category": "メディア",
       "title": "メ～テレ「Digった！」",
@@ -133,6 +159,20 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59124"
+    },
+    {
+      "performanceId": "P2607_106",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-07-03",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59148"
     },
     {
       "performanceId": "P2607_36",
@@ -288,6 +328,21 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59054"
+    },
+    {
+      "performanceId": "P2607_107",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-07-04",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_67",
+        "member_93"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59142"
     },
     {
       "performanceId": "P2607_39",
@@ -573,6 +628,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59128"
     },
     {
+      "performanceId": "P2607_108",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-07-10",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59149"
+    },
+    {
       "performanceId": "P2607_64",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -717,6 +786,21 @@
         "member_104"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59063"
+    },
+    {
+      "performanceId": "P2607_109",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-07-11",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_67",
+        "member_93"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59143"
     },
     {
       "performanceId": "P2607_42",
@@ -938,6 +1022,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59066"
     },
     {
+      "performanceId": "P2607_110",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-07-17",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59150"
+    },
+    {
       "performanceId": "P2607_13",
       "category": "イベント",
       "title": "SKE48野村実代 1st写真集『美しい方程式』お渡し会",
@@ -1092,6 +1190,27 @@
       "link": "https://ske48.co.jp/schedule/detail/58882"
     },
     {
+      "performanceId": "P2607_111",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-07-18",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_26",
+        "member_45",
+        "member_67",
+        "member_93",
+        "member_106",
+        "member_108",
+        "member_109",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59144"
+    },
+    {
       "performanceId": "P2607_47",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -1222,6 +1341,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59112"
     },
     {
+      "performanceId": "P2607_112",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-07-24",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59151"
+    },
+    {
       "performanceId": "P2607_21",
       "category": "イベント",
       "title": "「シマノバイカーズフェスティバル」",
@@ -1296,6 +1429,21 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58965"
+    },
+    {
+      "performanceId": "P2607_113",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-07-25",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_67",
+        "member_93"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59145"
     },
     {
       "performanceId": "P2607_51",
@@ -1469,6 +1617,20 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59114"
+    },
+    {
+      "performanceId": "P2607_114",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-07-31",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59152"
     }
   ]
 }
