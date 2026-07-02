@@ -134,6 +134,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58975"
     },
     {
+      "performanceId": "P2607_115",
+      "category": "メディア",
+      "title": "「エンタメnext」",
+      "date": "2026-07-02",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59160"
+    },
+    {
       "performanceId": "P2607_35",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -250,7 +263,9 @@
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
-        "member_16"
+        "member_16",
+        "member_50",
+        "member_79"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58991"
     },
@@ -716,7 +731,9 @@
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
-        "member_16"
+        "member_16",
+        "member_50",
+        "member_79"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58992"
     },
