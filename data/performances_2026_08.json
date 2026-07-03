@@ -243,6 +243,34 @@
       "link": "https://ske48.co.jp/schedule/detail/58836"
     },
     {
+      "performanceId": "P2608_19",
+      "category": "イベント",
+      "title": "「メ～テレ MUSIC DAYS」",
+      "date": "2026-08-23",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_19",
+        "member_23",
+        "member_34",
+        "member_43",
+        "member_44",
+        "member_47",
+        "member_52",
+        "member_67",
+        "member_81",
+        "member_85",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59163"
+    },
+    {
       "performanceId": "P2608_15",
       "category": "イベント",
       "title": "SKE48 ミミフィーユ 東名阪ツアー @BLAZE GOTANDA",

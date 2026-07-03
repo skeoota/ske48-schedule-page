@@ -161,6 +161,32 @@
       "link": "https://ske48.co.jp/schedule/detail/58921"
     },
     {
+      "performanceId": "P2607_120",
+      "category": "メディア",
+      "title": "SUUMOタウン",
+      "date": "2026-07-03",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59167"
+    },
+    {
+      "performanceId": "P2607_121",
+      "category": "メディア",
+      "title": "「KUMON now!」",
+      "date": "2026-07-03",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59169"
+    },
+    {
       "performanceId": "P2607_95",
       "category": "メディア",
       "title": "メ～テレ「Digった！」",
@@ -1194,6 +1220,30 @@
       "link": "https://ske48.co.jp/schedule/detail/59077"
     },
     {
+      "performanceId": "P2607_116",
+      "category": "公演",
+      "title": "チームKⅡ「シアターの女神」公演＜12:00開演＞",
+      "date": "2026-07-18",
+      "time": "12:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_45",
+        "member_67",
+        "member_5",
+        "member_82",
+        "member_8",
+        "member_95",
+        "member_86",
+        "member_52",
+        "member_75",
+        "member_93",
+        "member_94"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59171"
+    },
+    {
       "performanceId": "P2607_16",
       "category": "イベント",
       "title": "「オリックス・バファローズ対北海道日本ハムファイターズ戦」セレモニアルピッチ",
@@ -1239,6 +1289,29 @@
         "member_64"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58951"
+    },
+    {
+      "performanceId": "P2607_117",
+      "category": "公演",
+      "title": "SKE48 真夏のホーンテッドシアター＜12:00開演＞",
+      "date": "2026-07-19",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_91",
+        "member_3",
+        "member_5",
+        "member_45",
+        "member_86",
+        "member_97",
+        "member_47",
+        "member_92",
+        "member_89",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59172"
     },
     {
       "performanceId": "P2607_17",
@@ -1319,6 +1392,30 @@
       "link": "https://ske48.co.jp/schedule/detail/58813"
     },
     {
+      "performanceId": "P2607_118",
+      "category": "公演",
+      "title": "「制服の芽」公演＜18:00開演＞",
+      "date": "2026-07-21",
+      "time": "18:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_50",
+        "member_96",
+        "member_77",
+        "member_79",
+        "member_45",
+        "member_67",
+        "member_86",
+        "member_2",
+        "member_47",
+        "member_72",
+        "member_99"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59173"
+    },
+    {
       "performanceId": "P2607_87",
       "category": "メディア",
       "title": "資産形成情報チャンネルあしたのマネー",
@@ -1343,6 +1440,30 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58978"
+    },
+    {
+      "performanceId": "P2607_119",
+      "category": "公演",
+      "title": "チームKⅡ「シアターの女神」公演 池田楓生誕祭＜18:30開演＞",
+      "date": "2026-07-23",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_45",
+        "member_67",
+        "member_5",
+        "member_82",
+        "member_48",
+        "member_95",
+        "member_86",
+        "member_52",
+        "member_75",
+        "member_19",
+        "member_94"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59174"
     },
     {
       "performanceId": "P2607_88",
