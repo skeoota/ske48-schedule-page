@@ -1068,3 +1068,37 @@ body {
     min-height: 100%;
     flex-shrink: 0;
 }
+
+/* --- 졸업멤버 전용 UI 스타일링 정의 --- */
+.member-mini-card.graduated img,
+.profile-card.graduated img {
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.member-mini-card.graduated:hover img {
+    filter: grayscale(30%);
+    opacity: 0.9;
+}
+
+.mini-card-grad-badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: rgba(66, 66, 66, 0.85); /* 반투명 다크 그레이 */
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 10px;
+    font-weight: bold;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    letter-spacing: 0.5px;
+}
+
+.profile-team.graduated-team {
+    background-color: #eceff1;
+    color: #78909c;
+    border: 1px solid #cfd8dc;
+}

@@ -124,23 +124,53 @@ def parse_individual_profile(url, session, team_name):
                 profile_details[kk] = val
                 break
                 
-    # 6. 세부 데이터를 결합하여 소개글(Bio) 완성
+    # 6. 세부 데이터를 결합하여 소개글(Bio) 완성 (다국어 지원)
     nickname = profile_details.get("ニックネーム", "")
     birth = profile_details.get("生年月日", "")
     hometown = profile_details.get("出身地", "")
     catchphrase = profile_details.get("キャッチフレーズ", "")
     
-    bio_parts = []
+    # 한국어 Bio
+    ko_parts = []
     if nickname:
-        bio_parts.append(f"닉네임은 '{nickname}'입니다.")
+        ko_parts.append(f"닉네임은 '{nickname}'입니다.")
     if birth:
-        bio_parts.append(f"생년월일은 {birth}입니다.")
+        ko_parts.append(f"생년월일은 {birth}입니다.")
     if hometown:
-        bio_parts.append(f"출신지는 {hometown}입니다.")
+        ko_parts.append(f"출신지는 {hometown}입니다.")
     if catchphrase:
-        bio_parts.append(f"캐치프레이즈: \"{catchphrase}\"")
-        
-    bio = " ".join(bio_parts) if bio_parts else f"SKE48 멤버 {name}의 공식 프로필입니다."
+        ko_parts.append(f"캐치프레이즈: \"{catchphrase}\"")
+    ko_bio = " ".join(ko_parts) if ko_parts else f"SKE48 멤버 {name}의 공식 프로필입니다."
+
+    # 일본어 Bio
+    ja_parts = []
+    if nickname:
+        ja_parts.append(f"ニックネームは「{nickname}」です。")
+    if birth:
+        ja_parts.append(f"生年月日は{birth}です。")
+    if hometown:
+        ja_parts.append(f"出身地は{hometown}です。")
+    if catchphrase:
+        ja_parts.append(f"キャッチフレーズ：「{catchphrase}」")
+    ja_bio = " ".join(ja_parts) if ja_parts else f"SKE48メンバー{name}の公式プロフィールです。"
+
+    # 영어 Bio
+    en_parts = []
+    if nickname:
+        en_parts.append(f"Nickname is '{nickname}'.")
+    if birth:
+        en_parts.append(f"Date of birth is {birth}.")
+    if hometown:
+        en_parts.append(f"Hometown is {hometown}.")
+    if catchphrase:
+        en_parts.append(f"Catchphrase: \"{catchphrase}\"")
+    en_bio = " ".join(en_parts) if en_parts else f"Official profile of SKE48 member {name}."
+
+    bio = {
+        "ko": ko_bio,
+        "ja": ja_bio,
+        "en": en_bio
+    }
     
     return {
         "memberId": member_id,
@@ -159,6 +189,47 @@ def parse_individual_profile(url, session, team_name):
             "specialty": profile_details.get("特技", "")
         }
     }
+
+def download_image_locally(url, member_id, session):
+    """
+    원격 이미지 URL을 다운로드하여 로컬 images/ 디렉토리에 저장합니다.
+    저장 후 로컬 상대 경로(예: 'images/member_xx.jpg')를 반환합니다.
+    """
+    if not url or not url.startswith("http"):
+        return url
+        
+    try:
+        # 확장자 추출 (기본값 .jpg)
+        filename = os.path.basename(url.split("?")[0])
+        ext = os.path.splitext(filename)[1]
+        if not ext:
+            ext = ".jpg"
+            
+        local_dir = "images"
+        os.makedirs(local_dir, exist_ok=True)
+        
+        local_filename = f"{member_id}{ext}"
+        local_path = os.path.join(local_dir, local_filename)
+        
+        # 이미 로컬 파일이 존재한다면 다운로드 건너뜀
+        if os.path.exists(local_path):
+            return f"images/{local_filename}"
+            
+        print(f"   [이미지 다운로드] {member_id} 프로필 이미지 다운로드 중...")
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+        response = session.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        
+        with open(local_path, "wb") as f:
+            f.write(response.content)
+            
+        print(f"   [이미지 다운로드] 저장 성공: {local_path}")
+        return f"images/{local_filename}"
+    except Exception as e:
+        print(f"   [이미지 다운로드 실패] {url} -> {e}")
+        return url
 
 def start_integration_crawl():
     index_url = "https://ske48.co.jp/feature/profile"
@@ -293,11 +364,15 @@ def start_integration_crawl():
     
     updated_count = 0
     added_count = 0
+    graduated_count = 0
+    
+    crawled_ids = {m["memberId"] for m in all_members}
     
     for new_m in all_members:
         m_id = new_m["memberId"]
         if m_id in member_map:
-            # 기존 정보 업데이트
+            # 기존 정보 업데이트 (기존에 졸업 상태였다가 활성화된 경우 대비)
+            member_map[m_id].pop("isGraduated", None)
             member_map[m_id].update(new_m)
             updated_count += 1
         else:
@@ -305,6 +380,20 @@ def start_integration_crawl():
             existing_members.append(new_m)
             member_map[m_id] = new_m
             added_count += 1
+            
+    # 프로필 사이트에 없는 멤버는 졸업멤버로 변경
+    for m_id, existing_m in member_map.items():
+        if m_id not in crawled_ids:
+            if existing_m.get("position") != "졸업멤버" or not existing_m.get("isGraduated"):
+                existing_m["position"] = "졸업멤버"
+                existing_m["isGraduated"] = True
+                graduated_count += 1
+            
+            # 졸업멤버인 경우 이미지 URL을 로컬로 다운로드
+            current_img_url = existing_m.get("profileImageUrl", "")
+            if current_img_url and current_img_url.startswith("http"):
+                local_img_path = download_image_locally(current_img_url, m_id, session)
+                existing_m["profileImageUrl"] = local_img_path
             
     # 최종 결과 저장
     output_data = {"members": existing_members}
@@ -319,6 +408,7 @@ def start_integration_crawl():
     print(f" - 저장 경로: {output_path}")
     print(f" - 신규 추가 멤버: {added_count}명")
     print(f" - 정보 갱신 멤버: {updated_count}명")
+    print(f" - 졸업 처리 멤버: {graduated_count}명")
     print(f" - 최종 저장된 총 멤버 수: {len(existing_members)}명")
 
 

@@ -40,7 +40,10 @@ const translations = {
 
         // 💡 [신규] 선택기 전용 다국어 리소스 [1]
         yearSuffix: "년",
-        months: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"]
+        months: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"],
+
+        "졸업멤버": "졸업멤버",
+        badgeGraduated: "졸업"
     },
     ja: {
         title: "SKE48 劇場スケジュール＆プロフィールポータル",
@@ -81,7 +84,10 @@ const translations = {
         weekdays: ["日", "月", "火", "水", "木", "金", "土"],
 
         yearSuffix: "年",
-        months: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"]
+        months: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+
+        "졸업멤버": "卒業メンバー",
+        badgeGraduated: "卒業"
     },
     en: {
         title: "SKE48 Theater Schedule & Profile Portal",
@@ -122,7 +128,10 @@ const translations = {
         weekdays: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
 
         yearSuffix: " ",
-        months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+        months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+
+        "졸업멤버": "Graduated",
+        badgeGraduated: "Graduated"
     }
 };
 
@@ -357,7 +366,7 @@ function renderTeamBasedProfiles() {
         grouped[team].push(member);
     });
 
-    const officialOrder = ["Team S", "チームS", "Team KⅡ", "Team KII", "チームKⅡ", "Team E", "チームE", "研究生"];
+    const officialOrder = ["Team S", "チームS", "Team KⅡ", "Team KII", "チームKⅡ", "Team E", "チームE", "研究生", "졸업멤버", "卒業メンバー", "Graduated"];
     const sortedTeamNames = Object.keys(grouped).sort((a, b) => {
         const indexA = officialOrder.findIndex(term => a.toUpperCase().includes(term.toUpperCase()) || term.toUpperCase().includes(a.toUpperCase()));
         const indexB = officialOrder.findIndex(term => b.toUpperCase().includes(term.toUpperCase()) || term.toUpperCase().includes(b.toUpperCase()));
@@ -376,7 +385,11 @@ function renderTeamBasedProfiles() {
 
         const titleDiv = document.createElement("div");
         titleDiv.className = "cast-title";
-        titleDiv.textContent = `${teamName} ${t("teamCountLabel", { count: membersInTeam.length })}`;
+        let displayTeamName = teamName;
+        if (teamName === "졸업멤버" || teamName === "卒業メンバー" || teamName === "Graduated") {
+            displayTeamName = t("졸업멤버");
+        }
+        titleDiv.textContent = `${displayTeamName} ${t("teamCountLabel", { count: membersInTeam.length })}`;
         sectionDiv.appendChild(titleDiv);
 
         const gridDiv = document.createElement("div");
@@ -385,6 +398,12 @@ function renderTeamBasedProfiles() {
         membersInTeam.forEach(member => {
             const card = document.createElement("div");
             card.className = "member-mini-card";
+            
+            const isGraduated = member.isGraduated || member.position === "졸업멤버" || member.position === "卒業メンバー" || member.position === "Graduated";
+            if (isGraduated) {
+                card.classList.add("graduated");
+            }
+            
             card.onclick = () => selectMember(member.memberId, true, true); // 사용자가 직접 터치하여 강제 오픈 및 타임라인 오토포커스 유도
             
             const memberColorStr = (member.details && member.details.memberColor) || (member.detail && member.detail.memberColor) || "";
@@ -400,11 +419,13 @@ function renderTeamBasedProfiles() {
 
             const isFav = localStorage.getItem("ske_favorite_member") === member.memberId;
             const favBadgeHTML = isFav ? `<span class="mini-card-fav-badge">★</span>` : "";
+            const gradBadgeHTML = isGraduated ? `<span class="mini-card-grad-badge">${t("badgeGraduated")}</span>` : "";
 
             card.innerHTML = `
                 <div class="img-frame" style="position: relative;">
                     <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
                     ${favBadgeHTML}
+                    ${gradBadgeHTML}
                 </div>
                 <div class="card-name">${member.name}</div>
                 ${colorDotsHTML}
@@ -843,10 +864,13 @@ function selectPerformance(perf) {
                     `;
                 }
             }
+            const isGraduated = member.isGraduated || member.position === "졸업멤버" || member.position === "卒業メンバー" || member.position === "Graduated";
+            const gradBadgeHTML = isGraduated ? `<span class="mini-card-grad-badge">${t("badgeGraduated")}</span>` : "";
             castCardsHTML += `
-                <div class="member-mini-card" onclick="selectMember('${member.memberId}', true, false)">
-                    <div class="img-frame">
+                <div class="member-mini-card ${isGraduated ? 'graduated' : ''}" onclick="selectMember('${member.memberId}', true, false)">
+                    <div class="img-frame" style="position: relative;">
                         <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
+                        ${gradBadgeHTML}
                     </div>
                     <div class="card-name">${member.name}</div>
                     ${colorDotsHTML}
@@ -1021,6 +1045,21 @@ async function selectMember(memberId, forceOpen = true, autoSelectOnTimeline = f
     `;
 
     const nicknameText = (d && d.nickname) || "";
+    
+    const isGrad = member.isGraduated || member.position === "졸업멤버" || member.position === "卒業メンバー" || member.position === "Graduated";
+    let displayPosition = member.position;
+    if (isGrad) {
+        displayPosition = t("졸업멤버");
+    }
+
+    let displayBio = "";
+    if (member.bio) {
+        if (typeof member.bio === "object") {
+            displayBio = member.bio[currentLang] || member.bio["ko"] || member.bio["ja"] || member.bio["en"] || "";
+        } else {
+            displayBio = member.bio;
+        }
+    }
 
     leftPanelContent.innerHTML = `
         <div class="profile-sticky-header" data-member-id="${member.memberId}">
@@ -1034,12 +1073,12 @@ async function selectMember(memberId, forceOpen = true, autoSelectOnTimeline = f
             </div>
         </div>
         
-        <div class="profile-card" data-member-id="${member.memberId}" style="border-bottom: none; margin-bottom: 12px; padding-bottom: 0;">
+        <div class="profile-card ${isGrad ? 'graduated' : ''}" data-member-id="${member.memberId}" style="border-bottom: none; margin-bottom: 12px; padding-bottom: 0;">
             <div class="profile-img-wrapper">
                 <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
             </div>
-            <div class="profile-team" style="margin-top: 10px;">${member.position}</div>
-            <p class="profile-bio">${member.bio}</p>
+            <div class="profile-team ${isGrad ? 'graduated-team' : ''}" style="margin-top: 10px;">${displayPosition}</div>
+            <p class="profile-bio">${displayBio}</p>
         </div>
         
         <!-- 아코디언 1: 세부 정보 프로필 (기본값: 접힘 ▶) -->
