@@ -710,6 +710,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59127"
     },
     {
+      "performanceId": "P2607_122",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-07-10",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_78",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59080"
+    },
+    {
       "performanceId": "P2607_07",
       "category": "イベント",
       "title": "SKE48野村実代 1st写真集『美しい方程式』お渡し会",
@@ -844,6 +858,21 @@
         "member_93"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59143"
+    },
+    {
+      "performanceId": "P2607_123",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-07-11",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52",
+        "member_64",
+        "member_75"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58917"
     },
     {
       "performanceId": "P2607_42",
