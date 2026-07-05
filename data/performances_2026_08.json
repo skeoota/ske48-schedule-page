@@ -106,6 +106,21 @@
       "link": "https://ske48.co.jp/schedule/detail/58426"
     },
     {
+      "performanceId": "P2608_20",
+      "category": "イベント",
+      "title": "SKE48 37thシングルCDショップ予約購入者特典会（グループ握手）",
+      "date": "2026-08-03",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_50",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59201"
+    },
+    {
       "performanceId": "P2608_17",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
