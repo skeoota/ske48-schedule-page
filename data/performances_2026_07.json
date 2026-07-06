@@ -480,6 +480,32 @@
       "link": "https://ske48.co.jp/schedule/detail/59194"
     },
     {
+      "performanceId": "P2607_139",
+      "category": "メディア",
+      "title": "「Walker+」",
+      "date": "2026-07-06",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59207"
+    },
+    {
+      "performanceId": "P2607_140",
+      "category": "メディア",
+      "title": "「STREAM」",
+      "date": "2026-07-06",
+      "time": "18:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59208"
+    },
+    {
       "performanceId": "P2607_04",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
@@ -667,6 +693,19 @@
         "member_74"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58948"
+    },
+    {
+      "performanceId": "P2607_136",
+      "category": "イベント",
+      "title": "シンガーソングライター見田村千晴　×　ＳＫＥ４８太田彩夏　トークショー",
+      "date": "2026-07-10",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59209"
     },
     {
       "performanceId": "P2607_99",
@@ -1004,6 +1043,19 @@
         "member_104"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59064"
+    },
+    {
+      "performanceId": "P2607_141",
+      "category": "メディア",
+      "title": "NHK名古屋「まるっと！」",
+      "date": "2026-07-13",
+      "time": "18:10",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59161"
     },
     {
       "performanceId": "P2607_11",
@@ -1376,6 +1428,35 @@
       "link": "https://ske48.co.jp/schedule/detail/59199"
     },
     {
+      "performanceId": "P2607_142",
+      "category": "メディア",
+      "title": "テレビ愛知「コワイハナシ」",
+      "date": "2026-07-19",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_89"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58825"
+    },
+    {
+      "performanceId": "P2607_137",
+      "category": "イベント",
+      "title": "「春日井製菓×SKE48コラボ」発売記念店頭イベント",
+      "date": "2026-07-19",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_23",
+        "member_49",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59190"
+    },
+    {
       "performanceId": "P2607_117",
       "category": "公演",
       "title": "SKE48 真夏のホーンテッドシアター＜12:00開演＞",
@@ -1410,6 +1491,22 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58529"
+    },
+    {
+      "performanceId": "P2607_138",
+      "category": "イベント",
+      "title": "「春日井製菓×SKE48コラボ」発売記念店頭イベント",
+      "date": "2026-07-19",
+      "time": "15:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_50",
+        "member_81",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59192"
     },
     {
       "performanceId": "P2607_18",

@@ -106,6 +106,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58426"
     },
     {
+      "performanceId": "P2608_23",
+      "category": "メディア",
+      "title": "テレビ愛知「コワイハナシ」",
+      "date": "2026-08-02",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_89"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58826"
+    },
+    {
       "performanceId": "P2608_20",
       "category": "イベント",
       "title": "SKE48 37thシングルCDショップ予約購入者特典会（グループ握手）",
@@ -147,6 +160,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59153"
     },
     {
+      "performanceId": "P2608_21",
+      "category": "イベント",
+      "title": "「春日井製菓×SKE48コラボ」発売記念店頭イベント",
+      "date": "2026-08-06",
+      "time": "15:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_76",
+        "member_77",
+        "member_90",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59193"
+    },
+    {
       "performanceId": "P2608_08",
       "category": "イベント",
       "title": "SKE48 太田彩夏 1st 写真集 お渡し会",
@@ -171,6 +200,21 @@
         "member_26"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59155"
+    },
+    {
+      "performanceId": "P2608_22",
+      "category": "イベント",
+      "title": "「春日井製菓×SKE48コラボ」発売記念店頭イベント",
+      "date": "2026-08-09",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_43",
+        "member_55"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59191"
     },
     {
       "performanceId": "P2608_10",
