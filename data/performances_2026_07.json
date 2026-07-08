@@ -588,6 +588,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59109"
     },
     {
+      "performanceId": "P2607_154",
+      "category": "メディア",
+      "title": "ポッドキャスト『働く女と○○と。』",
+      "date": "2026-07-08",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59217"
+    },
+    {
       "performanceId": "P2607_06",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -735,6 +748,20 @@
         "member_64"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59128"
+    },
+    {
+      "performanceId": "P2607_155",
+      "category": "メディア",
+      "title": "テレビ愛知「キン・ドニーチ」",
+      "date": "2026-07-10",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59220"
     },
     {
       "performanceId": "P2607_108",
@@ -915,9 +942,9 @@
         "member_76",
         "member_55",
         "member_91",
-        "member_5",
         "member_82",
         "member_48",
+        "member_74",
         "member_13",
         "member_72",
         "member_89",
@@ -993,6 +1020,20 @@
         "member_47"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58838"
+    },
+    {
+      "performanceId": "P2607_156",
+      "category": "メディア",
+      "title": "ABEMA「スナックさざなみ」",
+      "date": "2026-07-12",
+      "time": "20:50",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59213"
     },
     {
       "performanceId": "P2607_133",
@@ -1439,7 +1480,6 @@
         "member_3",
         "member_45",
         "member_67",
-        "member_5",
         "member_82",
         "member_8",
         "member_95",
@@ -1447,7 +1487,8 @@
         "member_52",
         "member_75",
         "member_93",
-        "member_94"
+        "member_94",
+        "member_99"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59171"
     },
