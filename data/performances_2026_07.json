@@ -161,6 +161,21 @@
       "link": "https://ske48.co.jp/schedule/detail/58921"
     },
     {
+      "performanceId": "P2607_160",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-07-02",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_55",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59179"
+    },
+    {
       "performanceId": "P2607_120",
       "category": "メディア",
       "title": "SUUMOタウン",
@@ -682,6 +697,20 @@
       "link": "https://ske48.co.jp/schedule/detail/58976"
     },
     {
+      "performanceId": "P2607_162",
+      "category": "メディア",
+      "title": "「Forty-Eight Times」（AKB48新聞電子版）",
+      "date": "2026-07-09",
+      "time": "00:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59224"
+    },
+    {
       "performanceId": "P2607_97",
       "category": "メディア",
       "title": "メ～テレ「Digった！」",
@@ -707,6 +736,21 @@
         "member_5"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59025"
+    },
+    {
+      "performanceId": "P2607_161",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-07-09",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_34",
+        "member_75"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59180"
     },
     {
       "performanceId": "P2607_32",
@@ -735,6 +779,52 @@
         "member_26"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59209"
+    },
+    {
+      "performanceId": "P2607_157",
+      "category": "イベント",
+      "title": "SKE48 Team Sオリジナル新公演『ずっと君を探している』CD発売記念「3on1トーク会」「グループショットチェキ付きトーク会」",
+      "date": "2026-07-10",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_43",
+        "member_49",
+        "member_50",
+        "member_55",
+        "member_76",
+        "member_77",
+        "member_79",
+        "member_81",
+        "member_90",
+        "member_91",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59229"
+    },
+    {
+      "performanceId": "P2607_163",
+      "category": "メディア",
+      "title": "「また！？SKE48 8期生 緊急生配信」",
+      "date": "2026-07-10",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_5",
+        "member_8",
+        "member_9",
+        "member_16",
+        "member_50",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59228"
     },
     {
       "performanceId": "P2607_99",
@@ -1157,6 +1247,33 @@
       "link": "https://ske48.co.jp/schedule/detail/59027"
     },
     {
+      "performanceId": "P2607_158",
+      "category": "イベント",
+      "title": "SKE48 Team Sオリジナル新公演『ずっと君を探している』CD発売記念「3on1トーク会」「グループショットチェキ付きトーク会」",
+      "date": "2026-07-14",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_43",
+        "member_49",
+        "member_50",
+        "member_55",
+        "member_76",
+        "member_77",
+        "member_79",
+        "member_81",
+        "member_90",
+        "member_91",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59230"
+    },
+    {
       "performanceId": "P2607_100",
       "category": "メディア",
       "title": "メ～テレ「Digった！」",
@@ -1196,6 +1313,47 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59110"
+    },
+    {
+      "performanceId": "P2607_159",
+      "category": "イベント",
+      "title": "SKE48 Team Sオリジナル新公演『ずっと君を探している』CD発売記念「3on1トーク会」「グループショットチェキ付きトーク会」",
+      "date": "2026-07-15",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_43",
+        "member_49",
+        "member_50",
+        "member_55",
+        "member_76",
+        "member_77",
+        "member_79",
+        "member_81",
+        "member_90",
+        "member_91",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59231"
+    },
+    {
+      "performanceId": "P2607_164",
+      "category": "メディア",
+      "title": "「EX大衆」",
+      "date": "2026-07-15",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59227"
     },
     {
       "performanceId": "P2607_146",
