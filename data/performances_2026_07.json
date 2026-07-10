@@ -827,6 +827,23 @@
       "link": "https://ske48.co.jp/schedule/detail/59228"
     },
     {
+      "performanceId": "P2607_170",
+      "category": "メディア",
+      "title": "「岐阜新聞デジタル」",
+      "date": "2026-07-10",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_106",
+        "member_107",
+        "member_108",
+        "member_109",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59234"
+    },
+    {
       "performanceId": "P2607_99",
       "category": "メディア",
       "title": "メ～テレ「Digった！」",
@@ -1166,6 +1183,19 @@
         "member_67"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58925"
+    },
+    {
+      "performanceId": "P2607_171",
+      "category": "メディア",
+      "title": "浦和競馬場公式YouTube「トワイライトーク」",
+      "date": "2026-07-13",
+      "time": "15:35",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59216"
     },
     {
       "performanceId": "P2607_74",
@@ -2015,6 +2045,30 @@
       "link": "https://ske48.co.jp/schedule/detail/59112"
     },
     {
+      "performanceId": "P2607_165",
+      "category": "公演",
+      "title": "12期生、13期生「可能性こそが未来」公演＜18:00開演＞",
+      "date": "2026-07-24",
+      "time": "18:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_90",
+        "member_82",
+        "member_92",
+        "member_89",
+        "member_93",
+        "member_94",
+        "member_98",
+        "member_99",
+        "member_100",
+        "member_101",
+        "member_102",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59236"
+    },
+    {
       "performanceId": "P2607_112",
       "category": "メディア",
       "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
@@ -2283,6 +2337,30 @@
       "link": "https://ske48.co.jp/schedule/detail/59203"
     },
     {
+      "performanceId": "P2607_166",
+      "category": "公演",
+      "title": "チームS「ずっと君を探している」公演＜18:30開演＞",
+      "date": "2026-07-28",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_4",
+        "member_81",
+        "member_23",
+        "member_49",
+        "member_50",
+        "member_96",
+        "member_9",
+        "member_55",
+        "member_16",
+        "member_77",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59237"
+    },
+    {
       "performanceId": "P2607_66",
       "category": "メディア",
       "title": "SHOWROOM『恋シュンの旬』",
@@ -2333,6 +2411,30 @@
         "member_98"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59204"
+    },
+    {
+      "performanceId": "P2607_167",
+      "category": "公演",
+      "title": "12期生、13期生「可能性こそが未来」公演＜18:00開演＞",
+      "date": "2026-07-29",
+      "time": "18:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_96",
+        "member_91",
+        "member_82",
+        "member_95",
+        "member_92",
+        "member_89",
+        "member_94",
+        "member_99",
+        "member_100",
+        "member_101",
+        "member_103",
+        "member_105"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59238"
     },
     {
       "performanceId": "P2607_25",
@@ -2403,6 +2505,30 @@
       "link": "https://ske48.co.jp/schedule/detail/59205"
     },
     {
+      "performanceId": "P2607_168",
+      "category": "公演",
+      "title": "「制服の芽」公演＜18:30開演＞",
+      "date": "2026-07-30",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_67",
+        "member_82",
+        "member_48",
+        "member_2",
+        "member_47",
+        "member_26",
+        "member_92",
+        "member_89",
+        "member_99",
+        "member_101",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59239"
+    },
+    {
       "performanceId": "P2607_27",
       "category": "イベント",
       "title": "劇団☆龍(Dragon)童子produce『月の子- Lunae Hostia -』",
@@ -2449,6 +2575,30 @@
         "member_103"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59206"
+    },
+    {
+      "performanceId": "P2607_169",
+      "category": "公演",
+      "title": "チームE「RESET」公演＜18:30開演＞",
+      "date": "2026-07-31",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_2",
+        "member_44",
+        "member_47",
+        "member_26",
+        "member_92",
+        "member_74",
+        "member_85",
+        "member_34",
+        "member_13",
+        "member_72",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59240"
     },
     {
       "performanceId": "P2607_114",
