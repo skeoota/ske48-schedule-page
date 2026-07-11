@@ -1129,6 +1129,32 @@
       "link": "https://ske48.co.jp/schedule/detail/58838"
     },
     {
+      "performanceId": "P2607_172",
+      "category": "メディア",
+      "title": "KBCラジオ「KBC Sunday Music Hour」",
+      "date": "2026-07-12",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59254"
+    },
+    {
+      "performanceId": "P2607_173",
+      "category": "メディア",
+      "title": "RKBラジオ「サンデーウォッチR」",
+      "date": "2026-07-12",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59255"
+    },
+    {
       "performanceId": "P2607_156",
       "category": "メディア",
       "title": "ABEMA「スナックさざなみ」",
@@ -1151,6 +1177,7 @@
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
+        "member_9",
         "member_77"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59195"
@@ -1464,6 +1491,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59030"
     },
     {
+      "performanceId": "P2607_174",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-07-16",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_67",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58988"
+    },
+    {
       "performanceId": "P2607_76",
       "category": "公演",
       "title": "チームS「ずっと君を探している」公演＜18:30開演＞",
@@ -1514,6 +1556,20 @@
         "member_45"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59031"
+    },
+    {
+      "performanceId": "P2607_175",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-07-17",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_8"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59081"
     },
     {
       "performanceId": "P2607_13",
@@ -2030,6 +2086,21 @@
         "member_95"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59035"
+    },
+    {
+      "performanceId": "P2607_176",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-07-23",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_67",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58989"
     },
     {
       "performanceId": "P2607_88",
