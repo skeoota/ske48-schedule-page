@@ -1212,6 +1212,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58925"
     },
     {
+      "performanceId": "P2607_177",
+      "category": "メディア",
+      "title": "「SKE48 佐藤佳穂 2nd ソロライブ『今宵は月が綺麗ですね』」情報解禁生配信",
+      "date": "2026-07-13",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59257"
+    },
+    {
       "performanceId": "P2607_171",
       "category": "メディア",
       "title": "浦和競馬場公式YouTube「トワイライトーク」",
@@ -1721,7 +1734,6 @@
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
       "castIds": [
-        "member_3",
         "member_45",
         "member_67",
         "member_82",
@@ -1730,6 +1742,7 @@
         "member_86",
         "member_52",
         "member_75",
+        "member_92",
         "member_93",
         "member_94",
         "member_99"
