@@ -1344,6 +1344,32 @@
       "link": "https://ske48.co.jp/schedule/detail/59230"
     },
     {
+      "performanceId": "P2607_178",
+      "category": "メディア",
+      "title": "「週刊SPA!」",
+      "date": "2026-07-14",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_99"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59117"
+    },
+    {
+      "performanceId": "P2607_179",
+      "category": "メディア",
+      "title": "「デイリースポーツ」",
+      "date": "2026-07-14",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59263"
+    },
+    {
       "performanceId": "P2607_100",
       "category": "メディア",
       "title": "メ～テレ「Digった！」",
