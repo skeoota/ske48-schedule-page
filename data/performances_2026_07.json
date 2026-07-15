@@ -1725,6 +1725,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59051"
     },
     {
+      "performanceId": "P2607_180",
+      "category": "メディア",
+      "title": "中日こどもウイークリー　コラム「親の時間　子の時間」",
+      "date": "2026-07-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59222"
+    },
+    {
       "performanceId": "P2607_46",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -1969,6 +1982,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58926"
     },
     {
+      "performanceId": "P2607_181",
+      "category": "メディア",
+      "title": "ABEMA「イースタン×ウエスタンヤング開幕記念 THE START LINE - 夢のゼロ地点 - 」",
+      "date": "2026-07-20",
+      "time": "16:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59269"
+    },
+    {
       "performanceId": "P2607_102",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
@@ -2097,10 +2123,8 @@
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
       "castIds": [
-        "member_3",
         "member_45",
         "member_67",
-        "member_5",
         "member_82",
         "member_48",
         "member_95",
@@ -2108,7 +2132,9 @@
         "member_52",
         "member_75",
         "member_19",
-        "member_94"
+        "member_94",
+        "member_100",
+        "member_104"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59174"
     },
@@ -2523,6 +2549,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59204"
     },
     {
+      "performanceId": "P2607_182",
+      "category": "メディア",
+      "title": "FM滋賀「キャッチ！」",
+      "date": "2026-07-29",
+      "time": "14:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_78",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59270"
+    },
+    {
       "performanceId": "P2607_167",
       "category": "公演",
       "title": "12期生、13期生「可能性こそが未来」公演＜18:00開演＞",
@@ -2590,6 +2630,19 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58979"
+    },
+    {
+      "performanceId": "P2607_183",
+      "category": "メディア",
+      "title": "「球団90周年記念SPECIAL BOOK DragonsDays 2026」",
+      "date": "2026-07-30",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59272"
     },
     {
       "performanceId": "P2607_130",

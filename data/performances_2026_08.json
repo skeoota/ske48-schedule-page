@@ -160,22 +160,6 @@
       "link": "https://ske48.co.jp/schedule/detail/59153"
     },
     {
-      "performanceId": "P2608_21",
-      "category": "イベント",
-      "title": "「春日井製菓×SKE48コラボ」発売記念店頭イベント",
-      "date": "2026-08-06",
-      "time": "15:00",
-      "venue": "외부 행사장",
-      "status": "SCHEDULED",
-      "castIds": [
-        "member_76",
-        "member_77",
-        "member_90",
-        "member_91"
-      ],
-      "link": "https://ske48.co.jp/schedule/detail/59193"
-    },
-    {
       "performanceId": "P2608_08",
       "category": "イベント",
       "title": "SKE48 太田彩夏 1st 写真集 お渡し会",
@@ -217,6 +201,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59191"
     },
     {
+      "performanceId": "P2608_21",
+      "category": "イベント",
+      "title": "「春日井製菓×SKE48コラボ」発売記念店頭イベント",
+      "date": "2026-08-09",
+      "time": "15:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_76",
+        "member_77",
+        "member_90",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59193"
+    },
+    {
       "performanceId": "P2608_10",
       "category": "イベント",
       "title": "テレビ朝日・六本木ヒルズ SUMMER FES 「SUMMER FES 音楽ライブ」",
@@ -254,6 +254,22 @@
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/58831"
+    },
+    {
+      "performanceId": "P2608_24",
+      "category": "イベント",
+      "title": "FC岐阜応援隊「FC岐阜 vs高知ユナイテッドSC」",
+      "date": "2026-08-15",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_8",
+        "member_26",
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59260"
     },
     {
       "performanceId": "P2608_12",
