@@ -189,7 +189,7 @@ def parse_schedule_detail(url, session, members_list, item_type, category):
     if item_type == "live05":
         # 모든 멤버 일괄 포함
         cast_ids = [m.get("memberId") for m in members_list if m.get("memberId")]
-    elif item_type in ["live04", "live06"]:
+    elif item_type in ["live04", "live06", "live07"]:
         # 상세페이지 하단 해시태그 스팬 리스트 매핑
         cast_ids = parse_tags_members(soup, members_list)
     else:
@@ -199,6 +199,19 @@ def parse_schedule_detail(url, session, members_list, item_type, category):
             full_text_area = soup.select_one("div.wrap--main div.txt")
             if full_text_area:
                 cast_ids = clean_and_match_members(full_text_area.get_text(), members_list)
+                
+    if not cast_ids:
+        # 페이지 전체에서 로드된 멤버 이름이 있는지 매칭하여 cast_ids를 채웁니다.
+        page_text = soup.get_text()
+        cleaned_page_text = re.sub(r"\s+", "", page_text)
+        for member in members_list:
+            member_name = member.get("name", "")
+            member_id = member.get("memberId", "")
+            if member_name and member_id:
+                cleaned_m_name = re.sub(r"\s+", "", member_name)
+                if cleaned_m_name in cleaned_page_text:
+                    if member_id not in cast_ids:
+                        cast_ids.append(member_id)
             
     return {
         "category": category, 
@@ -230,7 +243,7 @@ def scrape_monthly_schedules(year, month, members_list):
         
     soup = BeautifulSoup(response.text, "html.parser")
     
-    target_classes = ["live02", "live04", "live05", "live06"]
+    target_classes = ["live02", "live04", "live05", "live06", "live07"]
     schedule_items = []
     seen_urls = set()  # 데이터 중복 수집 차단용 셋(Set)
     
