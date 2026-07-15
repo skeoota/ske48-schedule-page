@@ -74,10 +74,6 @@ body {
     z-index: 1500;
 }
 
-.drawer-overlay.active {
-    display: block;
-}
-
 .profile-placeholder {
     display: flex;
     flex-direction: column;
@@ -818,6 +814,10 @@ body {
         border-radius: 0;
         flex-direction: column;
         box-shadow: none;
+    }
+
+    .drawer-overlay.active {
+        display: block;
     }
 
     /* 좌측 패널 -> 모바일 슬라이딩 서랍장(Drawer) 시스템으로 변환 */
