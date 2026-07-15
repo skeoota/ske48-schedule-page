@@ -7,9 +7,9 @@
     <!-- 파비콘 설정 -->
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <!-- 외부 스타일시트 로드 -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=1.0.2">
     <!-- 자바스크립트 파일 로드 (defer로 DOM 로드 후 실행) -->
-    <script src="app.js" defer></script>
+    <script src="app.js?v=1.0.2" defer></script>
 </head>
 <body>
 
@@ -78,9 +78,15 @@
                 </div>
             </div>
 
-            <!-- 스케줄 및 캐스트 정보 그리드 상세 표시 -->
-            <div class="detail-wrapper" id="detail-wrapper">
-                <!-- 상세 화면 플레이스홀더 -->
+            <!-- 스케줄 및 캐스트 정보 그리드 상세 표시 패널 (모바일 슬라이딩 대응) -->
+            <div class="detail-panel" id="detail-panel">
+                <div class="detail-panel-header">
+                    <button class="detail-back-btn" id="detail-back-btn" onclick="closeDetailPanel()">&larr; 일정 목록</button>
+                    <span class="detail-panel-title">상세 정보</span>
+                </div>
+                <div class="detail-wrapper" id="detail-wrapper">
+                    <!-- 상세 화면 플레이스홀더 -->
+                </div>
             </div>
         </div>
 

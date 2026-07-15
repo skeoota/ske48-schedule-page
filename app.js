@@ -43,7 +43,8 @@ const translations = {
         months: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"],
 
         "졸업멤버": "졸업멤버",
-        badgeGraduated: "졸업"
+        badgeGraduated: "졸업",
+        backToList: "← 일정 목록"
     },
     ja: {
         title: "SKE48 劇場スケジュール＆プロフィールポータル",
@@ -87,7 +88,8 @@ const translations = {
         months: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
 
         "졸업멤버": "卒業メンバー",
-        badgeGraduated: "卒業"
+        badgeGraduated: "卒業",
+        backToList: "← スケジュール一覧"
     },
     en: {
         title: "SKE48 Theater Schedule & Profile Portal",
@@ -131,7 +133,8 @@ const translations = {
         months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
 
         "졸업멤버": "Graduated",
-        badgeGraduated: "Graduated"
+        badgeGraduated: "Graduated",
+        backToList: "← Schedule List"
     }
 };
 
@@ -207,6 +210,7 @@ let activeCategoryFilter = "all";
 let activeSearchQuery = "";
 let activeSelectedMemberId = null;
 let renderTimelineTimeoutId = null;
+let isAutoClicking = false;
 
 // 오늘 날짜 데이터를 실시간으로 가져와 전역 설정합니다 [1].
 const systemToday = new Date();
@@ -290,7 +294,7 @@ async function initApplication() {
     // 즐겨찾기 멤버 로드 및 선택
     const favMemberId = localStorage.getItem("ske_favorite_member");
     if (favMemberId) {
-        selectMember(favMemberId, true, true);
+        selectMember(favMemberId, window.innerWidth > 768, true);
     }
 }
 
@@ -324,11 +328,16 @@ function switchViewMode(mode) {
 
 function updateStaticPlaceholders() {
     document.title = t("title");
-    document.getElementById("btn-prev-month").textContent = `< ${t("prevMonth")}`;
-    document.getElementById("btn-next-month").textContent = `${t("nextMonth")} >`;
+    document.getElementById("btn-prev-month").textContent = "<";
+    document.getElementById("btn-next-month").textContent = ">";
     document.getElementById("btn-today").textContent = t("btnToday");
     document.getElementById("tab-btn-schedule").textContent = t("tabSchedule");
     document.getElementById("tab-btn-profiles").textContent = t("tabProfiles");
+
+    const detailBackBtn = document.getElementById("detail-back-btn");
+    if (detailBackBtn) {
+        detailBackBtn.textContent = t("backToList");
+    }
 
     const leftPanelContent = document.getElementById("left-panel-content");
     if (!leftPanelContent.querySelector(".profile-card")) {
@@ -350,6 +359,15 @@ function updateStaticPlaceholders() {
 function closeMobileDrawer() {
     document.getElementById("left-panel").classList.remove("drawer-active");
     document.getElementById("drawer-overlay").classList.remove("active");
+}
+
+// 모바일 전용 상세 패널 제어 함수
+function closeDetailPanel() {
+    document.getElementById("detail-panel").classList.remove("active");
+}
+
+function openDetailPanel() {
+    document.getElementById("detail-panel").classList.add("active");
 }
 
 // 멤버를 팀별로 그룹화 및 순서(S -> KII -> E -> 연구생)대로 구분 나열
@@ -692,7 +710,9 @@ function renderTimeline() {
 
             if (clickTarget) {
                 clickTarget.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                isAutoClicking = true;
                 clickTarget.click();
+                isAutoClicking = false;
             }
         } else {
             // 클릭할 요소가 아예 없으면 우측 상세창을 비워둡니다.
@@ -740,6 +760,8 @@ function updateDateSelects() {
 
 // 💡 [신규 고도화] 수동으로 연도나 월 드롭다운을 변경했을 때의 감지 이벤트 헨들러 [1]
 async function handleSelectDateChange() {
+    closeMobileDrawer();
+    closeDetailPanel();
     const yearSelect = document.getElementById("year-select");
     const monthSelect = document.getElementById("month-select");
     if (!yearSelect || !monthSelect) return;
@@ -757,6 +779,8 @@ async function handleSelectDateChange() {
 
 // 언제든 실제 오늘 연월일 일정으로 귀환하는 함수
 async function goToToday() {
+    closeMobileDrawer();
+    closeDetailPanel();
     activeSelectedMemberId = null;
     const today = new Date();
     viewYear = today.getFullYear();
@@ -782,6 +806,11 @@ function handlePerfClick(selectedKey, perfId, element) {
     element.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
     selectPerformance(perf);
+
+    if (!isAutoClicking) {
+        closeMobileDrawer();
+        openDetailPanel();
+    }
 }
 
 // 일정이 없는 날을 클릭했을 때의 통합 인터랙션 함수
@@ -796,9 +825,16 @@ function handleEmptyClick(selectedKey, dateStr, element) {
     element.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
     selectEmptyDay(dateStr);
+
+    if (!isAutoClicking) {
+        closeMobileDrawer();
+        openDetailPanel();
+    }
 }
 
 async function changeMonth(step) {
+    closeMobileDrawer();
+    closeDetailPanel();
     viewMonth += step;
     if (viewMonth > 12) {
         viewMonth = 1;
@@ -1015,7 +1051,7 @@ async function selectMember(memberId, forceOpen = true, autoSelectOnTimeline = f
             const isClosest = closestPerf && schedule.performanceId === closestPerf.performanceId;
 
             personalScheduleHTML += `
-                <div class="member-schedule-item ${isClosest ? 'active-schedule-item' : ''}">
+                <div class="member-schedule-item clickable ${isClosest ? 'active-schedule-item' : ''}" onclick="handlePersonalScheduleItemClick('${schedule.performanceId}')">
                     <strong>${t("datetime")}:</strong> ${schedule.date} (${schedule.time})<br>
                     <strong>${t("performance")}:</strong> ${schedule.title}<br>
                     <strong>${t("cast")}:</strong> ${rawCastNames}
@@ -1118,6 +1154,19 @@ async function selectMember(memberId, forceOpen = true, autoSelectOnTimeline = f
                 activeItem.scrollIntoView({ behavior: "smooth", block: "nearest" });
             }
         }, 150);
+    }
+}
+
+// 개인 스케줄 목록에서 특정 일정을 클릭했을 때 호출되는 함수
+function handlePersonalScheduleItemClick(perfId) {
+    // 1. 모바일 프로필 서랍 닫기
+    closeMobileDrawer();
+    
+    // 2. 타임라인(일정 목록)에서 해당 공연의 요소를 찾아서 클릭
+    const clickTarget = document.querySelector(`.perf-item-link[onclick*="${perfId}"]`);
+    if (clickTarget) {
+        clickTarget.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        clickTarget.click();
     }
 }
 
