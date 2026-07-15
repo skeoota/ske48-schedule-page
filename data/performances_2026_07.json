@@ -279,7 +279,21 @@
       "time": "00:00",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
-      "castIds": [],
+      "castIds": [
+        "member_81",
+        "member_96",
+        "member_9",
+        "member_55",
+        "member_77",
+        "member_67",
+        "member_48",
+        "member_95",
+        "member_75",
+        "member_26",
+        "member_74",
+        "member_13",
+        "member_72"
+      ],
       "link": "https://ske48.co.jp/schedule/detail/58433"
     },
     {
@@ -322,6 +336,32 @@
         "member_13"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59049"
+    },
+    {
+      "performanceId": "P2607_185",
+      "category": "誕生日",
+      "title": "高村紗弥誕生日",
+      "date": "2026-07-04",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_88"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47809"
+    },
+    {
+      "performanceId": "P2607_186",
+      "category": "誕生日",
+      "title": "飯田ゆら誕生日",
+      "date": "2026-07-04",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_106"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59181"
     },
     {
       "performanceId": "P2607_40",
@@ -439,7 +479,21 @@
       "time": "00:00",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
-      "castIds": [],
+      "castIds": [
+        "member_43",
+        "member_76",
+        "member_16",
+        "member_90",
+        "member_91",
+        "member_5",
+        "member_82",
+        "member_8",
+        "member_52",
+        "member_64",
+        "member_34",
+        "member_89",
+        "member_78"
+      ],
       "link": "https://ske48.co.jp/schedule/detail/58434"
     },
     {
@@ -467,6 +521,19 @@
         "member_3"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59096"
+    },
+    {
+      "performanceId": "P2607_187",
+      "category": "誕生日",
+      "title": "池田楓誕生日",
+      "date": "2026-07-05",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_45"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47779"
     },
     {
       "performanceId": "P2607_81",
@@ -1112,7 +1179,22 @@
       "time": "00:00",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
-      "castIds": [],
+      "castIds": [
+        "member_4",
+        "member_23",
+        "member_49",
+        "member_50",
+        "member_79",
+        "member_3",
+        "member_45",
+        "member_86",
+        "member_19",
+        "member_2",
+        "member_44",
+        "member_47",
+        "member_92",
+        "member_85"
+      ],
       "link": "https://ske48.co.jp/schedule/detail/58435"
     },
     {
@@ -1965,7 +2047,21 @@
       "time": "00:00",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
-      "castIds": [],
+      "castIds": [
+        "member_43",
+        "member_76",
+        "member_16",
+        "member_90",
+        "member_91",
+        "member_5",
+        "member_82",
+        "member_8",
+        "member_52",
+        "member_64",
+        "member_34",
+        "member_89",
+        "member_78"
+      ],
       "link": "https://ske48.co.jp/schedule/detail/58436"
     },
     {
@@ -2100,6 +2196,22 @@
         "member_45"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59034"
+    },
+    {
+      "performanceId": "P2607_184",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2026-07-22",
+      "time": "22:58",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_44",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59137"
     },
     {
       "performanceId": "P2607_49",
@@ -2253,7 +2365,21 @@
       "time": "00:00",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
-      "castIds": [],
+      "castIds": [
+        "member_81",
+        "member_96",
+        "member_9",
+        "member_55",
+        "member_77",
+        "member_67",
+        "member_48",
+        "member_95",
+        "member_75",
+        "member_26",
+        "member_74",
+        "member_13",
+        "member_72"
+      ],
       "link": "https://ske48.co.jp/schedule/detail/58437"
     },
     {

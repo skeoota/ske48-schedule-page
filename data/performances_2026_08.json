@@ -63,7 +63,22 @@
       "time": "00:00",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
-      "castIds": [],
+      "castIds": [
+        "member_4",
+        "member_23",
+        "member_49",
+        "member_50",
+        "member_79",
+        "member_3",
+        "member_45",
+        "member_86",
+        "member_19",
+        "member_2",
+        "member_44",
+        "member_47",
+        "member_92",
+        "member_85"
+      ],
       "link": "https://ske48.co.jp/schedule/detail/58438"
     },
     {
@@ -217,6 +232,32 @@
       "link": "https://ske48.co.jp/schedule/detail/59193"
     },
     {
+      "performanceId": "P2608_25",
+      "category": "誕生日",
+      "title": "熊崎晴香誕生日",
+      "date": "2026-08-10",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47783"
+    },
+    {
+      "performanceId": "P2608_26",
+      "category": "誕生日",
+      "title": "伊藤実希誕生日",
+      "date": "2026-08-11",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47784"
+    },
+    {
       "performanceId": "P2608_10",
       "category": "イベント",
       "title": "テレビ朝日・六本木ヒルズ SUMMER FES 「SUMMER FES 音楽ライブ」",
@@ -252,7 +293,15 @@
       "time": "00:00",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
-      "castIds": [],
+      "castIds": [
+        "member_4",
+        "member_50",
+        "member_9",
+        "member_16",
+        "member_5",
+        "member_8",
+        "member_52"
+      ],
       "link": "https://ske48.co.jp/schedule/detail/58831"
     },
     {
@@ -294,6 +343,19 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58934"
+    },
+    {
+      "performanceId": "P2608_27",
+      "category": "誕生日",
+      "title": "太田彩夏誕生日",
+      "date": "2026-08-17",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47786"
     },
     {
       "performanceId": "P2608_13",
@@ -346,6 +408,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59163"
     },
     {
+      "performanceId": "P2608_28",
+      "category": "誕生日",
+      "title": "池田有沙誕生日",
+      "date": "2026-08-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_45"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59182"
+    },
+    {
       "performanceId": "P2608_15",
       "category": "イベント",
       "title": "SKE48 ミミフィーユ 東名阪ツアー @BLAZE GOTANDA",
@@ -355,6 +430,19 @@
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59104"
+    },
+    {
+      "performanceId": "P2608_29",
+      "category": "誕生日",
+      "title": "鎌田菜月誕生日",
+      "date": "2026-08-29",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47787"
     }
   ]
 }
