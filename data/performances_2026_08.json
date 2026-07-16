@@ -175,6 +175,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59153"
     },
     {
+      "performanceId": "P2608_30",
+      "category": "イベント",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい公開録音 vol.19」",
+      "date": "2026-08-07",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_48",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59273"
+    },
+    {
       "performanceId": "P2608_08",
       "category": "イベント",
       "title": "SKE48 太田彩夏 1st 写真集 お渡し会",
