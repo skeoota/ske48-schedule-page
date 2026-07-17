@@ -56,6 +56,30 @@
       "link": "https://ske48.co.jp/schedule/detail/58915"
     },
     {
+      "performanceId": "P2608_31",
+      "category": "公演",
+      "title": "12期生,13期生「可能性こそが未来」公演＜17:00開演＞",
+      "date": "2026-08-01",
+      "time": "17:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_96",
+        "member_90",
+        "member_82",
+        "member_89",
+        "member_93",
+        "member_94",
+        "member_98",
+        "member_99",
+        "member_100",
+        "member_101",
+        "member_102",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59291"
+    },
+    {
       "performanceId": "P2608_04",
       "category": "イベント",
       "title": "SKE48 SUMMER Tour 2026〜じゅーしーすぷらっしゅ だぜ！〜　東京公演",
@@ -149,6 +173,30 @@
       "link": "https://ske48.co.jp/schedule/detail/59201"
     },
     {
+      "performanceId": "P2608_32",
+      "category": "公演",
+      "title": "チームS「ずっと君を探している」公演＜18:30開演＞",
+      "date": "2026-08-03",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_4",
+        "member_81",
+        "member_23",
+        "member_49",
+        "member_9",
+        "member_76",
+        "member_55",
+        "member_16",
+        "member_77",
+        "member_90",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59292"
+    },
+    {
       "performanceId": "P2608_17",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
@@ -162,6 +210,30 @@
       "link": "https://ske48.co.jp/schedule/detail/58804"
     },
     {
+      "performanceId": "P2608_33",
+      "category": "公演",
+      "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
+      "date": "2026-08-04",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_45",
+        "member_67",
+        "member_82",
+        "member_48",
+        "member_8",
+        "member_95",
+        "member_86",
+        "member_52",
+        "member_19",
+        "member_93",
+        "member_94",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59293"
+    },
+    {
       "performanceId": "P2608_07",
       "category": "イベント",
       "title": "SKE48 太田彩夏 1st 写真集 発売記念お渡し会",
@@ -173,6 +245,44 @@
         "member_26"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59153"
+    },
+    {
+      "performanceId": "P2608_35",
+      "category": "メディア",
+      "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
+      "date": "2026-08-05",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59284"
+    },
+    {
+      "performanceId": "P2608_34",
+      "category": "公演",
+      "title": "「制服の芽」公演＜18:30開演＞",
+      "date": "2026-08-06",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_96",
+        "member_45",
+        "member_82",
+        "member_86",
+        "member_64",
+        "member_44",
+        "member_47",
+        "member_26",
+        "member_72",
+        "member_89",
+        "member_93"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59294"
     },
     {
       "performanceId": "P2608_30",
@@ -373,6 +483,20 @@
       "link": "https://ske48.co.jp/schedule/detail/47786"
     },
     {
+      "performanceId": "P2608_36",
+      "category": "メディア",
+      "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
+      "date": "2026-08-19",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59285"
+    },
+    {
       "performanceId": "P2608_13",
       "category": "イベント",
       "title": "SKE48 ミミフィーユ 東名阪ツアー @名古屋ダイアモンドホール",
@@ -418,7 +542,15 @@
         "member_67",
         "member_81",
         "member_85",
-        "member_90"
+        "member_90",
+        "member_94",
+        "member_99",
+        "member_104",
+        "member_106",
+        "member_107",
+        "member_108",
+        "member_109",
+        "member_110"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59163"
     },

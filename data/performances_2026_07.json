@@ -1645,7 +1645,7 @@
         "member_96",
         "member_55",
         "member_16",
-        "member_90",
+        "member_77",
         "member_91"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59066"
@@ -1905,6 +1905,41 @@
       "link": "https://ske48.co.jp/schedule/detail/59144"
     },
     {
+      "performanceId": "P2607_188",
+      "category": "メディア",
+      "title": "東海テレビ公式Youtube「アウェイサポ、岐阜でなにしてる?」",
+      "date": "2026-07-18",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_26",
+        "member_67",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59288"
+    },
+    {
+      "performanceId": "P2607_189",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-07-18",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_5",
+        "member_8",
+        "member_9",
+        "member_16",
+        "member_50",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59289"
+    },
+    {
       "performanceId": "P2607_47",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -1972,13 +2007,13 @@
       "castIds": [
         "member_43",
         "member_91",
-        "member_3",
         "member_5",
         "member_45",
         "member_86",
         "member_97",
         "member_47",
         "member_92",
+        "member_85",
         "member_89",
         "member_104"
       ],
@@ -2182,6 +2217,20 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59111"
+    },
+    {
+      "performanceId": "P2607_190",
+      "category": "メディア",
+      "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
+      "date": "2026-07-22",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59283"
     },
     {
       "performanceId": "P2607_151",
