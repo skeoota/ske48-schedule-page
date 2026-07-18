@@ -411,6 +411,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58829"
     },
     {
+      "performanceId": "P2608_37",
+      "category": "イベント",
+      "title": "笠松競馬場  サマーイベント２０２６ トークショー",
+      "date": "2026-08-12",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59310"
+    },
+    {
       "performanceId": "P2608_11",
       "category": "イベント",
       "title": "SKE48 8期生10周年コンサート はちきがだいすき🎀",
@@ -428,6 +441,21 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58831"
+    },
+    {
+      "performanceId": "P2608_38",
+      "category": "イベント",
+      "title": "笠松競馬場  サマーイベント２０２６ トークショー",
+      "date": "2026-08-13",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_48",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59311"
     },
     {
       "performanceId": "P2608_24",

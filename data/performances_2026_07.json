@@ -1627,6 +1627,20 @@
       "link": "https://ske48.co.jp/schedule/detail/58988"
     },
     {
+      "performanceId": "P2607_191",
+      "category": "メディア",
+      "title": "「東スポWEB」",
+      "date": "2026-07-17",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_47",
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59302"
+    },
+    {
       "performanceId": "P2607_76",
       "category": "公演",
       "title": "チームS「ずっと君を探している」公演＜18:30開演＞",
@@ -2219,6 +2233,17 @@
       "link": "https://ske48.co.jp/schedule/detail/59111"
     },
     {
+      "performanceId": "P2607_192",
+      "category": "メディア",
+      "title": "「SKE48 37thシングル選抜メンバー発表＆情報解禁生配信」",
+      "date": "2026-07-22",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/59300"
+    },
+    {
       "performanceId": "P2607_190",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -2392,6 +2417,21 @@
         "member_89"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59036"
+    },
+    {
+      "performanceId": "P2607_193",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-07-24",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8",
+        "member_77",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59082"
     },
     {
       "performanceId": "P2607_21",
