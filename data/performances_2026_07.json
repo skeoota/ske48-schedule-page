@@ -1834,6 +1834,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59222"
     },
     {
+      "performanceId": "P2607_194",
+      "category": "メディア",
+      "title": "「東スポWEB」",
+      "date": "2026-07-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59312"
+    },
+    {
       "performanceId": "P2607_46",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -2537,6 +2551,21 @@
         "member_93"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59145"
+    },
+    {
+      "performanceId": "P2607_195",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-07-25",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_50",
+        "member_78",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59290"
     },
     {
       "performanceId": "P2607_51",
