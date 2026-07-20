@@ -2525,6 +2525,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59052"
     },
     {
+      "performanceId": "P2607_196",
+      "category": "メディア",
+      "title": "メ〜テレ「ドデスカ！」",
+      "date": "2026-07-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59313"
+    },
+    {
       "performanceId": "P2607_50",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
