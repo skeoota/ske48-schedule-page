@@ -275,6 +275,20 @@
       "link": "https://ske48.co.jp/schedule/detail/58804"
     },
     {
+      "performanceId": "P2608_68",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-03",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_55"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59328"
+    },
+    {
       "performanceId": "P2608_33",
       "category": "公演",
       "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
@@ -297,6 +311,20 @@
         "member_104"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59293"
+    },
+    {
+      "performanceId": "P2608_69",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-04",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_101",
+        "member_102"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59329"
     },
     {
       "performanceId": "P2608_07",
@@ -326,6 +354,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59284"
     },
     {
+      "performanceId": "P2608_70",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-05",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_92",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59330"
+    },
+    {
       "performanceId": "P2608_44",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
@@ -347,7 +389,6 @@
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
       "castIds": [
-        "member_49",
         "member_96",
         "member_45",
         "member_82",
@@ -358,9 +399,24 @@
         "member_26",
         "member_72",
         "member_89",
-        "member_93"
+        "member_93",
+        "member_99"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59294"
+    },
+    {
+      "performanceId": "P2608_71",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-06",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_75",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59331"
     },
     {
       "performanceId": "P2608_30",
@@ -376,6 +432,20 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59273"
+    },
+    {
+      "performanceId": "P2608_72",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-07",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48",
+        "member_95"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59332"
     },
     {
       "performanceId": "P2608_08",
@@ -890,7 +960,7 @@
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
-        "member_45"
+        "member_107"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59182"
     },

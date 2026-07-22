@@ -2271,6 +2271,32 @@
       "link": "https://ske48.co.jp/schedule/detail/59300"
     },
     {
+      "performanceId": "P2607_198",
+      "category": "メディア",
+      "title": "「東スポWEB」",
+      "date": "2026-07-22",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59333"
+    },
+    {
+      "performanceId": "P2607_199",
+      "category": "メディア",
+      "title": "「J-CASTニュース」",
+      "date": "2026-07-22",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59342"
+    },
+    {
       "performanceId": "P2607_190",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -2719,6 +2745,20 @@
       "link": "https://ske48.co.jp/schedule/detail/58803"
     },
     {
+      "performanceId": "P2607_200",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-07-27",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67",
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59037"
+    },
+    {
       "performanceId": "P2607_128",
       "category": "イベント",
       "title": "SKE48 37thシングル対象 オンラインサイン会＆チェキ会＆抽選会",
@@ -2765,6 +2805,20 @@
         "member_79"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59237"
+    },
+    {
+      "performanceId": "P2607_201",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-07-28",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_94",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59038"
     },
     {
       "performanceId": "P2607_66",
@@ -2855,6 +2909,20 @@
         "member_105"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59238"
+    },
+    {
+      "performanceId": "P2607_202",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-07-29",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_93",
+        "member_100"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59039"
     },
     {
       "performanceId": "P2607_25",
@@ -2962,6 +3030,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59239"
     },
     {
+      "performanceId": "P2607_203",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-07-30",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_72",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59040"
+    },
+    {
       "performanceId": "P2607_27",
       "category": "イベント",
       "title": "劇団☆龍(Dragon)童子produce『月の子- Lunae Hostia -』",
@@ -3046,6 +3128,20 @@
         "member_44"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59152"
+    },
+    {
+      "performanceId": "P2607_204",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-07-31",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_101"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59041"
     }
   ]
 }
