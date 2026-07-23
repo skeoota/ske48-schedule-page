@@ -2745,6 +2745,21 @@
       "link": "https://ske48.co.jp/schedule/detail/58803"
     },
     {
+      "performanceId": "P2607_205",
+      "category": "メディア",
+      "title": "テレビ愛知SKE48部 YouTube生配信「がブリチキン。× SKE48  商品開発会議 チームS編」",
+      "date": "2026-07-27",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_43",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59346"
+    },
+    {
       "performanceId": "P2607_200",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -2923,6 +2938,22 @@
         "member_100"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59039"
+    },
+    {
+      "performanceId": "P2607_206",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2026-07-29",
+      "time": "22:58",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_44",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59139"
     },
     {
       "performanceId": "P2607_25",
