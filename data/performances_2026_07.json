@@ -2926,6 +2926,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59238"
     },
     {
+      "performanceId": "P2607_207",
+      "category": "メディア",
+      "title": "ニコニコチャンネル「SKE48非公式ちゃんねる」",
+      "date": "2026-07-29",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_13",
+        "member_45",
+        "member_47"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59354"
+    },
+    {
       "performanceId": "P2607_202",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
