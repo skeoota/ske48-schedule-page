@@ -434,6 +434,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59331"
     },
     {
+      "performanceId": "P2608_79",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-08-06",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74",
+        "member_81",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59372"
+    },
+    {
       "performanceId": "P2608_30",
       "category": "イベント",
       "title": "CBCラジオ「SKE48 なるべくしゃべりたい公開録音 vol.19」",
@@ -515,6 +530,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58654"
     },
     {
+      "performanceId": "P2608_81",
+      "category": "メディア",
+      "title": "メ〜テレ「ドデスカ！」",
+      "date": "2026-08-08",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59314"
+    },
+    {
       "performanceId": "P2608_47",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -526,6 +554,19 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58967"
+    },
+    {
+      "performanceId": "P2608_80",
+      "category": "メディア",
+      "title": "メ～テレ「Digった！」",
+      "date": "2026-08-08",
+      "time": "16:27",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59373"
     },
     {
       "performanceId": "P2608_73",
@@ -1087,6 +1128,19 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58983"
+    },
+    {
+      "performanceId": "P2608_82",
+      "category": "メディア",
+      "title": "メ～テレ「Digった！」",
+      "date": "2026-08-27",
+      "time": "15:40",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59374"
     },
     {
       "performanceId": "P2608_15",

@@ -2577,6 +2577,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59313"
     },
     {
+      "performanceId": "P2607_208",
+      "category": "メディア",
+      "title": "金沢競馬公式X いざ、金沢。「重賞予想セレクション」",
+      "date": "2026-07-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59375"
+    },
+    {
       "performanceId": "P2607_50",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -3089,6 +3102,21 @@
         "member_82"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59040"
+    },
+    {
+      "performanceId": "P2607_209",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-07-30",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_16",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59371"
     },
     {
       "performanceId": "P2607_27",
