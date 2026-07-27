@@ -132,6 +132,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59291"
     },
     {
+      "performanceId": "P2608_83",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-08-01",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_34",
+        "member_67",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59400"
+    },
+    {
       "performanceId": "P2608_43",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -275,6 +290,21 @@
       "link": "https://ske48.co.jp/schedule/detail/58804"
     },
     {
+      "performanceId": "P2608_84",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-08-03",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_5",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59397"
+    },
+    {
       "performanceId": "P2608_68",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -405,13 +435,13 @@
       "status": "SCHEDULED",
       "castIds": [
         "member_96",
+        "member_91",
         "member_45",
         "member_82",
         "member_86",
         "member_64",
         "member_44",
         "member_47",
-        "member_26",
         "member_72",
         "member_89",
         "member_93",
@@ -462,6 +492,19 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59273"
+    },
+    {
+      "performanceId": "P2608_85",
+      "category": "メディア",
+      "title": "「BOMB 9月号」掲載日",
+      "date": "2026-08-07",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59409"
     },
     {
       "performanceId": "P2608_72",
@@ -593,6 +636,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59360"
     },
     {
+      "performanceId": "P2608_86",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-08-08",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_34",
+        "member_67",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59401"
+    },
+    {
       "performanceId": "P2608_49",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -674,6 +732,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59361"
     },
     {
+      "performanceId": "P2608_87",
+      "category": "メディア",
+      "title": "テレビ愛知「SKE48 真夜中のウナギたち」",
+      "date": "2026-08-09",
+      "time": "24:50",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_45",
+        "member_47",
+        "member_72",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59357"
+    },
+    {
       "performanceId": "P2608_25",
       "category": "誕生日",
       "title": "熊崎晴香誕生日",
@@ -685,6 +759,21 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/47783"
+    },
+    {
+      "performanceId": "P2608_88",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-08-10",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_5",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59398"
     },
     {
       "performanceId": "P2608_26",
@@ -904,6 +993,21 @@
       "link": "https://ske48.co.jp/schedule/detail/58968"
     },
     {
+      "performanceId": "P2608_89",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-08-15",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_34",
+        "member_67",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59402"
+    },
+    {
       "performanceId": "P2608_54",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -954,6 +1058,21 @@
       "link": "https://ske48.co.jp/schedule/detail/47786"
     },
     {
+      "performanceId": "P2608_90",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-08-17",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_5",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59399"
+    },
+    {
       "performanceId": "P2608_36",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -990,6 +1109,19 @@
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/58373"
+    },
+    {
+      "performanceId": "P2608_91",
+      "category": "メディア",
+      "title": "「月刊ランナーズ」",
+      "date": "2026-08-21",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59343"
     },
     {
       "performanceId": "P2608_58",
@@ -1042,6 +1174,21 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58969"
+    },
+    {
+      "performanceId": "P2608_92",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-08-22",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_34",
+        "member_67",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59403"
     },
     {
       "performanceId": "P2608_61",
@@ -1102,6 +1249,22 @@
         "member_110"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59163"
+    },
+    {
+      "performanceId": "P2608_93",
+      "category": "メディア",
+      "title": "テレビ愛知「SKE48 真夜中のウナギたち」",
+      "date": "2026-08-23",
+      "time": "24:50",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_45",
+        "member_47",
+        "member_72",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59358"
     },
     {
       "performanceId": "P2608_28",

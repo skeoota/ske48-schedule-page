@@ -2603,6 +2603,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58965"
     },
     {
+      "performanceId": "P2607_211",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2026-07-25",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59393"
+    },
+    {
       "performanceId": "P2607_113",
       "category": "メディア",
       "title": "岐阜放送「SKE48のひだまりハートカフェ」",
@@ -2758,6 +2771,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59202"
     },
     {
+      "performanceId": "P2607_213",
+      "category": "メディア",
+      "title": "「中日スポーツ」ボートレース予想サイト 【なっきぃのラッキーレーサー】",
+      "date": "2026-07-27",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59404"
+    },
+    {
       "performanceId": "P2607_103",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
@@ -2784,6 +2810,21 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59346"
+    },
+    {
+      "performanceId": "P2607_212",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-07-27",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_5",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59396"
     },
     {
       "performanceId": "P2607_200",
@@ -2822,6 +2863,19 @@
         "member_107"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59203"
+    },
+    {
+      "performanceId": "P2607_214",
+      "category": "メディア",
+      "title": "「週刊SPA!」",
+      "date": "2026-07-28",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59410"
     },
     {
       "performanceId": "P2607_166",
@@ -3093,8 +3147,8 @@
         "member_48",
         "member_2",
         "member_47",
-        "member_26",
         "member_92",
+        "member_72",
         "member_89",
         "member_99",
         "member_101",
