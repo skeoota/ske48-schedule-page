@@ -95,6 +95,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58995"
     },
     {
+      "performanceId": "P2608_95",
+      "category": "メディア",
+      "title": "シーシーエヌ『笠松けいば応援番組　SKE48 太田彩夏の笠馬X』（♯20前編）",
+      "date": "2026-08-01",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59417"
+    },
+    {
       "performanceId": "P2608_42",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -106,6 +119,19 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58966"
+    },
+    {
+      "performanceId": "P2608_96",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2026-08-01",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59413"
     },
     {
       "performanceId": "P2608_31",
@@ -238,6 +264,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58826"
     },
     {
+      "performanceId": "P2608_94",
+      "category": "イベント",
+      "title": "「東三河eスポーツチャレンジ2026」",
+      "date": "2026-08-02",
+      "time": "10:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59411"
+    },
+    {
       "performanceId": "P2608_20",
       "category": "イベント",
       "title": "SKE48 37thシングルCDショップ予約購入者特典会（グループ握手）",
@@ -303,6 +342,21 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59397"
+    },
+    {
+      "performanceId": "P2608_97",
+      "category": "メディア",
+      "title": "テレビ愛知SKE48部 YouTube生配信「がブリチキン。× SKE48  商品開発会議 チームKII編」",
+      "date": "2026-08-03",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_48",
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59414"
     },
     {
       "performanceId": "P2608_68",

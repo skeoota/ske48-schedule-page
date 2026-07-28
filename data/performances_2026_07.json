@@ -1561,6 +1561,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58977"
     },
     {
+      "performanceId": "P2607_215",
+      "category": "メディア",
+      "title": "シーシーエヌ『笠松けいば応援番組　SKE48 太田彩夏の笠馬X』（♯19後編）",
+      "date": "2026-07-16",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59416"
+    },
+    {
       "performanceId": "P2607_101",
       "category": "メディア",
       "title": "メ～テレ「Digった！」",
@@ -3212,6 +3225,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59114"
     },
     {
+      "performanceId": "P2607_216",
+      "category": "メディア",
+      "title": "「おでかけmoa」",
+      "date": "2026-07-31",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59412"
+    },
+    {
       "performanceId": "P2607_131",
       "category": "イベント",
       "title": "SKE48 37thシングル対象 オンラインサイン会＆チェキ会＆抽選会",
@@ -3232,6 +3258,19 @@
         "member_103"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59206"
+    },
+    {
+      "performanceId": "P2607_217",
+      "category": "メディア",
+      "title": "テレビ愛知「キン・ドニーチ」",
+      "date": "2026-07-31",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59422"
     },
     {
       "performanceId": "P2607_169",
