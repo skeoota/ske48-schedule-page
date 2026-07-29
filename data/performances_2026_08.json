@@ -908,6 +908,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59310"
     },
     {
+      "performanceId": "P2608_99",
+      "category": "メディア",
+      "title": "SHOWROOM『恋シュンの旬』",
+      "date": "2026-08-12",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_85",
+        "member_101",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59436"
+    },
+    {
       "performanceId": "P2608_11",
       "category": "イベント",
       "title": "SKE48 8期生10周年コンサート はちきがだいすき🎀",
@@ -1215,6 +1231,34 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58656"
+    },
+    {
+      "performanceId": "P2608_98",
+      "category": "イベント",
+      "title": "「オンラインペアチェキサイン会＆デジタルビンゴ抽選会」",
+      "date": "2026-08-22",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_26",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_93"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59431"
     },
     {
       "performanceId": "P2608_57",
