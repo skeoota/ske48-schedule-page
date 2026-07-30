@@ -1,0 +1,468 @@
+{
+  "yearMonth": "2026-09",
+  "performances": [
+    {
+      "performanceId": "P2609_22",
+      "category": "誕生日",
+      "title": "青木莉樺誕生日",
+      "date": "2026-09-02",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47788"
+    },
+    {
+      "performanceId": "P2609_20",
+      "category": "メディア",
+      "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
+      "date": "2026-09-02",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59287"
+    },
+    {
+      "performanceId": "P2609_01",
+      "category": "イベント",
+      "title": "SKE48 佐藤佳穂2ndソロライブ 〜今宵は月が綺麗ですね〜",
+      "date": "2026-09-03",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58566"
+    },
+    {
+      "performanceId": "P2609_23",
+      "category": "誕生日",
+      "title": "森本くるみ誕生日",
+      "date": "2026-09-03",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47789"
+    },
+    {
+      "performanceId": "P2609_02",
+      "category": "イベント",
+      "title": "「第20回アジア競技大会（2026／愛知・名古屋）聖火リレー一宮市PRランナー」",
+      "date": "2026-09-05",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58866"
+    },
+    {
+      "performanceId": "P2609_03",
+      "category": "イベント",
+      "title": "「第20回アジア競技大会（2026／愛知・名古屋）聖火リレーPRランナー」",
+      "date": "2026-09-05",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58839"
+    },
+    {
+      "performanceId": "P2609_21",
+      "category": "メディア",
+      "title": "NATSLIVE「グイグイちかちゃん横丁」",
+      "date": "2026-09-05",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59265"
+    },
+    {
+      "performanceId": "P2609_04",
+      "category": "イベント",
+      "title": "「第20回アジア競技大会（2026／愛知・名古屋）聖火リレーPRランナー」",
+      "date": "2026-09-06",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58840"
+    },
+    {
+      "performanceId": "P2609_24",
+      "category": "誕生日",
+      "title": "矢島凪誕生日",
+      "date": "2026-09-09",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59185"
+    },
+    {
+      "performanceId": "P2609_25",
+      "category": "誕生日",
+      "title": "宮本倫花誕生日",
+      "date": "2026-09-10",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/54699"
+    },
+    {
+      "performanceId": "P2609_05",
+      "category": "イベント",
+      "title": "「第20回アジア競技大会（2026／愛知・名古屋）聖火リレーPRランナー」",
+      "date": "2026-09-12",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58841"
+    },
+    {
+      "performanceId": "P2609_06",
+      "category": "イベント",
+      "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）特典会@幕張メッセ",
+      "date": "2026-09-12",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/59378"
+    },
+    {
+      "performanceId": "P2609_07",
+      "category": "イベント",
+      "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）特典会@幕張メッセ",
+      "date": "2026-09-13",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/59379"
+    },
+    {
+      "performanceId": "P2609_26",
+      "category": "誕生日",
+      "title": "倉本羽菜誕生日",
+      "date": "2026-09-13",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47807"
+    },
+    {
+      "performanceId": "P2609_27",
+      "category": "誕生日",
+      "title": "川村昇子誕生日",
+      "date": "2026-09-15",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_93"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/54689"
+    },
+    {
+      "performanceId": "P2609_08",
+      "category": "イベント",
+      "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
+      "date": "2026-09-16",
+      "time": "00:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58758"
+    },
+    {
+      "performanceId": "P2609_09",
+      "category": "イベント",
+      "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
+      "date": "2026-09-17",
+      "time": "00:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58759"
+    },
+    {
+      "performanceId": "P2609_10",
+      "category": "イベント",
+      "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
+      "date": "2026-09-18",
+      "time": "00:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58760"
+    },
+    {
+      "performanceId": "P2609_28",
+      "category": "誕生日",
+      "title": "田村真悠誕生日",
+      "date": "2026-09-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_101"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/54696"
+    },
+    {
+      "performanceId": "P2609_11",
+      "category": "イベント",
+      "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
+      "date": "2026-09-19",
+      "time": "00:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58761"
+    },
+    {
+      "performanceId": "P2609_12",
+      "category": "イベント",
+      "title": "SKE48 37thシングル「ため息未来」リリースイベント",
+      "date": "2026-09-19",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_26",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59391"
+    },
+    {
+      "performanceId": "P2609_13",
+      "category": "イベント",
+      "title": "SKE48 37thシングル「ため息未来」リリースイベント",
+      "date": "2026-09-20",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_26",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59392"
+    },
+    {
+      "performanceId": "P2609_14",
+      "category": "イベント",
+      "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
+      "date": "2026-09-20",
+      "time": "00:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58755"
+    },
+    {
+      "performanceId": "P2609_29",
+      "category": "誕生日",
+      "title": "大村杏誕生日",
+      "date": "2026-09-20",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47790"
+    },
+    {
+      "performanceId": "P2609_30",
+      "category": "誕生日",
+      "title": "杉本りいな誕生日",
+      "date": "2026-09-20",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_76"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47792"
+    },
+    {
+      "performanceId": "P2609_31",
+      "category": "誕生日",
+      "title": "山村さくら誕生日",
+      "date": "2026-09-20",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47793"
+    },
+    {
+      "performanceId": "P2609_15",
+      "category": "イベント",
+      "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
+      "date": "2026-09-21",
+      "time": "00:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58756"
+    },
+    {
+      "performanceId": "P2609_16",
+      "category": "イベント",
+      "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
+      "date": "2026-09-22",
+      "time": "00:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58757"
+    },
+    {
+      "performanceId": "P2609_17",
+      "category": "イベント",
+      "title": "SKE48 ASIA TOUR 2026 @香港/MACPHERSON STADIUM",
+      "date": "2026-09-23",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_81",
+        "member_49",
+        "member_50",
+        "member_9",
+        "member_16",
+        "member_3",
+        "member_67",
+        "member_5",
+        "member_52",
+        "member_75",
+        "member_1",
+        "member_44",
+        "member_26",
+        "member_74",
+        "member_85",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59017"
+    },
+    {
+      "performanceId": "P2609_18",
+      "category": "イベント",
+      "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
+      "date": "2026-09-23",
+      "time": "00:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58762"
+    },
+    {
+      "performanceId": "P2609_19",
+      "category": "イベント",
+      "title": "SKE48 ASIA TOUR 2026 @台北/CLAPPER STUDIO",
+      "date": "2026-09-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_81",
+        "member_49",
+        "member_50",
+        "member_9",
+        "member_16",
+        "member_3",
+        "member_67",
+        "member_5",
+        "member_52",
+        "member_75",
+        "member_1",
+        "member_44",
+        "member_26",
+        "member_74",
+        "member_85",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59018"
+    }
+  ]
+}
