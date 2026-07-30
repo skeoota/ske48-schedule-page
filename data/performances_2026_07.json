@@ -3123,6 +3123,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59272"
     },
     {
+      "performanceId": "P2607_218",
+      "category": "メディア",
+      "title": "「中京スポーツ」",
+      "date": "2026-07-30",
+      "time": "00:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_93",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59441"
+    },
+    {
       "performanceId": "P2607_130",
       "category": "イベント",
       "title": "SKE48 37thシングル対象 オンラインサイン会＆チェキ会＆抽選会",
@@ -3168,6 +3182,19 @@
         "member_104"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59239"
+    },
+    {
+      "performanceId": "P2607_219",
+      "category": "メディア",
+      "title": "「Forty-Eight Times」（AKB48新聞電子版）",
+      "date": "2026-07-30",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59446"
     },
     {
       "performanceId": "P2607_203",

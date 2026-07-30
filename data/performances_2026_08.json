@@ -467,6 +467,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59330"
     },
     {
+      "performanceId": "P2608_100",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2026-08-05",
+      "time": "22:58",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_44",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59140"
+    },
+    {
       "performanceId": "P2608_44",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
@@ -559,6 +575,20 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59409"
+    },
+    {
+      "performanceId": "P2608_101",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-08-07",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59442"
     },
     {
       "performanceId": "P2608_72",
@@ -843,6 +873,19 @@
       "link": "https://ske48.co.jp/schedule/detail/47784"
     },
     {
+      "performanceId": "P2608_102",
+      "category": "メディア",
+      "title": "ボートレース多摩川公式YouTube「どちゃんこTV」",
+      "date": "2026-08-11",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59440"
+    },
+    {
       "performanceId": "P2608_10",
       "category": "イベント",
       "title": "テレビ朝日・六本木ヒルズ SUMMER FES 「SUMMER FES 音楽ライブ」",
@@ -993,6 +1036,20 @@
         "member_94"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59363"
+    },
+    {
+      "performanceId": "P2608_103",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-08-14",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59443"
     },
     {
       "performanceId": "P2608_24",
@@ -1192,6 +1249,20 @@
         "member_67"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59343"
+    },
+    {
+      "performanceId": "P2608_104",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-08-21",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59444"
     },
     {
       "performanceId": "P2608_58",
@@ -1413,6 +1484,20 @@
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59104"
+    },
+    {
+      "performanceId": "P2608_105",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-08-28",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59445"
     },
     {
       "performanceId": "P2608_29",
