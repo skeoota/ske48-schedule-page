@@ -392,7 +392,13 @@ if __name__ == "__main__":
     next_year = next_month_date.year
     next_month = next_month_date.month
     
+    first_day_of_next_month = next_month_date.replace(day=1)
+    next_next_month_date = first_day_of_next_month + datetime.timedelta(days=32)
+    next_next_year = next_next_month_date.year
+    next_next_month = next_next_month_date.month
+    
     members_list = load_local_members()
     
     scrape_monthly_schedules(current_year, current_month, members_list)
     scrape_monthly_schedules(next_year, next_month, members_list)
+    scrape_monthly_schedules(next_next_year, next_next_month, members_list)

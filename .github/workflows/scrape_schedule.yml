@@ -38,7 +38,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests beautifulsoup4
 
-    # 4. 파이썬 스크립트 실행 (이번달/다음달 스캔하여 data/ 내부에 생성)
+    # 4. 파이썬 스크립트 실행 (이번달/다음달/다다음달 스캔하여 data/ 내부에 생성)
     - name: Run SKE48 Scraper
       run: python scrape_schedule.py
 
