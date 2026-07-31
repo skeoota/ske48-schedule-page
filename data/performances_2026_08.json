@@ -277,6 +277,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59411"
     },
     {
+      "performanceId": "P2608_111",
+      "category": "メディア",
+      "title": "CBCラジオ「ウインクス presents SKE48原優寧の建築ラジオ」",
+      "date": "2026-08-02",
+      "time": "22:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59455"
+    },
+    {
       "performanceId": "P2608_20",
       "category": "イベント",
       "title": "SKE48 37thシングルCDショップ予約購入者特典会（グループ握手）",
@@ -816,6 +829,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59361"
     },
     {
+      "performanceId": "P2608_112",
+      "category": "メディア",
+      "title": "CBCラジオ「ウインクス presents SKE48原優寧の建築ラジオ」",
+      "date": "2026-08-09",
+      "time": "22:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59456"
+    },
+    {
       "performanceId": "P2608_87",
       "category": "メディア",
       "title": "テレビ愛知「SKE48 真夜中のウナギたち」",
@@ -1014,6 +1041,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58981"
     },
     {
+      "performanceId": "P2608_113",
+      "category": "メディア",
+      "title": "東海テレビ「村上佳菜子の週刊愛ちっち」",
+      "date": "2026-08-13",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59470"
+    },
+    {
       "performanceId": "P2608_76",
       "category": "公演",
       "title": "「制服の芽」公演＜13:00開演＞",
@@ -1120,6 +1160,30 @@
       "link": "https://ske48.co.jp/schedule/detail/58968"
     },
     {
+      "performanceId": "P2608_106",
+      "category": "公演",
+      "title": "チームE「RESET」公演＜17:00開演＞",
+      "date": "2026-08-15",
+      "time": "17:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_2",
+        "member_44",
+        "member_47",
+        "member_92",
+        "member_74",
+        "member_85",
+        "member_34",
+        "member_13",
+        "member_72",
+        "member_78",
+        "member_100"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59459"
+    },
+    {
       "performanceId": "P2608_89",
       "category": "メディア",
       "title": "岐阜放送「SKE48のひだまりハートカフェ」",
@@ -1150,13 +1214,37 @@
     {
       "performanceId": "P2608_12",
       "category": "イベント",
-      "title": "SKE48 ミミフィーユ 東名阪ツアー @OSAKA MUSE",
+      "title": "SKE48 ミミフィーユライブツアー2026「ミミちゃんと過ごす夏」@OSAKA MUSE",
       "date": "2026-08-16",
       "time": "00:00",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59103"
+    },
+    {
+      "performanceId": "P2608_107",
+      "category": "公演",
+      "title": "チームKⅡ「シアターの女神」伊藤実希生誕祭＜17:00開演＞",
+      "date": "2026-08-16",
+      "time": "17:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_45",
+        "member_67",
+        "member_5",
+        "member_82",
+        "member_48",
+        "member_8",
+        "member_95",
+        "member_86",
+        "member_52",
+        "member_19",
+        "member_93"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59461"
     },
     {
       "performanceId": "P2608_18",
@@ -1172,6 +1260,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58934"
     },
     {
+      "performanceId": "P2608_114",
+      "category": "メディア",
+      "title": "CBCラジオ「ウインクス presents SKE48原優寧の建築ラジオ」",
+      "date": "2026-08-16",
+      "time": "22:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59457"
+    },
+    {
       "performanceId": "P2608_27",
       "category": "誕生日",
       "title": "太田彩夏誕生日",
@@ -1183,6 +1284,30 @@
         "member_26"
       ],
       "link": "https://ske48.co.jp/schedule/detail/47786"
+    },
+    {
+      "performanceId": "P2608_108",
+      "category": "公演",
+      "title": "チームS「ずっと君を探している」公演 熊崎晴香生誕祭＜18:30開演＞",
+      "date": "2026-08-17",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_4",
+        "member_81",
+        "member_23",
+        "member_49",
+        "member_50",
+        "member_96",
+        "member_9",
+        "member_55",
+        "member_16",
+        "member_90",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59462"
     },
     {
       "performanceId": "P2608_90",
@@ -1200,6 +1325,30 @@
       "link": "https://ske48.co.jp/schedule/detail/59399"
     },
     {
+      "performanceId": "P2608_109",
+      "category": "公演",
+      "title": "チームE「RESET」公演 太田彩夏生誕祭＜18:30開演＞",
+      "date": "2026-08-18",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_2",
+        "member_44",
+        "member_47",
+        "member_26",
+        "member_74",
+        "member_85",
+        "member_34",
+        "member_13",
+        "member_72",
+        "member_89",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59463"
+    },
+    {
       "performanceId": "P2608_36",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -1212,6 +1361,30 @@
         "member_50"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59285"
+    },
+    {
+      "performanceId": "P2608_110",
+      "category": "公演",
+      "title": "12期生、13期生「可能性こそが未来」公演＜18:00開演＞",
+      "date": "2026-08-19",
+      "time": "18:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_82",
+        "member_86",
+        "member_92",
+        "member_89",
+        "member_93",
+        "member_94",
+        "member_98",
+        "member_99",
+        "member_100",
+        "member_101",
+        "member_102",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59464"
     },
     {
       "performanceId": "P2608_56",
@@ -1229,7 +1402,7 @@
     {
       "performanceId": "P2608_13",
       "category": "イベント",
-      "title": "SKE48 ミミフィーユ 東名阪ツアー @名古屋ダイアモンドホール",
+      "title": "SKE48 ミミフィーユライブツアー2026「ミミちゃんと過ごす夏」@名古屋ダイアモンドホール",
       "date": "2026-08-21",
       "time": "00:00",
       "venue": "외부 행사장",
@@ -1420,6 +1593,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59163"
     },
     {
+      "performanceId": "P2608_115",
+      "category": "メディア",
+      "title": "CBCラジオ「ウインクス presents SKE48原優寧の建築ラジオ」",
+      "date": "2026-08-23",
+      "time": "22:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59458"
+    },
+    {
       "performanceId": "P2608_93",
       "category": "メディア",
       "title": "テレビ愛知「SKE48 真夜中のウナギたち」",
@@ -1477,7 +1663,7 @@
     {
       "performanceId": "P2608_15",
       "category": "イベント",
-      "title": "SKE48 ミミフィーユ 東名阪ツアー @BLAZE GOTANDA",
+      "title": "SKE48 ミミフィーユライブツアー2026「ミミちゃんと過ごす夏」@BLAZE GOTANDA",
       "date": "2026-08-28",
       "time": "00:00",
       "venue": "외부 행사장",
@@ -1587,6 +1773,19 @@
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59350"
+    },
+    {
+      "performanceId": "P2608_116",
+      "category": "メディア",
+      "title": "CBCラジオ「ウインクス presents SKE48原優寧の建築ラジオ」",
+      "date": "2026-08-30",
+      "time": "22:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59460"
     }
   ]
 }
