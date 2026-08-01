@@ -1325,6 +1325,25 @@
       "link": "https://ske48.co.jp/schedule/detail/59399"
     },
     {
+      "performanceId": "P2608_117",
+      "category": "イベント",
+      "title": "『日経エンタテインメント！SKE48 8期生 フォトブック 約束。』発売記念イベント",
+      "date": "2026-08-18",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_5",
+        "member_8",
+        "member_9",
+        "member_16",
+        "member_50",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59474"
+    },
+    {
       "performanceId": "P2608_109",
       "category": "公演",
       "title": "チームE「RESET」公演 太田彩夏生誕祭＜18:30開演＞",
@@ -1347,6 +1366,25 @@
         "member_78"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59463"
+    },
+    {
+      "performanceId": "P2608_118",
+      "category": "イベント",
+      "title": "『日経エンタテインメント！SKE48 8期生 フォトブック 約束。』発売記念イベント",
+      "date": "2026-08-19",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_5",
+        "member_8",
+        "member_9",
+        "member_16",
+        "member_50",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59475"
     },
     {
       "performanceId": "P2608_36",
@@ -1633,6 +1671,25 @@
         "member_107"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59182"
+    },
+    {
+      "performanceId": "P2608_119",
+      "category": "イベント",
+      "title": "『日経エンタテインメント！SKE48 8期生 フォトブック 約束。』発売記念イベント",
+      "date": "2026-08-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_5",
+        "member_8",
+        "member_9",
+        "member_16",
+        "member_50",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59482"
     },
     {
       "performanceId": "P2608_62",

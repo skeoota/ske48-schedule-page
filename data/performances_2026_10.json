@@ -1,0 +1,104 @@
+{
+  "yearMonth": "2026-10",
+  "performances": [
+    {
+      "performanceId": "P2610_05",
+      "category": "誕生日",
+      "title": "石黒友月誕生日",
+      "date": "2026-10-11",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47794"
+    },
+    {
+      "performanceId": "P2610_01",
+      "category": "イベント",
+      "title": "「SKE48 プレミアム・ファンサインイベント 〜撮って！勝って！サインリレー〜」",
+      "date": "2026-10-12",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/59390"
+    },
+    {
+      "performanceId": "P2610_02",
+      "category": "イベント",
+      "title": "「第５回アジアパラ競技大会(2026/愛知・名古屋)聖火リレーＰＲランナー」",
+      "date": "2026-10-16",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59253"
+    },
+    {
+      "performanceId": "P2610_06",
+      "category": "誕生日",
+      "title": "佐々木希美誕生日",
+      "date": "2026-10-19",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_99"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/54695"
+    },
+    {
+      "performanceId": "P2610_07",
+      "category": "誕生日",
+      "title": "相川暖花誕生日",
+      "date": "2026-10-22",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47795"
+    },
+    {
+      "performanceId": "P2610_03",
+      "category": "イベント",
+      "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地で2ショット撮影会 ※着席形式 @幕張メッセ",
+      "date": "2026-10-24",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/59380"
+    },
+    {
+      "performanceId": "P2610_04",
+      "category": "イベント",
+      "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地で2ショット撮影会 ※スタンディング形式 @幕張メッセ",
+      "date": "2026-10-25",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/59381"
+    },
+    {
+      "performanceId": "P2610_08",
+      "category": "誕生日",
+      "title": "南澤恋々誕生日",
+      "date": "2026-10-26",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47812"
+    }
+  ]
+}

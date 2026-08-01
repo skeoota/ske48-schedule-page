@@ -108,6 +108,25 @@
       "link": "https://ske48.co.jp/schedule/detail/58840"
     },
     {
+      "performanceId": "P2609_32",
+      "category": "イベント",
+      "title": "『日経エンタテインメント！SKE48 8期生 フォトブック 約束。』発売記念イベント",
+      "date": "2026-09-07",
+      "time": "00:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_5",
+        "member_8",
+        "member_9",
+        "member_16",
+        "member_50",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59476"
+    },
+    {
       "performanceId": "P2609_24",
       "category": "誕生日",
       "title": "矢島凪誕生日",
