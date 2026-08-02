@@ -618,10 +618,11 @@ function renderTimeline() {
                     return m ? m.name : id;
                 }).filter(name => name).join(", ");
 
+                const timeString = (perf.time && perf.time !== "00:00") ? `[${perf.time}] ` : "";
                 contentHTML += `
                     <div class="perf-item-link" id="perf-link-${day}-${idx}" onclick="handlePerfClick('${day}-${idx}', '${perf.performanceId}', this)">
                         <div class="day-title" style="color: #00796b;">
-                            <span class="category-badge">${perf.category || "기타"}</span> [${perf.time}] ${perf.title}
+                            <span class="category-badge">${perf.category || "기타"}</span> ${timeString}${perf.title}
                         </div>
                         <div class="day-cast-summary">${castNames}</div>
                     </div>
@@ -924,6 +925,10 @@ function selectPerformance(perf) {
         }
     });
 
+    const venueHTML = perf.venue === "외부 행사장" 
+        ? perf.venue 
+        : `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(perf.venue)}" target="_blank" rel="noopener noreferrer" class="venue-link">${perf.venue}</a>`;
+
     detailWrapper.innerHTML = `
         <div class="perf-detail-block">
             <div class="detail-header">
@@ -934,9 +939,11 @@ function selectPerformance(perf) {
                     <a href="${perf.link}" target="_blank" rel="noopener noreferrer">${perf.title}</a>
                 </h1>
                 <div class="detail-meta">
-                    <span><strong>${t("date")}:</strong> ${perf.date}</span>
-                    <span><strong>${t("time")}:</strong> ${perf.time}</span>
-                    <span><strong>${t("location")}:</strong> ${perf.venue}</span>
+                    <div class="detail-meta-row">
+                        <span><strong>${t("date")}:</strong> ${perf.date}</span>
+                        ${(perf.time && perf.time !== "00:00") ? `<span><strong>${t("time")}:</strong> ${perf.time}</span>` : ""}
+                    </div>
+                    <span><strong>${t("location")}:</strong> ${venueHTML}</span>
                 </div>
             </div>
             <div class="cast-container">

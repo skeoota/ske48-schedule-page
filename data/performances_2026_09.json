@@ -6,7 +6,7 @@
       "category": "誕生日",
       "title": "青木莉樺誕生日",
       "date": "2026-09-02",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -33,7 +33,7 @@
       "category": "イベント",
       "title": "SKE48 佐藤佳穂2ndソロライブ 〜今宵は月が綺麗ですね〜",
       "date": "2026-09-03",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -46,7 +46,7 @@
       "category": "誕生日",
       "title": "森本くるみ誕生日",
       "date": "2026-09-03",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -59,8 +59,8 @@
       "category": "イベント",
       "title": "「第20回アジア競技大会（2026／愛知・名古屋）聖火リレー一宮市PRランナー」",
       "date": "2026-09-05",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "愛知県一宮市",
       "status": "SCHEDULED",
       "castIds": [
         "member_4",
@@ -73,8 +73,8 @@
       "category": "イベント",
       "title": "「第20回アジア競技大会（2026／愛知・名古屋）聖火リレーPRランナー」",
       "date": "2026-09-05",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "愛知県稲沢市",
       "status": "SCHEDULED",
       "castIds": [
         "member_67"
@@ -99,8 +99,8 @@
       "category": "イベント",
       "title": "「第20回アジア競技大会（2026／愛知・名古屋）聖火リレーPRランナー」",
       "date": "2026-09-06",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "愛知県愛西市",
       "status": "SCHEDULED",
       "castIds": [
         "member_74"
@@ -112,8 +112,8 @@
       "category": "イベント",
       "title": "『日経エンタテインメント！SKE48 8期生 フォトブック 約束。』発売記念イベント",
       "date": "2026-09-07",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "HMV 栄 イベントスペース",
       "status": "SCHEDULED",
       "castIds": [
         "member_4",
@@ -131,7 +131,7 @@
       "category": "誕生日",
       "title": "矢島凪誕生日",
       "date": "2026-09-09",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -144,7 +144,7 @@
       "category": "誕生日",
       "title": "宮本倫花誕生日",
       "date": "2026-09-10",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -157,8 +157,8 @@
       "category": "イベント",
       "title": "「第20回アジア競技大会（2026／愛知・名古屋）聖火リレーPRランナー」",
       "date": "2026-09-12",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "愛知県弥富市",
       "status": "SCHEDULED",
       "castIds": [
         "member_49"
@@ -170,8 +170,8 @@
       "category": "イベント",
       "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地でトーク会・握手会 @幕張メッセ",
       "date": "2026-09-12",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "幕張メッセ",
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59378"
@@ -181,8 +181,8 @@
       "category": "イベント",
       "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地でトーク会・握手会 @幕張メッセ",
       "date": "2026-09-13",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "幕張メッセ",
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59379"
@@ -192,7 +192,7 @@
       "category": "誕生日",
       "title": "倉本羽菜誕生日",
       "date": "2026-09-13",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -205,7 +205,7 @@
       "category": "誕生日",
       "title": "川村昇子誕生日",
       "date": "2026-09-15",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -218,7 +218,7 @@
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
       "date": "2026-09-16",
-      "time": "00:00",
+      "time": "",
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
       "castIds": [
@@ -231,7 +231,7 @@
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
       "date": "2026-09-17",
-      "time": "00:00",
+      "time": "",
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
       "castIds": [
@@ -244,7 +244,7 @@
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
       "date": "2026-09-18",
-      "time": "00:00",
+      "time": "",
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
       "castIds": [
@@ -257,7 +257,7 @@
       "category": "誕生日",
       "title": "田村真悠誕生日",
       "date": "2026-09-18",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -270,7 +270,7 @@
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
       "date": "2026-09-19",
-      "time": "00:00",
+      "time": "",
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
       "castIds": [
@@ -283,8 +283,8 @@
       "category": "イベント",
       "title": "SKE48 37thシングル「ため息未来」リリースイベント",
       "date": "2026-09-19",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "イオンモール常滑 ワンダーフォレストきゅりお内 　屋外ワンダーステージ",
       "status": "SCHEDULED",
       "castIds": [
         "member_3",
@@ -311,8 +311,8 @@
       "category": "イベント",
       "title": "SKE48 37thシングル「ため息未来」リリースイベント",
       "date": "2026-09-20",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "セブンパーク天美 1F AMAMI STADIUM",
       "status": "SCHEDULED",
       "castIds": [
         "member_3",
@@ -339,7 +339,7 @@
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
       "date": "2026-09-20",
-      "time": "00:00",
+      "time": "",
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
       "castIds": [
@@ -352,7 +352,7 @@
       "category": "誕生日",
       "title": "大村杏誕生日",
       "date": "2026-09-20",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -365,7 +365,7 @@
       "category": "誕生日",
       "title": "杉本りいな誕生日",
       "date": "2026-09-20",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -378,7 +378,7 @@
       "category": "誕生日",
       "title": "山村さくら誕生日",
       "date": "2026-09-20",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -391,7 +391,7 @@
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
       "date": "2026-09-21",
-      "time": "00:00",
+      "time": "",
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
       "castIds": [
@@ -404,7 +404,7 @@
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
       "date": "2026-09-22",
-      "time": "00:00",
+      "time": "",
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
       "castIds": [
@@ -417,7 +417,7 @@
       "category": "イベント",
       "title": "SKE48 ASIA TOUR 2026 @香港/MACPHERSON STADIUM",
       "date": "2026-09-23",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -446,7 +446,7 @@
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
       "date": "2026-09-23",
-      "time": "00:00",
+      "time": "",
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
       "castIds": [
@@ -459,7 +459,7 @@
       "category": "イベント",
       "title": "SKE48 ASIA TOUR 2026 @台北/CLAPPER STUDIO",
       "date": "2026-09-25",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [

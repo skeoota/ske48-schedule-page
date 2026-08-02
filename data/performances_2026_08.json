@@ -6,7 +6,7 @@
       "category": "イベント",
       "title": "劇団☆龍(Dragon)童子produce『月の子- Lunae Hostia -』",
       "date": "2026-08-01",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -19,8 +19,8 @@
       "category": "イベント",
       "title": "「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック」",
       "date": "2026-08-01",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "お台場・青海周辺エリア",
       "status": "SCHEDULED",
       "castIds": [
         "member_3",
@@ -47,8 +47,8 @@
       "category": "イベント",
       "title": "「将棋AIサミット2026 powered by DAIV 10th Anniversary」",
       "date": "2026-08-01",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "歌舞伎座タワー 23 階（東京都中央区銀座 4-12-15）",
       "status": "SCHEDULED",
       "castIds": [
         "member_48"
@@ -60,7 +60,7 @@
       "category": "メディア",
       "title": "「東京スポーツ」発売",
       "date": "2026-08-01",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -73,7 +73,7 @@
       "category": "メディア",
       "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
       "date": "2026-08-01",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -86,7 +86,7 @@
       "category": "メディア",
       "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
       "date": "2026-08-01",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -99,7 +99,7 @@
       "category": "メディア",
       "title": "シーシーエヌ『笠松けいば応援番組　SKE48 太田彩夏の笠馬X』（♯20前編）",
       "date": "2026-08-01",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -112,7 +112,7 @@
       "category": "メディア",
       "title": "「東スポWEB」",
       "date": "2026-08-01",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -217,8 +217,8 @@
       "category": "イベント",
       "title": "SKE48 SUMMER Tour 2026〜じゅーしーすぷらっしゅ だぜ！〜　東京公演",
       "date": "2026-08-02",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "＜東京＞Zepp Haneda ( TOKYO)",
       "status": "SCHEDULED",
       "castIds": [
         "member_4",
@@ -243,7 +243,7 @@
       "category": "イベント",
       "title": "劇団☆龍(Dragon)童子produce『月の子- Lunae Hostia -』",
       "date": "2026-08-02",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -269,7 +269,7 @@
       "category": "メディア",
       "title": "「中日スポーツ」「東京中日スポーツ 電子版」",
       "date": "2026-08-02",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -282,7 +282,7 @@
       "category": "メディア",
       "title": "テレビ愛知「コワイハナシ」",
       "date": "2026-08-02",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -295,11 +295,13 @@
       "category": "メディア",
       "title": "「東スポWEB」",
       "date": "2026-08-02",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
-        "member_108"
+        "member_106",
+        "member_108",
+        "member_110"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59484"
     },
@@ -309,7 +311,7 @@
       "title": "「東三河eスポーツチャレンジ2026」",
       "date": "2026-08-02",
       "time": "10:00",
-      "venue": "외부 행사장",
+      "venue": "ホテルアークリッシュ豊橋 5F",
       "status": "SCHEDULED",
       "castIds": [
         "member_16"
@@ -347,8 +349,8 @@
       "category": "イベント",
       "title": "SKE48 37thシングルCDショップ予約購入者特典会（グループ握手）",
       "date": "2026-08-03",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "HMV ＆ BOOKS SHIBUYA",
       "status": "SCHEDULED",
       "castIds": [
         "member_19",
@@ -456,8 +458,8 @@
       "category": "イベント",
       "title": "SKE48×WEGO 訪店イベント『TEEシャツだぜ！』",
       "date": "2026-08-04",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "WEGO 大須店（名古屋市中区大須 3 丁目 14-43 第 2 アメ横ビル 2F ）",
       "status": "SCHEDULED",
       "castIds": [
         "member_43",
@@ -522,8 +524,8 @@
       "category": "イベント",
       "title": "SKE48 太田彩夏 1st 写真集 発売記念お渡し会",
       "date": "2026-08-05",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "愛知・ ジュンク堂書店 名古屋店",
       "status": "SCHEDULED",
       "castIds": [
         "member_26"
@@ -592,7 +594,7 @@
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
       "date": "2026-08-06",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -658,8 +660,8 @@
       "category": "イベント",
       "title": "CBCラジオ「SKE48 なるべくしゃべりたい公開録音 vol.19」",
       "date": "2026-08-07",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "CBC1スタホール（愛知県名古屋市中区新栄1-2-8 CBC会",
       "status": "SCHEDULED",
       "castIds": [
         "member_26",
@@ -673,7 +675,7 @@
       "category": "メディア",
       "title": "「BOMB 9月号」掲載日",
       "date": "2026-08-07",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -714,8 +716,8 @@
       "category": "イベント",
       "title": "SKE48 太田彩夏 1st 写真集 お渡し会",
       "date": "2026-08-08",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "東京 ・ 書泉ブックタワー",
       "status": "SCHEDULED",
       "castIds": [
         "member_26"
@@ -727,7 +729,7 @@
       "category": "メディア",
       "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
       "date": "2026-08-08",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -740,7 +742,7 @@
       "category": "メディア",
       "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
       "date": "2026-08-08",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -753,7 +755,7 @@
       "category": "メディア",
       "title": "「東京スポーツ」発売",
       "date": "2026-08-08",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -766,7 +768,7 @@
       "category": "メディア",
       "title": "メ〜テレ「ドデスカ！」",
       "date": "2026-08-08",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -870,8 +872,8 @@
       "category": "イベント",
       "title": "SKE48 太田彩夏 1st 写真集 お渡し会",
       "date": "2026-08-09",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "愛知 ・ 丸善 名古屋本店",
       "status": "SCHEDULED",
       "castIds": [
         "member_26"
@@ -884,7 +886,7 @@
       "title": "「春日井製菓×SKE48コラボ」発売記念店頭イベント",
       "date": "2026-08-09",
       "time": "11:00",
-      "venue": "외부 행사장",
+      "venue": "イオン熱田店 3 階 あつたハピネスホール",
       "status": "SCHEDULED",
       "castIds": [
         "member_16",
@@ -899,7 +901,7 @@
       "title": "「春日井製菓×SKE48コラボ」発売記念店頭イベント",
       "date": "2026-08-09",
       "time": "15:00",
-      "venue": "외부 행사장",
+      "venue": "アピタ阿久比店 2 階 フードコート前",
       "status": "SCHEDULED",
       "castIds": [
         "member_76",
@@ -982,7 +984,7 @@
       "category": "誕生日",
       "title": "熊崎晴香誕生日",
       "date": "2026-08-10",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1024,7 +1026,7 @@
       "category": "誕生日",
       "title": "伊藤実希誕生日",
       "date": "2026-08-11",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1037,7 +1039,7 @@
       "category": "メディア",
       "title": "ボートレース多摩川公式YouTube「どちゃんこTV」",
       "date": "2026-08-11",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1051,7 +1053,7 @@
       "title": "テレビ朝日・六本木ヒルズ SUMMER FES 「SUMMER FES 音楽ライブ」",
       "date": "2026-08-11",
       "time": "15:00",
-      "venue": "외부 행사장",
+      "venue": "SUMMER FES LIVE アリーナ （六本木ヒルズアリーナ）",
       "status": "SCHEDULED",
       "castIds": [
         "member_3",
@@ -1116,8 +1118,8 @@
       "category": "イベント",
       "title": "笠松競馬場  サマーイベント２０２６ トークショー",
       "date": "2026-08-12",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "笠松競馬場（岐阜県羽島郡笠松町若葉町１２）",
       "status": "SCHEDULED",
       "castIds": [
         "member_26"
@@ -1129,7 +1131,7 @@
       "category": "メディア",
       "title": "SHOWROOM『恋シュンの旬』",
       "date": "2026-08-12",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1159,7 +1161,7 @@
       "category": "イベント",
       "title": "SKE48 8期生10周年コンサート はちきがだいすき🎀",
       "date": "2026-08-13",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1178,8 +1180,8 @@
       "category": "イベント",
       "title": "笠松競馬場  サマーイベント２０２６ トークショー",
       "date": "2026-08-13",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "笠松競馬場（岐阜県羽島郡笠松町若葉町１２）",
       "status": "SCHEDULED",
       "castIds": [
         "member_26",
@@ -1193,7 +1195,7 @@
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
       "date": "2026-08-13",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1206,7 +1208,7 @@
       "category": "メディア",
       "title": "東海テレビ「村上佳菜子の週刊愛ちっち」",
       "date": "2026-08-13",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1285,8 +1287,8 @@
       "category": "イベント",
       "title": "FC岐阜応援隊「FC岐阜 vs高知ユナイテッドSC」",
       "date": "2026-08-15",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "岐阜メモリアルセンター ヒマラヤスタジアム岐阜 （ 岐阜市長良福光大野２６７５−２８）",
       "status": "SCHEDULED",
       "castIds": [
         "member_5",
@@ -1301,7 +1303,7 @@
       "category": "メディア",
       "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
       "date": "2026-08-15",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1314,7 +1316,7 @@
       "category": "メディア",
       "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
       "date": "2026-08-15",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1327,7 +1329,7 @@
       "category": "メディア",
       "title": "「東京スポーツ」発売",
       "date": "2026-08-15",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1405,8 +1407,8 @@
       "category": "イベント",
       "title": "SKE48 ミミフィーユライブツアー2026「ミミちゃんと過ごす夏」@OSAKA MUSE",
       "date": "2026-08-16",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "大阪・ OSAKA MUSE",
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59103"
@@ -1466,7 +1468,7 @@
       "category": "誕生日",
       "title": "太田彩夏誕生日",
       "date": "2026-08-17",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1518,8 +1520,8 @@
       "category": "イベント",
       "title": "『日経エンタテインメント！SKE48 8期生 フォトブック 約束。』発売記念イベント",
       "date": "2026-08-18",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "HMV 栄 イベントスペース",
       "status": "SCHEDULED",
       "castIds": [
         "member_4",
@@ -1561,8 +1563,8 @@
       "category": "イベント",
       "title": "『日経エンタテインメント！SKE48 8期生 フォトブック 約束。』発売記念イベント",
       "date": "2026-08-19",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "HMV 栄 イベントスペース",
       "status": "SCHEDULED",
       "castIds": [
         "member_4",
@@ -1618,7 +1620,7 @@
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
       "date": "2026-08-20",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1631,8 +1633,8 @@
       "category": "イベント",
       "title": "SKE48 ミミフィーユライブツアー2026「ミミちゃんと過ごす夏」@名古屋ダイアモンドホール",
       "date": "2026-08-21",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "愛知・名古屋ダイアモンドホール",
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/58373"
@@ -1642,7 +1644,7 @@
       "category": "メディア",
       "title": "「月刊ランナーズ」",
       "date": "2026-08-21",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1669,7 +1671,7 @@
       "category": "メディア",
       "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
       "date": "2026-08-22",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1682,7 +1684,7 @@
       "category": "メディア",
       "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
       "date": "2026-08-22",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1695,7 +1697,7 @@
       "category": "メディア",
       "title": "「東京スポーツ」発売",
       "date": "2026-08-22",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1708,7 +1710,7 @@
       "category": "イベント",
       "title": "「オンラインペアチェキサイン会＆デジタルビンゴ抽選会」",
       "date": "2026-08-22",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1788,8 +1790,8 @@
       "category": "イベント",
       "title": "「メ～テレ MUSIC DAYS」",
       "date": "2026-08-23",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "愛知・東別院テラスホール （愛知県名古屋市中区橘 2-8-45 ）",
       "status": "SCHEDULED",
       "castIds": [
         "member_2",
@@ -1853,7 +1855,7 @@
       "category": "誕生日",
       "title": "池田有沙誕生日",
       "date": "2026-08-25",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1866,8 +1868,8 @@
       "category": "イベント",
       "title": "『日経エンタテインメント！SKE48 8期生 フォトブック 約束。』発売記念イベント",
       "date": "2026-08-25",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "HMV&BOOKS SHIBUYA 6F イベントスペース",
       "status": "SCHEDULED",
       "castIds": [
         "member_4",
@@ -1885,7 +1887,7 @@
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
       "date": "2026-08-27",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1911,8 +1913,8 @@
       "category": "イベント",
       "title": "SKE48 ミミフィーユライブツアー2026「ミミちゃんと過ごす夏」@BLAZE GOTANDA",
       "date": "2026-08-28",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "東京・ BLAZE GOTANDA",
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59104"
@@ -1936,7 +1938,7 @@
       "category": "誕生日",
       "title": "鎌田菜月誕生日",
       "date": "2026-08-29",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1949,7 +1951,7 @@
       "category": "メディア",
       "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
       "date": "2026-08-29",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1962,7 +1964,7 @@
       "category": "メディア",
       "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
       "date": "2026-08-29",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1975,7 +1977,7 @@
       "category": "メディア",
       "title": "「東京スポーツ」発売",
       "date": "2026-08-29",
-      "time": "00:00",
+      "time": "",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -2014,8 +2016,8 @@
       "category": "イベント",
       "title": "「@JAM EXPO 2026 supported by UP-T」",
       "date": "2026-08-30",
-      "time": "00:00",
-      "venue": "외부 행사장",
+      "time": "",
+      "venue": "横浜アリーナ",
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59350"

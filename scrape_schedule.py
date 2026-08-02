@@ -135,14 +135,76 @@ def extract_performance_time(text):
     match = re.search(r"(\d{2}:\d{2})", text)
     if match:
         return match.group(1)
-    return "00:00"
+    return ""
 
-def extract_venue(text):
-    match = re.search(r"会場[／:：\s]+([^\n\r\|]+)", text)
-    if match:
-        return match.group(1).strip()
+def extract_venue(text, full_text=None):
+    search_text = full_text if full_text is not None else text
+    
+    # Split into lines and strip
+    lines = [line.strip() for line in search_text.splitlines() if line.strip()]
+    
+    venue_keywords = ["会場", "場所", "実施店舗"]
+    stop_keywords = [
+        "■", "※", "出演", "メンバー", "チケット", "日程", "日時", "時間", 
+        "開場", "開演", "詳細", "公式", "http", "店舗サイト", "公演", 
+        "特典", "販売", "対象", "予約", "受付", "集合", "開始", "終了", "料金"
+    ]
+    
+    found_idx = -1
+    prefix_to_remove = ""
+    
+    for i, line in enumerate(lines):
+        for kw in venue_keywords:
+            pattern = rf"{kw}[／:：\s]+"
+            match = re.search(pattern, line)
+            if match:
+                found_idx = i
+                prefix_to_remove = match.group(0)
+                break
+        if found_idx != -1:
+            break
+            
+    if found_idx != -1:
+        venue_parts = []
+        
+        # Get the remaining part of the line where keyword was found
+        parts = lines[found_idx].split(prefix_to_remove, 1)
+        first_line_part = parts[-1].strip() if len(parts) > 1 else ""
+        first_line_part = re.sub(r"^[■※●★◆▲▼\s]+", "", first_line_part)
+        
+        if first_line_part:
+            if not any(skw in first_line_part for skw in stop_keywords) and not first_line_part.startswith("【"):
+                # Apply time indicator check
+                if not (re.search(r"\d", first_line_part) and any(t_kw in first_line_part for t_kw in ["時", "分", "部", ":", "："])):
+                    venue_parts.append(first_line_part)
+                
+        # Read subsequent lines
+        for j in range(found_idx + 1, len(lines)):
+            next_line = lines[j]
+            # Stop condition
+            if next_line.startswith("■") or next_line.startswith("※") or next_line.startswith("【"):
+                break
+            if any(skw in next_line for skw in stop_keywords):
+                break
+            if next_line in ["【", "】", "【店舗サイト】"]:
+                break
+            # Time / Part indicators stop (e.g., 13:00, 1部, 13時)
+            if re.search(r"\d", next_line) and any(t_kw in next_line for t_kw in ["時", "分", "部", ":", "："]):
+                break
+                
+            venue_parts.append(next_line)
+            
+        # Join parts and clean up
+        venue_str = " ".join(venue_parts).strip()
+        venue_str = re.sub(r"\s*【\s*$", "", venue_str)
+        venue_str = re.sub(r"\s*\|+$", "", venue_str).strip()
+        
+        if venue_str:
+            return venue_str
+
     if "劇場" in text or "公演" in text:
         return "SKE48劇場"
+        
     return "외부 행사장"
 
 def parse_schedule_detail(url, session, members_list, item_type, category):
@@ -180,8 +242,11 @@ def parse_schedule_detail(url, session, members_list, item_type, category):
     if len(mso_elements) >= 2:
         second_p_text = mso_elements[1].get_text(separator=" ", strip=True)
         
+    full_text_area = soup.select_one("div.wrap--main div.txt")
+    full_text = full_text_area.get_text("\n") if full_text_area else ""
+    
     time_str = extract_performance_time(first_p_text)
-    venue_str = extract_venue(first_p_text)
+    venue_str = extract_venue(first_p_text, full_text)
     
     # 스케줄 유형(Type)에 따른 출연 멤버 매핑 분기 제어
     cast_ids = []
@@ -364,7 +429,7 @@ def scrape_monthly_schedules(year, month, members_list):
             added_count += 1
             
     # 최종 병합된 리스트를 날짜(date) -> 시간(time) 오름차순으로 정렬
-    merged_performances.sort(key=lambda x: (x.get("date", "9999-12-31"), x.get("time", "23:59")))
+    merged_performances.sort(key=lambda x: (x.get("date", "9999-12-31"), x.get("time") or "00:00"))
     
     output_data = {
         "yearMonth": f"{int(year):04d}-{int(month):02d}",
