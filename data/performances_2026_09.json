@@ -127,6 +127,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59476"
     },
     {
+      "performanceId": "P2609_33",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-09-07",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59512"
+    },
+    {
       "performanceId": "P2609_24",
       "category": "誕生日",
       "title": "矢島凪誕生日",

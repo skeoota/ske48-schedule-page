@@ -360,6 +360,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59201"
     },
     {
+      "performanceId": "P2608_134",
+      "category": "メディア",
+      "title": "「Pop'n'Roll」",
+      "date": "2026-08-03",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59507"
+    },
+    {
       "performanceId": "P2608_124",
       "category": "メディア",
       "title": "「Forty-Eight Times」（AKB48新聞電子版）",
@@ -588,6 +601,32 @@
         "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59140"
+    },
+    {
+      "performanceId": "P2608_136",
+      "category": "メディア",
+      "title": "TOKYO MX「さらば建前！正直サミット 本音を話すとこうなった！」",
+      "date": "2026-08-05",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59517"
+    },
+    {
+      "performanceId": "P2608_135",
+      "category": "メディア",
+      "title": "テレビ朝日「ジャンボ&みーぱんのおしえて推しコサン」♯1前編",
+      "date": "2026-08-05",
+      "time": "27:17",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59513"
     },
     {
       "performanceId": "P2608_44",
@@ -991,6 +1030,19 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/47783"
+    },
+    {
+      "performanceId": "P2608_137",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-08-10",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59508"
     },
     {
       "performanceId": "P2608_88",
@@ -1501,6 +1553,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59462"
     },
     {
+      "performanceId": "P2608_138",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-08-17",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59509"
+    },
+    {
       "performanceId": "P2608_90",
       "category": "メディア",
       "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
@@ -1851,6 +1916,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59358"
     },
     {
+      "performanceId": "P2608_139",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-08-24",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59510"
+    },
+    {
       "performanceId": "P2608_28",
       "category": "誕生日",
       "title": "池田有沙誕生日",
@@ -2019,7 +2097,24 @@
       "time": "",
       "venue": "横浜アリーナ",
       "status": "SCHEDULED",
-      "castIds": [],
+      "castIds": [
+        "member_43",
+        "member_81",
+        "member_23",
+        "member_49",
+        "member_50",
+        "member_9",
+        "member_16",
+        "member_3",
+        "member_67",
+        "member_5",
+        "member_52",
+        "member_44",
+        "member_26",
+        "member_74",
+        "member_85",
+        "member_78"
+      ],
       "link": "https://ske48.co.jp/schedule/detail/59350"
     },
     {
@@ -2034,6 +2129,19 @@
         "member_77"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59460"
+    },
+    {
+      "performanceId": "P2608_140",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-08-31",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59511"
     }
   ]
 }
