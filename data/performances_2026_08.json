@@ -894,6 +894,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59401"
     },
     {
+      "performanceId": "P2608_142",
+      "category": "メディア",
+      "title": "テレビ愛知SKE48部 YouTube生配信「がブリチキン。× SKE48  商品開発会議 チームE編」",
+      "date": "2026-08-08",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_64",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59415"
+    },
+    {
       "performanceId": "P2608_49",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -1401,6 +1416,20 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58968"
+    },
+    {
+      "performanceId": "P2608_143",
+      "category": "メディア",
+      "title": "MID-FM761『キャプテン☆kazukiの「SKE48とアッセンブル」』",
+      "date": "2026-08-15",
+      "time": "11:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59523"
     },
     {
       "performanceId": "P2608_106",
@@ -2075,6 +2104,22 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58970"
+    },
+    {
+      "performanceId": "P2608_141",
+      "category": "イベント",
+      "title": "eモータースポーツリーグ「UNIZONE」 第4戦",
+      "date": "2026-08-29",
+      "time": "11:30",
+      "venue": "コミュファ eSports Stadium NAGOYA （愛知県名古屋市中区栄3‐29‐1 名古屋パルコ東館7F）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_85",
+        "member_89",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59522"
     },
     {
       "performanceId": "P2608_66",
