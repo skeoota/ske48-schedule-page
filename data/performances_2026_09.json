@@ -166,6 +166,34 @@
       "link": "https://ske48.co.jp/schedule/detail/54699"
     },
     {
+      "performanceId": "P2609_34",
+      "category": "イベント",
+      "title": "「Uta-Tube SPORTS FES.」公開収録ライブ",
+      "date": "2026-09-10",
+      "time": "",
+      "venue": "オアシス 21 銀河の広場（名古屋市東区東桜１－ 11 － 1 ）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_26",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59525"
+    },
+    {
       "performanceId": "P2609_05",
       "category": "イベント",
       "title": "「第20回アジア競技大会（2026／愛知・名古屋）聖火リレーPRランナー」",
@@ -212,6 +240,21 @@
         "member_86"
       ],
       "link": "https://ske48.co.jp/schedule/detail/47807"
+    },
+    {
+      "performanceId": "P2609_35",
+      "category": "イベント",
+      "title": "「10チャンあたりま縁日 IN 大須」",
+      "date": "2026-09-13",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_34",
+        "member_43",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59530"
     },
     {
       "performanceId": "P2609_27",

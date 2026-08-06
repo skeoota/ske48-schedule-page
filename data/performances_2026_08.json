@@ -482,6 +482,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59353"
     },
     {
+      "performanceId": "P2608_144",
+      "category": "メディア",
+      "title": "「ガラスガール」",
+      "date": "2026-08-04",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59526"
+    },
+    {
       "performanceId": "P2608_125",
       "category": "メディア",
       "title": "「Forty-Eight Times」（AKB48新聞電子版）",
@@ -544,6 +557,32 @@
         "member_26"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59153"
+    },
+    {
+      "performanceId": "P2608_145",
+      "category": "メディア",
+      "title": "「Forty-Eight Times」（AKB48新聞電子版）",
+      "date": "2026-08-05",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59532"
+    },
+    {
+      "performanceId": "P2608_146",
+      "category": "メディア",
+      "title": "「週刊SPA!」",
+      "date": "2026-08-05",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59533"
     },
     {
       "performanceId": "P2608_35",
@@ -640,6 +679,19 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58980"
+    },
+    {
+      "performanceId": "P2608_147",
+      "category": "メディア",
+      "title": "エフエム熊本「FMK RADIO BUSTERS」",
+      "date": "2026-08-06",
+      "time": "16:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59529"
     },
     {
       "performanceId": "P2608_34",
@@ -1224,6 +1276,35 @@
       "link": "https://ske48.co.jp/schedule/detail/59493"
     },
     {
+      "performanceId": "P2608_148",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2026-08-12",
+      "time": "22:58",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_44",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59141"
+    },
+    {
+      "performanceId": "P2608_149",
+      "category": "メディア",
+      "title": "テレビ朝日「ジャンボ&みーぱんのおしえて推しコサン」♯2後編",
+      "date": "2026-08-12",
+      "time": "27:17",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59514"
+    },
+    {
       "performanceId": "P2608_11",
       "category": "イベント",
       "title": "SKE48 8期生10周年コンサート はちきがだいすき🎀",
@@ -1493,6 +1574,19 @@
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59103"
+    },
+    {
+      "performanceId": "P2608_150",
+      "category": "メディア",
+      "title": "シーシーエヌ『笠松けいば応援番組　SKE48 太田彩夏の笠馬X』（♯20後編）",
+      "date": "2026-08-16",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59539"
     },
     {
       "performanceId": "P2608_107",
