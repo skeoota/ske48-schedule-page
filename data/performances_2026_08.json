@@ -775,6 +775,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59409"
     },
     {
+      "performanceId": "P2608_154",
+      "category": "メディア",
+      "title": "スポーツ×ライフスタイルWEBマガジン「MELOS -メロス-」",
+      "date": "2026-08-07",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59433"
+    },
+    {
       "performanceId": "P2608_101",
       "category": "メディア",
       "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
@@ -801,6 +814,22 @@
         "member_95"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59332"
+    },
+    {
+      "performanceId": "P2608_155",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-08-07",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_72",
+        "member_85",
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59549"
     },
     {
       "performanceId": "P2608_08",
@@ -1431,6 +1460,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59495"
     },
     {
+      "performanceId": "P2608_156",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-08-14",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_50",
+        "member_75"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59550"
+    },
+    {
       "performanceId": "P2608_24",
       "category": "イベント",
       "title": "FC岐阜応援隊「FC岐阜 vs高知ユナイテッドSC」",
@@ -1855,6 +1898,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59444"
     },
     {
+      "performanceId": "P2608_157",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-08-21",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_47",
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59551"
+    },
+    {
       "performanceId": "P2608_58",
       "category": "メディア",
       "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
@@ -2039,6 +2096,30 @@
       "link": "https://ske48.co.jp/schedule/detail/59358"
     },
     {
+      "performanceId": "P2608_151",
+      "category": "公演",
+      "title": "チームS「ずっと君を探している」公演＜18:30開演＞",
+      "date": "2026-08-24",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_81",
+        "member_23",
+        "member_49",
+        "member_50",
+        "member_9",
+        "member_76",
+        "member_55",
+        "member_16",
+        "member_77",
+        "member_90",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59555"
+    },
+    {
       "performanceId": "P2608_139",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
@@ -2082,6 +2163,30 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59482"
+    },
+    {
+      "performanceId": "P2608_152",
+      "category": "公演",
+      "title": "「制服の芽」公演＜18:00開演＞",
+      "date": "2026-08-25",
+      "time": "18:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_96",
+        "member_91",
+        "member_45",
+        "member_67",
+        "member_82",
+        "member_86",
+        "member_2",
+        "member_47",
+        "member_92",
+        "member_72",
+        "member_94",
+        "member_99"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59556"
     },
     {
       "performanceId": "P2608_62",
@@ -2133,6 +2238,21 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59445"
+    },
+    {
+      "performanceId": "P2608_158",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-08-28",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_47",
+        "member_50",
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59552"
     },
     {
       "performanceId": "P2608_29",
@@ -2237,24 +2357,42 @@
       "venue": "横浜アリーナ",
       "status": "SCHEDULED",
       "castIds": [
-        "member_43",
-        "member_81",
-        "member_23",
-        "member_49",
-        "member_50",
+        "member_3",
+        "member_5",
         "member_9",
         "member_16",
-        "member_3",
-        "member_67",
-        "member_5",
-        "member_52",
-        "member_44",
+        "member_23",
         "member_26",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
         "member_74",
-        "member_85",
-        "member_78"
+        "member_78",
+        "member_81",
+        "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59350"
+    },
+    {
+      "performanceId": "P2608_153",
+      "category": "イベント",
+      "title": "中京テレビ「24時間テレビ49 スペシャルLIVE」",
+      "date": "2026-08-30",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_13",
+        "member_48",
+        "member_75",
+        "member_77",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59543"
     },
     {
       "performanceId": "P2608_116",

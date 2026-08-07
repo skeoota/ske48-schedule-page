@@ -55,6 +55,21 @@
       "link": "https://ske48.co.jp/schedule/detail/47789"
     },
     {
+      "performanceId": "P2609_36",
+      "category": "イベント",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい公開録音 vol.20」",
+      "date": "2026-09-04",
+      "time": "",
+      "venue": "CBC1スタホール（愛知県名古屋市中区新栄1-2-8 CBC会",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74",
+        "member_78",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59544"
+    },
+    {
       "performanceId": "P2609_02",
       "category": "イベント",
       "title": "「第20回アジア競技大会（2026／愛知・名古屋）聖火リレー一宮市PRランナー」",
