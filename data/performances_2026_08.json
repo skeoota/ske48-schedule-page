@@ -1248,6 +1248,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59362"
     },
     {
+      "performanceId": "P2608_159",
+      "category": "メディア",
+      "title": "J SPORTS「サイクルロードレース応援部ブエルタ・ア・エスパーニャ編」",
+      "date": "2026-08-11",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59567"
+    },
+    {
       "performanceId": "P2608_130",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -1432,6 +1445,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59494"
     },
     {
+      "performanceId": "P2608_160",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-08-13",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_48",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59276"
+    },
+    {
       "performanceId": "P2608_103",
       "category": "メディア",
       "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
@@ -1554,6 +1582,32 @@
         "member_44"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59523"
+    },
+    {
+      "performanceId": "P2608_161",
+      "category": "メディア",
+      "title": "KBS京都「うまDOKI」",
+      "date": "2026-08-15",
+      "time": "15:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59336"
+    },
+    {
+      "performanceId": "P2608_162",
+      "category": "メディア",
+      "title": "MBSラジオ「トヨタレンタリース大阪 PRESENTS 街と地球のSDGs」",
+      "date": "2026-08-15",
+      "time": "15:15",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59536"
     },
     {
       "performanceId": "P2608_106",
@@ -1858,6 +1912,21 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58982"
+    },
+    {
+      "performanceId": "P2608_163",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-08-20",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_48",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59277"
     },
     {
       "performanceId": "P2608_13",
@@ -2305,6 +2374,19 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58657"
+    },
+    {
+      "performanceId": "P2608_164",
+      "category": "メディア",
+      "title": "メ〜テレ「ドデスカ！」",
+      "date": "2026-08-29",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59315"
     },
     {
       "performanceId": "P2608_65",
