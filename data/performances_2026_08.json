@@ -1557,6 +1557,20 @@
       "link": "https://ske48.co.jp/schedule/detail/58655"
     },
     {
+      "performanceId": "P2608_165",
+      "category": "イベント",
+      "title": "STAGE:0 2026 全国大会グランドファイナ パブリックビューイング",
+      "date": "2026-08-15",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_89"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59569"
+    },
+    {
       "performanceId": "P2608_53",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -1684,6 +1698,20 @@
         "member_26"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59539"
+    },
+    {
+      "performanceId": "P2608_166",
+      "category": "イベント",
+      "title": "STAGE:0 2026 全国大会グランドファイナ パブリックビューイング",
+      "date": "2026-08-16",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59570"
     },
     {
       "performanceId": "P2608_107",
