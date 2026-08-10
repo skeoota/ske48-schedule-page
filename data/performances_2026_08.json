@@ -788,6 +788,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59433"
     },
     {
+      "performanceId": "P2608_167",
+      "category": "メディア",
+      "title": "「中日スポーツ」ボートレース予想サイト 【なっきぃのラッキーレーサー】",
+      "date": "2026-08-07",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59572"
+    },
+    {
       "performanceId": "P2608_101",
       "category": "メディア",
       "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
@@ -895,6 +908,20 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59314"
+    },
+    {
+      "performanceId": "P2608_168",
+      "category": "メディア",
+      "title": "「東スポWEB」",
+      "date": "2026-08-08",
+      "time": "",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_93",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59574"
     },
     {
       "performanceId": "P2608_47",
@@ -1128,6 +1155,19 @@
       "link": "https://ske48.co.jp/schedule/detail/47783"
     },
     {
+      "performanceId": "P2608_169",
+      "category": "メディア",
+      "title": "「朝日新聞デジタル」",
+      "date": "2026-08-10",
+      "time": "17:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59571"
+    },
+    {
       "performanceId": "P2608_137",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
@@ -1304,6 +1344,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59436"
     },
     {
+      "performanceId": "P2608_170",
+      "category": "メディア",
+      "title": "資産形成情報チャンネルあしたのマネー",
+      "date": "2026-08-12",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59581"
+    },
+    {
       "performanceId": "P2608_131",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -1405,6 +1458,19 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59470"
+    },
+    {
+      "performanceId": "P2608_171",
+      "category": "メディア",
+      "title": "「Walker+」",
+      "date": "2026-08-13",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59573"
     },
     {
       "performanceId": "P2608_76",
@@ -1891,6 +1957,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59475"
     },
     {
+      "performanceId": "P2608_172",
+      "category": "メディア",
+      "title": "資産形成情報チャンネルあしたのマネー",
+      "date": "2026-08-19",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59582"
+    },
+    {
       "performanceId": "P2608_36",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -2286,6 +2365,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59556"
     },
     {
+      "performanceId": "P2608_173",
+      "category": "メディア",
+      "title": "資産形成情報チャンネルあしたのマネー",
+      "date": "2026-08-26",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59583"
+    },
+    {
       "performanceId": "P2608_62",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
@@ -2321,6 +2413,39 @@
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59104"
+    },
+    {
+      "performanceId": "P2608_174",
+      "category": "メディア",
+      "title": "「グラビアプレス」",
+      "date": "2026-08-28",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_26",
+        "member_44",
+        "member_52",
+        "member_67",
+        "member_74",
+        "member_78",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59578"
+    },
+    {
+      "performanceId": "P2608_175",
+      "category": "メディア",
+      "title": "資産形成情報チャンネルあしたのマネー",
+      "date": "2026-08-28",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59584"
     },
     {
       "performanceId": "P2608_105",
