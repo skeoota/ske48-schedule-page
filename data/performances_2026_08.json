@@ -1460,6 +1460,48 @@
       "link": "https://ske48.co.jp/schedule/detail/59470"
     },
     {
+      "performanceId": "P2608_176",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」（フード企画）",
+      "date": "2026-08-13",
+      "time": "",
+      "venue": "サンシャインサカエ 1F",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_5",
+        "member_8",
+        "member_9",
+        "member_16",
+        "member_50",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59590"
+    },
+    {
+      "performanceId": "P2608_177",
+      "category": "メディア",
+      "title": "ニコニコチャンネル「SKE48非公式ちゃんねる」",
+      "date": "2026-08-13",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_5",
+        "member_8",
+        "member_9",
+        "member_16",
+        "member_50",
+        "member_52",
+        "member_86",
+        "member_92",
+        "member_97",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59589"
+    },
+    {
       "performanceId": "P2608_171",
       "category": "メディア",
       "title": "「Walker+」",
