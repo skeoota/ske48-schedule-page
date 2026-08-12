@@ -1357,6 +1357,26 @@
       "link": "https://ske48.co.jp/schedule/detail/59581"
     },
     {
+      "performanceId": "P2608_178",
+      "category": "メディア",
+      "title": "「オシグラフ」",
+      "date": "2026-08-12",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_43",
+        "member_49",
+        "member_50",
+        "member_74",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59601"
+    },
+    {
       "performanceId": "P2608_131",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -1704,6 +1724,19 @@
         "member_44"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59523"
+    },
+    {
+      "performanceId": "P2608_179",
+      "category": "メディア",
+      "title": "TBSテレビ「王様のブランチ」",
+      "date": "2026-08-15",
+      "time": "14:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59597"
     },
     {
       "performanceId": "P2608_161",

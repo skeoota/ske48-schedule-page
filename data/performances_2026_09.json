@@ -324,6 +324,22 @@
       "link": "https://ske48.co.jp/schedule/detail/54689"
     },
     {
+      "performanceId": "P2609_40",
+      "category": "メディア",
+      "title": "SHOWROOM『恋シュンの旬』",
+      "date": "2026-09-15",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8",
+        "member_48",
+        "member_77",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59595"
+    },
+    {
       "performanceId": "P2609_08",
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
@@ -415,6 +431,19 @@
         "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59391"
+    },
+    {
+      "performanceId": "P2609_41",
+      "category": "メディア",
+      "title": "MBSラジオ「トヨタレンタリース大阪 PRESENTS 街と地球のSDGs」",
+      "date": "2026-09-19",
+      "time": "15:50",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59537"
     },
     {
       "performanceId": "P2609_13",

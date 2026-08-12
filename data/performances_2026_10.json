@@ -2,6 +2,19 @@
   "yearMonth": "2026-10",
   "performances": [
     {
+      "performanceId": "P2610_09",
+      "category": "イベント",
+      "title": "「SASUKEアイドル予選会2026 ー出場権争奪バトルー supported by CHINTAI」",
+      "date": "2026-10-01",
+      "time": "17:30",
+      "venue": "キッコーマンアリーナ（流山市民総合体育館）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59576"
+    },
+    {
       "performanceId": "P2610_05",
       "category": "誕生日",
       "title": "石黒友月誕生日",
