@@ -83,6 +83,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59544"
     },
     {
+      "performanceId": "P2609_42",
+      "category": "メディア",
+      "title": "メ～テレ「Digった！」",
+      "date": "2026-09-04",
+      "time": "15:40",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59632"
+    },
+    {
       "performanceId": "P2609_02",
       "category": "イベント",
       "title": "「第20回アジア競技大会（2026／愛知・名古屋）聖火リレー一宮市PRランナー」",

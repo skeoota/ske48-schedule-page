@@ -1616,6 +1616,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59495"
     },
     {
+      "performanceId": "P2608_187",
+      "category": "メディア",
+      "title": "ニッポン放送PODCAST「島田秀平とオカルトさん！」",
+      "date": "2026-08-14",
+      "time": "24:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59620"
+    },
+    {
       "performanceId": "P2608_156",
       "category": "メディア",
       "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
@@ -1687,7 +1700,7 @@
     {
       "performanceId": "P2608_165",
       "category": "イベント",
-      "title": "STAGE:0 2026 全国大会グランドファイナ パブリックビューイング",
+      "title": "STAGE:0 2026 全国大会グランドファイナル パブリックビューイング",
       "date": "2026-08-15",
       "time": "",
       "venue": "외부 행사장",
@@ -1697,6 +1710,19 @@
         "member_89"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59569"
+    },
+    {
+      "performanceId": "P2608_189",
+      "category": "メディア",
+      "title": "「デイリースポーツ」",
+      "date": "2026-08-15",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59641"
     },
     {
       "performanceId": "P2608_53",
@@ -1804,6 +1830,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59402"
     },
     {
+      "performanceId": "P2608_188",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-08-15",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_23",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59627"
+    },
+    {
       "performanceId": "P2608_54",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -1843,7 +1884,7 @@
     {
       "performanceId": "P2608_166",
       "category": "イベント",
-      "title": "STAGE:0 2026 全国大会グランドファイナ パブリックビューイング",
+      "title": "STAGE:0 2026 全国大会グランドファイナル パブリックビューイング",
       "date": "2026-08-16",
       "time": "",
       "venue": "외부 행사장",
@@ -1970,6 +2011,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59399"
     },
     {
+      "performanceId": "P2608_190",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-17",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59496"
+    },
+    {
       "performanceId": "P2608_117",
       "category": "イベント",
       "title": "『日経エンタテインメント！SKE48 8期生 フォトブック 約束。』発売記念イベント",
@@ -2011,6 +2066,20 @@
         "member_78"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59463"
+    },
+    {
+      "performanceId": "P2608_191",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-18",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_92",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59497"
     },
     {
       "performanceId": "P2608_118",
@@ -2083,6 +2152,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59464"
     },
     {
+      "performanceId": "P2608_192",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-19",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_34",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59498"
+    },
+    {
       "performanceId": "P2608_56",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
@@ -2094,6 +2177,20 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58982"
+    },
+    {
+      "performanceId": "P2608_193",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-20",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_45",
+        "member_55"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59499"
     },
     {
       "performanceId": "P2608_163",
@@ -2147,6 +2244,20 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59444"
+    },
+    {
+      "performanceId": "P2608_194",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-21",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_89",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59500"
     },
     {
       "performanceId": "P2608_157",
@@ -2241,6 +2352,19 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58969"
+    },
+    {
+      "performanceId": "P2608_195",
+      "category": "メディア",
+      "title": "KBS京都「うまDOKI」",
+      "date": "2026-08-22",
+      "time": "15:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59337"
     },
     {
       "performanceId": "P2608_92",
@@ -2347,6 +2471,24 @@
       "link": "https://ske48.co.jp/schedule/detail/59358"
     },
     {
+      "performanceId": "P2608_186",
+      "category": "イベント",
+      "title": "「WONDER WEST LIVE SPECIAL～忘れられない夏～」",
+      "date": "2026-08-24",
+      "time": "",
+      "venue": "Music Bar Perch 愛知県名古屋市中区千代田 3-15-19 メゾン千代田 B1F",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8",
+        "member_64",
+        "member_75",
+        "member_82",
+        "member_86",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59634"
+    },
+    {
       "performanceId": "P2608_151",
       "category": "公演",
       "title": "チームS「ずっと君を探している」公演＜18:30開演＞",
@@ -2382,6 +2524,20 @@
         "member_91"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59510"
+    },
+    {
+      "performanceId": "P2608_196",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-24",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59501"
     },
     {
       "performanceId": "P2608_28",
@@ -2440,6 +2596,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59556"
     },
     {
+      "performanceId": "P2608_197",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-25",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_95",
+        "member_99"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59502"
+    },
+    {
       "performanceId": "P2608_173",
       "category": "メディア",
       "title": "資産形成情報チャンネルあしたのマネー",
@@ -2466,7 +2636,7 @@
         "member_44",
         "member_47",
         "member_26",
-        "大田愛恵",
+        "member_92",
         "member_74",
         "member_85",
         "member_34",
@@ -2475,6 +2645,20 @@
         "member_78"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59614"
+    },
+    {
+      "performanceId": "P2608_198",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-26",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59503"
     },
     {
       "performanceId": "P2608_62",
@@ -2525,6 +2709,20 @@
         "member_79"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59616"
+    },
+    {
+      "performanceId": "P2608_199",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-27",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_93",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59504"
     },
     {
       "performanceId": "P2608_15",
@@ -2607,6 +2805,20 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59445"
+    },
+    {
+      "performanceId": "P2608_200",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-28",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_34",
+        "member_45"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59505"
     },
     {
       "performanceId": "P2608_158",
