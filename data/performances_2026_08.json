@@ -1845,6 +1845,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59627"
     },
     {
+      "performanceId": "P2608_201",
+      "category": "メディア",
+      "title": "YouTube「楽待 RAKUMACHI」",
+      "date": "2026-08-15",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59629"
+    },
+    {
       "performanceId": "P2608_54",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -2382,6 +2395,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59403"
     },
     {
+      "performanceId": "P2608_202",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-08-22",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_13",
+        "member_45"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59628"
+    },
+    {
       "performanceId": "P2608_61",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -2440,6 +2468,20 @@
         "member_110"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59163"
+    },
+    {
+      "performanceId": "P2608_203",
+      "category": "メディア",
+      "title": "東海テレビ「競馬BEAT」",
+      "date": "2026-08-23",
+      "time": "15:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59335"
     },
     {
       "performanceId": "P2608_115",
