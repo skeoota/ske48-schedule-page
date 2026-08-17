@@ -15,6 +15,32 @@
       "link": "https://ske48.co.jp/schedule/detail/59576"
     },
     {
+      "performanceId": "P2610_11",
+      "category": "メディア",
+      "title": "NATSLIVE「キッチンダービーくまちゃん杯」",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59652"
+    },
+    {
+      "performanceId": "P2610_10",
+      "category": "イベント",
+      "title": "TBSラジオ「自転車協会 presents ミラクル・サイクル・ライフ」公開収録",
+      "date": "2026-10-10",
+      "time": "13:00",
+      "venue": "有明ガーデン",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59613"
+    },
+    {
       "performanceId": "P2610_05",
       "category": "誕生日",
       "title": "石黒友月誕生日",

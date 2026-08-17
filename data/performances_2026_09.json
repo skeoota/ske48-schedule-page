@@ -96,6 +96,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59632"
     },
     {
+      "performanceId": "P2609_43",
+      "category": "メディア",
+      "title": "FMボイスキュー「ユリオカ超特Qのらっしゃい！Radio」",
+      "date": "2026-09-04",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59650"
+    },
+    {
       "performanceId": "P2609_02",
       "category": "イベント",
       "title": "「第20回アジア競技大会（2026／愛知・名古屋）聖火リレー一宮市PRランナー」",
@@ -259,6 +272,19 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59587"
+    },
+    {
+      "performanceId": "P2609_44",
+      "category": "メディア",
+      "title": "FMボイスキュー「ユリオカ超特Qのらっしゃい！Radio」",
+      "date": "2026-09-11",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59651"
     },
     {
       "performanceId": "P2609_05",

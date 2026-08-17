@@ -2057,6 +2057,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59474"
     },
     {
+      "performanceId": "P2608_205",
+      "category": "メディア",
+      "title": "ラジオ日本「６０ＴＲＹ部」",
+      "date": "2026-08-18",
+      "time": "18:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59645"
+    },
+    {
       "performanceId": "P2608_109",
       "category": "公演",
       "title": "チームE「RESET」公演 太田彩夏生誕祭＜18:30開演＞",
@@ -2125,6 +2138,21 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59582"
+    },
+    {
+      "performanceId": "P2608_204",
+      "category": "イベント",
+      "title": "「愛知・名古屋2026公式ライセンスショップ（名鉄商店内）」オープニングセレモニー",
+      "date": "2026-08-19",
+      "time": "10:00",
+      "venue": "名鉄商店",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_47",
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59647"
     },
     {
       "performanceId": "P2608_36",
@@ -2257,6 +2285,19 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59444"
+    },
+    {
+      "performanceId": "P2608_206",
+      "category": "メディア",
+      "title": "FMボイスキュー「ユリオカ超特Qのらっしゃい！Radio」",
+      "date": "2026-08-21",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59648"
     },
     {
       "performanceId": "P2608_194",
@@ -2505,10 +2546,26 @@
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_26",
+        "member_43",
+        "member_44",
         "member_45",
         "member_47",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
         "member_72",
-        "member_82"
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_82",
+        "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59358"
     },
@@ -2847,6 +2904,19 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59445"
+    },
+    {
+      "performanceId": "P2608_207",
+      "category": "メディア",
+      "title": "FMボイスキュー「ユリオカ超特Qのらっしゃい！Radio」",
+      "date": "2026-08-28",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59649"
     },
     {
       "performanceId": "P2608_200",
