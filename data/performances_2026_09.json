@@ -2,6 +2,20 @@
   "yearMonth": "2026-09",
   "performances": [
     {
+      "performanceId": "P2609_45",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-01",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_107"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59667"
+    },
+    {
       "performanceId": "P2609_22",
       "category": "誕生日",
       "title": "青木莉樺誕生日",
@@ -42,6 +56,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59287"
     },
     {
+      "performanceId": "P2609_46",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-02",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_75",
+        "member_108"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59668"
+    },
+    {
       "performanceId": "P2609_01",
       "category": "イベント",
       "title": "SKE48 佐藤佳穂2ndソロライブ 〜今宵は月が綺麗ですね〜",
@@ -66,6 +94,20 @@
         "member_78"
       ],
       "link": "https://ske48.co.jp/schedule/detail/47789"
+    },
+    {
+      "performanceId": "P2609_47",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-03",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_81",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59669"
     },
     {
       "performanceId": "P2609_36",
@@ -109,6 +151,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59650"
     },
     {
+      "performanceId": "P2609_48",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-04",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_109"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59670"
+    },
+    {
       "performanceId": "P2609_02",
       "category": "イベント",
       "title": "「第20回アジア競技大会（2026／愛知・名古屋）聖火リレー一宮市PRランナー」",
@@ -134,6 +190,21 @@
         "member_67"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58839"
+    },
+    {
+      "performanceId": "P2609_49",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-09-05",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_67",
+        "member_92"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59697"
     },
     {
       "performanceId": "P2609_21",
@@ -192,6 +263,23 @@
         "member_91"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59512"
+    },
+    {
+      "performanceId": "P2609_50",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-09-07",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_44",
+        "member_45",
+        "member_47",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59694"
     },
     {
       "performanceId": "P2609_24",
@@ -311,6 +399,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59378"
     },
     {
+      "performanceId": "P2609_51",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-09-12",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_67",
+        "member_92"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59698"
+    },
+    {
       "performanceId": "P2609_07",
       "category": "イベント",
       "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地でトーク会・握手会 @幕張メッセ",
@@ -348,6 +451,23 @@
         "member_90"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59530"
+    },
+    {
+      "performanceId": "P2609_52",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-09-14",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_44",
+        "member_45",
+        "member_47",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59695"
     },
     {
       "performanceId": "P2609_27",
@@ -483,6 +603,21 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59537"
+    },
+    {
+      "performanceId": "P2609_53",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-09-19",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_67",
+        "member_92"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59699"
     },
     {
       "performanceId": "P2609_13",

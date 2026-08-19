@@ -2057,6 +2057,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59474"
     },
     {
+      "performanceId": "P2608_209",
+      "category": "メディア",
+      "title": "TOKYO MX「#銀座de火曜祭  ～Let's sing a song from GINZA～」",
+      "date": "2026-08-18",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59663"
+    },
+    {
       "performanceId": "P2608_205",
       "category": "メディア",
       "title": "ラジオ日本「６０ＴＲＹ部」",
@@ -2140,6 +2153,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59582"
     },
     {
+      "performanceId": "P2608_210",
+      "category": "メディア",
+      "title": "「週刊SPA!」",
+      "date": "2026-08-19",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59660"
+    },
+    {
       "performanceId": "P2608_204",
       "category": "イベント",
       "title": "「愛知・名古屋2026公式ライセンスショップ（名鉄商店内）」オープニングセレモニー",
@@ -2179,11 +2206,11 @@
       "castIds": [
         "member_82",
         "member_86",
+        "member_95",
         "member_92",
         "member_89",
         "member_93",
         "member_94",
-        "member_98",
         "member_99",
         "member_100",
         "member_101",
@@ -2218,6 +2245,30 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58982"
+    },
+    {
+      "performanceId": "P2608_208",
+      "category": "公演",
+      "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
+      "date": "2026-08-20",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_45",
+        "member_5",
+        "member_82",
+        "member_48",
+        "member_8",
+        "member_95",
+        "member_86",
+        "member_52",
+        "member_19",
+        "member_93",
+        "member_94"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59658"
     },
     {
       "performanceId": "P2608_193",
@@ -2393,6 +2444,19 @@
         "member_93"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59431"
+    },
+    {
+      "performanceId": "P2608_211",
+      "category": "メディア",
+      "title": "中日こどもウイークリー　コラム「親の時間　子の時間」",
+      "date": "2026-08-22",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_76"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59521"
     },
     {
       "performanceId": "P2608_57",
@@ -2625,6 +2689,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59510"
     },
     {
+      "performanceId": "P2608_212",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-08-24",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_44",
+        "member_47",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59692"
+    },
+    {
       "performanceId": "P2608_196",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -2669,6 +2749,19 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59482"
+    },
+    {
+      "performanceId": "P2608_213",
+      "category": "メディア",
+      "title": "TOKYO MX「#銀座de火曜祭  ～Let's sing a song from GINZA～」",
+      "date": "2026-08-25",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59664"
     },
     {
       "performanceId": "P2608_152",
@@ -3066,6 +3159,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59618"
     },
     {
+      "performanceId": "P2608_214",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-08-29",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_67",
+        "member_92"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59696"
+    },
+    {
       "performanceId": "P2608_66",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -3197,6 +3305,37 @@
         "member_91"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59511"
+    },
+    {
+      "performanceId": "P2608_216",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-08-31",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_44",
+        "member_45",
+        "member_47",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59693"
+    },
+    {
+      "performanceId": "P2608_215",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-08-31",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_106"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59666"
     }
   ]
 }
