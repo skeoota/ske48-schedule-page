@@ -2234,6 +2234,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59498"
     },
     {
+      "performanceId": "P2608_217",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2026-08-19",
+      "time": "22:58",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59702"
+    },
+    {
       "performanceId": "P2608_56",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
@@ -2324,6 +2338,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59343"
     },
     {
+      "performanceId": "P2608_218",
+      "category": "メディア",
+      "title": "テレビ愛知「キン・ドニーチ」",
+      "date": "2026-08-21",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59703"
+    },
+    {
       "performanceId": "P2608_104",
       "category": "メディア",
       "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
@@ -2349,6 +2376,19 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59648"
+    },
+    {
+      "performanceId": "P2608_219",
+      "category": "メディア",
+      "title": "ラジオ大阪「OBCドラマティック競馬金曜版 HUK阪神アーバンナイター中継」",
+      "date": "2026-08-21",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59704"
     },
     {
       "performanceId": "P2608_194",
@@ -2786,6 +2826,22 @@
         "member_99"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59556"
+    },
+    {
+      "performanceId": "P2608_220",
+      "category": "メディア",
+      "title": "ニコニコチャンネル「SKE48非公式ちゃんねる」",
+      "date": "2026-08-25",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_93",
+        "member_97",
+        "member_101",
+        "member_102"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59691"
     },
     {
       "performanceId": "P2608_197",
