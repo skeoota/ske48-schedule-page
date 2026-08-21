@@ -2338,6 +2338,25 @@
       "link": "https://ske48.co.jp/schedule/detail/59343"
     },
     {
+      "performanceId": "P2608_222",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」",
+      "date": "2026-08-21",
+      "time": "",
+      "venue": "サンシャインサカエ 1F",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_50",
+        "member_74",
+        "member_75",
+        "member_76",
+        "member_78",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59732"
+    },
+    {
       "performanceId": "P2608_218",
       "category": "メディア",
       "title": "テレビ愛知「キン・ドニーチ」",
@@ -2403,6 +2422,19 @@
         "member_91"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59500"
+    },
+    {
+      "performanceId": "P2608_223",
+      "category": "メディア",
+      "title": "ニッポン放送PODCAST「島田秀平とオカルトさん！」",
+      "date": "2026-08-21",
+      "time": "24:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59630"
     },
     {
       "performanceId": "P2608_157",
@@ -2523,6 +2555,28 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59337"
+    },
+    {
+      "performanceId": "P2608_221",
+      "category": "公演",
+      "title": "SKE48 バラエティアイドル育成プロジェクト「ミカンのむき方」",
+      "date": "2026-08-22",
+      "time": "17:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_96",
+        "member_76",
+        "member_55",
+        "member_77",
+        "member_79",
+        "member_45",
+        "member_2",
+        "member_47",
+        "member_34",
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59735"
     },
     {
       "performanceId": "P2608_92",
@@ -3324,6 +3378,34 @@
         "member_77"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59460"
+    },
+    {
+      "performanceId": "P2608_224",
+      "category": "メディア",
+      "title": "「BUBKA 10月号」発売日",
+      "date": "2026-08-31",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_26",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59724"
     },
     {
       "performanceId": "P2608_185",
