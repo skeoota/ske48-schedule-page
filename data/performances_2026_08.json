@@ -3071,6 +3071,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59584"
     },
     {
+      "performanceId": "P2608_225",
+      "category": "メディア",
+      "title": "「IDOL FILE」",
+      "date": "2026-08-28",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59742"
+    },
+    {
       "performanceId": "P2608_182",
       "category": "公演",
       "title": "12期生、13期生「可能性こそが未来」公演＜18:00開演＞",
