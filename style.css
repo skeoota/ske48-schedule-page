@@ -1,18 +1,23 @@
 :root {
-    --ske-mint: #bfeae5; /* SKE48 고유 민트 배경색 */
+    --ske-orange: #f8b500;        /* SKE48 시그니처 오렌지 (sp.ske48.co.jp 메인 컬러) */
+    --ske-orange-dark: #ea9400;   /* 딥 오렌지 */
+    --ske-orange-deep: #d47e00;   /* 다크 골드 오렌지 */
+    --ske-orange-light: #fff8e7;  /* 연한 크림 오렌지 */
+    --ske-orange-border: #ffd580; /* 오렌지 테두리 */
     --ske-border: #444;
     --primary-bg: #ffffff;
-    --text-color: #222;
-    --light-bg: #f9f9f9;
-    --accent-color: #ff3366;
-    --accent-light: #ffe6eb;
+    --text-color: #222222;
+    --light-bg: #fdfcf9;
+    --accent-color: #e65100;
+    --accent-light: #fff3e0;
+    --accent-pink: #e91e63;
 }
 
 body {
     margin: 0;
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
     color: var(--text-color);
-    background-color: #eceff1;
+    background-color: #f7f5ef;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,13 +104,14 @@ body {
 .profile-img-wrapper {
     width: 140px;
     height: 175px;
-    background-color: var(--ske-mint);
-    border: 1px solid var(--ske-border);
+    background-color: var(--ske-orange-light);
+    border: 1px solid var(--ske-orange-border);
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    border-radius: 4px;
 }
 
 .profile-img-wrapper img {
@@ -123,11 +129,12 @@ body {
 
 .profile-team {
     font-size: 13px;
-    color: #666;
-    background: #e0f2f1;
+    color: #b36b00;
+    background: var(--ske-orange-light);
+    border: 1px solid var(--ske-orange-border);
     padding: 2px 8px;
     border-radius: 12px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .profile-bio {
@@ -263,29 +270,24 @@ body {
 }
 
 .nav-btn:hover {
-    border-color: #00796b;
-    background-color: #fafafa;
+    border-color: var(--ske-orange);
+    background-color: #fffbf2;
+    color: #b36b00;
 }
 
 /* 카테고리 필터 바 및 알약 버튼 스타일 */
 .timeline-filter-bar {
     display: flex;
-    gap: 8px;
-    padding: 12px 16px;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 10px 14px;
     background-color: #ffffff;
     border-bottom: 1px solid #eee;
-    overflow-x: auto;
-    white-space: nowrap;
-    scrollbar-width: none; /* Firefox */
-}
-
-.timeline-filter-bar::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
 }
 
 .filter-pill {
-    padding: 6px 14px;
-    font-size: 13px;
+    padding: 5px 12px;
+    font-size: 12px;
     font-weight: 600;
     color: #666;
     background-color: #f1f3f4;
@@ -303,10 +305,10 @@ body {
 }
 
 .filter-pill.active {
-    background-color: var(--accent-light);
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-    box-shadow: 0 2px 6px rgba(255, 51, 102, 0.15);
+    background: linear-gradient(135deg, #f8b500 0%, #ea9400 100%);
+    color: #ffffff;
+    border-color: #ea9400;
+    box-shadow: 0 2px 6px rgba(234, 148, 0, 0.25);
 }
 
 .no-filter-results {
@@ -340,9 +342,9 @@ body {
 }
 
 .timeline-search-wrapper input:focus {
-    border-color: #00796b;
+    border-color: var(--ske-orange);
     background-color: #ffffff;
-    box-shadow: 0 0 0 3px rgba(0, 121, 107, 0.1);
+    box-shadow: 0 0 0 3px rgba(248, 181, 0, 0.15);
 }
 
 .search-clear-btn {
@@ -387,8 +389,8 @@ body {
 }
 
 .month-select-dropdown:hover {
-    border-color: #00796b;
-    background-color: #fafafa;
+    border-color: var(--ske-orange);
+    background-color: #fffbf2;
 }
 
 /* 오늘 복귀 액센트 버튼 스타일 */
@@ -440,8 +442,8 @@ body {
 
 .tab-menu-btn.active {
     background-color: #fff;
-    color: #00796b;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    color: var(--ske-orange-deep);
+    box-shadow: 0 2px 8px rgba(248, 181, 0, 0.12);
 }
 
 /* 하단 타임라인 분할 레이아웃 */
@@ -509,12 +511,12 @@ body {
 }
 
 .day-num.sat .weekday {
-    color: #00796b;
+    color: #1976d2;
     font-weight: bold;
 }
 
 .day-num.sun .weekday {
-    color: #ff3366;
+    color: #e53935;
     font-weight: bold;
 }
 
@@ -547,13 +549,13 @@ body {
 
 /* 개별 카드 호버 및 클릭 액티브 효과 */
 .perf-item-link:hover {
-    background-color: #f1f1f1;
-    border-color: #ccc;
+    background-color: #fffdf8;
+    border-color: #ffe0b2;
 }
 
 .perf-item-link.active {
-    background-color: #e0f2f1;
-    border-color: #80cbc4;
+    background-color: #fff8e7;
+    border-color: #ffd580;
     font-weight: bold;
 }
 
@@ -591,9 +593,9 @@ body {
     padding: 1px 6px;
     font-size: 10px;
     font-weight: bold;
-    color: #00796b;
-    background-color: #e0f2f1;
-    border: 1px solid #80cbc4;
+    color: #b36b00;
+    background-color: #fff8e7;
+    border: 1px solid #ffd580;
     border-radius: 4px;
     margin-right: 5px;
     vertical-align: middle;
@@ -648,7 +650,7 @@ body {
 }
 
 .detail-title a:hover {
-    color: #00796b;
+    color: var(--ske-orange-deep);
 }
 
 .detail-meta {
@@ -665,14 +667,14 @@ body {
 }
 
 .venue-link {
-    color: #00796b;
+    color: var(--ske-orange-deep);
     text-decoration: none;
     font-weight: 550;
 }
 
 .venue-link:hover {
     text-decoration: underline;
-    color: #004d40;
+    color: #b36b00;
 }
 
 .cast-container {
@@ -683,7 +685,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     color: #333;
-    border-left: 4px solid #00796b;
+    border-left: 4px solid var(--ske-orange);
     padding-left: 8px;
     margin-bottom: 16px;
 }
@@ -729,12 +731,13 @@ body {
 .member-mini-card .img-frame {
     width: 100%;
     aspect-ratio: 4 / 5;
-    background-color: var(--ske-mint);
-    border: 1px solid var(--ske-border);
+    background-color: var(--ske-orange-light);
+    border: 1px solid var(--ske-orange-border);
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
 }
 
 .member-mini-card img {
@@ -1197,13 +1200,425 @@ body {
 }
 
 .member-schedule-item.clickable:hover {
-    border-color: #00796b;
-    background-color: #f2faf9;
+    border-color: var(--ske-orange);
+    background-color: #fffbf2;
     transform: translateY(-1px);
-    box-shadow: 0 2px 6px rgba(0, 121, 107, 0.08);
+    box-shadow: 0 2px 6px rgba(248, 181, 0, 0.12);
 }
 
 .member-schedule-item.clickable:active {
     transform: translateY(0);
     box-shadow: none;
+}
+
+/* --- 티켓팅 스케줄 카드 스타일 (Tixplus 연동) --- */
+.ticket-schedule-card {
+    background: linear-gradient(135deg, #fffdf8 0%, #fff9ec 100%);
+    border: 1px solid #ffd580;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin: 18px 0;
+    box-shadow: 0 2px 10px rgba(234, 148, 0, 0.06);
+}
+
+.ticket-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffe8b8;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+}
+
+.ticket-card-title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #b36b00;
+}
+
+.ticket-title-icon {
+    font-size: 16px;
+}
+
+.ticket-source-badge {
+    background: #ea9400;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 12px;
+    letter-spacing: 0.3px;
+}
+
+.ticket-dates-list {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 14px;
+}
+
+.ticket-date-row {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.ticket-date-row.highlight-row {
+    background-color: #fff8e7;
+    border: 1px solid #ffe0b2;
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: #b36b00;
+}
+
+.ticket-date-label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+    color: #333;
+}
+
+.ticket-date-row.highlight-row .ticket-date-label {
+    color: #b36b00;
+}
+
+.dot-indicator {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #f8b500;
+    flex-shrink: 0;
+}
+
+.ticket-date-val {
+    color: #444;
+    word-break: break-all;
+}
+
+.ticket-date-row.highlight-row .ticket-date-val {
+    font-weight: 600;
+    color: #8c4c00;
+}
+
+.ticket-apply-group {
+    margin-top: 14px;
+}
+
+.ticket-group-label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.ticket-buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 8px;
+}
+
+.ticket-apply-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background: linear-gradient(135deg, #f8b500 0%, #ea9400 100%);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(234, 148, 0, 0.25);
+    text-align: center;
+}
+
+.ticket-apply-btn:hover {
+    background: linear-gradient(135deg, #ffc107 0%, #f57c00 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(234, 148, 0, 0.35);
+    color: #ffffff;
+}
+
+.ticket-apply-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 3px rgba(234, 148, 0, 0.2);
+}
+
+.ticket-other-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px dashed #ffd580;
+}
+
+.ticket-sub-link {
+    font-size: 12px;
+    color: var(--ske-orange-deep);
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: color 0.2s;
+}
+
+.ticket-sub-link .sub-link-arrow {
+    font-weight: bold;
+}
+
+.ticket-sub-link:hover {
+    color: #b36b00;
+    text-decoration: underline;
+}
+
+.ticket-notes-details {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.ticket-notes-summary {
+    cursor: pointer;
+    color: #666;
+    font-weight: 500;
+    user-select: none;
+    padding: 4px 0;
+    transition: color 0.2s;
+}
+
+.ticket-notes-summary:hover {
+    color: var(--ske-orange-deep);
+}
+
+.ticket-notes-content {
+    margin-top: 6px;
+    padding: 10px 12px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    line-height: 1.5;
+    color: #555;
+    max-height: 160px;
+    overflow-y: auto;
+}
+
+/* --- 실시간 접수/트레이드 상태 전용 스타일 --- */
+
+/* 타임라인 제목 옆 인라인 배지 */
+.ticket-status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin-right: 5px;
+    vertical-align: middle;
+    animation: fadeInBadge 0.3s ease;
+}
+
+.ticket-status-badge.applying {
+    background-color: #ffebee;
+    color: #d32f2f;
+    border: 1px solid #ffcdd2;
+}
+
+.ticket-status-badge.trading {
+    background-color: #e3f2fd;
+    color: #1976d2;
+    border: 1px solid #bbdefb;
+}
+
+/* 필터 바 접수중 전용 버튼 */
+.filter-pill.filter-pill-applying {
+    background-color: #fff3e0;
+    color: #e65100;
+    border-color: #ffe0b2;
+    font-weight: bold;
+}
+
+.filter-pill.filter-pill-applying:hover {
+    background-color: #ffe0b2;
+}
+
+.filter-pill.filter-pill-applying.active {
+    background: linear-gradient(135deg, #f57c00 0%, #e65100 100%);
+    color: #ffffff;
+    border-color: #e65100;
+    box-shadow: 0 2px 8px rgba(230, 81, 0, 0.25);
+}
+
+/* 티켓팅 카드 상단 실시간 상태 배너 */
+.ticket-status-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.ticket-status-banner.applying {
+    background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+    border: 1px solid #ffcc80;
+    color: #bf360c;
+}
+
+.ticket-status-banner.trading {
+    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    border: 1px solid #90caf9;
+    color: #0d47a1;
+}
+
+.ticket-status-banner .banner-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ticket-status-banner .banner-text {
+    font-size: 13px;
+}
+
+.ticket-status-banner .status-time-left {
+    font-size: 12px;
+    font-weight: 600;
+    color: #d84315;
+    margin-left: 20px;
+}
+
+/* 펄스 점 애니메이션 */
+.status-pulse-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ff3d00;
+    box-shadow: 0 0 0 0 rgba(255, 61, 0, 0.7);
+    animation: pulseOrange 1.6s infinite;
+    flex-shrink: 0;
+}
+
+.status-pulse-dot.trading {
+    background-color: #1976d2;
+    box-shadow: 0 0 0 0 rgba(25, 118, 210, 0.7);
+    animation: pulseBlue 1.6s infinite;
+}
+
+@keyframes pulseOrange {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 61, 0, 0.7);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(255, 61, 0, 0);
+    }
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 61, 0, 0);
+    }
+}
+
+@keyframes pulseBlue {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(25, 118, 210, 0.7);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(25, 118, 210, 0);
+    }
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(25, 118, 210, 0);
+    }
+}
+
+/* 접수 중인 카드 하이라이트 테두리 */
+.ticket-schedule-card.card-applying-now {
+    border: 1.5px solid #ff9800;
+    background: linear-gradient(135deg, #fffdfa 0%, #fff8e1 100%);
+    box-shadow: 0 4px 14px rgba(245, 124, 0, 0.12);
+}
+
+/* 일자 행 접수중/트레이드중 액티브 하이라이트 */
+.ticket-date-row.active-applying-row {
+    background-color: #fff3e0;
+    border: 1px solid #ffcc80;
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: #e65100;
+}
+
+.ticket-date-row.active-applying-row .ticket-date-label {
+    color: #bf360c;
+}
+
+.ticket-date-row.active-applying-row .ticket-date-val {
+    font-weight: bold;
+    color: #d84315;
+}
+
+.ticket-date-row.active-trading-row {
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: #1565c0;
+}
+
+.ticket-date-row.active-trading-row .ticket-date-label {
+    color: #0d47a1;
+}
+
+.ticket-date-row.active-trading-row .ticket-date-val {
+    font-weight: bold;
+    color: #1976d2;
+}
+
+.live-tag {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2px 6px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #ff3d00;
+    color: #ffffff;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.live-tag.trading {
+    background-color: #1976d2;
+}
+
+/* 활성화된 접수 버튼 반짝임 강조 */
+.ticket-apply-btn.active-applying-btn {
+    background: linear-gradient(135deg, #ff6d00 0%, #e65100 100%);
+    box-shadow: 0 3px 8px rgba(230, 81, 0, 0.35);
+    transform: scale(1.02);
+}
+
+.ticket-apply-btn.active-applying-btn:hover {
+    background: linear-gradient(135deg, #ff7d1a 0%, #ef6c00 100%);
+    box-shadow: 0 5px 14px rgba(230, 81, 0, 0.45);
+    transform: translateY(-2px) scale(1.02);
+}
+
+@keyframes fadeInBadge {
+    from { opacity: 0; transform: scale(0.85); }
+    to { opacity: 1; transform: scale(1); }
 }

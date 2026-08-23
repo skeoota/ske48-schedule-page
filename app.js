@@ -44,7 +44,26 @@ const translations = {
 
         "졸업멤버": "졸업멤버",
         badgeGraduated: "졸업",
-        backToList: "← 일정 목록"
+        backToList: "← 일정 목록",
+
+        ticketInfoTitle: "티켓팅 스케줄",
+        applyPeriod: "접수 기간",
+        lotteryPeriod: "당락 발표 및 입금",
+        eTicketDisplay: "전자 티켓 표시",
+        tradePeriod: "티켓 트레이드",
+        ticketApply: "티켓 신청",
+        ticketNotes: "공연 주의사항",
+        tixplusDetailBtn: "티케플라 안내 페이지",
+
+        statusApplying: "티켓 접수중",
+        statusTrading: "트레이드중",
+        filterApplying: "접수중인 공연",
+        bannerApplyingTitle: "현재 티켓 신청 접수 진행 중!",
+        bannerTradingTitle: "현재 공식 티켓 트레이드 진행 중!",
+        tagActiveNow: "접수중",
+        timeLeftFormat: "마감까지 {days}일 {hours}시간 {minutes}분 남음",
+        timeLeftHours: "마감까지 {hours}시간 {minutes}분 남음",
+        timeLeftMinutes: "마감까지 {minutes}분 남음"
     },
     ja: {
         title: "SKE48 劇場スケジュール＆プロフィールポータル",
@@ -89,7 +108,26 @@ const translations = {
 
         "졸업멤버": "卒業メンバー",
         badgeGraduated: "卒業",
-        backToList: "← スケジュール一覧"
+        backToList: "← スケジュール一覧",
+
+        ticketInfoTitle: "チケット受付日程",
+        applyPeriod: "受付期間",
+        lotteryPeriod: "当落発表・入金期間",
+        eTicketDisplay: "電子チケット表示",
+        tradePeriod: "チケットトレード期間",
+        ticketApply: "チケット申込み",
+        ticketNotes: "本公演の注意事項",
+        tixplusDetailBtn: "チケプラ特設ページ",
+
+        statusApplying: "受付中",
+        statusTrading: "トレード中",
+        filterApplying: "受付中の公演",
+        bannerApplyingTitle: "現在チケット受付進行中！",
+        bannerTradingTitle: "現在公式チケットトレード進行中！",
+        tagActiveNow: "受付中",
+        timeLeftFormat: "締切まであと{days}日{hours}時間{minutes}分",
+        timeLeftHours: "締切まであと{hours}時間{minutes}分",
+        timeLeftMinutes: "締切まであと{minutes}分"
     },
     en: {
         title: "SKE48 Theater Schedule & Profile Portal",
@@ -134,18 +172,124 @@ const translations = {
 
         "졸업멤버": "Graduated",
         badgeGraduated: "Graduated",
-        backToList: "← Schedule List"
+        backToList: "← Schedule List",
+
+        ticketInfoTitle: "Ticketing Schedule",
+        applyPeriod: "Application Period",
+        lotteryPeriod: "Lottery & Payment",
+        eTicketDisplay: "E-Ticket Display",
+        tradePeriod: "Ticket Trade Period",
+        ticketApply: "Apply Ticket",
+        ticketNotes: "Performance Notes",
+        tixplusDetailBtn: "Tixplus Info Page",
+
+        statusApplying: "Open",
+        statusTrading: "Trading",
+        filterApplying: "Open for Tickets",
+        bannerApplyingTitle: "Ticket Applications Open Now!",
+        bannerTradingTitle: "Official Ticket Trade Active!",
+        tagActiveNow: "Open",
+        timeLeftFormat: "{days}d {hours}h {minutes}m left",
+        timeLeftHours: "{hours}h {minutes}m left",
+        timeLeftMinutes: "{minutes}m left"
     }
 };
 
 let currentLang = localStorage.getItem("ske_lang") || (navigator.language.startsWith("ja") ? "ja" : navigator.language.startsWith("en") ? "en" : "ko");
 
 function t(key, vars = {}) {
-    let text = translations[currentLang][key] || key;
+    let text = (translations[currentLang] && translations[currentLang][key]) || (translations.ko && translations.ko[key]) || key;
     for (const [k, v] of Object.entries(vars)) {
         text = text.replace(new RegExp(`\\{${k}\\}`, 'g'), v);
     }
     return text;
+}
+
+// 일본식 날짜 기간 문자열을 Date 객체 쌍으로 파싱하는 헬퍼
+function parseJapaneseDateRange(rangeStr, defaultYear = (new Date()).getFullYear()) {
+    if (!rangeStr) return null;
+    const parts = rangeStr.split(/[~〜]/);
+    if (parts.length < 2) return null;
+
+    function parseSingleDate(str, refYear) {
+        const m = str.match(/(?:(\d{4})[年/\.-])?\s*(\d{1,2})[月/\.-](\d{1,2})[日]?(?:\s*\([^)]*\))?\s*(\d{1,2}):(\d{2})/);
+        if (m) {
+            const y = m[1] ? parseInt(m[1], 10) : refYear;
+            const mo = parseInt(m[2], 10) - 1;
+            const d = parseInt(m[3], 10);
+            const hh = parseInt(m[4], 10);
+            const mm = parseInt(m[5], 10);
+            return new Date(y, mo, d, hh, mm, 0);
+        }
+        return null;
+    }
+
+    const start = parseSingleDate(parts[0], defaultYear);
+    if (!start) return null;
+    const end = parseSingleDate(parts[1], start.getFullYear());
+    if (!end) return null;
+
+    return { start, end };
+}
+
+// 공연의 현재 티켓팅/트레이드 상태 판별 함수
+function getTicketStatus(ticketInfo, perfDateStr) {
+    if (!ticketInfo) return null;
+    const now = new Date();
+
+    // 1. 접수 기간(applicationPeriod) 검사
+    if (ticketInfo.applicationPeriod) {
+        const appRange = parseJapaneseDateRange(ticketInfo.applicationPeriod);
+        if (appRange && now >= appRange.start && now <= appRange.end) {
+            return {
+                type: 'APPLYING',
+                labelKey: 'statusApplying',
+                end: appRange.end
+            };
+        }
+    }
+
+    // 2. 트레이드 기간(tradePeriod) 검사
+    if (ticketInfo.tradePeriod) {
+        let tradeStr = ticketInfo.tradePeriod;
+        if (tradeStr.includes("公演当日") && perfDateStr) {
+            const pParts = perfDateStr.split('-');
+            if (pParts.length === 3) {
+                tradeStr = tradeStr.replace("公演当日", `${pParts[0]}年${pParts[1]}月${pParts[2]}日`);
+            }
+        }
+        const tradeRange = parseJapaneseDateRange(tradeStr);
+        if (tradeRange && now >= tradeRange.start && now <= tradeRange.end) {
+            return {
+                type: 'TRADING',
+                labelKey: 'statusTrading',
+                end: tradeRange.end
+            };
+        }
+    }
+
+    return null;
+}
+
+// 남은 시간 포맷팅 헬퍼
+function formatTimeRemaining(endDate) {
+    if (!endDate) return "";
+    const now = new Date();
+    const diffMs = endDate - now;
+    if (diffMs <= 0) return "";
+
+    const diffMinutes = Math.floor(diffMs / (1000 * 60));
+    const days = Math.floor(diffMinutes / (60 * 24));
+    const hours = Math.floor((diffMinutes % (60 * 24)) / 60);
+    const minutes = diffMinutes % 60;
+
+    if (days > 0) {
+        return t("timeLeftFormat", { days, hours, minutes });
+    } else if (hours > 0) {
+        return t("timeLeftHours", { hours, minutes });
+    } else {
+        return t("timeLeftMinutes", { minutes });
+    }
 }
 
 function parseMemberColors(colorStr) {
@@ -179,6 +323,7 @@ const categoryTranslations = {
         "公演": "극장 공연",
         "メディア": "미디어",
         "イベント": "이벤트",
+        "誕生日": "생일",
         "その他": "기타",
         "기타": "기타",
         "all": "전체"
@@ -187,6 +332,7 @@ const categoryTranslations = {
         "公演": "公演",
         "メディア": "メディア",
         "イベント": "イベント",
+        "誕生日": "誕生日",
         "その他": "その他",
         "기타": "その他",
         "all": "全て"
@@ -195,11 +341,19 @@ const categoryTranslations = {
         "公演": "Show",
         "メディア": "Media",
         "イベント": "Event",
+        "誕生日": "Birthday",
         "other": "Other",
         "기타": "Other",
         "all": "All"
     }
 };
+
+function getCategoryLabel(cat) {
+    if (categoryTranslations[currentLang] && categoryTranslations[currentLang][cat]) {
+        return categoryTranslations[currentLang][cat];
+    }
+    return cat;
+}
 
 // 전역 상태 변수
 let membersData = [];
@@ -441,7 +595,7 @@ function renderTeamBasedProfiles() {
 
             card.innerHTML = `
                 <div class="img-frame" style="position: relative;">
-                    <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
+                    <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/fff3d6/8a5d00?text=${member.name}'">
                     ${favBadgeHTML}
                     ${gradBadgeHTML}
                 </div>
@@ -501,8 +655,8 @@ function renderFilterBar() {
     const rawCategories = currentMonthPerformances.map(p => p.category || "기타");
     const categories = Array.from(new Set(rawCategories)).filter(c => c);
 
-    // 카테고리 정렬 순서 정의 (공연 -> 미디어 -> 이벤트 -> 기타 순)
-    const categoryOrder = ["公演", "メディア", "イベント", "기타"];
+    // 카테고리 정렬 순서 정의 (공연 -> 미디어 -> 이벤트 -> 생일 -> 기타 순)
+    const categoryOrder = ["公演", "メディア", "イベント", "誕生日", "기타"];
     categories.sort((a, b) => {
         const idxA = categoryOrder.indexOf(a);
         const idxB = categoryOrder.indexOf(b);
@@ -512,18 +666,26 @@ function renderFilterBar() {
         return a.localeCompare(b);
     });
 
-    const getCategoryLabel = (cat) => {
-        if (categoryTranslations[currentLang] && categoryTranslations[currentLang][cat]) {
-            return categoryTranslations[currentLang][cat];
-        }
-        return cat;
-    };
+    // 현재 접수 중인 공연 개수 산출
+    const applyingCount = currentMonthPerformances.filter(p => {
+        const st = getTicketStatus(p.ticketInfo, p.date);
+        return st && st.type === "APPLYING";
+    }).length;
 
     let filterHTML = `
         <button class="filter-pill ${activeCategoryFilter === 'all' ? 'active' : ''}" onclick="setCategoryFilter('all')">
             ${getCategoryLabel('all')}
         </button>
     `;
+
+    // 접수 중인 공연이 있는 경우 눈에 띄는 전용 필터 버튼 노출
+    if (applyingCount > 0) {
+        filterHTML += `
+            <button class="filter-pill filter-pill-applying ${activeCategoryFilter === 'applying' ? 'active' : ''}" onclick="setCategoryFilter('applying')">
+                🔥 ${t("filterApplying")} (${applyingCount})
+            </button>
+        `;
+    }
 
     categories.forEach(cat => {
         filterHTML += `
@@ -559,9 +721,15 @@ function renderTimeline() {
 
     // 카테고리 필터링 및 텍스트 검색어 필터링 적용
     let filteredPerformances = currentMonthPerformances;
-    if (activeCategoryFilter !== "all") {
+    if (activeCategoryFilter === "applying") {
+        filteredPerformances = filteredPerformances.filter(p => {
+            const st = getTicketStatus(p.ticketInfo, p.date);
+            return st && st.type === "APPLYING";
+        });
+    } else if (activeCategoryFilter !== "all") {
         filteredPerformances = filteredPerformances.filter(p => (p.category || "기타") === activeCategoryFilter);
     }
+
     if (activeSearchQuery.trim() !== "") {
         const query = activeSearchQuery.toLowerCase().trim();
         filteredPerformances = filteredPerformances.filter(p => {
@@ -619,10 +787,22 @@ function renderTimeline() {
                 }).filter(name => name).join(", ");
 
                 const timeString = (perf.time && perf.time !== "00:00") ? `[${perf.time}] ` : "";
+
+                // 티켓팅 접수/트레이드 상태 배지 계산
+                const ticketStatus = getTicketStatus(perf.ticketInfo, perf.date);
+                let statusBadgeHTML = "";
+                if (ticketStatus) {
+                    if (ticketStatus.type === "APPLYING") {
+                        statusBadgeHTML = `<span class="ticket-status-badge applying">🔥 ${t("statusApplying")}</span>`;
+                    } else if (ticketStatus.type === "TRADING") {
+                        statusBadgeHTML = `<span class="ticket-status-badge trading">🔄 ${t("statusTrading")}</span>`;
+                    }
+                }
+
                 contentHTML += `
                     <div class="perf-item-link" id="perf-link-${day}-${idx}" onclick="handlePerfClick('${day}-${idx}', '${perf.performanceId}', this)">
-                        <div class="day-title" style="color: #00796b;">
-                            <span class="category-badge">${perf.category || "기타"}</span> ${timeString}${perf.title}
+                        <div class="day-title">
+                            <span class="category-badge">${getCategoryLabel(perf.category || "기타")}</span>${statusBadgeHTML} ${timeString}${perf.title}
                         </div>
                         <div class="day-cast-summary">${castNames}</div>
                     </div>
@@ -906,7 +1086,7 @@ function selectPerformance(perf) {
             castCardsHTML += `
                 <div class="member-mini-card ${isGraduated ? 'graduated' : ''}" onclick="selectMember('${member.memberId}', true, false)">
                     <div class="img-frame" style="position: relative;">
-                        <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
+                        <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/fff3d6/8a5d00?text=${member.name}'">
                         ${gradBadgeHTML}
                     </div>
                     <div class="card-name">${member.name}</div>
@@ -917,7 +1097,7 @@ function selectPerformance(perf) {
             castCardsHTML += `
                 <div class="member-mini-card" style="cursor: default;">
                     <div class="img-frame">
-                        <img src="https://placehold.co/140x175/bfeae5/333333?text=${id}" alt="${id}">
+                        <img src="https://placehold.co/140x175/fff3d6/8a5d00?text=${id}" alt="${id}">
                     </div>
                     <div class="card-name">${id}</div>
                 </div>
@@ -929,11 +1109,157 @@ function selectPerformance(perf) {
         ? perf.venue 
         : `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(perf.venue)}" target="_blank" rel="noopener noreferrer" class="venue-link">${perf.venue}</a>`;
 
+    // 티켓팅 스케줄 카드 구성 (tixplus 정보 연동)
+    let ticketInfoHTML = "";
+    if (perf.ticketInfo) {
+        const ti = perf.ticketInfo;
+        const ticketStatus = getTicketStatus(ti, perf.date);
+
+        // 상단 상태 배너 구성
+        let statusBannerHTML = "";
+        if (ticketStatus) {
+            if (ticketStatus.type === "APPLYING") {
+                const remainText = formatTimeRemaining(ticketStatus.end);
+                statusBannerHTML = `
+                    <div class="ticket-status-banner applying">
+                        <div class="banner-top">
+                            <span class="status-pulse-dot"></span>
+                            <strong class="banner-text">🔥 ${t("bannerApplyingTitle")}</strong>
+                        </div>
+                        ${remainText ? `<div class="status-time-left">⏱️ ${remainText}</div>` : ""}
+                    </div>
+                `;
+            } else if (ticketStatus.type === "TRADING") {
+                statusBannerHTML = `
+                    <div class="ticket-status-banner trading">
+                        <div class="banner-top">
+                            <span class="status-pulse-dot trading"></span>
+                            <strong class="banner-text">🔄 ${t("bannerTradingTitle")}</strong>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        let applyButtonsHTML = "";
+        if (ti.applyLinks && ti.applyLinks.length > 0) {
+            applyButtonsHTML = `
+                <div class="ticket-apply-group">
+                    <div class="ticket-group-label">${t("ticketApply")}</div>
+                    <div class="ticket-buttons-grid">
+                        ${ti.applyLinks.map(btn => `
+                            <a href="${btn.url}" target="_blank" rel="noopener noreferrer" class="ticket-apply-btn ${ticketStatus && ticketStatus.type === 'APPLYING' ? 'active-applying-btn' : ''}">
+                                <span class="btn-icon">🎟️</span>
+                                <span class="btn-text">${btn.name}</span>
+                            </a>
+                        `).join("")}
+                    </div>
+                </div>
+            `;
+        }
+
+        let otherLinksHTML = "";
+        const allOtherLinks = [];
+        if (ti.otherLinks && ti.otherLinks.length > 0) {
+            allOtherLinks.push(...ti.otherLinks);
+        }
+        if (ti.tixplusUrl) {
+            allOtherLinks.push({ name: t("tixplusDetailBtn"), url: ti.tixplusUrl });
+        }
+
+        if (allOtherLinks.length > 0) {
+            otherLinksHTML = `
+                <div class="ticket-other-links">
+                    ${allOtherLinks.map(link => `
+                        <a href="${link.url}" target="_blank" rel="noopener noreferrer" class="ticket-sub-link">
+                            <span class="sub-link-arrow">›</span> ${link.name}
+                        </a>
+                    `).join("")}
+                </div>
+            `;
+        }
+
+        let notesHTML = "";
+        if (ti.notes) {
+            notesHTML = `
+                <details class="ticket-notes-details">
+                    <summary class="ticket-notes-summary">
+                        <span>ℹ️ ${t("ticketNotes")}</span>
+                    </summary>
+                    <div class="ticket-notes-content">${ti.notes.replace(/\n/g, '<br>')}</div>
+                </details>
+            `;
+        }
+
+        const isApplyingNow = ticketStatus && ticketStatus.type === "APPLYING";
+        const isTradingNow = ticketStatus && ticketStatus.type === "TRADING";
+
+        ticketInfoHTML = `
+            <div class="ticket-schedule-card ${isApplyingNow ? 'card-applying-now' : ''}">
+                <div class="ticket-card-header">
+                    <div class="ticket-card-title">
+                        <span class="ticket-title-icon">🎫</span>
+                        <span>${t("ticketInfoTitle")}</span>
+                    </div>
+                    <span class="ticket-source-badge">Tixplus</span>
+                </div>
+                ${statusBannerHTML}
+                <div class="ticket-dates-list">
+                    ${ti.applicationPeriod ? `
+                        <div class="ticket-date-row ${isApplyingNow ? 'active-applying-row' : 'highlight-row'}">
+                            <div class="ticket-date-label">
+                                <span class="dot-indicator ${isApplyingNow ? 'pulse-dot' : ''}"></span>
+                                <strong>${t("applyPeriod")}:</strong>
+                            </div>
+                            <div class="ticket-date-val">
+                                ${ti.applicationPeriod}
+                                ${isApplyingNow ? `<span class="live-tag">🔥 ${t("tagActiveNow")}</span>` : ''}
+                            </div>
+                        </div>
+                    ` : ""}
+                    ${ti.lotteryResultPeriod ? `
+                        <div class="ticket-date-row">
+                            <div class="ticket-date-label">
+                                <span class="dot-indicator"></span>
+                                <strong>${t("lotteryPeriod")}:</strong>
+                            </div>
+                            <div class="ticket-date-val">${ti.lotteryResultPeriod}</div>
+                        </div>
+                    ` : ""}
+                    ${ti.ticketDisplay ? `
+                        <div class="ticket-date-row">
+                            <div class="ticket-date-label">
+                                <span class="dot-indicator"></span>
+                                <strong>${t("eTicketDisplay")}:</strong>
+                            </div>
+                            <div class="ticket-date-val">${ti.ticketDisplay}</div>
+                        </div>
+                    ` : ""}
+                    ${ti.tradePeriod ? `
+                        <div class="ticket-date-row ${isTradingNow ? 'active-trading-row' : ''}">
+                            <div class="ticket-date-label">
+                                <span class="dot-indicator ${isTradingNow ? 'pulse-dot trading' : ''}"></span>
+                                <strong>${t("tradePeriod")}:</strong>
+                            </div>
+                            <div class="ticket-date-val">
+                                ${ti.tradePeriod}
+                                ${isTradingNow ? `<span class="live-tag trading">🔄 ${t("statusTrading")}</span>` : ''}
+                            </div>
+                        </div>
+                    ` : ""}
+                </div>
+                ${applyButtonsHTML}
+                ${otherLinksHTML}
+                ${notesHTML}
+            </div>
+        `;
+    }
+
     detailWrapper.innerHTML = `
         <div class="perf-detail-block">
             <div class="detail-header">
                 <div style="margin-bottom: 8px;">
-                    <span class="category-badge" style="font-size: 11px; padding: 3px 8px;">${perf.category || "기타"}</span>
+                    <span class="category-badge" style="font-size: 11px; padding: 3px 8px;">${getCategoryLabel(perf.category || "기타")}</span>
                 </div>
                 <h1 class="detail-title">
                     <a href="${perf.link}" target="_blank" rel="noopener noreferrer">${perf.title}</a>
@@ -946,6 +1272,7 @@ function selectPerformance(perf) {
                     <span><strong>${t("location")}:</strong> ${venueHTML}</span>
                 </div>
             </div>
+            ${ticketInfoHTML}
             <div class="cast-container">
                 <div class="cast-title">${t("castLineup", { count: perf.castIds.length })}</div>
                 <div class="cast-grid">
@@ -1118,7 +1445,7 @@ async function selectMember(memberId, forceOpen = true, autoSelectOnTimeline = f
         
         <div class="profile-card ${isGrad ? 'graduated' : ''}" data-member-id="${member.memberId}" style="border-bottom: none; margin-bottom: 12px; padding-bottom: 0;">
             <div class="profile-img-wrapper">
-                <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/bfeae5/333333?text=${member.name}'">
+                <img src="${member.profileImageUrl}" alt="${member.name}" onerror="this.src='https://placehold.co/140x175/fff3d6/8a5d00?text=${member.name}'">
             </div>
             <div class="profile-team ${isGrad ? 'graduated-team' : ''}" style="margin-top: 10px;">${displayPosition}</div>
             <p class="profile-bio">${displayBio}</p>

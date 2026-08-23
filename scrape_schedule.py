@@ -289,7 +289,158 @@ def parse_schedule_detail(url, session, members_list, item_type, category):
         "link": url
     }
 
-def scrape_monthly_schedules(year, month, members_list):
+def fetch_tixplus_theater_tickets(session=None):
+    """
+    https://tixplus.jp/feature/ske48_theater_ticket/ 페이지에서
+    극장 공연 티켓팅 스케줄 및 신청 링크 정보를 크롤링합니다.
+    """
+    url = "https://tixplus.jp/feature/ske48_theater_ticket/"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    
+    sess = session if session is not None else requests.Session()
+    
+    try:
+        print(f"\n[티켓팅 정보] tixplus 극장 공연 티켓팅 스케줄 수집 시작 ({url})")
+        response = sess.get(url, headers=headers, timeout=15)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"   [경고] tixplus 극장 티켓팅 페이지 로드 실패: {e}")
+        return []
+        
+    soup = BeautifulSoup(response.text, "html.parser")
+    ticket_items = []
+    
+    for block in soup.select("div.block"):
+        tit_elem = block.select_one(".acdTit")
+        if not tit_elem:
+            continue
+            
+        title = ""
+        perf_datetime = ""
+        for dl in tit_elem.select("dl"):
+            dt = dl.select_one("dt")
+            dd = dl.select_one("dd")
+            if dt and dd:
+                dt_txt = dt.get_text(strip=True)
+                dd_txt = dd.get_text(strip=True)
+                if "公演タイトル" in dt_txt or "タイトル" in dt_txt:
+                    title = dd_txt
+                elif "公演日時" in dt_txt or "日時" in dt_txt:
+                    perf_datetime = dd_txt
+                    
+        if not perf_datetime:
+            continue
+            
+        # 날짜 추출: 2026年8月24日(月) -> 2026-08-24
+        date_match = re.search(r"(\d{4})[年/\.](\d{1,2})[月/\.](\d{1,2})", perf_datetime)
+        date_str = ""
+        if date_match:
+            y, m, d = date_match.groups()
+            date_str = f"{int(y):04d}-{int(m):02d}-{int(d):02d}"
+            
+        # 개연 시간 추출: 開演18:30 -> 18:30
+        time_match = re.search(r"開演\s*(\d{1,2}:\d{2})", perf_datetime)
+        time_str = time_match.group(1) if time_match else ""
+        
+        wrap = block.select_one(".acdWrap")
+        dls_dict = {}
+        apply_links = []
+        other_links = []
+        
+        if wrap:
+            for dl in wrap.select(".box > dl"):
+                dt = dl.select_one("dt")
+                dd = dl.select_one("dd")
+                if dt and dd:
+                    k = dt.get_text(strip=True)
+                    v = dd.get_text(" ", strip=True)
+                    dls_dict[k] = v
+                    
+            for btn in wrap.select(".btnArea .btn a"):
+                href = btn.get("href", "").strip()
+                name = btn.get_text(strip=True)
+                if href and href != "#" and not href.startswith("javascript"):
+                    apply_links.append({"name": name, "url": href})
+                    
+            for plink in wrap.select(".linkArea p.link a"):
+                href = plink.get("href", "").strip()
+                name = plink.get_text(strip=True)
+                if href:
+                    other_links.append({"name": name, "url": href})
+                    
+        ticket_items.append({
+            "title": title,
+            "datetime": perf_datetime,
+            "date": date_str,
+            "time": time_str,
+            "ticketInfo": {
+                "applicationPeriod": dls_dict.get("受付期間", ""),
+                "lotteryResultPeriod": dls_dict.get("当落発表・入金期間", ""),
+                "ticketDisplay": dls_dict.get("電子チケット表示", ""),
+                "tradePeriod": dls_dict.get("チケットトレード期間", ""),
+                "notes": dls_dict.get("本公演の注意事項", ""),
+                "applyLinks": apply_links,
+                "otherLinks": other_links,
+                "tixplusUrl": url
+            }
+        })
+        
+    print(f"   -> 총 {len(ticket_items)}건의 tixplus 극장 티켓팅 일정 파싱 완료")
+    return ticket_items
+
+def match_ticket_info(perf, tixplus_tickets):
+    """
+    극장 공연 일정(perf)에 대응되는 tixplus 티켓 정보를 매칭하여 반환합니다.
+    """
+    if not tixplus_tickets or not perf.get("date"):
+        return None
+        
+    p_date = perf.get("date")
+    p_time = perf.get("time") or ""
+    p_title = perf.get("title") or ""
+    
+    # 1차: 날짜 일치 후보 필터링
+    candidates = [t for t in tixplus_tickets if t["date"] == p_date]
+    if not candidates:
+        return None
+        
+    if len(candidates) == 1:
+        return candidates[0]["ticketInfo"]
+        
+    # 2차: 시간 일치 우선
+    if p_time:
+        for c in candidates:
+            if c["time"] and c["time"] == p_time:
+                return c["ticketInfo"]
+                
+    # 3차: 타이틀 키워드 유사도 매칭
+    def normalize_title_for_match(t_str):
+        return re.sub(r"[\s\<\>＜＞「」『』【】・\-_]", "", t_str).lower()
+        
+    p_norm = normalize_title_for_match(p_title)
+    best_candidate = None
+    max_common = -1
+    
+    for c in candidates:
+        c_norm = normalize_title_for_match(c["title"])
+        score = 0
+        if c_norm in p_norm or p_norm in c_norm:
+            score += 100
+        for kw in ["reset", "制服の芽", "シアターの女神", "ずっと君を探している", "可能性こそが未来", "生誕祭", "卒業公演", "fc会員限定"]:
+            if kw in p_norm and kw in c_norm:
+                score += 50
+        if score > max_common:
+            max_common = score
+            best_candidate = c
+            
+    if best_candidate:
+        return best_candidate["ticketInfo"]
+        
+    return candidates[0]["ticketInfo"]
+
+def scrape_monthly_schedules(year, month, members_list, tixplus_tickets=None):
     clean_month = str(int(month))
     list_url = f"https://ske48.co.jp/schedule/list/{year}/{clean_month}/"
     
@@ -366,6 +517,20 @@ def scrape_monthly_schedules(year, month, members_list):
         )
         
         if perf_data:
+            # 극장 공연일 경우 tixplus 티켓 정보 매칭
+            is_theater = (
+                perf_data.get("category") == "公演" or 
+                "劇場" in perf_data.get("venue", "") or 
+                "SKE48劇場" in perf_data.get("venue", "") or
+                item["type"] == "live02" or 
+                "公演" in perf_data.get("title", "")
+            )
+            if is_theater and tixplus_tickets:
+                matched_ticket = match_ticket_info(perf_data, tixplus_tickets)
+                if matched_ticket:
+                    perf_data["ticketInfo"] = matched_ticket
+                    print(f"   -> [티켓 매칭 성공] {matched_ticket.get('applicationPeriod')}")
+                    
             raw_performances.append(perf_data)
         time.sleep(0.2)
         
@@ -410,6 +575,10 @@ def scrape_monthly_schedules(year, month, members_list):
             existing_perf = existing_map[url]
             current_status = existing_perf.get("status", "SCHEDULED")
             
+            # 새 데이터에 ticketInfo가 없지만 기존에 이미 저장된 ticketInfo가 있다면 보존
+            if "ticketInfo" not in perf_data and "ticketInfo" in existing_perf:
+                perf_data["ticketInfo"] = existing_perf["ticketInfo"]
+                
             # 정보 업데이트
             existing_perf.update(perf_data)
             # status 복구
@@ -464,6 +633,10 @@ if __name__ == "__main__":
     
     members_list = load_local_members()
     
-    scrape_monthly_schedules(current_year, current_month, members_list)
-    scrape_monthly_schedules(next_year, next_month, members_list)
-    scrape_monthly_schedules(next_next_year, next_next_month, members_list)
+    # tixplus 극장 공연 티켓팅 정보 사전 수집
+    tixplus_session = requests.Session()
+    tixplus_tickets = fetch_tixplus_theater_tickets(tixplus_session)
+    
+    scrape_monthly_schedules(current_year, current_month, members_list, tixplus_tickets)
+    scrape_monthly_schedules(next_year, next_month, members_list, tixplus_tickets)
+    scrape_monthly_schedules(next_next_year, next_next_month, members_list, tixplus_tickets)
