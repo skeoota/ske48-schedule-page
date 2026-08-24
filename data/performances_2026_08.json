@@ -2900,7 +2900,7 @@
       "title": "『日経エンタテインメント！SKE48 8期生 フォトブック 約束。』発売記念イベント",
       "date": "2026-08-25",
       "time": "",
-      "venue": "HMV&BOOKS SHIBUYA 6F イベントスペース",
+      "venue": "HMV&BOOKS SHIBUYA 5FイベントスペースA",
       "status": "SCHEDULED",
       "castIds": [
         "member_4",
@@ -3610,6 +3610,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59543"
     },
     {
+      "performanceId": "P2608_228",
+      "category": "メディア",
+      "title": "SHOWROOM夏まつり2026 大特番",
+      "date": "2026-08-30",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_76"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59763"
+    },
+    {
       "performanceId": "P2608_184",
       "category": "公演",
       "title": "12期生、13期生「可能性こそが未来」公演＜17:00開演＞",
@@ -3713,6 +3727,81 @@
         "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59724"
+    },
+    {
+      "performanceId": "P2608_229",
+      "category": "メディア",
+      "title": "TOKAI RADIO「Paradise」",
+      "date": "2026-08-31",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59751"
+    },
+    {
+      "performanceId": "P2608_230",
+      "category": "メディア",
+      "title": "TOKAI RADIO「LIFE HACKERS!」",
+      "date": "2026-08-31",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59752"
+    },
+    {
+      "performanceId": "P2608_231",
+      "category": "メディア",
+      "title": "TOKAI RADIO「OH！ MY CHANNEL！」",
+      "date": "2026-08-31",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59753"
+    },
+    {
+      "performanceId": "P2608_232",
+      "category": "メディア",
+      "title": "TOKAI RADIO「bre:eze」",
+      "date": "2026-08-31",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59754"
+    },
+    {
+      "performanceId": "P2608_233",
+      "category": "メディア",
+      "title": "TOKAI RADIO「Music Submarine」",
+      "date": "2026-08-31",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59755"
     },
     {
       "performanceId": "P2608_185",

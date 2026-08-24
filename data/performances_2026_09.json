@@ -798,6 +798,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59530"
     },
     {
+      "performanceId": "P2609_66",
+      "category": "メディア",
+      "title": "テレビ愛知「SKE48 真夜中のウナギたち」",
+      "date": "2026-09-13",
+      "time": "24:50",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_4",
+        "member_5",
+        "member_55"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59730"
+    },
+    {
       "performanceId": "P2609_52",
       "category": "メディア",
       "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
@@ -1210,6 +1226,22 @@
         "member_64"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59734"
+    },
+    {
+      "performanceId": "P2609_67",
+      "category": "メディア",
+      "title": "テレビ愛知「SKE48 真夜中のウナギたち」",
+      "date": "2026-09-27",
+      "time": "24:50",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_4",
+        "member_5",
+        "member_55"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59731"
     }
   ]
 }
