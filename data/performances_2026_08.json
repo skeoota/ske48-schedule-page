@@ -3096,6 +3096,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59503"
     },
     {
+      "performanceId": "P2608_236",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2026-08-26",
+      "time": "22:58",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59775"
+    },
+    {
       "performanceId": "P2608_62",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
@@ -3256,6 +3270,37 @@
         "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59742"
+    },
+    {
+      "performanceId": "P2608_234",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」（フード企画）",
+      "date": "2026-08-28",
+      "time": "",
+      "venue": "サンシャインサカエ 1F",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_16",
+        "member_45"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59767"
+    },
+    {
+      "performanceId": "P2608_235",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」",
+      "date": "2026-08-28",
+      "time": "",
+      "venue": "サンシャインサカエ 1F",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_48",
+        "member_49",
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59768"
     },
     {
       "performanceId": "P2608_182",
