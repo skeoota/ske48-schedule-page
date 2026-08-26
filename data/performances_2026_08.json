@@ -3034,6 +3034,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59583"
     },
     {
+      "performanceId": "P2608_237",
+      "category": "メディア",
+      "title": "「Forty-Eight Times」（AKB48新聞電子版）",
+      "date": "2026-08-26",
+      "time": "16:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59781"
+    },
+    {
       "performanceId": "P2608_180",
       "category": "公演",
       "title": "＜FC会員限定版＞チームE「RESET」公演＜18:30開演＞",

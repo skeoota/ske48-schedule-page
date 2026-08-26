@@ -2,6 +2,19 @@
   "yearMonth": "2026-09",
   "performances": [
     {
+      "performanceId": "P2609_69",
+      "category": "メディア",
+      "title": "シーシーエヌ『笠松けいば応援番組　SKE48 太田彩夏の笠馬X』（♯21前編）",
+      "date": "2026-09-01",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59769"
+    },
+    {
       "performanceId": "P2609_54",
       "category": "公演",
       "title": "＜FC会員限定版＞チームKⅡ「シアターの女神」公演＜18:30開演＞",
@@ -582,6 +595,29 @@
       "link": "https://ske48.co.jp/schedule/detail/59476"
     },
     {
+      "performanceId": "P2609_68",
+      "category": "イベント",
+      "title": "TOKAI RADIO 公開収録「SKE48 37th Single『ため息未来』リリース記念特番」",
+      "date": "2026-09-07",
+      "time": "",
+      "venue": "SKE48 劇場（名古屋市中区錦 3-24-4 サンシャインサカエ 2 階）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_23",
+        "member_26",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_67",
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59777"
+    },
+    {
       "performanceId": "P2609_33",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
@@ -871,6 +907,19 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58758"
+    },
+    {
+      "performanceId": "P2609_70",
+      "category": "メディア",
+      "title": "シーシーエヌ『笠松けいば応援番組　SKE48 太田彩夏の笠馬X』（♯21後編）",
+      "date": "2026-09-16",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59770"
     },
     {
       "performanceId": "P2609_09",
