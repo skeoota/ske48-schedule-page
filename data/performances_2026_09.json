@@ -248,6 +248,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59669"
     },
     {
+      "performanceId": "P2609_71",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-09-03",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_96",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59786"
+    },
+    {
       "performanceId": "P2609_36",
       "category": "イベント",
       "title": "CBCラジオ「SKE48 なるべくしゃべりたい公開録音 vol.20」",
@@ -648,6 +663,34 @@
       "link": "https://ske48.co.jp/schedule/detail/59694"
     },
     {
+      "performanceId": "P2609_72",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-07",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59671"
+    },
+    {
+      "performanceId": "P2609_73",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-08",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_76",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59672"
+    },
+    {
       "performanceId": "P2609_24",
       "category": "誕生日",
       "title": "矢島凪誕生日",
@@ -730,6 +773,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59525"
     },
     {
+      "performanceId": "P2609_74",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-10",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59674"
+    },
+    {
       "performanceId": "P2609_39",
       "category": "メディア",
       "title": "資産形成情報チャンネルあしたのマネー",
@@ -754,6 +811,20 @@
         "member_23"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59651"
+    },
+    {
+      "performanceId": "P2609_75",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-11",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59675"
     },
     {
       "performanceId": "P2609_05",
@@ -920,6 +991,34 @@
         "member_26"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59770"
+    },
+    {
+      "performanceId": "P2609_76",
+      "category": "メディア",
+      "title": "「S Cawaii!」",
+      "date": "2026-09-16",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_26",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59790"
     },
     {
       "performanceId": "P2609_09",

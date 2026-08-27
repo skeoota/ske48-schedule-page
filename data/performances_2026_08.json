@@ -3136,6 +3136,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58983"
     },
     {
+      "performanceId": "P2608_238",
+      "category": "メディア",
+      "title": "「中京スポーツ」",
+      "date": "2026-08-27",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59441"
+    },
+    {
       "performanceId": "P2608_82",
       "category": "メディア",
       "title": "メ～テレ「Digった！」",
@@ -3225,6 +3238,21 @@
         "member_97"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59504"
+    },
+    {
+      "performanceId": "P2608_239",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-08-27",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_85",
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59785"
     },
     {
       "performanceId": "P2608_15",
