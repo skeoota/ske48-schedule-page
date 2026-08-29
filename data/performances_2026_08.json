@@ -3529,6 +3529,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59315"
     },
     {
+      "performanceId": "P2608_240",
+      "category": "メディア",
+      "title": "【SKE48公式YouTube】SKE48×HAYASE 新プロジェクト #1",
+      "date": "2026-08-29",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_48",
+        "member_49",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59814"
+    },
+    {
       "performanceId": "P2608_65",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -3966,6 +3982,20 @@
         "member_74"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59693"
+    },
+    {
+      "performanceId": "P2608_241",
+      "category": "メディア",
+      "title": "AWAラウンジ「リンプラマッチング」",
+      "date": "2026-08-31",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8",
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59834"
     },
     {
       "performanceId": "P2608_215",

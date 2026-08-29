@@ -170,6 +170,32 @@
       "link": "https://ske48.co.jp/schedule/detail/59756"
     },
     {
+      "performanceId": "P2609_82",
+      "category": "メディア",
+      "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
+      "date": "2026-09-03",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58984"
+    },
+    {
+      "performanceId": "P2609_83",
+      "category": "メディア",
+      "title": "佐賀競馬公式YouTube「てっちゃんのSAGAリベンジャーズ」",
+      "date": "2026-09-03",
+      "time": "17:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59819"
+    },
+    {
       "performanceId": "P2609_55",
       "category": "公演",
       "title": "12期生、13期生「可能性こそが未来」公演＜18:00開演＞",
@@ -368,6 +394,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59650"
     },
     {
+      "performanceId": "P2609_84",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-09-04",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_48",
+        "member_67",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59830"
+    },
+    {
       "performanceId": "P2609_48",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -420,6 +462,58 @@
         "member_67"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58839"
+    },
+    {
+      "performanceId": "P2609_85",
+      "category": "メディア",
+      "title": "「東京スポーツ」発売",
+      "date": "2026-09-05",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58658"
+    },
+    {
+      "performanceId": "P2609_88",
+      "category": "メディア",
+      "title": "メ〜テレ「ドデスカ！」",
+      "date": "2026-09-05",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59316"
+    },
+    {
+      "performanceId": "P2609_89",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2026-09-05",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59322"
+    },
+    {
+      "performanceId": "P2609_87",
+      "category": "メディア",
+      "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
+      "date": "2026-09-05",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58971"
     },
     {
       "performanceId": "P2609_57",
@@ -514,6 +608,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59265"
     },
     {
+      "performanceId": "P2609_86",
+      "category": "メディア",
+      "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
+      "date": "2026-09-05",
+      "time": "24:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58958"
+    },
+    {
       "performanceId": "P2609_04",
       "category": "イベント",
       "title": "「第20回アジア競技大会（2026／愛知・名古屋）聖火リレーPRランナー」",
@@ -589,6 +696,19 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2609_90",
+      "category": "メディア",
+      "title": "CBCラジオ「ウインクス presents SKE48原優寧の建築ラジオ」",
+      "date": "2026-09-06",
+      "time": "22:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59826"
     },
     {
       "performanceId": "P2609_32",
@@ -1004,6 +1124,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59525"
     },
     {
+      "performanceId": "P2609_91",
+      "category": "メディア",
+      "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
+      "date": "2026-09-10",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58985"
+    },
+    {
       "performanceId": "P2609_80",
       "category": "公演",
       "title": "「制服の芽」公演＜18:00開演＞",
@@ -1108,6 +1241,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59651"
     },
     {
+      "performanceId": "P2609_92",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-09-11",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_48",
+        "member_67",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59831"
+    },
+    {
       "performanceId": "P2609_75",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -1146,6 +1295,45 @@
       "link": "https://ske48.co.jp/schedule/detail/59378"
     },
     {
+      "performanceId": "P2609_93",
+      "category": "メディア",
+      "title": "「東京スポーツ」発売",
+      "date": "2026-09-12",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58659"
+    },
+    {
+      "performanceId": "P2609_96",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2026-09-12",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59323"
+    },
+    {
+      "performanceId": "P2609_95",
+      "category": "メディア",
+      "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
+      "date": "2026-09-12",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58972"
+    },
+    {
       "performanceId": "P2609_51",
       "category": "メディア",
       "title": "岐阜放送「SKE48のひだまりハートカフェ」",
@@ -1159,6 +1347,19 @@
         "member_92"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59698"
+    },
+    {
+      "performanceId": "P2609_94",
+      "category": "メディア",
+      "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
+      "date": "2026-09-12",
+      "time": "24:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58959"
     },
     {
       "performanceId": "P2609_07",
@@ -1329,6 +1530,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58759"
     },
     {
+      "performanceId": "P2609_97",
+      "category": "メディア",
+      "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
+      "date": "2026-09-17",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58986"
+    },
+    {
       "performanceId": "P2609_10",
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
@@ -1414,6 +1628,45 @@
       "link": "https://ske48.co.jp/schedule/detail/59391"
     },
     {
+      "performanceId": "P2609_98",
+      "category": "メディア",
+      "title": "「東京スポーツ」発売",
+      "date": "2026-09-19",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58660"
+    },
+    {
+      "performanceId": "P2609_101",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2026-09-19",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59324"
+    },
+    {
+      "performanceId": "P2609_100",
+      "category": "メディア",
+      "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
+      "date": "2026-09-19",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58973"
+    },
+    {
       "performanceId": "P2609_61",
       "category": "メディア",
       "title": "TBSチャンネル1「SKE48 8期生 Zepp Nagoya 単独ライブ ～ 君はまだ、8期を知らない ～ Supported by ゼロポジ TBSチャンネル特別版」",
@@ -1497,6 +1750,19 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59729"
+    },
+    {
+      "performanceId": "P2609_99",
+      "category": "メディア",
+      "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
+      "date": "2026-09-19",
+      "time": "24:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58960"
     },
     {
       "performanceId": "P2609_13",
@@ -1647,6 +1913,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58762"
     },
     {
+      "performanceId": "P2609_102",
+      "category": "メディア",
+      "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
+      "date": "2026-09-24",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58987"
+    },
+    {
       "performanceId": "P2609_19",
       "category": "イベント",
       "title": "SKE48 ASIA TOUR 2026 @台北/CLAPPER STUDIO",
@@ -1687,6 +1966,58 @@
         "member_64"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59734"
+    },
+    {
+      "performanceId": "P2609_103",
+      "category": "メディア",
+      "title": "「東京スポーツ」発売",
+      "date": "2026-09-26",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58661"
+    },
+    {
+      "performanceId": "P2609_106",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2026-09-26",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59325"
+    },
+    {
+      "performanceId": "P2609_105",
+      "category": "メディア",
+      "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
+      "date": "2026-09-26",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58974"
+    },
+    {
+      "performanceId": "P2609_104",
+      "category": "メディア",
+      "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
+      "date": "2026-09-26",
+      "time": "24:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58961"
     },
     {
       "performanceId": "P2609_67",
