@@ -634,6 +634,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58840"
     },
     {
+      "performanceId": "P2609_107",
+      "category": "メディア",
+      "title": "「MUSIC BAR MIRAI亭」",
+      "date": "2026-09-06",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59758"
+    },
+    {
       "performanceId": "P2609_58",
       "category": "公演",
       "title": "チームS「ずっと君を探している」公演＜17:00開演＞",
@@ -791,6 +804,19 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2609_108",
+      "category": "メディア",
+      "title": "「MUSIC BAR MIRAI亭」",
+      "date": "2026-09-07",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59759"
     },
     {
       "performanceId": "P2609_77",
