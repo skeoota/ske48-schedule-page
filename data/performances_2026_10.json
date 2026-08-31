@@ -15,6 +15,76 @@
       "link": "https://ske48.co.jp/schedule/detail/59576"
     },
     {
+      "performanceId": "P2610_12",
+      "category": "メディア",
+      "title": "Pococha「ウォッチパーティー&限定配信」",
+      "date": "2026-10-02",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59857"
+    },
+    {
+      "performanceId": "P2610_13",
+      "category": "メディア",
+      "title": "Pococha「ウォッチパーティー&限定配信」",
+      "date": "2026-10-03",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59858"
+    },
+    {
+      "performanceId": "P2610_14",
+      "category": "メディア",
+      "title": "Pococha「ウォッチパーティー&限定配信」",
+      "date": "2026-10-04",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_78",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59859"
+    },
+    {
+      "performanceId": "P2610_15",
+      "category": "メディア",
+      "title": "Pococha「ウォッチパーティー&限定配信」",
+      "date": "2026-10-07",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59860"
+    },
+    {
+      "performanceId": "P2610_16",
+      "category": "メディア",
+      "title": "Pococha「ウォッチパーティー&限定配信」",
+      "date": "2026-10-08",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59861"
+    },
+    {
       "performanceId": "P2610_11",
       "category": "メディア",
       "title": "NATSLIVE「キッチンダービーくまちゃん杯」",
@@ -28,6 +98,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59652"
     },
     {
+      "performanceId": "P2610_17",
+      "category": "メディア",
+      "title": "Pococha「ウォッチパーティー&限定配信」",
+      "date": "2026-10-09",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59862"
+    },
+    {
       "performanceId": "P2610_10",
       "category": "イベント",
       "title": "TBSラジオ「自転車協会 presents ミラクル・サイクル・ライフ」公開収録",
@@ -39,6 +123,20 @@
         "member_3"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59613"
+    },
+    {
+      "performanceId": "P2610_18",
+      "category": "メディア",
+      "title": "Pococha「ウォッチパーティー&限定配信」",
+      "date": "2026-10-10",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74",
+        "member_75"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59863"
     },
     {
       "performanceId": "P2610_05",
@@ -63,6 +161,34 @@
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59390"
+    },
+    {
+      "performanceId": "P2610_19",
+      "category": "メディア",
+      "title": "Pococha「ウォッチパーティー&限定配信」",
+      "date": "2026-10-13",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59864"
+    },
+    {
+      "performanceId": "P2610_20",
+      "category": "メディア",
+      "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
+      "date": "2026-10-14",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59846"
     },
     {
       "performanceId": "P2610_02",
@@ -138,6 +264,20 @@
         "member_91"
       ],
       "link": "https://ske48.co.jp/schedule/detail/47812"
+    },
+    {
+      "performanceId": "P2610_21",
+      "category": "メディア",
+      "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
+      "date": "2026-10-28",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59847"
     }
   ]
 }

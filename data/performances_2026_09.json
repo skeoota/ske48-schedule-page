@@ -63,6 +63,20 @@
       }
     },
     {
+      "performanceId": "P2609_110",
+      "category": "メディア",
+      "title": "Pococha「ツアー直前トーク配信」",
+      "date": "2026-09-01",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59849"
+    },
+    {
       "performanceId": "P2609_45",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -183,6 +197,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58984"
     },
     {
+      "performanceId": "P2609_109",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」SKE48 佐藤佳穂2ndソロライブ〜 今宵は月が綺麗ですね 〜",
+      "date": "2026-09-03",
+      "time": "",
+      "venue": "サンシャインサカエ 1F",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59841"
+    },
+    {
       "performanceId": "P2609_83",
       "category": "メディア",
       "title": "佐賀競馬公式YouTube「てっちゃんのSAGAリベンジャーズ」",
@@ -258,6 +285,20 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2609_111",
+      "category": "メディア",
+      "title": "Pococha「ツアー直前トーク配信」",
+      "date": "2026-09-03",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_75",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59850"
     },
     {
       "performanceId": "P2609_47",
@@ -410,6 +451,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59830"
     },
     {
+      "performanceId": "P2609_113",
+      "category": "メディア",
+      "title": "Pococha「ツアー直前トーク配信」",
+      "date": "2026-09-04",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59852"
+    },
+    {
       "performanceId": "P2609_48",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -435,6 +490,22 @@
         "member_64"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59757"
+    },
+    {
+      "performanceId": "P2609_112",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-09-04",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_95",
+        "member_96",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59837"
     },
     {
       "performanceId": "P2609_02",
@@ -514,6 +585,20 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58971"
+    },
+    {
+      "performanceId": "P2609_114",
+      "category": "メディア",
+      "title": "MID-FM761『キャプテン☆kazukiの「SKE48とアッセンブル」』",
+      "date": "2026-09-05",
+      "time": "11:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59835"
     },
     {
       "performanceId": "P2609_57",
@@ -709,6 +794,20 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2609_115",
+      "category": "メディア",
+      "title": "Pococha「ツアー直前トーク配信」",
+      "date": "2026-09-06",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59851"
     },
     {
       "performanceId": "P2609_90",
@@ -1094,6 +1193,20 @@
       }
     },
     {
+      "performanceId": "P2609_116",
+      "category": "メディア",
+      "title": "Pococha「ツアー直前トーク配信」",
+      "date": "2026-09-09",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59853"
+    },
+    {
       "performanceId": "P2609_65",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -1161,6 +1274,21 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58985"
+    },
+    {
+      "performanceId": "P2609_117",
+      "category": "メディア",
+      "title": "TOKAI RADIO「Music Submarine」",
+      "date": "2026-09-10",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59755"
     },
     {
       "performanceId": "P2609_80",
@@ -1443,6 +1571,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59730"
     },
     {
+      "performanceId": "P2609_118",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-09-14",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_93"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59865"
+    },
+    {
       "performanceId": "P2609_52",
       "category": "メディア",
       "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
@@ -1487,6 +1628,20 @@
         "member_97"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59595"
+    },
+    {
+      "performanceId": "P2609_119",
+      "category": "メディア",
+      "title": "Pococha「ツアー直前トーク配信」",
+      "date": "2026-09-15",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59854"
     },
     {
       "performanceId": "P2609_08",
@@ -1541,6 +1696,34 @@
         "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59790"
+    },
+    {
+      "performanceId": "P2609_120",
+      "category": "メディア",
+      "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
+      "date": "2026-09-16",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59844"
+    },
+    {
+      "performanceId": "P2609_121",
+      "category": "メディア",
+      "title": "Pococha「ツアー直前トーク配信」",
+      "date": "2026-09-16",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59855"
     },
     {
       "performanceId": "P2609_09",
@@ -1611,6 +1794,20 @@
         "member_101"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59795"
+    },
+    {
+      "performanceId": "P2609_122",
+      "category": "メディア",
+      "title": "Pococha「ツアー直前トーク配信」",
+      "date": "2026-09-18",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59856"
     },
     {
       "performanceId": "P2609_11",
@@ -1691,6 +1888,20 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58973"
+    },
+    {
+      "performanceId": "P2609_123",
+      "category": "メディア",
+      "title": "MID-FM761『キャプテン☆kazukiの「SKE48とアッセンブル」』",
+      "date": "2026-09-19",
+      "time": "11:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59836"
     },
     {
       "performanceId": "P2609_61",
@@ -1884,6 +2095,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58756"
     },
     {
+      "performanceId": "P2609_124",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-09-21",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_93"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59866"
+    },
+    {
       "performanceId": "P2609_16",
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
@@ -2060,6 +2284,33 @@
         "member_55"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59731"
+    },
+    {
+      "performanceId": "P2609_125",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-09-28",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_93"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59867"
+    },
+    {
+      "performanceId": "P2609_126",
+      "category": "メディア",
+      "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
+      "date": "2026-09-30",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59845"
     }
   ]
 }
