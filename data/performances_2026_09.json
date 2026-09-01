@@ -345,6 +345,23 @@
       "link": "https://ske48.co.jp/schedule/detail/59544"
     },
     {
+      "performanceId": "P2609_127",
+      "category": "メディア",
+      "title": "「Pop'n'Roll」",
+      "date": "2026-09-04",
+      "time": "10:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_23",
+        "member_43",
+        "member_50",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59872"
+    },
+    {
       "performanceId": "P2609_42",
       "category": "メディア",
       "title": "メ～テレ「Digった！」",
@@ -574,6 +591,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59322"
     },
     {
+      "performanceId": "P2609_129",
+      "category": "メディア",
+      "title": "「BEEEEM」",
+      "date": "2026-09-05",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59873"
+    },
+    {
       "performanceId": "P2609_87",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -663,6 +694,19 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2609_128",
+      "category": "メディア",
+      "title": "佐賀競馬公式YouTube「てっちゃんのSAGAリベンジャーズ」",
+      "date": "2026-09-05",
+      "time": "17:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59868"
     },
     {
       "performanceId": "P2609_49",
@@ -1004,7 +1048,6 @@
       "castIds": [
         "member_2",
         "member_44",
-        "member_45",
         "member_47",
         "member_74"
       ],
@@ -1087,6 +1130,24 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2609_130",
+      "category": "メディア",
+      "title": "「encore」",
+      "date": "2026-09-08",
+      "time": "18:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23",
+        "member_43",
+        "member_49",
+        "member_50",
+        "member_74",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59871"
     },
     {
       "performanceId": "P2609_73",
@@ -1594,7 +1655,6 @@
       "castIds": [
         "member_2",
         "member_44",
-        "member_45",
         "member_47",
         "member_74"
       ],

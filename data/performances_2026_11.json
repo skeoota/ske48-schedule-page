@@ -1,0 +1,186 @@
+{
+  "yearMonth": "2026-11",
+  "performances": [
+    {
+      "performanceId": "P2611_01",
+      "category": "イベント",
+      "title": "「IDOL BATTLE ALIVE 2026」",
+      "date": "2026-11-02",
+      "time": "17:00",
+      "venue": "豊洲 PIT （〒 135-0061 東京都江東区豊洲 6 丁目 1 − 23 ）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_47",
+        "member_50",
+        "member_67",
+        "member_74",
+        "member_75",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59706"
+    },
+    {
+      "performanceId": "P2611_02",
+      "category": "イベント",
+      "title": "TOKAI RADIO主催「あたヒロ2026 -いつでもあたしがヒロイン神うたアイドル歌合戦-」",
+      "date": "2026-11-06",
+      "time": "",
+      "venue": "COMTEC PORTBASE （名古屋市港区金川町 3 番 5 号）",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/58682"
+    },
+    {
+      "performanceId": "P2611_06",
+      "category": "誕生日",
+      "title": "桜井愛莉咲誕生日",
+      "date": "2026-11-07",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_98"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/54694"
+    },
+    {
+      "performanceId": "P2611_07",
+      "category": "誕生日",
+      "title": "横井志穂誕生日",
+      "date": "2026-11-08",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_105"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/54700"
+    },
+    {
+      "performanceId": "P2611_08",
+      "category": "誕生日",
+      "title": "浅井裕華誕生日",
+      "date": "2026-11-10",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47802"
+    },
+    {
+      "performanceId": "P2611_09",
+      "category": "誕生日",
+      "title": "松本慈子誕生日",
+      "date": "2026-11-19",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47798"
+    },
+    {
+      "performanceId": "P2611_10",
+      "category": "誕生日",
+      "title": "長谷川雅誕生日",
+      "date": "2026-11-20",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_89"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47810"
+    },
+    {
+      "performanceId": "P2611_11",
+      "category": "誕生日",
+      "title": "原優寧誕生日",
+      "date": "2026-11-23",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47799"
+    },
+    {
+      "performanceId": "P2611_12",
+      "category": "誕生日",
+      "title": "久保田怜誕生日",
+      "date": "2026-11-23",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_94"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/54690"
+    },
+    {
+      "performanceId": "P2611_13",
+      "category": "誕生日",
+      "title": "近藤海琴誕生日",
+      "date": "2026-11-25",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/54693"
+    },
+    {
+      "performanceId": "P2611_03",
+      "category": "イベント",
+      "title": "TOKAI RADIO × PIA PRODUCE 舞台『約三十の嘘』supported by サービス付き高齢者向け住宅 ガジュマル",
+      "date": "2026-11-27",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59793"
+    },
+    {
+      "performanceId": "P2611_14",
+      "category": "誕生日",
+      "title": "雲井紗菜誕生日",
+      "date": "2026-11-27",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_95"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/54691"
+    },
+    {
+      "performanceId": "P2611_04",
+      "category": "イベント",
+      "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地でトーク会・握手会 @AICHI SKY EXPO",
+      "date": "2026-11-28",
+      "time": "",
+      "venue": "AICHI SKY EXPO",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/59382"
+    },
+    {
+      "performanceId": "P2611_05",
+      "category": "イベント",
+      "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地でトーク会・握手会 @AICHI SKY EXPO",
+      "date": "2026-11-29",
+      "time": "",
+      "venue": "AICHI SKY EXPO",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/59383"
+    }
+  ]
+}
