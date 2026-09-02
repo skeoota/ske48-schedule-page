@@ -145,6 +145,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59668"
     },
     {
+      "performanceId": "P2609_131",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2026-09-02",
+      "time": "22:58",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59884"
+    },
+    {
       "performanceId": "P2609_01",
       "category": "イベント",
       "title": "SKE48 佐藤佳穂2ndソロライブ 〜今宵は月が綺麗ですね〜",
