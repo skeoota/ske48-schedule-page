@@ -1675,6 +1675,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59695"
     },
     {
+      "performanceId": "P2609_132",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-14",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_89",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59676"
+    },
+    {
       "performanceId": "P2609_27",
       "category": "誕生日",
       "title": "川村昇子誕生日",
@@ -1716,6 +1730,20 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59854"
+    },
+    {
+      "performanceId": "P2609_133",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-15",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_91",
+        "member_92"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59677"
     },
     {
       "performanceId": "P2609_08",
@@ -1800,6 +1828,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59855"
     },
     {
+      "performanceId": "P2609_134",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-16",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_50",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59678"
+    },
+    {
       "performanceId": "P2609_09",
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
@@ -1824,6 +1866,20 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58986"
+    },
+    {
+      "performanceId": "P2609_135",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-17",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59679"
     },
     {
       "performanceId": "P2609_10",
@@ -1882,6 +1938,20 @@
         "member_50"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59856"
+    },
+    {
+      "performanceId": "P2609_136",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-18",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59680"
     },
     {
       "performanceId": "P2609_11",
