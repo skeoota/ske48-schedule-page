@@ -2,6 +2,20 @@
   "yearMonth": "2026-10",
   "performances": [
     {
+      "performanceId": "P2610_22",
+      "category": "イベント",
+      "title": "「STREET FIGHTER 6 SPECIAL EXHIBITION in MIDLAND SQUARE CINEMA 2」",
+      "date": "2026-10-01",
+      "time": "",
+      "venue": "ミッドランドスクエアシネマ 2 スクリーン 8",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59896"
+    },
+    {
       "performanceId": "P2610_09",
       "category": "イベント",
       "title": "「SASUKEアイドル予選会2026 ー出場権争奪バトルー supported by CHINTAI」",

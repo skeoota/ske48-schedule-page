@@ -117,6 +117,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59585"
     },
     {
+      "performanceId": "P2609_142",
+      "category": "メディア",
+      "title": "「週刊SPA!」",
+      "date": "2026-09-02",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59901"
+    },
+    {
       "performanceId": "P2609_20",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -359,6 +372,36 @@
       "link": "https://ske48.co.jp/schedule/detail/59544"
     },
     {
+      "performanceId": "P2609_144",
+      "category": "メディア",
+      "title": "「日経エンタテインメント！」",
+      "date": "2026-09-04",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_26",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59900"
+    },
+    {
+      "performanceId": "P2609_145",
+      "category": "メディア",
+      "title": "「WEBザテレビジョン」",
+      "date": "2026-09-04",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74",
+        "member_78",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59914"
+    },
+    {
       "performanceId": "P2609_127",
       "category": "メディア",
       "title": "「Pop'n'Roll」",
@@ -402,13 +445,13 @@
         "member_5",
         "member_82",
         "member_48",
-        "member_8",
         "member_95",
         "member_86",
         "member_52",
         "member_75",
         "member_19",
-        "member_93"
+        "member_93",
+        "member_99"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59716",
       "ticketInfo": {
@@ -508,6 +551,19 @@
         "member_109"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59670"
+    },
+    {
+      "performanceId": "P2609_143",
+      "category": "メディア",
+      "title": "ニッポン放送PODCAST「島田秀平とオカルトさん！」",
+      "date": "2026-09-04",
+      "time": "24:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59631"
     },
     {
       "performanceId": "P2609_64",
@@ -619,6 +675,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59873"
     },
     {
+      "performanceId": "P2609_146",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2026-09-05",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59889"
+    },
+    {
       "performanceId": "P2609_87",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -644,6 +713,19 @@
         "member_44"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59835"
+    },
+    {
+      "performanceId": "P2609_147",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2026-09-05",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59894"
     },
     {
       "performanceId": "P2609_57",
@@ -1204,6 +1286,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59586"
     },
     {
+      "performanceId": "P2609_141",
+      "category": "イベント",
+      "title": "「Aichi-Nagoya 2026 Ticket Center」一日店長就任イベント",
+      "date": "2026-09-09",
+      "time": "11:50",
+      "venue": "Aichi-Nagoya 2026 Ticket Center （名古屋市中区栄 3 丁目 5-10 ）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_48",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59888"
+    },
+    {
       "performanceId": "P2609_79",
       "category": "公演",
       "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
@@ -1444,6 +1541,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59674"
     },
     {
+      "performanceId": "P2609_148",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-09-10",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74",
+        "member_78",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59545"
+    },
+    {
       "performanceId": "P2609_39",
       "category": "メディア",
       "title": "資産形成情報チャンネルあしたのマネー",
@@ -1550,6 +1662,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59323"
     },
     {
+      "performanceId": "P2609_149",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2026-09-12",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59890"
+    },
+    {
       "performanceId": "P2609_95",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -1561,6 +1686,19 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58972"
+    },
+    {
+      "performanceId": "P2609_150",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2026-09-12",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59895"
     },
     {
       "performanceId": "P2609_51",
@@ -1628,6 +1766,20 @@
         "member_90"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59530"
+    },
+    {
+      "performanceId": "P2609_151",
+      "category": "メディア",
+      "title": "CBCラジオ「ウインクス presents SKE48原優寧の建築ラジオ」",
+      "date": "2026-09-13",
+      "time": "22:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59827"
     },
     {
       "performanceId": "P2609_66",
@@ -1716,6 +1868,70 @@
         "member_97"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59595"
+    },
+    {
+      "performanceId": "P2609_137",
+      "category": "公演",
+      "title": "「可能性こそが未来」公演 川村昇子生誕祭＜18:00開演＞",
+      "date": "2026-09-15",
+      "time": "18:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_90",
+        "member_82",
+        "member_95",
+        "member_86",
+        "member_92",
+        "member_93",
+        "member_94",
+        "member_99",
+        "member_100",
+        "member_101",
+        "member_102",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59904",
+      "ticketInfo": {
+        "applicationPeriod": "2026年9月4日(金)18:00~9月6日(日)23:59",
+        "lotteryResultPeriod": "2026年9月9日(水)15:00~9月9日(水)23:00",
+        "ticketDisplay": "2026年9月10日(木)18:00 ※座席表示は後日となります",
+        "tradePeriod": "2026年9月10日(木)18:00~公演当日11:59",
+        "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠(生誕祭確約枠)」「一般枠・一般ペア枠」となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
+        "applyLinks": [
+          {
+            "name": "[ファンクラブ枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=46&stk=72b5264fdf1553da30d4d72964e5ccc8"
+          },
+          {
+            "name": "[12周年特別枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=47&stk=065556beb72bfbffc106db1c072aa75e"
+          },
+          {
+            "name": "[SKE48 Mobile会員枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=48&stk=64faae31354697d87cf7e8de390f12eb"
+          },
+          {
+            "name": "[100発100中/98中権利枠(生誕祭確約枠)] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=49&stk=95f25b6b5c6e10be7aeb66af376240cf"
+          },
+          {
+            "name": "[一般枠・一般ペア枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=50&stk=a70b7cee3dc504728b878fdec1f8c962"
+          }
+        ],
+        "otherLinks": [
+          {
+            "name": "申込確認はこちら",
+            "url": "https://tixplus.jp/login/"
+          },
+          {
+            "name": "チケットトレードはこちら",
+            "url": "https://trade.tixplus.jp/artists/tour/15124"
+          }
+        ],
+        "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
+      }
     },
     {
       "performanceId": "P2609_119",
@@ -1852,7 +2068,47 @@
       "castIds": [
         "member_19"
       ],
-      "link": "https://ske48.co.jp/schedule/detail/58759"
+      "link": "https://ske48.co.jp/schedule/detail/58759",
+      "ticketInfo": {
+        "applicationPeriod": "2026年9月4日(金)18:00~9月6日(日)23:59",
+        "lotteryResultPeriod": "2026年9月9日(水)15:00~9月9日(水)23:00",
+        "ticketDisplay": "2026年9月10日(木)18:00 ※座席表示は後日となります",
+        "tradePeriod": "2026年9月10日(木)18:00~公演当日11:59",
+        "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠」「一般枠・一般ペア枠」となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
+        "applyLinks": [
+          {
+            "name": "[ファンクラブ枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=51&stk=1ed5f3168906b49d03a67813b78ac4a4"
+          },
+          {
+            "name": "[12周年特別枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=52&stk=5ad124595211aa4ab81337353508fab5"
+          },
+          {
+            "name": "[SKE48 Mobile会員枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=53&stk=4d932fdc884db1f6df06fba86802917a"
+          },
+          {
+            "name": "[100発100中/98中権利枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=54&stk=301a908347318c543f60a4b0934ff01c"
+          },
+          {
+            "name": "[一般枠・一般ペア枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=55&stk=1cfedeeea8d88da2fbfc9930b8e2c0ce"
+          }
+        ],
+        "otherLinks": [
+          {
+            "name": "申込確認はこちら",
+            "url": "https://tixplus.jp/login/"
+          },
+          {
+            "name": "チケットトレードはこちら",
+            "url": "https://trade.tixplus.jp/artists/tour/15124"
+          }
+        ],
+        "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
+      }
     },
     {
       "performanceId": "P2609_97",
@@ -1868,6 +2124,70 @@
       "link": "https://ske48.co.jp/schedule/detail/58986"
     },
     {
+      "performanceId": "P2609_138",
+      "category": "公演",
+      "title": "「制服の芽」公演＜18:00開演＞",
+      "date": "2026-09-17",
+      "time": "18:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_96",
+        "member_77",
+        "member_79",
+        "member_67",
+        "member_82",
+        "member_26",
+        "member_92",
+        "member_13",
+        "member_78",
+        "member_99",
+        "member_101"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59905",
+      "ticketInfo": {
+        "applicationPeriod": "2026年9月4日(金)18:00~9月6日(日)23:59",
+        "lotteryResultPeriod": "2026年9月9日(水)15:00~9月9日(水)23:00",
+        "ticketDisplay": "2026年9月10日(木)18:00 ※座席表示は後日となります",
+        "tradePeriod": "2026年9月10日(木)18:00~公演当日11:59",
+        "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠」「一般枠・一般ペア枠」となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
+        "applyLinks": [
+          {
+            "name": "[ファンクラブ枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=51&stk=1ed5f3168906b49d03a67813b78ac4a4"
+          },
+          {
+            "name": "[12周年特別枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=52&stk=5ad124595211aa4ab81337353508fab5"
+          },
+          {
+            "name": "[SKE48 Mobile会員枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=53&stk=4d932fdc884db1f6df06fba86802917a"
+          },
+          {
+            "name": "[100発100中/98中権利枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=54&stk=301a908347318c543f60a4b0934ff01c"
+          },
+          {
+            "name": "[一般枠・一般ペア枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=55&stk=1cfedeeea8d88da2fbfc9930b8e2c0ce"
+          }
+        ],
+        "otherLinks": [
+          {
+            "name": "申込確認はこちら",
+            "url": "https://tixplus.jp/login/"
+          },
+          {
+            "name": "チケットトレードはこちら",
+            "url": "https://trade.tixplus.jp/artists/tour/15124"
+          }
+        ],
+        "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
+      }
+    },
+    {
       "performanceId": "P2609_135",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -1880,6 +2200,21 @@
         "member_64"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59679"
+    },
+    {
+      "performanceId": "P2609_152",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-09-17",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74",
+        "member_78",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59546"
     },
     {
       "performanceId": "P2609_10",
@@ -2019,6 +2354,19 @@
         "member_13"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59324"
+    },
+    {
+      "performanceId": "P2609_153",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2026-09-19",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59891"
     },
     {
       "performanceId": "P2609_100",
@@ -2226,6 +2574,19 @@
       "link": "https://ske48.co.jp/schedule/detail/47793"
     },
     {
+      "performanceId": "P2609_154",
+      "category": "メディア",
+      "title": "CBCラジオ「ウインクス presents SKE48原優寧の建築ラジオ」",
+      "date": "2026-09-20",
+      "time": "22:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59828"
+    },
+    {
       "performanceId": "P2609_15",
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
@@ -2262,7 +2623,111 @@
       "castIds": [
         "member_19"
       ],
-      "link": "https://ske48.co.jp/schedule/detail/58757"
+      "link": "https://ske48.co.jp/schedule/detail/58757",
+      "ticketInfo": {
+        "applicationPeriod": "2026年9月4日(金)18:00~9月6日(日)23:59",
+        "lotteryResultPeriod": "2026年9月9日(水)15:00~9月9日(水)23:00",
+        "ticketDisplay": "2026年9月10日(木)18:00 ※座席表示は後日となります",
+        "tradePeriod": "2026年9月10日(木)18:00~公演当日11:59",
+        "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠(生誕祭確約枠)」「一般枠・一般ペア枠」となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
+        "applyLinks": [
+          {
+            "name": "[ファンクラブ枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=56&stk=20ddf197e6d44b5572e76261f2da562f"
+          },
+          {
+            "name": "[12周年特別枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=57&stk=a1fea8175d346e9a789437abf64215a7"
+          },
+          {
+            "name": "[SKE48 Mobile会員枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=58&stk=6dec57a0ace96c91cffbef79ee9115d1"
+          },
+          {
+            "name": "[100発100中/98中権利枠(生誕祭確約枠)] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=59&stk=e847b04904cba30e7928a09946f4cdd4"
+          },
+          {
+            "name": "[一般枠・一般ペア枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=60&stk=3d2f35738e31851a0405a2a94dc38e2c"
+          }
+        ],
+        "otherLinks": [
+          {
+            "name": "申込確認はこちら",
+            "url": "https://tixplus.jp/login/"
+          },
+          {
+            "name": "チケットトレードはこちら",
+            "url": "https://trade.tixplus.jp/artists/tour/15124"
+          }
+        ],
+        "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
+      }
+    },
+    {
+      "performanceId": "P2609_139",
+      "category": "公演",
+      "title": "「可能性こそが未来」公演 矢島凪生誕祭＜17:00開演＞",
+      "date": "2026-09-22",
+      "time": "17:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_96",
+        "member_92",
+        "member_89",
+        "member_93",
+        "member_94",
+        "member_99",
+        "member_108",
+        "member_100",
+        "member_109",
+        "member_104",
+        "member_105",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59906",
+      "ticketInfo": {
+        "applicationPeriod": "2026年9月4日(金)18:00~9月6日(日)23:59",
+        "lotteryResultPeriod": "2026年9月9日(水)15:00~9月9日(水)23:00",
+        "ticketDisplay": "2026年9月10日(木)18:00 ※座席表示は後日となります",
+        "tradePeriod": "2026年9月10日(木)18:00~公演当日11:59",
+        "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠(生誕祭確約枠)」「一般枠・一般ペア枠」となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
+        "applyLinks": [
+          {
+            "name": "[ファンクラブ枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=56&stk=20ddf197e6d44b5572e76261f2da562f"
+          },
+          {
+            "name": "[12周年特別枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=57&stk=a1fea8175d346e9a789437abf64215a7"
+          },
+          {
+            "name": "[SKE48 Mobile会員枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=58&stk=6dec57a0ace96c91cffbef79ee9115d1"
+          },
+          {
+            "name": "[100発100中/98中権利枠(生誕祭確約枠)] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=59&stk=e847b04904cba30e7928a09946f4cdd4"
+          },
+          {
+            "name": "[一般枠・一般ペア枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=60&stk=3d2f35738e31851a0405a2a94dc38e2c"
+          }
+        ],
+        "otherLinks": [
+          {
+            "name": "申込確認はこちら",
+            "url": "https://tixplus.jp/login/"
+          },
+          {
+            "name": "チケットトレードはこちら",
+            "url": "https://trade.tixplus.jp/artists/tour/15124"
+          }
+        ],
+        "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
+      }
     },
     {
       "performanceId": "P2609_17",
@@ -2304,7 +2769,111 @@
       "castIds": [
         "member_19"
       ],
-      "link": "https://ske48.co.jp/schedule/detail/58762"
+      "link": "https://ske48.co.jp/schedule/detail/58762",
+      "ticketInfo": {
+        "applicationPeriod": "2026年9月4日(金)18:00~9月6日(日)23:59",
+        "lotteryResultPeriod": "2026年9月9日(水)15:00~9月9日(水)23:00",
+        "ticketDisplay": "2026年9月10日(木)18:00 ※座席表示は後日となります",
+        "tradePeriod": "2026年9月10日(木)18:00~公演当日11:59",
+        "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠」「一般枠・一般ペア枠」となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
+        "applyLinks": [
+          {
+            "name": "[ファンクラブ枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=61&stk=589d6d232c3375dfe98e865c67b337d6"
+          },
+          {
+            "name": "[12周年特別枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=62&stk=fa1e1db062947cc2de6b9787dbda99a4"
+          },
+          {
+            "name": "[SKE48 Mobile会員枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=63&stk=109da5e7d201b9cba3669aa241716276"
+          },
+          {
+            "name": "[100発100中/98中権利枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=64&stk=34152b0669f53f68405a8162bdb5f9e9"
+          },
+          {
+            "name": "[一般枠・一般ペア枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=65&stk=04093500f47a3f0f766f50a82bc0e786"
+          }
+        ],
+        "otherLinks": [
+          {
+            "name": "申込確認はこちら",
+            "url": "https://tixplus.jp/login/"
+          },
+          {
+            "name": "チケットトレードはこちら",
+            "url": "https://trade.tixplus.jp/artists/tour/15124"
+          }
+        ],
+        "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
+      }
+    },
+    {
+      "performanceId": "P2609_140",
+      "category": "公演",
+      "title": "「制服の芽」公演＜17:00開演＞",
+      "date": "2026-09-23",
+      "time": "17:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_96",
+        "member_55",
+        "member_82",
+        "member_86",
+        "member_2",
+        "member_47",
+        "member_92",
+        "member_13",
+        "member_72",
+        "member_94",
+        "member_99"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59907",
+      "ticketInfo": {
+        "applicationPeriod": "2026年9月4日(金)18:00~9月6日(日)23:59",
+        "lotteryResultPeriod": "2026年9月9日(水)15:00~9月9日(水)23:00",
+        "ticketDisplay": "2026年9月10日(木)18:00 ※座席表示は後日となります",
+        "tradePeriod": "2026年9月10日(木)18:00~公演当日11:59",
+        "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠」「一般枠・一般ペア枠」となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
+        "applyLinks": [
+          {
+            "name": "[ファンクラブ枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=61&stk=589d6d232c3375dfe98e865c67b337d6"
+          },
+          {
+            "name": "[12周年特別枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=62&stk=fa1e1db062947cc2de6b9787dbda99a4"
+          },
+          {
+            "name": "[SKE48 Mobile会員枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=63&stk=109da5e7d201b9cba3669aa241716276"
+          },
+          {
+            "name": "[100発100中/98中権利枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=64&stk=34152b0669f53f68405a8162bdb5f9e9"
+          },
+          {
+            "name": "[一般枠・一般ペア枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15124&precede=65&stk=04093500f47a3f0f766f50a82bc0e786"
+          }
+        ],
+        "otherLinks": [
+          {
+            "name": "申込確認はこちら",
+            "url": "https://tixplus.jp/login/"
+          },
+          {
+            "name": "チケットトレードはこちら",
+            "url": "https://trade.tixplus.jp/artists/tour/15124"
+          }
+        ],
+        "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
+      }
     },
     {
       "performanceId": "P2609_102",
@@ -2388,6 +2957,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59325"
     },
     {
+      "performanceId": "P2609_155",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2026-09-26",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59892"
+    },
+    {
       "performanceId": "P2609_105",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -2412,6 +2994,19 @@
         "member_64"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58961"
+    },
+    {
+      "performanceId": "P2609_156",
+      "category": "メディア",
+      "title": "CBCラジオ「ウインクス presents SKE48原優寧の建築ラジオ」",
+      "date": "2026-09-27",
+      "time": "22:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59829"
     },
     {
       "performanceId": "P2609_67",
