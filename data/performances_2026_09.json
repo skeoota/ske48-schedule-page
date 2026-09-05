@@ -1598,6 +1598,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59831"
     },
     {
+      "performanceId": "P2609_158",
+      "category": "メディア",
+      "title": "「SKE48非公式ちゃんねるｘSTU48 CHANNEL コラボレーションSP Vol.6」",
+      "date": "2026-09-11",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_72",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59915"
+    },
+    {
       "performanceId": "P2609_75",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -1610,6 +1625,20 @@
         "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59675"
+    },
+    {
+      "performanceId": "P2609_157",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-09-11",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_76"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59838"
     },
     {
       "performanceId": "P2609_05",

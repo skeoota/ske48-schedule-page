@@ -292,6 +292,19 @@
         "member_16"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59847"
+    },
+    {
+      "performanceId": "P2610_23",
+      "category": "メディア",
+      "title": "メ〜テレ「ドデスカ！」",
+      "date": "2026-10-31",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59817"
     }
   ]
 }
