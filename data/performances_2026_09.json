@@ -872,6 +872,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59758"
     },
     {
+      "performanceId": "P2609_159",
+      "category": "メディア",
+      "title": "「朝日新聞 with news」",
+      "date": "2026-09-06",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59924"
+    },
+    {
       "performanceId": "P2609_58",
       "category": "公演",
       "title": "チームS「ずっと君を探している」公演＜17:00開演＞",
@@ -1056,6 +1069,19 @@
         "member_23"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59759"
+    },
+    {
+      "performanceId": "P2609_160",
+      "category": "メディア",
+      "title": "「エンタメnext」",
+      "date": "2026-09-07",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59926"
     },
     {
       "performanceId": "P2609_77",

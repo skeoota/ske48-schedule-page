@@ -29,6 +29,25 @@
       "link": "https://ske48.co.jp/schedule/detail/59576"
     },
     {
+      "performanceId": "P2610_24",
+      "category": "イベント",
+      "title": "「クロフェス2026 7年目 ラッキー7アイドルフィーバーだしん！」",
+      "date": "2026-10-02",
+      "time": "",
+      "venue": "稲毛海浜公園プール",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_5",
+        "member_8",
+        "member_9",
+        "member_16",
+        "member_50",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59923"
+    },
+    {
       "performanceId": "P2610_12",
       "category": "メディア",
       "title": "Pococha「ウォッチパーティー&限定配信」",
