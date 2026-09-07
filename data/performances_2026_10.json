@@ -238,6 +238,34 @@
       "link": "https://ske48.co.jp/schedule/detail/59253"
     },
     {
+      "performanceId": "P2610_25",
+      "category": "イベント",
+      "title": "FM大阪『Live or Treat 2026』 in Zepp Namba",
+      "date": "2026-10-17",
+      "time": "",
+      "venue": "Zepp Namba(OSAKA)",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_19",
+        "member_23",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_64",
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59929"
+    },
+    {
       "performanceId": "P2610_06",
       "category": "誕生日",
       "title": "佐々木希美誕生日",
