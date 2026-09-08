@@ -1230,25 +1230,12 @@
     {
       "performanceId": "P2609_78",
       "category": "公演",
-      "title": "「可能性こそが未来」公演＜18:00開演＞",
+      "title": "【公演中止】「可能性こそが未来」公演＜18:00開演＞",
       "date": "2026-09-08",
-      "time": "18:00",
+      "time": "",
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
-      "castIds": [
-        "member_96",
-        "member_82",
-        "member_86",
-        "member_92",
-        "member_89",
-        "member_93",
-        "member_94",
-        "member_108",
-        "member_100",
-        "member_104",
-        "member_110",
-        "member_105"
-      ],
+      "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59807",
       "ticketInfo": {
         "applicationPeriod": "2026年8月28日(金)18:00~8月30日(日)23:59",
@@ -1290,6 +1277,20 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2609_166",
+      "category": "メディア",
+      "title": "「ガラスガール」",
+      "date": "2026-09-08",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59945"
     },
     {
       "performanceId": "P2609_130",
@@ -1374,7 +1375,6 @@
       "status": "SCHEDULED",
       "castIds": [
         "member_3",
-        "member_67",
         "member_5",
         "member_82",
         "member_48",
@@ -1384,7 +1384,8 @@
         "member_52",
         "member_75",
         "member_19",
-        "member_93"
+        "member_93",
+        "member_94"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59808",
       "ticketInfo": {
@@ -2927,6 +2928,22 @@
       }
     },
     {
+      "performanceId": "P2609_165",
+      "category": "イベント",
+      "title": "「ライブサイトin ONE ASIA WORLD」",
+      "date": "2026-09-23",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_89",
+        "member_90",
+        "member_93",
+        "member_100"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59937"
+    },
+    {
       "performanceId": "P2609_140",
       "category": "公演",
       "title": "「制服の芽」公演＜17:00開演＞",
@@ -3151,6 +3168,22 @@
         "member_93"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59867"
+    },
+    {
+      "performanceId": "P2609_167",
+      "category": "メディア",
+      "title": "「TopYellNEO2026AUTUMN」発売日",
+      "date": "2026-09-30",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_49",
+        "member_67",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59939"
     },
     {
       "performanceId": "P2609_126",
