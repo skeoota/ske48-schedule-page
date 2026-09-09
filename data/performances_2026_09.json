@@ -1353,9 +1353,9 @@
     {
       "performanceId": "P2609_141",
       "category": "イベント",
-      "title": "「Aichi-Nagoya 2026 Ticket Center」一日店長就任イベント",
+      "title": "【開催中止】「Aichi-Nagoya 2026 Ticket Center」一日店長就任イベント",
       "date": "2026-09-09",
-      "time": "11:50",
+      "time": "",
       "venue": "Aichi-Nagoya 2026 Ticket Center （名古屋市中区栄 3 丁目 5-10 ）",
       "status": "SCHEDULED",
       "castIds": [
@@ -1528,6 +1528,34 @@
       "link": "https://ske48.co.jp/schedule/detail/59755"
     },
     {
+      "performanceId": "P2609_169",
+      "category": "メディア",
+      "title": "東海テレビ「スイッチ！」",
+      "date": "2026-09-10",
+      "time": "11:14",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59953"
+    },
+    {
+      "performanceId": "P2609_168",
+      "category": "メディア",
+      "title": "TOKAI RADIO 「OH! MY! CHANNEL!」",
+      "date": "2026-09-10",
+      "time": "13:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59951"
+    },
+    {
       "performanceId": "P2609_80",
       "category": "公演",
       "title": "「制服の芽」公演＜18:00開演＞",
@@ -1604,6 +1632,20 @@
         "member_81"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59674"
+    },
+    {
+      "performanceId": "P2609_170",
+      "category": "メディア",
+      "title": "CBCラジオ「チュウモリ『推シマシ』」",
+      "date": "2026-09-10",
+      "time": "22:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59954"
     },
     {
       "performanceId": "P2609_148",
@@ -1919,6 +1961,20 @@
         "member_74"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59695"
+    },
+    {
+      "performanceId": "P2609_171",
+      "category": "メディア",
+      "title": "BSN新潟放送「NGT48とひなたまつり」",
+      "date": "2026-09-14",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52",
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59952"
     },
     {
       "performanceId": "P2609_132",
