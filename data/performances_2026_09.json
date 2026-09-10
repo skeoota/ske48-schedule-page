@@ -1459,6 +1459,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59673"
     },
     {
+      "performanceId": "P2609_174",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2026-09-09",
+      "time": "22:58",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59969"
+    },
+    {
       "performanceId": "P2609_25",
       "category": "誕生日",
       "title": "宮本倫花誕生日",
@@ -1676,6 +1690,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59587"
     },
     {
+      "performanceId": "P2609_175",
+      "category": "メディア",
+      "title": "メ〜テレ「ドデスカ！」",
+      "date": "2026-09-11",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59976"
+    },
+    {
       "performanceId": "P2609_44",
       "category": "メディア",
       "title": "FMボイスキュー「ユリオカ超特Qのらっしゃい！Radio」",
@@ -1850,6 +1879,21 @@
         "member_92"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59698"
+    },
+    {
+      "performanceId": "P2609_176",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-09-12",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_74",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59955"
     },
     {
       "performanceId": "P2609_94",
@@ -2166,6 +2210,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59790"
     },
     {
+      "performanceId": "P2609_177",
+      "category": "メディア",
+      "title": "資産形成情報チャンネルあしたのマネー",
+      "date": "2026-09-16",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59963"
+    },
+    {
       "performanceId": "P2609_120",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -2272,6 +2329,19 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58986"
+    },
+    {
+      "performanceId": "P2609_178",
+      "category": "メディア",
+      "title": "ZIP-FM「Neue Musik」",
+      "date": "2026-09-17",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59957"
     },
     {
       "performanceId": "P2609_138",
@@ -2391,6 +2461,39 @@
         "member_101"
       ],
       "link": "https://ske48.co.jp/schedule/detail/54696"
+    },
+    {
+      "performanceId": "P2609_172",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」",
+      "date": "2026-09-18",
+      "time": "",
+      "venue": "サンシャインサカエ 1F",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_78",
+        "member_86",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59980"
+    },
+    {
+      "performanceId": "P2609_173",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」",
+      "date": "2026-09-18",
+      "time": "",
+      "venue": "サンシャインサカエ 1F",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74",
+        "member_76",
+        "member_79",
+        "member_93",
+        "member_101"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59981"
     },
     {
       "performanceId": "P2609_81",
@@ -2517,6 +2620,34 @@
         "member_16"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59891"
+    },
+    {
+      "performanceId": "P2609_179",
+      "category": "メディア",
+      "title": "NHK名古屋「Uta-Tube SPORTS FES.」",
+      "date": "2026-09-19",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_26",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59979"
     },
     {
       "performanceId": "P2609_100",
@@ -2984,6 +3115,19 @@
       }
     },
     {
+      "performanceId": "P2609_180",
+      "category": "メディア",
+      "title": "資産形成情報チャンネルあしたのマネー",
+      "date": "2026-09-23",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59964"
+    },
+    {
       "performanceId": "P2609_165",
       "category": "イベント",
       "title": "「ライブサイトin ONE ASIA WORLD」",
@@ -3240,6 +3384,19 @@
         "member_81"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59939"
+    },
+    {
+      "performanceId": "P2609_181",
+      "category": "メディア",
+      "title": "資産形成情報チャンネルあしたのマネー",
+      "date": "2026-09-30",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59965"
     },
     {
       "performanceId": "P2609_126",
