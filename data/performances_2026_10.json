@@ -61,6 +61,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59966"
     },
     {
+      "performanceId": "P2610_29",
+      "category": "イベント",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい公開録音 vol.21」",
+      "date": "2026-10-02",
+      "time": "",
+      "venue": "CBC1スタホール（愛知県名古屋市中区新栄1-2-8 CBC会",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_67",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60010"
+    },
+    {
       "performanceId": "P2610_12",
       "category": "メディア",
       "title": "Pococha「ウォッチパーティー&限定配信」",

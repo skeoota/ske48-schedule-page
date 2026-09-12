@@ -1888,6 +1888,64 @@
       "link": "https://ske48.co.jp/schedule/detail/59890"
     },
     {
+      "performanceId": "P2609_198",
+      "category": "メディア",
+      "title": "「日刊スポーツ」",
+      "date": "2026-09-12",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60008"
+    },
+    {
+      "performanceId": "P2609_199",
+      "category": "メディア",
+      "title": "「Yahoo!ニュース」",
+      "date": "2026-09-12",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_52",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60009"
+    },
+    {
+      "performanceId": "P2609_200",
+      "category": "メディア",
+      "title": "「東スポWEB」",
+      "date": "2026-09-12",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60011"
+    },
+    {
+      "performanceId": "P2609_201",
+      "category": "メディア",
+      "title": "「日刊スポーツ」WEB",
+      "date": "2026-09-12",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60012"
+    },
+    {
       "performanceId": "P2609_95",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -2635,6 +2693,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59680"
     },
     {
+      "performanceId": "P2609_202",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-09-18",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59839"
+    },
+    {
       "performanceId": "P2609_11",
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
@@ -2741,6 +2813,19 @@
         "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59979"
+    },
+    {
+      "performanceId": "P2609_195",
+      "category": "イベント",
+      "title": "「クラフト餃子フェス® NAGOYA 2026」",
+      "date": "2026-09-19",
+      "time": "10:00",
+      "venue": "久屋大通公園 エンゼル広場（愛知県名古屋市中区栄 3 丁目 15 ）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59999"
     },
     {
       "performanceId": "P2609_100",
@@ -2877,6 +2962,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59729"
     },
     {
+      "performanceId": "P2609_203",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-09-19",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_75",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59956"
+    },
+    {
       "performanceId": "P2609_99",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -2968,6 +3068,19 @@
         "member_79"
       ],
       "link": "https://ske48.co.jp/schedule/detail/47793"
+    },
+    {
+      "performanceId": "P2609_196",
+      "category": "イベント",
+      "title": "「クラフト餃子フェス® NAGOYA 2026」",
+      "date": "2026-09-20",
+      "time": "10:00",
+      "venue": "久屋大通公園 エンゼル広場（愛知県名古屋市中区栄 3 丁目 15 ）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_89"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60000"
     },
     {
       "performanceId": "P2609_154",
@@ -3219,6 +3332,19 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59964"
+    },
+    {
+      "performanceId": "P2609_197",
+      "category": "イベント",
+      "title": "「クラフト餃子フェス® NAGOYA 2026」",
+      "date": "2026-09-23",
+      "time": "10:00",
+      "venue": "久屋大通公園 エンゼル広場（愛知県名古屋市中区栄 3 丁目 15 ）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60001"
     },
     {
       "performanceId": "P2609_165",
