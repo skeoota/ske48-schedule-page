@@ -3109,6 +3109,23 @@
       "link": "https://ske48.co.jp/schedule/detail/58756"
     },
     {
+      "performanceId": "P2609_204",
+      "category": "イベント",
+      "title": "SKE48 ×「ガイア」訪店第5弾",
+      "date": "2026-09-21",
+      "time": "",
+      "venue": "メガガイア一宮",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_34",
+        "member_47",
+        "member_72",
+        "member_79",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59972"
+    },
+    {
       "performanceId": "P2609_124",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
