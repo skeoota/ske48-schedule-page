@@ -2084,6 +2084,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59730"
     },
     {
+      "performanceId": "P2609_205",
+      "category": "メディア",
+      "title": "NHK名古屋「まるっと！」",
+      "date": "2026-09-14",
+      "time": "18:10",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60013"
+    },
+    {
       "performanceId": "P2609_118",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
