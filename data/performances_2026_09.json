@@ -2130,7 +2130,7 @@
       "category": "メディア",
       "title": "BSN新潟放送「NGT48とひなたまつり」",
       "date": "2026-09-14",
-      "time": "21:00",
+      "time": "21:30",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -2678,6 +2678,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59832"
     },
     {
+      "performanceId": "P2609_206",
+      "category": "メディア",
+      "title": "J SPORTS「クイズ！まるごとグランツール ジロ・デ・イタリア編」",
+      "date": "2026-09-18",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60016"
+    },
+    {
       "performanceId": "P2609_122",
       "category": "メディア",
       "title": "Pococha「ツアー直前トーク配信」",
@@ -3150,6 +3163,20 @@
         "member_93"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59866"
+    },
+    {
+      "performanceId": "P2609_207",
+      "category": "メディア",
+      "title": "KBS京都ラジオ「NO MUSIC, AINO LIFE」",
+      "date": "2026-09-21",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60025"
     },
     {
       "performanceId": "P2609_16",
