@@ -2342,6 +2342,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59963"
     },
     {
+      "performanceId": "P2609_209",
+      "category": "メディア",
+      "title": "「朝日新聞 with news」",
+      "date": "2026-09-16",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_67",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60039"
+    },
+    {
       "performanceId": "P2609_120",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -2382,6 +2398,20 @@
         "member_79"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59678"
+    },
+    {
+      "performanceId": "P2609_208",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2026-09-16",
+      "time": "23:04",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60030"
     },
     {
       "performanceId": "P2609_09",
@@ -2841,6 +2871,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59979"
     },
     {
+      "performanceId": "P2609_210",
+      "category": "メディア",
+      "title": "岐阜放送「土曜日の推し事」",
+      "date": "2026-09-19",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60038"
+    },
+    {
       "performanceId": "P2609_195",
       "category": "イベント",
       "title": "「クラフト餃子フェス® NAGOYA 2026」",
@@ -2879,6 +2923,19 @@
         "member_44"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59836"
+    },
+    {
+      "performanceId": "P2609_211",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2026-09-19",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60047"
     },
     {
       "performanceId": "P2609_164",
@@ -3179,6 +3236,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60025"
     },
     {
+      "performanceId": "P2609_212",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-09-21",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_13",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60031"
+    },
+    {
       "performanceId": "P2609_16",
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
@@ -3230,6 +3302,20 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2609_213",
+      "category": "メディア",
+      "title": "FM香川「JOY-U CLUB」",
+      "date": "2026-09-22",
+      "time": "16:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60029"
     },
     {
       "performanceId": "P2609_139",
@@ -3735,6 +3821,21 @@
       }
     },
     {
+      "performanceId": "P2609_214",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-09-26",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67",
+        "member_85",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60035"
+    },
+    {
       "performanceId": "P2609_104",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -3918,6 +4019,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59867"
     },
     {
+      "performanceId": "P2609_215",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-09-28",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_13",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60032"
+    },
+    {
       "performanceId": "P2609_186",
       "category": "公演",
       "title": "チームKⅡ「シアターの女神」公演 倉本羽菜生誕祭＜18:30開演＞",
@@ -4023,6 +4139,21 @@
         "member_16"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59845"
+    },
+    {
+      "performanceId": "P2609_216",
+      "category": "メディア",
+      "title": "FM滋賀「キャッチ！」",
+      "date": "2026-09-30",
+      "time": "14:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_78",
+        "member_108"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59875"
     },
     {
       "performanceId": "P2609_187",

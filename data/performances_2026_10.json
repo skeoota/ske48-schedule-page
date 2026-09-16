@@ -90,6 +90,34 @@
       "link": "https://ske48.co.jp/schedule/detail/59857"
     },
     {
+      "performanceId": "P2610_31",
+      "category": "メディア",
+      "title": "TOKAI RADIO「NEXTies!」",
+      "date": "2026-10-02",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60019"
+    },
+    {
+      "performanceId": "P2610_32",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-10-03",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67",
+        "member_85",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60036"
+    },
+    {
       "performanceId": "P2610_13",
       "category": "メディア",
       "title": "Pococha「ウォッチパーティー&限定配信」",
@@ -116,6 +144,21 @@
         "member_81"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59859"
+    },
+    {
+      "performanceId": "P2610_33",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-10-05",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_13",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60033"
     },
     {
       "performanceId": "P2610_27",
@@ -159,6 +202,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59861"
     },
     {
+      "performanceId": "P2610_34",
+      "category": "メディア",
+      "title": "SHOWROOM『恋シュンの旬』",
+      "date": "2026-10-09",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_13",
+        "member_77",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60041"
+    },
+    {
       "performanceId": "P2610_11",
       "category": "メディア",
       "title": "NATSLIVE「キッチンダービーくまちゃん杯」",
@@ -186,6 +245,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59862"
     },
     {
+      "performanceId": "P2610_30",
+      "category": "イベント",
+      "title": "「トヨタレッドテリアーズ 対タカギ北九州ウォーターウェーブ戦」",
+      "date": "2026-10-10",
+      "time": "",
+      "venue": "豊田市運動公園野球場 （愛知県豊田市高町東山 4-97 ）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_89",
+        "member_90",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60043"
+    },
+    {
       "performanceId": "P2610_10",
       "category": "イベント",
       "title": "TBSラジオ「自転車協会 presents ミラクル・サイクル・ライフ」公開収録",
@@ -197,6 +271,21 @@
         "member_3"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59613"
+    },
+    {
+      "performanceId": "P2610_35",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-10-10",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67",
+        "member_85",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60037"
     },
     {
       "performanceId": "P2610_18",
@@ -235,6 +324,21 @@
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59390"
+    },
+    {
+      "performanceId": "P2610_36",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-10-12",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_13",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60034"
     },
     {
       "performanceId": "P2610_19",

@@ -173,6 +173,17 @@
       "link": "https://ske48.co.jp/schedule/detail/47810"
     },
     {
+      "performanceId": "P2611_17",
+      "category": "イベント",
+      "title": "SKE48 18th Anniversary Festival 2026",
+      "date": "2026-11-22",
+      "time": "16:00",
+      "venue": "Niterra 日本特殊陶業市民会館フォレストホール",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/60044"
+    },
+    {
       "performanceId": "P2611_11",
       "category": "誕生日",
       "title": "原優寧誕生日",
@@ -197,6 +208,17 @@
         "member_94"
       ],
       "link": "https://ske48.co.jp/schedule/detail/54690"
+    },
+    {
+      "performanceId": "P2611_18",
+      "category": "イベント",
+      "title": "SKE48 18th Anniversary Festival 2026",
+      "date": "2026-11-23",
+      "time": "16:00",
+      "venue": "Niterra 日本特殊陶業市民会館フォレストホール",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/60045"
     },
     {
       "performanceId": "P2611_13",
