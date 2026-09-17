@@ -2488,9 +2488,25 @@
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
+        "member_74",
         "member_81"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59957"
+    },
+    {
+      "performanceId": "P2609_217",
+      "category": "メディア",
+      "title": "「Newsクランチ！」掲載日",
+      "date": "2026-09-17",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_49",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60063"
     },
     {
       "performanceId": "P2609_138",
@@ -4125,6 +4141,19 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59965"
+    },
+    {
+      "performanceId": "P2609_218",
+      "category": "メディア",
+      "title": "「BUBKA 11月号」発売日",
+      "date": "2026-09-30",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60061"
     },
     {
       "performanceId": "P2609_126",
