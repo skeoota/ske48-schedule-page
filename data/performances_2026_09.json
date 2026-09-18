@@ -2358,6 +2358,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60039"
     },
     {
+      "performanceId": "P2609_219",
+      "category": "メディア",
+      "title": "「週刊SPA!」",
+      "date": "2026-09-16",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_102"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60071"
+    },
+    {
       "performanceId": "P2609_120",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -2661,6 +2674,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59981"
     },
     {
+      "performanceId": "P2609_222",
+      "category": "メディア",
+      "title": "愛知県公式動画チャンネル「愛知のあゆみ2026」",
+      "date": "2026-09-18",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60073"
+    },
+    {
       "performanceId": "P2609_81",
       "category": "イベント",
       "title": "「メ～テレラ～メンフェス with SUSURU TV. Supported by サントリーからだを想うオールフリー」",
@@ -2692,6 +2718,35 @@
         "member_78"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59977"
+    },
+    {
+      "performanceId": "P2609_220",
+      "category": "メディア",
+      "title": "K-MIX「Slow-city」",
+      "date": "2026-09-18",
+      "time": "11:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60064"
+    },
+    {
+      "performanceId": "P2609_221",
+      "category": "メディア",
+      "title": "「Walker+」",
+      "date": "2026-09-18",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_16",
+        "member_23"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60070"
     },
     {
       "performanceId": "P2609_193",
@@ -3267,6 +3322,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60031"
     },
     {
+      "performanceId": "P2609_223",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-21",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_86",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59681"
+    },
+    {
       "performanceId": "P2609_16",
       "category": "イベント",
       "title": "劇団バルスキッチン 第50回新作公演「世界線リライター」",
@@ -3398,6 +3467,20 @@
       }
     },
     {
+      "performanceId": "P2609_224",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-22",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_98",
+        "member_102"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59682"
+    },
+    {
       "performanceId": "P2609_17",
       "category": "イベント",
       "title": "SKE48 ASIA TOUR 2026 @香港/MACPHERSON STADIUM",
@@ -3493,6 +3576,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59964"
     },
     {
+      "performanceId": "P2609_226",
+      "category": "メディア",
+      "title": "メ～テレ「Digった！」",
+      "date": "2026-09-23",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60066"
+    },
+    {
       "performanceId": "P2609_197",
       "category": "イベント",
       "title": "「クラフト餃子フェス® NAGOYA 2026」",
@@ -3586,6 +3682,20 @@
       }
     },
     {
+      "performanceId": "P2609_225",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-23",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_93"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59683"
+    },
+    {
       "performanceId": "P2609_102",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
@@ -3597,6 +3707,33 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/58987"
+    },
+    {
+      "performanceId": "P2609_228",
+      "category": "メディア",
+      "title": "メ～テレ「Digった！」",
+      "date": "2026-09-24",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60067"
+    },
+    {
+      "performanceId": "P2609_227",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-24",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_95",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59684"
     },
     {
       "performanceId": "P2609_19",
@@ -3626,6 +3763,19 @@
         "member_78"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59018"
+    },
+    {
+      "performanceId": "P2609_230",
+      "category": "メディア",
+      "title": "メ～テレ「Digった！」",
+      "date": "2026-09-25",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60068"
     },
     {
       "performanceId": "P2609_182",
@@ -3706,6 +3856,20 @@
         "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59833"
+    },
+    {
+      "performanceId": "P2609_229",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-25",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8",
+        "member_75"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59685"
     },
     {
       "performanceId": "P2609_62",
@@ -4050,6 +4214,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60032"
     },
     {
+      "performanceId": "P2609_231",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-28",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_47"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59686"
+    },
+    {
       "performanceId": "P2609_186",
       "category": "公演",
       "title": "チームKⅡ「シアターの女神」公演 倉本羽菜生誕祭＜18:30開演＞",
@@ -4112,6 +4290,20 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2609_232",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-29",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59687"
     },
     {
       "performanceId": "P2609_167",
@@ -4247,6 +4439,20 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2609_233",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-09-30",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59688"
     }
   ]
 }
