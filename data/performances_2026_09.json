@@ -3722,6 +3722,22 @@
       "link": "https://ske48.co.jp/schedule/detail/60067"
     },
     {
+      "performanceId": "P2609_234",
+      "category": "メディア",
+      "title": "ニコニコチャンネル「SKE48非公式ちゃんねる」",
+      "date": "2026-09-24",
+      "time": "19:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_89",
+        "member_90",
+        "member_94",
+        "member_100"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60093"
+    },
+    {
       "performanceId": "P2609_227",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -3858,6 +3874,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59833"
     },
     {
+      "performanceId": "P2609_236",
+      "category": "メディア",
+      "title": "FM大阪「OTOSHIMONO」",
+      "date": "2026-09-25",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60075"
+    },
+    {
       "performanceId": "P2609_229",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -3883,6 +3914,21 @@
         "member_64"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59734"
+    },
+    {
+      "performanceId": "P2609_235",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-09-25",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_76",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59840"
     },
     {
       "performanceId": "P2609_103",

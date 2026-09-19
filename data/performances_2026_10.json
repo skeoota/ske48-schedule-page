@@ -590,6 +590,20 @@
       "link": "https://ske48.co.jp/schedule/detail/47794"
     },
     {
+      "performanceId": "P2610_43",
+      "category": "イベント",
+      "title": "【この日限定】正直サミット公開収録＋極秘収録",
+      "date": "2026-10-11",
+      "time": "16:00",
+      "venue": "立川ステージガーデン（ 東京都立川市緑町 3-3 N1）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60095"
+    },
+    {
       "performanceId": "P2610_01",
       "category": "イベント",
       "title": "「SKE48 プレミアム・ファンサインイベント 〜撮って！勝って！サインリレー〜」",
