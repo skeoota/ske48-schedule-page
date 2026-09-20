@@ -2371,6 +2371,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60071"
     },
     {
+      "performanceId": "P2609_239",
+      "category": "メディア",
+      "title": "「週プレNEWS」",
+      "date": "2026-09-16",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60100"
+    },
+    {
       "performanceId": "P2609_120",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -3224,6 +3237,21 @@
       "link": "https://ske48.co.jp/schedule/detail/47793"
     },
     {
+      "performanceId": "P2609_240",
+      "category": "メディア",
+      "title": "「J-CASTニュース」",
+      "date": "2026-09-20",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_74",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60098"
+    },
+    {
       "performanceId": "P2609_196",
       "category": "イベント",
       "title": "「クラフト餃子フェス® NAGOYA 2026」",
@@ -3278,6 +3306,21 @@
         "member_96"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59972"
+    },
+    {
+      "performanceId": "P2609_241",
+      "category": "メディア",
+      "title": "「J-CASTニュース」",
+      "date": "2026-09-21",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_74",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60099"
     },
     {
       "performanceId": "P2609_124",
@@ -3387,6 +3430,23 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2609_237",
+      "category": "イベント",
+      "title": "愛知・名古屋2026応援サポーター「アジア競技大会『空手』会場ライブ」",
+      "date": "2026-09-22",
+      "time": "",
+      "venue": "豊橋市総合体育館",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_23",
+        "member_48",
+        "member_64",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60096"
     },
     {
       "performanceId": "P2609_213",
@@ -3720,6 +3780,23 @@
         "member_26"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60067"
+    },
+    {
+      "performanceId": "P2609_238",
+      "category": "イベント",
+      "title": "愛知・名古屋2026応援サポーター「アジア競技大会『フェンシング』会場ライブ」",
+      "date": "2026-09-24",
+      "time": "",
+      "venue": "豊橋市総合体育館",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_23",
+        "member_48",
+        "member_64",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60097"
     },
     {
       "performanceId": "P2609_234",
