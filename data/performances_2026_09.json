@@ -3527,6 +3527,19 @@
       }
     },
     {
+      "performanceId": "P2609_242",
+      "category": "メディア",
+      "title": "「赤堀君江インスタライブ」",
+      "date": "2026-09-22",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60102"
+    },
+    {
       "performanceId": "P2609_224",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -4060,6 +4073,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58974"
     },
     {
+      "performanceId": "P2609_243",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2026-09-26",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60162"
+    },
+    {
       "performanceId": "P2609_183",
       "category": "公演",
       "title": "「制服の芽」公演＜17:00開演＞",
@@ -4227,6 +4253,21 @@
         "member_77"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59829"
+    },
+    {
+      "performanceId": "P2609_244",
+      "category": "メディア",
+      "title": "FM大阪「Girls Street」",
+      "date": "2026-09-27",
+      "time": "23:55",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60076"
     },
     {
       "performanceId": "P2609_67",
