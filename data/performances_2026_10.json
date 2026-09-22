@@ -120,6 +120,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59689"
     },
     {
+      "performanceId": "P2610_78",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-10-01",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_8",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60165"
+    },
+    {
       "performanceId": "P2610_24",
       "category": "イベント",
       "title": "「クロフェス2026 7年目 ラッキー7アイドルフィーバーだしん！」",
@@ -514,6 +529,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60033"
     },
     {
+      "performanceId": "P2610_79",
+      "category": "メディア",
+      "title": "K-MIX「Pococha presents SKE48 赤堀君江の『きみのはなし。』」",
+      "date": "2026-10-06",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60104"
+    },
+    {
       "performanceId": "P2610_27",
       "category": "メディア",
       "title": "資産形成情報チャンネルあしたのマネー",
@@ -812,6 +840,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60034"
     },
     {
+      "performanceId": "P2610_80",
+      "category": "メディア",
+      "title": "K-MIX「Pococha presents SKE48 赤堀君江の『きみのはなし。』」",
+      "date": "2026-10-13",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60105"
+    },
+    {
       "performanceId": "P2610_19",
       "category": "メディア",
       "title": "Pococha「ウォッチパーティー&限定配信」",
@@ -999,6 +1040,19 @@
       "link": "https://ske48.co.jp/schedule/detail/54695"
     },
     {
+      "performanceId": "P2610_81",
+      "category": "メディア",
+      "title": "K-MIX「Pococha presents SKE48 赤堀君江の『きみのはなし。』」",
+      "date": "2026-10-20",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60106"
+    },
+    {
       "performanceId": "P2610_07",
       "category": "誕生日",
       "title": "相川暖花誕生日",
@@ -1136,6 +1190,19 @@
         "member_91"
       ],
       "link": "https://ske48.co.jp/schedule/detail/47812"
+    },
+    {
+      "performanceId": "P2610_82",
+      "category": "メディア",
+      "title": "K-MIX「Pococha presents SKE48 赤堀君江の『きみのはなし。』」",
+      "date": "2026-10-27",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60107"
     },
     {
       "performanceId": "P2610_21",

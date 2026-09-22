@@ -3449,6 +3449,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60096"
     },
     {
+      "performanceId": "P2609_245",
+      "category": "メディア",
+      "title": "DREAMS FM「ハピネスワールド」",
+      "date": "2026-09-22",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60163"
+    },
+    {
       "performanceId": "P2609_213",
       "category": "メディア",
       "title": "FM香川「JOY-U CLUB」",
@@ -3800,7 +3814,7 @@
       "title": "愛知・名古屋2026応援サポーター「アジア競技大会『フェンシング』会場ライブ」",
       "date": "2026-09-24",
       "time": "",
-      "venue": "豊橋市総合体育館",
+      "venue": "Aichi Sky Expo",
       "status": "SCHEDULED",
       "castIds": [
         "member_2",
@@ -3840,6 +3854,21 @@
         "member_97"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59684"
+    },
+    {
+      "performanceId": "P2609_246",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-09-24",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_82",
+        "member_86",
+        "member_89"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60164"
     },
     {
       "performanceId": "P2609_19",
