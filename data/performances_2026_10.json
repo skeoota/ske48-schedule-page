@@ -934,6 +934,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60109"
     },
     {
+      "performanceId": "P2610_83",
+      "category": "メディア",
+      "title": "サンテレビ「スポットライト」",
+      "date": "2026-10-16",
+      "time": "25:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60168"
+    },
+    {
       "performanceId": "P2610_25",
       "category": "イベント",
       "title": "FM大阪『Live or Treat 2026』 in Zepp Namba",
@@ -1090,6 +1105,21 @@
         "member_44"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60110"
+    },
+    {
+      "performanceId": "P2610_84",
+      "category": "メディア",
+      "title": "サンテレビ「スポットライト」",
+      "date": "2026-10-23",
+      "time": "25:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60169"
     },
     {
       "performanceId": "P2610_03",

@@ -3676,6 +3676,24 @@
       "link": "https://ske48.co.jp/schedule/detail/60066"
     },
     {
+      "performanceId": "P2609_249",
+      "category": "メディア",
+      "title": "「Documentary of IDOL BATTLE ALIVE 2026」#01",
+      "date": "2026-09-23",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_47",
+        "member_50",
+        "member_67",
+        "member_74",
+        "member_75",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60173"
+    },
+    {
       "performanceId": "P2609_197",
       "category": "イベント",
       "title": "「クラフト餃子フェス® NAGOYA 2026」",
@@ -3781,6 +3799,31 @@
         "member_93"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59683"
+    },
+    {
+      "performanceId": "P2609_248",
+      "category": "メディア",
+      "title": "SKE48 ASIA TOUR 2026現地からPocochaアフター配信決定！",
+      "date": "2026-09-23",
+      "time": "23:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/60171"
+    },
+    {
+      "performanceId": "P2609_250",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2026-09-23",
+      "time": "23:04",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60178"
     },
     {
       "performanceId": "P2609_102",
@@ -3913,6 +3956,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60068"
     },
     {
+      "performanceId": "P2609_247",
+      "category": "イベント",
+      "title": "「Aichi-Nagoya 2026 Ticket Center」一日店長就任イベント",
+      "date": "2026-09-25",
+      "time": "",
+      "venue": "Aichi-Nagoya 2026 Ticket Center（名古屋市中区栄3丁目5-10）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48",
+        "member_64",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60167"
+    },
+    {
       "performanceId": "P2609_182",
       "category": "公演",
       "title": "「可能性こそが未来」公演＜18:00開演＞",
@@ -4008,6 +4066,17 @@
       "link": "https://ske48.co.jp/schedule/detail/60075"
     },
     {
+      "performanceId": "P2609_251",
+      "category": "メディア",
+      "title": "SKE48 ASIA TOUR 2026現地からPocochaアフター配信決定！",
+      "date": "2026-09-25",
+      "time": "21:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/60172"
+    },
+    {
       "performanceId": "P2609_229",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -4087,6 +4156,19 @@
         "member_16"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59892"
+    },
+    {
+      "performanceId": "P2609_252",
+      "category": "メディア",
+      "title": "中日こどもウイークリー　コラム「親の時間　子の時間」",
+      "date": "2026-09-26",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59975"
     },
     {
       "performanceId": "P2609_105",
