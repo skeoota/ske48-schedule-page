@@ -29,6 +29,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60139"
     },
     {
+      "performanceId": "P2610_85",
+      "category": "メディア",
+      "title": "FM大阪「iDoBuddy（イドバディ）」",
+      "date": "2026-10-01",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60077"
+    },
+    {
       "performanceId": "P2610_09",
       "category": "イベント",
       "title": "「SASUKEアイドル予選会2026 ー出場権争奪バトルー supported by CHINTAI」",
@@ -180,6 +195,19 @@
         "member_81"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60010"
+    },
+    {
+      "performanceId": "P2610_86",
+      "category": "メディア",
+      "title": "船橋競馬公式YouTube「船橋ハートビートライブ」",
+      "date": "2026-10-02",
+      "time": "14:10",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60177"
     },
     {
       "performanceId": "P2610_38",
@@ -445,6 +473,22 @@
       "link": "https://ske48.co.jp/schedule/detail/60153"
     },
     {
+      "performanceId": "P2610_87",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
+      "date": "2026-10-04",
+      "time": "19:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_44",
+        "member_74",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60175"
+    },
+    {
       "performanceId": "P2610_14",
       "category": "メディア",
       "title": "Pococha「ウォッチパーティー&限定配信」",
@@ -529,6 +573,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60033"
     },
     {
+      "performanceId": "P2610_88",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-05",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_102",
+        "member_105"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60182"
+    },
+    {
       "performanceId": "P2610_79",
       "category": "メディア",
       "title": "K-MIX「Pococha presents SKE48 赤堀君江の『きみのはなし。』」",
@@ -540,6 +598,20 @@
         "member_2"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60104"
+    },
+    {
+      "performanceId": "P2610_89",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-06",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_101"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60183"
     },
     {
       "performanceId": "P2610_27",
@@ -569,6 +641,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59860"
     },
     {
+      "performanceId": "P2610_90",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-07",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_108"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60184"
+    },
+    {
       "performanceId": "P2610_51",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
@@ -594,6 +680,20 @@
         "member_67"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59861"
+    },
+    {
+      "performanceId": "P2610_91",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-08",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_34",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60185"
     },
     {
       "performanceId": "P2610_34",
@@ -650,6 +750,20 @@
         "member_44"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60108"
+    },
+    {
+      "performanceId": "P2610_92",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-09",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60186"
     },
     {
       "performanceId": "P2610_30",
@@ -812,6 +926,22 @@
         "member_43"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60095"
+    },
+    {
+      "performanceId": "P2610_93",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
+      "date": "2026-10-11",
+      "time": "19:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_44",
+        "member_74",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60176"
     },
     {
       "performanceId": "P2610_01",
