@@ -4035,6 +4035,21 @@
       }
     },
     {
+      "performanceId": "P2609_253",
+      "category": "メディア",
+      "title": "NHK名古屋「まるっと！」",
+      "date": "2026-09-25",
+      "time": "18:10",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48",
+        "member_64",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60207"
+    },
+    {
       "performanceId": "P2609_194",
       "category": "メディア",
       "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
@@ -4093,7 +4108,7 @@
     {
       "performanceId": "P2609_62",
       "category": "メディア",
-      "title": "東海テレビ「にっぽんど真ん中祭り特番(仮)」",
+      "title": "東海テレビ「全力応援！どま熱〜第２８回　にっぽんど真ん中祭り〜」",
       "date": "2026-09-25",
       "time": "24:45",
       "venue": "외부 행사장",
@@ -4102,6 +4117,20 @@
         "member_64"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59734"
+    },
+    {
+      "performanceId": "P2609_254",
+      "category": "メディア",
+      "title": "BSテレ東7ch「わっきゃいのゴールデンかまし魂-ＣＨＡＲＩＴＹ ＴＥＬＥＶＩＳＩＯＮ-」",
+      "date": "2026-09-25",
+      "time": "25:29",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60215"
     },
     {
       "performanceId": "P2609_235",
