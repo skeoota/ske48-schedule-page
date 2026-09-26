@@ -330,6 +330,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59690"
     },
     {
+      "performanceId": "P2610_99",
+      "category": "メディア",
+      "title": "FM大阪「HIT STREET」",
+      "date": "2026-10-02",
+      "time": "24:55",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60080"
+    },
+    {
       "performanceId": "P2610_48",
       "category": "メディア",
       "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
@@ -1004,6 +1019,25 @@
         "member_13"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60145"
+    },
+    {
+      "performanceId": "P2610_98",
+      "category": "イベント",
+      "title": "「SKE48 初恋の瞬間 1st FAN MEETING」",
+      "date": "2026-10-10",
+      "time": "",
+      "venue": "SKE48 劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_81",
+        "member_85",
+        "member_86",
+        "member_96",
+        "member_97",
+        "member_102"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60227"
     },
     {
       "performanceId": "P2610_56",

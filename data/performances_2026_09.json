@@ -4318,6 +4318,48 @@
       "link": "https://ske48.co.jp/schedule/detail/58961"
     },
     {
+      "performanceId": "P2609_256",
+      "category": "メディア",
+      "title": "中京テレビ「林修の新林学のススメ。～森と人の新常識～」",
+      "date": "2026-09-26",
+      "time": "24:55",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60218"
+    },
+    {
+      "performanceId": "P2609_255",
+      "category": "イベント",
+      "title": "「いばらき交通安全大会」",
+      "date": "2026-09-27",
+      "time": "10:00",
+      "venue": "茨木市文化・子育て複合施設 おにクル きたしんホール",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60217"
+    },
+    {
+      "performanceId": "P2609_257",
+      "category": "メディア",
+      "title": "「Forty-Eight Times」（AKB48新聞電子版）",
+      "date": "2026-09-27",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_26",
+        "member_52",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60225"
+    },
+    {
       "performanceId": "P2609_184",
       "category": "公演",
       "title": "チームS「ずっと君を探している」公演 杉本りいな生誕祭＜17:00開演＞",
