@@ -4331,6 +4331,33 @@
       "link": "https://ske48.co.jp/schedule/detail/60218"
     },
     {
+      "performanceId": "P2609_258",
+      "category": "メディア",
+      "title": "Betimo公式競輪番組「Betimo KEIRIN LIVE」",
+      "date": "2026-09-27",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60228"
+    },
+    {
+      "performanceId": "P2609_259",
+      "category": "メディア",
+      "title": "「わっきゃいのゴールデンかまし魂」",
+      "date": "2026-09-27",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60229"
+    },
+    {
       "performanceId": "P2609_255",
       "category": "イベント",
       "title": "「いばらき交通安全大会」",
