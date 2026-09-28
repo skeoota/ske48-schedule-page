@@ -4495,6 +4495,36 @@
       "link": "https://ske48.co.jp/schedule/detail/59731"
     },
     {
+      "performanceId": "P2609_261",
+      "category": "メディア",
+      "title": "「中京スポーツ」",
+      "date": "2026-09-28",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_16",
+        "member_44",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60231"
+    },
+    {
+      "performanceId": "P2609_260",
+      "category": "メディア",
+      "title": "RKBラジオ「#さえのわっふる」",
+      "date": "2026-09-28",
+      "time": "13:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_23"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60230"
+    },
+    {
       "performanceId": "P2609_185",
       "category": "公演",
       "title": "チームE「RESET」公演 森本くるみ生誕祭＜18:30開演＞",
@@ -4601,6 +4631,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59686"
     },
     {
+      "performanceId": "P2609_262",
+      "category": "メディア",
+      "title": "「中京スポーツ」",
+      "date": "2026-09-29",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_16",
+        "member_44",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60232"
+    },
+    {
       "performanceId": "P2609_186",
       "category": "公演",
       "title": "チームKⅡ「シアターの女神」公演 倉本羽菜生誕祭＜18:30開演＞",
@@ -4624,10 +4670,10 @@
       ],
       "link": "https://ske48.co.jp/schedule/detail/59990",
       "ticketInfo": {
-        "applicationPeriod": "2026年9月11日(金)18:00~9月13日(日)23:59",
-        "lotteryResultPeriod": "2026年9月16日(水)15:00~9月16日(水)23:00",
+        "applicationPeriod": "2026年9月11日(金)18:00～9月13日(日)23:59",
+        "lotteryResultPeriod": "2026年9月16日(水)15:00～9月16日(水)23:00",
         "ticketDisplay": "2026年9月17日(木)18:00 ※座席表示は後日となります",
-        "tradePeriod": "2026年9月17日(木)18:00~公演当日11:59",
+        "tradePeriod": "2026年9月17日(木)18:00～公演当日11:59",
         "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠(生誕祭確約枠)」「一般枠・一般ペア枠」となります。 ※本受付は、SKE48 Family会員の方のみを対象としております。トレードについてもSKE48 Family会員の方が対象となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
         "applyLinks": [
           {
@@ -4773,10 +4819,10 @@
       ],
       "link": "https://ske48.co.jp/schedule/detail/59991",
       "ticketInfo": {
-        "applicationPeriod": "2026年9月11日(金)18:00~9月13日(日)23:59",
-        "lotteryResultPeriod": "2026年9月16日(水)15:00~9月16日(水)23:00",
+        "applicationPeriod": "2026年9月11日(金)18:00～9月13日(日)23:59",
+        "lotteryResultPeriod": "2026年9月16日(水)15:00～9月16日(水)23:00",
         "ticketDisplay": "2026年9月17日(木)18:00 ※座席表示は後日となります",
-        "tradePeriod": "2026年9月17日(木)18:00~公演当日11:59",
+        "tradePeriod": "2026年9月17日(木)18:00～公演当日11:59",
         "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠(生誕祭確約枠)」「一般枠・一般ペア枠」となります。 ※本受付は、SKE48 Family会員の方のみを対象としております。トレードについてもSKE48 Family会員の方が対象となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
         "applyLinks": [
           {
