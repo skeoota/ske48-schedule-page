@@ -784,6 +784,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60140"
     },
     {
+      "performanceId": "P2610_106",
+      "category": "イベント",
+      "title": "笠松競馬場  『SKE48太田彩夏の笠馬X（カサマックス）』　トークショー ＆ 予想会",
+      "date": "2026-10-08",
+      "time": "",
+      "venue": "笠松競馬場（岐阜県羽島郡笠松町若葉町１２）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60242"
+    },
+    {
       "performanceId": "P2610_95",
       "category": "公演",
       "title": "「可能性こそが未来」公演 宮本倫花生誕祭＜18:00開演＞",

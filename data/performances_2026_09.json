@@ -4872,6 +4872,20 @@
         "member_110"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59688"
+    },
+    {
+      "performanceId": "P2609_263",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2026-09-30",
+      "time": "22:58",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60243"
     }
   ]
 }
