@@ -20,6 +20,21 @@
       "link": "https://ske48.co.jp/schedule/detail/59706"
     },
     {
+      "performanceId": "P2611_19",
+      "category": "メディア",
+      "title": "LOVEあいち・スペシャルコラボ「愛知県庁本庁舎公開イベント」",
+      "date": "2026-11-03",
+      "time": "16:00",
+      "venue": "愛知県庁本庁舎（名古屋市中区三の丸三丁目 1 番 2 号）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60249"
+    },
+    {
       "performanceId": "P2611_02",
       "category": "イベント",
       "title": "TOKAI RADIO主催「あたヒロ2026 -いつでもあたしがヒロイン神うたアイドル歌合戦-」",

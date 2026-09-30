@@ -4767,6 +4767,24 @@
       "link": "https://ske48.co.jp/schedule/detail/60061"
     },
     {
+      "performanceId": "P2609_264",
+      "category": "メディア",
+      "title": "「Documentary of IDOL BATTLE ALIVE 2026」#02",
+      "date": "2026-09-30",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_47",
+        "member_50",
+        "member_67",
+        "member_74",
+        "member_75",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60260"
+    },
+    {
       "performanceId": "P2609_126",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",

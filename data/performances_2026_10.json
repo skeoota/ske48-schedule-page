@@ -44,6 +44,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60077"
     },
     {
+      "performanceId": "P2610_107",
+      "category": "メディア",
+      "title": "エフエム熊本「FMK RADIO BUSTERS」",
+      "date": "2026-10-01",
+      "time": "16:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60262"
+    },
+    {
       "performanceId": "P2610_09",
       "category": "イベント",
       "title": "「SASUKEアイドル予選会2026 ー出場権争奪バトルー supported by CHINTAI」",
@@ -294,7 +307,7 @@
       "category": "メディア",
       "title": "Pococha「ウォッチパーティー&限定配信」",
       "date": "2026-10-02",
-      "time": "21:00",
+      "time": "20:00",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -476,6 +489,21 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59858"
+    },
+    {
+      "performanceId": "P2610_108",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-10-03",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_47",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60250"
     },
     {
       "performanceId": "P2610_47",
@@ -1275,6 +1303,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60233"
     },
     {
+      "performanceId": "P2610_109",
+      "category": "メディア",
+      "title": "メ～テレ「Digった！」",
+      "date": "2026-10-13",
+      "time": "11:40",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60252"
+    },
+    {
       "performanceId": "P2610_80",
       "category": "メディア",
       "title": "K-MIX「Pococha presents SKE48 赤堀君江の『きみのはなし。』」",
@@ -1340,6 +1381,19 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60141"
+    },
+    {
+      "performanceId": "P2610_110",
+      "category": "メディア",
+      "title": "メ～テレ「Digった！」",
+      "date": "2026-10-15",
+      "time": "15:40",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60253"
     },
     {
       "performanceId": "P2610_02",
@@ -1501,6 +1555,19 @@
         "member_2"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60106"
+    },
+    {
+      "performanceId": "P2610_111",
+      "category": "メディア",
+      "title": "資産形成情報チャンネルあしたのマネー",
+      "date": "2026-10-21",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60247"
     },
     {
       "performanceId": "P2610_07",
@@ -1699,6 +1766,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60107"
     },
     {
+      "performanceId": "P2610_112",
+      "category": "メディア",
+      "title": "資産形成情報チャンネルあしたのマネー",
+      "date": "2026-10-28",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60248"
+    },
+    {
       "performanceId": "P2610_21",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -1724,6 +1804,19 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60143"
+    },
+    {
+      "performanceId": "P2610_113",
+      "category": "メディア",
+      "title": "資産形成情報チャンネルあしたのマネー",
+      "date": "2026-10-30",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60246"
     },
     {
       "performanceId": "P2610_73",
