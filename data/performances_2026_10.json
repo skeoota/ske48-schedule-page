@@ -385,6 +385,23 @@
       "link": "https://ske48.co.jp/schedule/detail/60112"
     },
     {
+      "performanceId": "P2610_116",
+      "category": "メディア",
+      "title": "SKE48の大富豪はおわらない！14期生YouTube生配信",
+      "date": "2026-10-03",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_106",
+        "member_107",
+        "member_108",
+        "member_109",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/50659"
+    },
+    {
       "performanceId": "P2610_46",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -530,6 +547,34 @@
         "member_16"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60153"
+    },
+    {
+      "performanceId": "P2610_117",
+      "category": "メディア",
+      "title": "CSテレ朝チャンネル１「テレ朝サマフェス音楽LIVEイッキ見！」",
+      "date": "2026-10-04",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_26",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_85",
+        "member_89"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60261"
     },
     {
       "performanceId": "P2610_87",
@@ -1111,6 +1156,23 @@
       "link": "https://ske48.co.jp/schedule/detail/60227"
     },
     {
+      "performanceId": "P2610_115",
+      "category": "イベント",
+      "title": "SKE48 ×ガイア　タイアップ第６弾発表！",
+      "date": "2026-10-10",
+      "time": "",
+      "venue": "メガガイア明大前店",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_43",
+        "member_44",
+        "member_64",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60241"
+    },
+    {
       "performanceId": "P2610_56",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -1203,6 +1265,29 @@
         "member_16"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60154"
+    },
+    {
+      "performanceId": "P2610_114",
+      "category": "公演",
+      "title": "SKE48 バラエティアイドル育成プロジェクト「ミカンのむき方」＜17:00開演＞",
+      "date": "2026-10-11",
+      "time": "",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "SKE48",
+        "ピザ」につづく",
+        "member_81",
+        "member_16",
+        "member_77",
+        "member_82",
+        "member_48",
+        "member_75",
+        "member_64",
+        "member_2",
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60266"
     },
     {
       "performanceId": "P2610_44",

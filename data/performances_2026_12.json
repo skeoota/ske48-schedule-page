@@ -1,0 +1,137 @@
+{
+  "yearMonth": "2026-12",
+  "performances": [
+    {
+      "performanceId": "P2612_06",
+      "category": "誕生日",
+      "title": "井田玲音名誕生日",
+      "date": "2026-12-03",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_47"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47800"
+    },
+    {
+      "performanceId": "P2612_01",
+      "category": "イベント",
+      "title": "「arrowsプレゼンツ SKE48 8期生トークショー＆ファン交流イベント」",
+      "date": "2026-12-08",
+      "time": "",
+      "venue": "SKE48 劇場 supported by Pococha",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_5",
+        "member_8",
+        "member_9",
+        "member_16",
+        "member_50",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59783"
+    },
+    {
+      "performanceId": "P2612_07",
+      "category": "誕生日",
+      "title": "伊藤虹々美誕生日",
+      "date": "2026-12-08",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47952"
+    },
+    {
+      "performanceId": "P2612_02",
+      "category": "イベント",
+      "title": "劇団☆龍(Dragon)童子「月の子-Lunae Hostia-」アフターイベント",
+      "date": "2026-12-12",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60180"
+    },
+    {
+      "performanceId": "P2612_08",
+      "category": "誕生日",
+      "title": "太田愛恵誕生日",
+      "date": "2026-12-16",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_92"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/54688"
+    },
+    {
+      "performanceId": "P2612_09",
+      "category": "誕生日",
+      "title": "竹下茉莉花誕生日",
+      "date": "2026-12-17",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_108"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59183"
+    },
+    {
+      "performanceId": "P2612_03",
+      "category": "イベント",
+      "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地で2ショット撮影会 ※スタンディング形式 @AICHI SKY EXPO",
+      "date": "2026-12-26",
+      "time": "",
+      "venue": "AICHI SKY EXPO",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/59384"
+    },
+    {
+      "performanceId": "P2612_04",
+      "category": "イベント",
+      "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地で2ショット撮影会 ※着席形式 @AICHI SKY EXPO",
+      "date": "2026-12-27",
+      "time": "",
+      "venue": "AICHI SKY EXPO",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/59385"
+    },
+    {
+      "performanceId": "P2612_10",
+      "category": "誕生日",
+      "title": "鈴木恋奈誕生日",
+      "date": "2026-12-28",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_55"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/47813"
+    },
+    {
+      "performanceId": "P2612_05",
+      "category": "メディア",
+      "title": "「中日スポーツ」「東京中日スポーツ 電子版」",
+      "date": "2026-12-31",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/58427"
+    }
+  ]
+}
