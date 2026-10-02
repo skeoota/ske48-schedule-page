@@ -86,6 +86,24 @@
       "link": "https://ske48.co.jp/schedule/detail/59183"
     },
     {
+      "performanceId": "P2612_11",
+      "category": "イベント",
+      "title": "30-DELUX NAGOYA 5周年記念 Special STAGE「DoえりゃーX 名古屋！」",
+      "date": "2026-12-19",
+      "time": "",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_47",
+        "member_64",
+        "member_93",
+        "member_99",
+        "member_104",
+        "member_108"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60288"
+    },
+    {
       "performanceId": "P2612_03",
       "category": "イベント",
       "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地で2ショット撮影会 ※スタンディング形式 @AICHI SKY EXPO",
