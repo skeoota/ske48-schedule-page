@@ -59,6 +59,21 @@
       "link": "https://ske48.co.jp/schedule/detail/54694"
     },
     {
+      "performanceId": "P2611_20",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-11-07",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23",
+        "member_67",
+        "member_100"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60301"
+    },
+    {
       "performanceId": "P2611_07",
       "category": "誕生日",
       "title": "横井志穂誕生日",

@@ -606,6 +606,25 @@
       "link": "https://ske48.co.jp/schedule/detail/60261"
     },
     {
+      "performanceId": "P2610_125",
+      "category": "メディア",
+      "title": "「SKE48 初恋の瞬間」 SHOWROOM配信",
+      "date": "2026-10-04",
+      "time": "18:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_81",
+        "member_85",
+        "member_86",
+        "member_96",
+        "member_97",
+        "member_102"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60303"
+    },
+    {
       "performanceId": "P2610_87",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
@@ -704,6 +723,34 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2610_126",
+      "category": "メディア",
+      "title": "岐阜放送「ヒダミノ」",
+      "date": "2026-10-05",
+      "time": "18:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_26",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60302"
     },
     {
       "performanceId": "P2610_33",
@@ -873,6 +920,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60184"
     },
     {
+      "performanceId": "P2610_127",
+      "category": "メディア",
+      "title": "関西テレビ「ピーチケパーチケ」",
+      "date": "2026-10-07",
+      "time": "25:15",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60082"
+    },
+    {
       "performanceId": "P2610_51",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
@@ -897,6 +959,20 @@
         "member_26"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60242"
+    },
+    {
+      "performanceId": "P2610_128",
+      "category": "メディア",
+      "title": "三重テレビ「Mieライブ」",
+      "date": "2026-10-08",
+      "time": "17:40",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60304"
     },
     {
       "performanceId": "P2610_95",
@@ -1125,6 +1201,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60186"
     },
     {
+      "performanceId": "P2610_129",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-10-09",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_76",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60272"
+    },
+    {
       "performanceId": "P2610_30",
       "category": "イベント",
       "title": "「トヨタレッドテリアーズ 対タカギ北九州ウォーターウェーブ戦」",
@@ -1242,6 +1332,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60241"
     },
     {
+      "performanceId": "P2610_130",
+      "category": "メディア",
+      "title": "関西テレビ「ピーチケパーチケ」【再放送】",
+      "date": "2026-10-10",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60083"
+    },
+    {
       "performanceId": "P2610_56",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -1342,6 +1447,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60037"
     },
     {
+      "performanceId": "P2610_131",
+      "category": "メディア",
+      "title": "「オールスター感謝祭'26秋 放送70回記念SP」",
+      "date": "2026-10-10",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60236"
+    },
+    {
       "performanceId": "P2610_18",
       "category": "メディア",
       "title": "Pococha「ウォッチパーティー&限定配信」",
@@ -1354,6 +1472,25 @@
         "member_75"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59863"
+    },
+    {
+      "performanceId": "P2610_132",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-10-10",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_81",
+        "member_85",
+        "member_86",
+        "member_96",
+        "member_97",
+        "member_102"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60251"
     },
     {
       "performanceId": "P2610_55",
@@ -1974,6 +2111,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60132"
     },
     {
+      "performanceId": "P2610_133",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-10-17",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23",
+        "member_67",
+        "member_100"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60298"
+    },
+    {
       "performanceId": "P2610_62",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -2154,6 +2306,21 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60133"
+    },
+    {
+      "performanceId": "P2610_134",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-10-24",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23",
+        "member_67",
+        "member_100"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60299"
     },
     {
       "performanceId": "P2610_70",
@@ -2351,6 +2518,21 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60134"
+    },
+    {
+      "performanceId": "P2610_135",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-10-31",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23",
+        "member_67",
+        "member_100"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60300"
     },
     {
       "performanceId": "P2610_74",
