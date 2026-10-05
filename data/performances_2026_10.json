@@ -670,6 +670,34 @@
       "link": "https://ske48.co.jp/schedule/detail/60081"
     },
     {
+      "performanceId": "P2610_137",
+      "category": "メディア",
+      "title": "「デイリースポーツ」",
+      "date": "2026-10-05",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60313"
+    },
+    {
+      "performanceId": "P2610_138",
+      "category": "メディア",
+      "title": "「デイリースポーツonline」",
+      "date": "2026-10-05",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60314"
+    },
+    {
       "performanceId": "P2610_40",
       "category": "公演",
       "title": "18周年特別公演＜17:30開演＞",
@@ -753,6 +781,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60302"
     },
     {
+      "performanceId": "P2610_136",
+      "category": "メディア",
+      "title": "NHK名古屋「まるっと！」",
+      "date": "2026-10-05",
+      "time": "18:10",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60310"
+    },
+    {
       "performanceId": "P2610_33",
       "category": "メディア",
       "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
@@ -780,6 +821,19 @@
         "member_105"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60182"
+    },
+    {
+      "performanceId": "P2610_139",
+      "category": "メディア",
+      "title": "「FLASH」発売",
+      "date": "2026-10-06",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60308"
     },
     {
       "performanceId": "P2610_79",
