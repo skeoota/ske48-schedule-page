@@ -794,6 +794,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60310"
     },
     {
+      "performanceId": "P2610_142",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-10-05",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_92"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60339"
+    },
+    {
       "performanceId": "P2610_33",
       "category": "メディア",
       "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
@@ -887,6 +900,37 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59967"
+    },
+    {
+      "performanceId": "P2610_143",
+      "category": "メディア",
+      "title": "「週刊SPA!」",
+      "date": "2026-10-07",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_102"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60325"
+    },
+    {
+      "performanceId": "P2610_144",
+      "category": "メディア",
+      "title": "「Documentary of IDOL BATTLE ALIVE 2026」#03",
+      "date": "2026-10-07",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_47",
+        "member_50",
+        "member_67",
+        "member_74",
+        "member_75",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60334"
     },
     {
       "performanceId": "P2610_101",
@@ -1707,6 +1751,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60034"
     },
     {
+      "performanceId": "P2610_145",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-12",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_100"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60187"
+    },
+    {
       "performanceId": "P2610_103",
       "category": "メディア",
       "title": "「月刊『こどもの本』」",
@@ -1824,6 +1882,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59864"
     },
     {
+      "performanceId": "P2610_146",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-13",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_94",
+        "member_95"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60188"
+    },
+    {
       "performanceId": "P2610_28",
       "category": "メディア",
       "title": "資産形成情報チャンネルあしたのマネー",
@@ -1913,6 +1985,20 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2610_147",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-14",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_78",
+        "member_89"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60189"
     },
     {
       "performanceId": "P2610_58",
@@ -2005,6 +2091,20 @@
       }
     },
     {
+      "performanceId": "P2610_148",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-15",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60190"
+    },
+    {
       "performanceId": "P2610_02",
       "category": "イベント",
       "title": "「第５回アジアパラ競技大会(2026/愛知・名古屋)聖火リレーＰＲランナー」",
@@ -2094,6 +2194,20 @@
         "member_44"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60109"
+    },
+    {
+      "performanceId": "P2610_149",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-16",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_92"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60191"
     },
     {
       "performanceId": "P2610_83",
@@ -2232,6 +2346,20 @@
       "link": "https://ske48.co.jp/schedule/detail/54695"
     },
     {
+      "performanceId": "P2610_150",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-19",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_109"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60192"
+    },
+    {
       "performanceId": "P2610_81",
       "category": "メディア",
       "title": "K-MIX「Pococha presents SKE48 赤堀君江の『きみのはなし。』」",
@@ -2245,6 +2373,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60106"
     },
     {
+      "performanceId": "P2610_151",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-20",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_9"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60193"
+    },
+    {
       "performanceId": "P2610_111",
       "category": "メディア",
       "title": "資産形成情報チャンネルあしたのマネー",
@@ -2256,6 +2398,20 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60247"
+    },
+    {
+      "performanceId": "P2610_152",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-21",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_92",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60194"
     },
     {
       "performanceId": "P2610_07",
@@ -2284,6 +2440,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60142"
     },
     {
+      "performanceId": "P2610_153",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-22",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60195"
+    },
+    {
       "performanceId": "P2610_104",
       "category": "メディア",
       "title": "「IDOL AND READ」",
@@ -2308,6 +2478,20 @@
         "member_44"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60110"
+    },
+    {
+      "performanceId": "P2610_154",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-23",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_47",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60196"
     },
     {
       "performanceId": "P2610_84",
@@ -2572,6 +2756,22 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60116"
+    },
+    {
+      "performanceId": "P2610_141",
+      "category": "イベント",
+      "title": "FC岐阜応援隊「FC岐阜 vs FC大阪」",
+      "date": "2026-10-31",
+      "time": "",
+      "venue": "岐阜メモリアルセンター ヒマラヤスタジアム岐阜 （ 岐阜市長良福光大野２６７５−２８）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_9",
+        "member_13",
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60333"
     },
     {
       "performanceId": "P2610_77",
