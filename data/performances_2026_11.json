@@ -20,6 +20,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59706"
     },
     {
+      "performanceId": "P2611_21",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-11-02",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60353"
+    },
+    {
       "performanceId": "P2611_19",
       "category": "メディア",
       "title": "LOVEあいち・スペシャルコラボ「愛知県庁本庁舎公開イベント」",
@@ -42,7 +55,31 @@
       "time": "",
       "venue": "COMTEC PORTBASE （名古屋市港区金川町 3 番 5 号）",
       "status": "SCHEDULED",
-      "castIds": [],
+      "castIds": [
+        "member_3",
+        "member_4",
+        "member_5",
+        "member_8",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_26",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
+        "member_74",
+        "member_76",
+        "member_78",
+        "member_81",
+        "member_82",
+        "member_85",
+        "member_86",
+        "member_89",
+        "member_90"
+      ],
       "link": "https://ske48.co.jp/schedule/detail/58682"
     },
     {
@@ -136,6 +173,19 @@
         "member_107"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59973"
+    },
+    {
+      "performanceId": "P2611_22",
+      "category": "メディア",
+      "title": "MBSラジオ「トヨタレンタリース大阪 PRESENTS 街と地球のSDGs」",
+      "date": "2026-11-14",
+      "time": "16:55",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60362"
     },
     {
       "performanceId": "P2611_16",
