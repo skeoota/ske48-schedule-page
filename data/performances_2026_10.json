@@ -1191,6 +1191,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60185"
     },
     {
+      "performanceId": "P2610_168",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-10-08",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_67",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60365"
+    },
+    {
       "performanceId": "P2610_34",
       "category": "メディア",
       "title": "SHOWROOM『恋シュンの旬』",
@@ -1500,6 +1515,24 @@
       "link": "https://ske48.co.jp/schedule/detail/60083"
     },
     {
+      "performanceId": "P2610_132",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-10-10",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_81",
+        "member_85",
+        "member_96",
+        "member_97",
+        "member_102"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60251"
+    },
+    {
       "performanceId": "P2610_56",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -1537,7 +1570,6 @@
         "member_81",
         "member_96",
         "member_77",
-        "member_86",
         "member_97",
         "member_85",
         "member_102"
@@ -1604,7 +1636,7 @@
       "category": "メディア",
       "title": "「オールスター感謝祭'26秋 放送70回記念SP」",
       "date": "2026-10-10",
-      "time": "17:30",
+      "time": "17:40",
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
@@ -1625,25 +1657,6 @@
         "member_75"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59863"
-    },
-    {
-      "performanceId": "P2610_132",
-      "category": "メディア",
-      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
-      "date": "2026-10-10",
-      "time": "21:00",
-      "venue": "외부 행사장",
-      "status": "SCHEDULED",
-      "castIds": [
-        "member_77",
-        "member_81",
-        "member_85",
-        "member_86",
-        "member_96",
-        "member_97",
-        "member_102"
-      ],
-      "link": "https://ske48.co.jp/schedule/detail/60251"
     },
     {
       "performanceId": "P2610_55",
@@ -1871,7 +1884,6 @@
       "castIds": [
         "member_76",
         "member_55",
-        "member_90",
         "member_91",
         "member_82",
         "member_86",
@@ -1880,6 +1892,7 @@
         "member_13",
         "member_72",
         "member_89",
+        "member_94",
         "member_104"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60279",
@@ -2175,6 +2188,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60190"
     },
     {
+      "performanceId": "P2610_169",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-10-15",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_67",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60366"
+    },
+    {
       "performanceId": "P2610_02",
       "category": "イベント",
       "title": "「第５回アジアパラ競技大会(2026/愛知・名古屋)聖火リレーＰＲランナー」",
@@ -2202,6 +2230,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60358"
     },
     {
+      "performanceId": "P2610_170",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-10-16",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60274"
+    },
+    {
       "performanceId": "P2610_122",
       "category": "公演",
       "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
@@ -2220,8 +2262,8 @@
         "member_86",
         "member_97",
         "member_52",
-        "member_19",
-        "member_93"
+        "member_75",
+        "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60282",
       "ticketInfo": {
@@ -2360,6 +2402,20 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60114"
+    },
+    {
+      "performanceId": "P2610_171",
+      "category": "メディア",
+      "title": "LOVE FM「大野Jタカシのロマンチックラジオ！」",
+      "date": "2026-10-17",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60364"
     },
     {
       "performanceId": "P2610_61",

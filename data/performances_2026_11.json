@@ -33,6 +33,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60353"
     },
     {
+      "performanceId": "P2611_23",
+      "category": "イベント",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい公開録音 vol.22」",
+      "date": "2026-11-03",
+      "time": "",
+      "venue": "CBC1スタホール（愛知県名古屋市中区新栄1-2-8 CBC会",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_9",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60367"
+    },
+    {
       "performanceId": "P2611_19",
       "category": "メディア",
       "title": "LOVEあいち・スペシャルコラボ「愛知県庁本庁舎公開イベント」",
@@ -349,6 +364,34 @@
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59382"
+    },
+    {
+      "performanceId": "P2611_24",
+      "category": "イベント",
+      "title": "「ウェスティン都ホテル京都 ディナーショー」",
+      "date": "2026-11-28",
+      "time": "",
+      "venue": "ウェスティン都ホテル京都「瑞穂の間」",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_26",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60384"
     },
     {
       "performanceId": "P2611_05",
