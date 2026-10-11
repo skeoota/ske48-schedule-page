@@ -1736,6 +1736,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60355"
     },
     {
+      "performanceId": "P2610_172",
+      "category": "イベント",
+      "title": "サンシャインサカエトークイベント「SKE48 トーク!トーク!!トーク!!!」",
+      "date": "2026-10-11",
+      "time": "",
+      "venue": "B1F グランドキャニオン広場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_44",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60387"
+    },
+    {
       "performanceId": "P2610_44",
       "category": "イベント",
       "title": "「ケーブルフェスタ2026」ドラナビ公開収録",
@@ -2068,6 +2083,22 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2610_173",
+      "category": "メディア",
+      "title": "ニコニコチャンネル「SKE48非公式ちゃんねる」",
+      "date": "2026-10-14",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_72",
+        "member_75",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60388"
     },
     {
       "performanceId": "P2610_147",
@@ -2416,6 +2447,21 @@
         "member_81"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60364"
+    },
+    {
+      "performanceId": "P2610_174",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-10-17",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_79",
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60385"
     },
     {
       "performanceId": "P2610_61",
