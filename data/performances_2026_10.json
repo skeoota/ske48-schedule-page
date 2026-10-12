@@ -329,6 +329,20 @@
       }
     },
     {
+      "performanceId": "P2610_175",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-10-02",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60390"
+    },
+    {
       "performanceId": "P2610_12",
       "category": "メディア",
       "title": "Pococha「ウォッチパーティー&限定配信」",
@@ -1328,6 +1342,20 @@
       "link": "https://ske48.co.jp/schedule/detail/59652"
     },
     {
+      "performanceId": "P2610_176",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60391"
+    },
+    {
       "performanceId": "P2610_17",
       "category": "メディア",
       "title": "Pococha「ウォッチパーティー&限定配信」",
@@ -1821,6 +1849,22 @@
       "link": "https://ske48.co.jp/schedule/detail/59390"
     },
     {
+      "performanceId": "P2610_177",
+      "category": "メディア",
+      "title": "「日刊SPA!」",
+      "date": "2026-10-12",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_44",
+        "member_67",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60395"
+    },
+    {
       "performanceId": "P2610_163",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
@@ -1898,8 +1942,8 @@
       "status": "SCHEDULED",
       "castIds": [
         "member_76",
-        "member_55",
         "member_91",
+        "member_79",
         "member_82",
         "member_86",
         "member_19",
@@ -2035,9 +2079,9 @@
         "member_23",
         "member_49",
         "member_50",
+        "member_96",
         "member_9",
         "member_76",
-        "member_55",
         "member_16",
         "member_77",
         "member_79"
@@ -2337,6 +2381,20 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2610_178",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-10-16",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60392"
     },
     {
       "performanceId": "P2610_59",
