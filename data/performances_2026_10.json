@@ -1920,6 +1920,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60233"
     },
     {
+      "performanceId": "P2610_179",
+      "category": "メディア",
+      "title": "CBCラジオ「ドラ魂キング」",
+      "date": "2026-10-13",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60396"
+    },
+    {
       "performanceId": "P2610_109",
       "category": "メディア",
       "title": "メ～テレ「Digった！」",
@@ -2550,6 +2563,23 @@
       "link": "https://ske48.co.jp/schedule/detail/60298"
     },
     {
+      "performanceId": "P2610_180",
+      "category": "メディア",
+      "title": "ニコニコチャンネル「SKE48非公式ちゃんねる」",
+      "date": "2026-10-17",
+      "time": "18:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_106",
+        "member_107",
+        "member_108",
+        "member_109",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60401"
+    },
+    {
       "performanceId": "P2610_62",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -2867,6 +2897,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60357"
     },
     {
+      "performanceId": "P2610_181",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-10-23",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60393"
+    },
+    {
       "performanceId": "P2610_66",
       "category": "メディア",
       "title": "TOKAI RADIO「NEXTies!」",
@@ -3181,6 +3225,20 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60246"
+    },
+    {
+      "performanceId": "P2610_182",
+      "category": "メディア",
+      "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-10-30",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60394"
     },
     {
       "performanceId": "P2610_73",
