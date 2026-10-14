@@ -2064,6 +2064,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59968"
     },
     {
+      "performanceId": "P2610_183",
+      "category": "メディア",
+      "title": "「Documentary of IDOL BATTLE ALIVE 2026」#04",
+      "date": "2026-10-14",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60409"
+    },
+    {
       "performanceId": "P2610_20",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -2548,6 +2561,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60132"
     },
     {
+      "performanceId": "P2610_184",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2026-10-17",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60410"
+    },
+    {
       "performanceId": "P2610_133",
       "category": "メディア",
       "title": "岐阜放送「SKE48のひだまりハートカフェ」",
@@ -2748,6 +2774,19 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60247"
+    },
+    {
+      "performanceId": "P2610_185",
+      "category": "メディア",
+      "title": "メ～テレ「Digった！」",
+      "date": "2026-10-21",
+      "time": "10:40",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60404"
     },
     {
       "performanceId": "P2610_156",
@@ -3003,6 +3042,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60133"
     },
     {
+      "performanceId": "P2610_186",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2026-10-24",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60411"
+    },
+    {
       "performanceId": "P2610_134",
       "category": "メディア",
       "title": "岐阜放送「SKE48のひだまりハートカフェ」",
@@ -3095,6 +3147,19 @@
         "member_91"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60352"
+    },
+    {
+      "performanceId": "P2610_187",
+      "category": "メディア",
+      "title": "メ～テレ「Digった！」",
+      "date": "2026-10-27",
+      "time": "11:40",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60405"
     },
     {
       "performanceId": "P2610_82",
@@ -3348,6 +3413,19 @@
         "member_100"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60300"
+    },
+    {
+      "performanceId": "P2610_188",
+      "category": "メディア",
+      "title": "奈良テレビ「知ってる？奈良のシカは 野生動物なんだって！～奈良のシカとの接し方 初級編～」",
+      "date": "2026-10-31",
+      "time": "18:10",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60376"
     },
     {
       "performanceId": "P2610_74",

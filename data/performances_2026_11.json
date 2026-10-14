@@ -2,6 +2,32 @@
   "yearMonth": "2026-11",
   "performances": [
     {
+      "performanceId": "P2611_25",
+      "category": "イベント",
+      "title": "「Mt.高越ヒルクライム2026　～阿波富士おこおっつぁんへの挑戦～」",
+      "date": "2026-11-01",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60408"
+    },
+    {
+      "performanceId": "P2611_26",
+      "category": "メディア",
+      "title": "奈良テレビ「知ってる？奈良のシカは 野生動物なんだって！～奈良のシカとの接し方 初級編～」",
+      "date": "2026-11-01",
+      "time": "18:05",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60377"
+    },
+    {
       "performanceId": "P2611_01",
       "category": "イベント",
       "title": "「IDOL BATTLE ALIVE 2026」",
@@ -126,6 +152,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60301"
     },
     {
+      "performanceId": "P2611_27",
+      "category": "メディア",
+      "title": "奈良テレビ「知ってる？奈良のシカは 野生動物なんだって！～奈良のシカとの接し方 初級編～」",
+      "date": "2026-11-07",
+      "time": "18:10",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60378"
+    },
+    {
       "performanceId": "P2611_07",
       "category": "誕生日",
       "title": "横井志穂誕生日",
@@ -137,6 +176,19 @@
         "member_105"
       ],
       "link": "https://ske48.co.jp/schedule/detail/54700"
+    },
+    {
+      "performanceId": "P2611_28",
+      "category": "メディア",
+      "title": "奈良テレビ「知ってる？奈良のシカは 野生動物なんだって！～奈良のシカとの接し方 初級編～」",
+      "date": "2026-11-08",
+      "time": "18:05",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60379"
     },
     {
       "performanceId": "P2611_08",
