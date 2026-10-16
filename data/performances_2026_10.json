@@ -2198,6 +2198,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60141"
     },
     {
+      "performanceId": "P2610_190",
+      "category": "メディア",
+      "title": "「中日スポーツ」ボートレース予想サイト 【なっきぃのラッキーレーサー】",
+      "date": "2026-10-15",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60420"
+    },
+    {
       "performanceId": "P2610_110",
       "category": "メディア",
       "title": "メ～テレ「Digった！」",
@@ -2436,6 +2449,24 @@
       "link": "https://ske48.co.jp/schedule/detail/60109"
     },
     {
+      "performanceId": "P2610_191",
+      "category": "メディア",
+      "title": "「Forty-Eight Times」（AKB48新聞電子版）",
+      "date": "2026-10-16",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_16",
+        "member_43",
+        "member_49",
+        "member_50",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60433"
+    },
+    {
       "performanceId": "P2610_149",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -2632,6 +2663,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60155"
     },
     {
+      "performanceId": "P2610_189",
+      "category": "イベント",
+      "title": "「ONE HEART WORLD」",
+      "date": "2026-10-18",
+      "time": "17:30",
+      "venue": "オアシス 21 （名古屋市東区東桜１丁目１１ − １）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60431"
+    },
+    {
       "performanceId": "P2610_06",
       "category": "誕生日",
       "title": "佐々木希美誕生日",
@@ -2720,6 +2765,21 @@
         "member_91"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60351"
+    },
+    {
+      "performanceId": "P2610_192",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-10-19",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_50",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60435"
     },
     {
       "performanceId": "P2610_150",
@@ -3147,6 +3207,21 @@
         "member_91"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60352"
+    },
+    {
+      "performanceId": "P2610_193",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-10-26",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_50",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60436"
     },
     {
       "performanceId": "P2610_187",
