@@ -2677,6 +2677,22 @@
       "link": "https://ske48.co.jp/schedule/detail/60431"
     },
     {
+      "performanceId": "P2610_194",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
+      "date": "2026-10-18",
+      "time": "19:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_44",
+        "member_74",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60446"
+    },
+    {
       "performanceId": "P2610_06",
       "category": "誕生日",
       "title": "佐々木希美誕生日",
@@ -3089,6 +3105,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60115"
     },
     {
+      "performanceId": "P2610_195",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-10-24",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8",
+        "member_82",
+        "member_89"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60448"
+    },
+    {
       "performanceId": "P2610_69",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -3165,6 +3196,22 @@
         "member_16"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60156"
+    },
+    {
+      "performanceId": "P2610_196",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
+      "date": "2026-10-25",
+      "time": "19:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_44",
+        "member_74",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60447"
     },
     {
       "performanceId": "P2610_105",
