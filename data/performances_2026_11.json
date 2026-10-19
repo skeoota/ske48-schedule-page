@@ -92,6 +92,22 @@
       "link": "https://ske48.co.jp/schedule/detail/60377"
     },
     {
+      "performanceId": "P2611_35",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
+      "date": "2026-11-01",
+      "time": "19:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60450"
+    },
+    {
       "performanceId": "P2611_01",
       "category": "イベント",
       "title": "「IDOL BATTLE ALIVE 2026」",
@@ -462,6 +478,22 @@
       "link": "https://ske48.co.jp/schedule/detail/60379"
     },
     {
+      "performanceId": "P2611_36",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
+      "date": "2026-11-08",
+      "time": "19:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60451"
+    },
+    {
       "performanceId": "P2611_34",
       "category": "メディア",
       "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
@@ -578,6 +610,22 @@
         "member_110"
       ],
       "link": "https://ske48.co.jp/schedule/detail/59974"
+    },
+    {
+      "performanceId": "P2611_37",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
+      "date": "2026-11-15",
+      "time": "19:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60452"
     },
     {
       "performanceId": "P2611_09",

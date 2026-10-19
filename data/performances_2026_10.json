@@ -2983,6 +2983,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60195"
     },
     {
+      "performanceId": "P2610_197",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-10-22",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_43",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60453"
+    },
+    {
       "performanceId": "P2610_104",
       "category": "メディア",
       "title": "「IDOL AND READ」",
@@ -3399,6 +3414,21 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60143"
+    },
+    {
+      "performanceId": "P2610_198",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-10-29",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_85",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60454"
     },
     {
       "performanceId": "P2610_113",
