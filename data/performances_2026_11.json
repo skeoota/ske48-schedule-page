@@ -15,6 +15,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60408"
     },
     {
+      "performanceId": "P2611_40",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2026-11-01",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60157"
+    },
+    {
       "performanceId": "P2611_29",
       "category": "公演",
       "title": "チームS「ずっと君を探している」公演 相川暖花生誕祭＜17:00開演＞",
@@ -312,6 +325,19 @@
       }
     },
     {
+      "performanceId": "P2611_41",
+      "category": "メディア",
+      "title": "K-MIX「Pococha presents SKE48 赤堀君江の『きみのはなし。』」",
+      "date": "2026-11-03",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60474"
+    },
+    {
       "performanceId": "P2611_32",
       "category": "公演",
       "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
@@ -376,6 +402,19 @@
       }
     },
     {
+      "performanceId": "P2611_42",
+      "category": "メディア",
+      "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
+      "date": "2026-11-05",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60458"
+    },
+    {
       "performanceId": "P2611_02",
       "category": "イベント",
       "title": "TOKAI RADIO主催「あたヒロ2026 -いつでもあたしがヒロイン神うたアイドル歌合戦-」",
@@ -411,6 +450,19 @@
       "link": "https://ske48.co.jp/schedule/detail/58682"
     },
     {
+      "performanceId": "P2611_43",
+      "category": "メディア",
+      "title": "TOKAI RADIO「NEXTies!」",
+      "date": "2026-11-06",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60466"
+    },
+    {
       "performanceId": "P2611_06",
       "category": "誕生日",
       "title": "桜井愛莉咲誕生日",
@@ -422,6 +474,61 @@
         "member_98"
       ],
       "link": "https://ske48.co.jp/schedule/detail/54694"
+    },
+    {
+      "performanceId": "P2611_38",
+      "category": "イベント",
+      "title": "FC岐阜応援隊「FC岐阜 vs ギラヴァンツ北九州」",
+      "date": "2026-11-07",
+      "time": "",
+      "venue": "岐阜メモリアルセンター ヒマラヤスタジアム岐阜 （ 岐阜市長良福光大野２６７５−２８）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_44",
+        "member_64",
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60486"
+    },
+    {
+      "performanceId": "P2611_46",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2026-11-07",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60149"
+    },
+    {
+      "performanceId": "P2611_47",
+      "category": "メディア",
+      "title": "「東京スポーツ」発売",
+      "date": "2026-11-07",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60117"
+    },
+    {
+      "performanceId": "P2611_44",
+      "category": "メディア",
+      "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
+      "date": "2026-11-07",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60135"
     },
     {
       "performanceId": "P2611_20",
@@ -452,6 +559,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60378"
     },
     {
+      "performanceId": "P2611_45",
+      "category": "メディア",
+      "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
+      "date": "2026-11-07",
+      "time": "24:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60126"
+    },
+    {
       "performanceId": "P2611_07",
       "category": "誕生日",
       "title": "横井志穂誕生日",
@@ -463,6 +583,19 @@
         "member_105"
       ],
       "link": "https://ske48.co.jp/schedule/detail/54700"
+    },
+    {
+      "performanceId": "P2611_48",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2026-11-08",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60158"
     },
     {
       "performanceId": "P2611_28",
@@ -522,6 +655,45 @@
       "link": "https://ske48.co.jp/schedule/detail/47802"
     },
     {
+      "performanceId": "P2611_49",
+      "category": "メディア",
+      "title": "K-MIX「Pococha presents SKE48 赤堀君江の『きみのはなし。』」",
+      "date": "2026-11-10",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60475"
+    },
+    {
+      "performanceId": "P2611_50",
+      "category": "メディア",
+      "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
+      "date": "2026-11-12",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60459"
+    },
+    {
+      "performanceId": "P2611_51",
+      "category": "メディア",
+      "title": "TOKAI RADIO「NEXTies!」",
+      "date": "2026-11-13",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60467"
+    },
+    {
       "performanceId": "P2611_15",
       "category": "イベント",
       "title": "SKE48 37th single「ため息未来」オンライン1on1トーク会",
@@ -560,6 +732,61 @@
       "link": "https://ske48.co.jp/schedule/detail/59973"
     },
     {
+      "performanceId": "P2611_39",
+      "category": "イベント",
+      "title": "FC岐阜応援隊「FC岐阜 vs 松本山雅FC」",
+      "date": "2026-11-14",
+      "time": "",
+      "venue": "岐阜メモリアルセンター ヒマラヤスタジアム岐阜 （ 岐阜市長良福光大野２６７５−２８）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_26",
+        "member_67",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60483"
+    },
+    {
+      "performanceId": "P2611_53",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2026-11-14",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60150"
+    },
+    {
+      "performanceId": "P2611_54",
+      "category": "メディア",
+      "title": "「東京スポーツ」発売",
+      "date": "2026-11-14",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60118"
+    },
+    {
+      "performanceId": "P2611_52",
+      "category": "メディア",
+      "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
+      "date": "2026-11-14",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60136"
+    },
+    {
       "performanceId": "P2611_22",
       "category": "メディア",
       "title": "MBSラジオ「トヨタレンタリース大阪 PRESENTS 街と地球のSDGs」",
@@ -571,6 +798,19 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60362"
+    },
+    {
+      "performanceId": "P2611_55",
+      "category": "メディア",
+      "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
+      "date": "2026-11-14",
+      "time": "24:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60127"
     },
     {
       "performanceId": "P2611_16",
@@ -612,6 +852,19 @@
       "link": "https://ske48.co.jp/schedule/detail/59974"
     },
     {
+      "performanceId": "P2611_56",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2026-11-15",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60159"
+    },
+    {
       "performanceId": "P2611_37",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
@@ -628,6 +881,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60452"
     },
     {
+      "performanceId": "P2611_57",
+      "category": "メディア",
+      "title": "K-MIX「Pococha presents SKE48 赤堀君江の『きみのはなし。』」",
+      "date": "2026-11-17",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60476"
+    },
+    {
       "performanceId": "P2611_09",
       "category": "誕生日",
       "title": "松本慈子誕生日",
@@ -641,6 +907,19 @@
       "link": "https://ske48.co.jp/schedule/detail/47798"
     },
     {
+      "performanceId": "P2611_58",
+      "category": "メディア",
+      "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
+      "date": "2026-11-19",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60460"
+    },
+    {
       "performanceId": "P2611_10",
       "category": "誕生日",
       "title": "長谷川雅誕生日",
@@ -652,6 +931,84 @@
         "member_89"
       ],
       "link": "https://ske48.co.jp/schedule/detail/47810"
+    },
+    {
+      "performanceId": "P2611_59",
+      "category": "メディア",
+      "title": "TOKAI RADIO「NEXTies!」",
+      "date": "2026-11-20",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60468"
+    },
+    {
+      "performanceId": "P2611_61",
+      "category": "メディア",
+      "title": "「東京スポーツ」発売",
+      "date": "2026-11-21",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60119"
+    },
+    {
+      "performanceId": "P2611_63",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2026-11-21",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60151"
+    },
+    {
+      "performanceId": "P2611_60",
+      "category": "メディア",
+      "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
+      "date": "2026-11-21",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60137"
+    },
+    {
+      "performanceId": "P2611_62",
+      "category": "メディア",
+      "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
+      "date": "2026-11-21",
+      "time": "24:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60128"
+    },
+    {
+      "performanceId": "P2611_64",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2026-11-22",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60160"
     },
     {
       "performanceId": "P2611_17",
@@ -702,6 +1059,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60045"
     },
     {
+      "performanceId": "P2611_65",
+      "category": "メディア",
+      "title": "K-MIX「Pococha presents SKE48 赤堀君江の『きみのはなし。』」",
+      "date": "2026-11-24",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60477"
+    },
+    {
       "performanceId": "P2611_13",
       "category": "誕生日",
       "title": "近藤海琴誕生日",
@@ -713,6 +1083,19 @@
         "member_97"
       ],
       "link": "https://ske48.co.jp/schedule/detail/54693"
+    },
+    {
+      "performanceId": "P2611_66",
+      "category": "メディア",
+      "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
+      "date": "2026-11-26",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60461"
     },
     {
       "performanceId": "P2611_03",
@@ -739,6 +1122,19 @@
         "member_95"
       ],
       "link": "https://ske48.co.jp/schedule/detail/54691"
+    },
+    {
+      "performanceId": "P2611_67",
+      "category": "メディア",
+      "title": "TOKAI RADIO「NEXTies!」",
+      "date": "2026-11-27",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60469"
     },
     {
       "performanceId": "P2611_04",
@@ -780,6 +1176,58 @@
       "link": "https://ske48.co.jp/schedule/detail/60384"
     },
     {
+      "performanceId": "P2611_68",
+      "category": "メディア",
+      "title": "「東京スポーツ」発売",
+      "date": "2026-11-28",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60120"
+    },
+    {
+      "performanceId": "P2611_70",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48中坂美祐の元祖鯱もなかさかラジオ」",
+      "date": "2026-11-28",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60152"
+    },
+    {
+      "performanceId": "P2611_71",
+      "category": "メディア",
+      "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
+      "date": "2026-11-28",
+      "time": "11:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60138"
+    },
+    {
+      "performanceId": "P2611_69",
+      "category": "メディア",
+      "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
+      "date": "2026-11-28",
+      "time": "24:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60129"
+    },
+    {
       "performanceId": "P2611_05",
       "category": "イベント",
       "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地でトーク会・握手会 @AICHI SKY EXPO",
@@ -789,6 +1237,19 @@
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/59383"
+    },
+    {
+      "performanceId": "P2611_72",
+      "category": "メディア",
+      "title": "TOKAI RADIO「KORE-SUKI! RADIO」",
+      "date": "2026-11-29",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60161"
     }
   ]
 }

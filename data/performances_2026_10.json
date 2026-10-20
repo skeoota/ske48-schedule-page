@@ -3027,6 +3027,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60357"
     },
     {
+      "performanceId": "P2610_199",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-10-23",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_79",
+        "member_102"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60275"
+    },
+    {
       "performanceId": "P2610_181",
       "category": "メディア",
       "title": "FM AICHI「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
@@ -3286,6 +3301,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60436"
     },
     {
+      "performanceId": "P2610_200",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-26",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_8",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60197"
+    },
+    {
       "performanceId": "P2610_187",
       "category": "メディア",
       "title": "メ～テレ「Digった！」",
@@ -3310,6 +3339,20 @@
         "member_2"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60107"
+    },
+    {
+      "performanceId": "P2610_201",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-27",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_52",
+        "member_93"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60198"
     },
     {
       "performanceId": "P2610_112",
@@ -3403,6 +3446,20 @@
       }
     },
     {
+      "performanceId": "P2610_202",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-28",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_78",
+        "member_101"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60199"
+    },
+    {
       "performanceId": "P2610_72",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
@@ -3414,6 +3471,20 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60143"
+    },
+    {
+      "performanceId": "P2610_203",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-29",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60200"
     },
     {
       "performanceId": "P2610_198",
@@ -3469,6 +3540,20 @@
         "member_44"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60111"
+    },
+    {
+      "performanceId": "P2610_204",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-10-30",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_34",
+        "member_64"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60201"
     },
     {
       "performanceId": "P2610_23",
