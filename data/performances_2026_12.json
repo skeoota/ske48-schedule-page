@@ -60,6 +60,20 @@
       "link": "https://ske48.co.jp/schedule/detail/47952"
     },
     {
+      "performanceId": "P2612_16",
+      "category": "メディア",
+      "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
+      "date": "2026-12-09",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48",
+        "member_76"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60494"
+    },
+    {
       "performanceId": "P2612_13",
       "category": "イベント",
       "title": "SKE48 初恋の瞬間 1st LIVE 恋する瞬間",
@@ -170,6 +184,20 @@
         "member_108"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60428"
+    },
+    {
+      "performanceId": "P2612_17",
+      "category": "メディア",
+      "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
+      "date": "2026-12-23",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48",
+        "member_76"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60495"
     },
     {
       "performanceId": "P2612_03",

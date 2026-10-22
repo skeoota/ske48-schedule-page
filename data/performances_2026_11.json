@@ -668,6 +668,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60475"
     },
     {
+      "performanceId": "P2611_73",
+      "category": "メディア",
+      "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
+      "date": "2026-11-11",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48",
+        "member_76"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60492"
+    },
+    {
       "performanceId": "P2611_50",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
@@ -1083,6 +1097,20 @@
         "member_97"
       ],
       "link": "https://ske48.co.jp/schedule/detail/54693"
+    },
+    {
+      "performanceId": "P2611_74",
+      "category": "メディア",
+      "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
+      "date": "2026-11-25",
+      "time": "12:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48",
+        "member_76"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60493"
     },
     {
       "performanceId": "P2611_66",

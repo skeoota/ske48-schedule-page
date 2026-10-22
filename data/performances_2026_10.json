@@ -937,7 +937,7 @@
       "venue": "외부 행사장",
       "status": "SCHEDULED",
       "castIds": [
-        "member_102"
+        "member_43"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60325"
     },
@@ -2852,6 +2852,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60247"
     },
     {
+      "performanceId": "P2610_205",
+      "category": "メディア",
+      "title": "「週刊SPA!」",
+      "date": "2026-10-21",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60496"
+    },
+    {
       "performanceId": "P2610_185",
       "category": "メディア",
       "title": "メ～テレ「Digった！」",
@@ -2879,9 +2892,9 @@
         "member_23",
         "member_49",
         "member_50",
+        "member_96",
         "member_9",
         "member_76",
-        "member_55",
         "member_16",
         "member_77",
         "member_79"
@@ -3513,6 +3526,19 @@
         "member_19"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60246"
+    },
+    {
+      "performanceId": "P2610_206",
+      "category": "メディア",
+      "title": "「BUBKA 12月号」発売日",
+      "date": "2026-10-30",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_75"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60506"
     },
     {
       "performanceId": "P2610_182",
