@@ -3805,6 +3805,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60333"
     },
     {
+      "performanceId": "P2610_213",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-10-31",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44",
+        "member_74",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60449"
+    },
+    {
       "performanceId": "P2610_77",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -3829,6 +3844,19 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60361"
+    },
+    {
+      "performanceId": "P2610_214",
+      "category": "メディア",
+      "title": "佐賀競馬公式YouTube「てっちゃんのSAGAリベンジャーズ」",
+      "date": "2026-10-31",
+      "time": "17:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60525"
     },
     {
       "performanceId": "P2610_135",
