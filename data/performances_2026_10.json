@@ -3219,6 +3219,32 @@
       "link": "https://ske48.co.jp/schedule/detail/60523"
     },
     {
+      "performanceId": "P2610_215",
+      "category": "メディア",
+      "title": "「デイリースポーツ」",
+      "date": "2026-10-24",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60530"
+    },
+    {
+      "performanceId": "P2610_216",
+      "category": "メディア",
+      "title": "「デイリースポーツonline」",
+      "date": "2026-10-24",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60531"
+    },
+    {
       "performanceId": "P2610_69",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
