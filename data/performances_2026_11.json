@@ -28,6 +28,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60157"
     },
     {
+      "performanceId": "P2611_78",
+      "category": "メディア",
+      "title": "シーシーエヌ『笠松けいば応援番組　SKE48 太田彩夏の笠馬X』（♯23前編）",
+      "date": "2026-11-01",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60536"
+    },
+    {
       "performanceId": "P2611_29",
       "category": "公演",
       "title": "チームS「ずっと君を探している」公演 相川暖花生誕祭＜17:00開演＞",
@@ -819,6 +832,22 @@
       "link": "https://ske48.co.jp/schedule/detail/60451"
     },
     {
+      "performanceId": "P2611_79",
+      "category": "メディア",
+      "title": "テレビ愛知「SKE48 真夜中のウナギたち」",
+      "date": "2026-11-08",
+      "time": "24:50",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_47",
+        "member_67",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60503"
+    },
+    {
       "performanceId": "P2611_34",
       "category": "メディア",
       "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
@@ -1087,6 +1116,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60452"
     },
     {
+      "performanceId": "P2611_80",
+      "category": "メディア",
+      "title": "シーシーエヌ『笠松けいば応援番組　SKE48 太田彩夏の笠馬X』（♯23後編）",
+      "date": "2026-11-16",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60537"
+    },
+    {
       "performanceId": "P2611_57",
       "category": "メディア",
       "title": "K-MIX「Pococha presents SKE48 赤堀君江の『きみのはなし。』」",
@@ -1226,6 +1268,22 @@
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/60044"
+    },
+    {
+      "performanceId": "P2611_81",
+      "category": "メディア",
+      "title": "テレビ愛知「SKE48 真夜中のウナギたち」",
+      "date": "2026-11-22",
+      "time": "24:50",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_47",
+        "member_67",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60504"
     },
     {
       "performanceId": "P2611_11",

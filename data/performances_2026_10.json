@@ -3520,6 +3520,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60107"
     },
     {
+      "performanceId": "P2610_218",
+      "category": "メディア",
+      "title": "「熊崎晴香・松本慈子 緊急Pococha配信」",
+      "date": "2026-10-27",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60534"
+    },
+    {
       "performanceId": "P2610_201",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
@@ -3844,6 +3858,35 @@
         "member_91"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60449"
+    },
+    {
+      "performanceId": "P2610_217",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」",
+      "date": "2026-10-31",
+      "time": "",
+      "venue": "サンシャインサカエ 1F",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60538"
+    },
+    {
+      "performanceId": "P2610_219",
+      "category": "メディア",
+      "title": "SHOWROOM『恋シュンの旬』",
+      "date": "2026-10-31",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_75",
+        "member_77",
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60535"
     },
     {
       "performanceId": "P2610_77",
