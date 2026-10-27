@@ -415,6 +415,20 @@
       }
     },
     {
+      "performanceId": "P2611_82",
+      "category": "メディア",
+      "title": "TOKYO MX「正直サミット公開収録＋極秘収録」",
+      "date": "2026-11-04",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60542"
+    },
+    {
       "performanceId": "P2611_42",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
