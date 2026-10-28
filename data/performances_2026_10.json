@@ -3351,6 +3351,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60518"
     },
     {
+      "performanceId": "P2610_220",
+      "category": "メディア",
+      "title": "TBSラジオ「ミラクル・サイクル・ライフ」",
+      "date": "2026-10-25",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60551"
+    },
+    {
       "performanceId": "P2610_196",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
@@ -3616,12 +3629,12 @@
         "member_5",
         "member_82",
         "member_48",
-        "member_8",
         "member_95",
         "member_86",
         "member_97",
         "member_52",
         "member_19",
+        "member_99",
         "member_104"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60345",
@@ -3692,6 +3705,19 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60143"
+    },
+    {
+      "performanceId": "P2610_221",
+      "category": "メディア",
+      "title": "「中京スポーツ」",
+      "date": "2026-10-29",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60555"
     },
     {
       "performanceId": "P2610_203",
@@ -3887,6 +3913,19 @@
         "member_86"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60535"
+    },
+    {
+      "performanceId": "P2610_222",
+      "category": "メディア",
+      "title": "中日こどもウイークリー　コラム「親の時間　子の時間」",
+      "date": "2026-10-31",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60485"
     },
     {
       "performanceId": "P2610_77",

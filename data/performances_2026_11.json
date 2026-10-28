@@ -41,6 +41,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60536"
     },
     {
+      "performanceId": "P2611_84",
+      "category": "メディア",
+      "title": "TBSラジオ「ミラクル・サイクル・ライフ」",
+      "date": "2026-11-01",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60550"
+    },
+    {
       "performanceId": "P2611_29",
       "category": "公演",
       "title": "チームS「ずっと君を探している」公演 相川暖花生誕祭＜17:00開演＞",
@@ -57,7 +70,7 @@
         "member_50",
         "member_96",
         "member_9",
-        "member_55",
+        "member_76",
         "member_16",
         "member_90",
         "member_91"
@@ -259,8 +272,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60367"
     },
     {
+      "performanceId": "P2611_83",
+      "category": "イベント",
+      "title": "「ハチマルミーティング 2026 at FSW」",
+      "date": "2026-11-03",
+      "time": "15:00",
+      "venue": "富士スピードウェイ P7 駐車場 （〒 410-1307 静岡県駿東郡小山町中日向 694）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60548"
+    },
+    {
       "performanceId": "P2611_19",
-      "category": "メディア",
+      "category": "イベント",
       "title": "LOVEあいち・スペシャルコラボ「愛知県庁本庁舎公開イベント」",
       "date": "2026-11-03",
       "time": "16:00",
@@ -637,7 +663,7 @@
         "member_50",
         "member_96",
         "member_9",
-        "member_55",
+        "member_76",
         "member_16",
         "member_77",
         "member_90",
@@ -928,6 +954,19 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60459"
+    },
+    {
+      "performanceId": "P2611_85",
+      "category": "メディア",
+      "title": "「Platinum FLASH」Vol.26",
+      "date": "2026-11-13",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60541"
     },
     {
       "performanceId": "P2611_51",
