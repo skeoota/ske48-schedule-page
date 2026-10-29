@@ -3720,6 +3720,24 @@
       "link": "https://ske48.co.jp/schedule/detail/60555"
     },
     {
+      "performanceId": "P2610_223",
+      "category": "メディア",
+      "title": "「Documentary of IDOL BATTLE ALIVE 2026」#06",
+      "date": "2026-10-29",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_47",
+        "member_50",
+        "member_67",
+        "member_74",
+        "member_75",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60562"
+    },
+    {
       "performanceId": "P2610_203",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",

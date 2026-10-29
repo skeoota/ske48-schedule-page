@@ -503,6 +503,23 @@
       "link": "https://ske48.co.jp/schedule/detail/58682"
     },
     {
+      "performanceId": "P2611_87",
+      "category": "メディア",
+      "title": "「東海ウォーカー」2026-27冬",
+      "date": "2026-11-06",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_9",
+        "member_23",
+        "member_52",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60556"
+    },
+    {
       "performanceId": "P2611_75",
       "category": "公演",
       "title": "「可能性こそが未来」公演 佐々木希美生誕祭＜18:00開演＞",
@@ -1073,6 +1090,19 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60136"
+    },
+    {
+      "performanceId": "P2611_86",
+      "category": "イベント",
+      "title": "『水族館の達人に聞いてみた～ぜったいに行きたくなる37の発見～』下村実×SKE48 鎌田菜月スペシャルトークイベント",
+      "date": "2026-11-14",
+      "time": "12:30",
+      "venue": "日本モンキーセンター　ビジターセンター内ホール 愛知県犬山市大字犬山字官林26番地",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60557"
     },
     {
       "performanceId": "P2611_22",
