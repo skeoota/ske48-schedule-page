@@ -131,6 +131,34 @@
       "link": "https://ske48.co.jp/schedule/detail/60377"
     },
     {
+      "performanceId": "P2611_92",
+      "category": "メディア",
+      "title": "FM大阪SUNDAYSPECIAL「Live or Treat 2026 in ZeppNamba」",
+      "date": "2026-11-01",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_19",
+        "member_23",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_64",
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60488"
+    },
+    {
       "performanceId": "P2611_35",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
@@ -145,6 +173,19 @@
         "member_78"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60450"
+    },
+    {
+      "performanceId": "P2611_93",
+      "category": "メディア",
+      "title": "NHK名古屋「まるっと！」",
+      "date": "2026-11-02",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60565"
     },
     {
       "performanceId": "P2611_01",
@@ -1183,6 +1224,62 @@
       "link": "https://ske48.co.jp/schedule/detail/60159"
     },
     {
+      "performanceId": "P2611_88",
+      "category": "公演",
+      "title": "TOKAI RADIO「SKE48の作戦会議」第二回公開収録＜17:00開演＞",
+      "date": "2026-11-15",
+      "time": "17:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_74",
+        "member_49",
+        "member_19",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60566",
+      "ticketInfo": {
+        "applicationPeriod": "2026年10月30日(金)18:00～11月1日(日)23:59",
+        "lotteryResultPeriod": "2026年11月5日(木)15:00～11月5日(木)23:00",
+        "ticketDisplay": "2026年11月6日(金)18:00 ※座席表示は後日となります",
+        "tradePeriod": "2026年11月6日(金)18:00～公演当日11:59",
+        "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠」「一般枠・一般ペア枠」となります。 ※チケット料金は 2,000円 となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
+        "applyLinks": [
+          {
+            "name": "[ファンクラブ枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=41&stk=62cfecf25304c4ba9d0886e61d542dd0"
+          },
+          {
+            "name": "[12周年特別枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=42&stk=56a23d18028b7a19ee1b9c4f5e58e5de"
+          },
+          {
+            "name": "[SKE48 Mobile会員枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=43&stk=bc93849cdad0b2aaf78624e3eb3e3ad4"
+          },
+          {
+            "name": "[100発100中/98中権利枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=44&stk=62d5addb155b525aab5529acdee4a017"
+          },
+          {
+            "name": "[一般枠・一般ペア枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=45&stk=d7f336b875f5732a5bfc8b772b23c88c"
+          }
+        ],
+        "otherLinks": [
+          {
+            "name": "申込確認はこちら",
+            "url": "https://tixplus.jp/login/"
+          },
+          {
+            "name": "チケットトレードはこちら",
+            "url": "https://trade.tixplus.jp/artists/tour/15512"
+          }
+        ],
+        "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
+      }
+    },
+    {
       "performanceId": "P2611_37",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
@@ -1225,6 +1322,70 @@
       "link": "https://ske48.co.jp/schedule/detail/60476"
     },
     {
+      "performanceId": "P2611_89",
+      "category": "公演",
+      "title": "チームE「RESET」公演＜18:30開演＞",
+      "date": "2026-11-18",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_2",
+        "member_47",
+        "member_26",
+        "member_92",
+        "member_74",
+        "member_85",
+        "member_34",
+        "member_13",
+        "member_72",
+        "member_89",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60567",
+      "ticketInfo": {
+        "applicationPeriod": "2026年10月30日(金)18:00～11月1日(日)23:59",
+        "lotteryResultPeriod": "2026年11月5日(木)15:00～11月5日(木)23:00",
+        "ticketDisplay": "2026年11月6日(金)18:00 ※座席表示は後日となります",
+        "tradePeriod": "2026年11月6日(金)18:00～公演当日11:59",
+        "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠」「一般枠・一般ペア枠」となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
+        "applyLinks": [
+          {
+            "name": "[ファンクラブ枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=46&stk=4be8a92dbdc602d869908675d76e51e4"
+          },
+          {
+            "name": "[12周年特別枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=47&stk=f9f44dd9df7302e2c55676349ad95308"
+          },
+          {
+            "name": "[SKE48 Mobile会員枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=48&stk=2affeefef8d6858d749e6b94898a6fb6"
+          },
+          {
+            "name": "[100発100中/98中権利枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=49&stk=36c4f6b1bcc7806373059b37084cf02e"
+          },
+          {
+            "name": "[一般枠・一般ペア枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=50&stk=7ba541f6a614a2d45fd2dd2a718637c3"
+          }
+        ],
+        "otherLinks": [
+          {
+            "name": "申込確認はこちら",
+            "url": "https://tixplus.jp/login/"
+          },
+          {
+            "name": "チケットトレードはこちら",
+            "url": "https://trade.tixplus.jp/artists/tour/15512"
+          }
+        ],
+        "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
+      }
+    },
+    {
       "performanceId": "P2611_09",
       "category": "誕生日",
       "title": "松本慈子誕生日",
@@ -1251,6 +1412,70 @@
       "link": "https://ske48.co.jp/schedule/detail/60460"
     },
     {
+      "performanceId": "P2611_90",
+      "category": "公演",
+      "title": "チームS「ずっと君を探している」公演＜18:30開演＞",
+      "date": "2026-11-19",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_4",
+        "member_81",
+        "member_23",
+        "member_49",
+        "member_50",
+        "member_96",
+        "member_9",
+        "member_76",
+        "member_16",
+        "member_77",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60568",
+      "ticketInfo": {
+        "applicationPeriod": "2026年10月30日(金)18:00～11月1日(日)23:59",
+        "lotteryResultPeriod": "2026年11月5日(木)15:00～11月5日(木)23:00",
+        "ticketDisplay": "2026年11月6日(金)18:00 ※座席表示は後日となります",
+        "tradePeriod": "2026年11月6日(金)18:00～公演当日11:59",
+        "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠」「一般枠・一般ペア枠」となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
+        "applyLinks": [
+          {
+            "name": "[ファンクラブ枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=51&stk=008c6c43392fbd648b671c7a1bc60eff"
+          },
+          {
+            "name": "[12周年特別枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=52&stk=94b6e9af965a58506559f903d4cb02ca"
+          },
+          {
+            "name": "[SKE48 Mobile会員枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=53&stk=c80fe73f8295941fbf85d911063c07b3"
+          },
+          {
+            "name": "[100発100中/98中権利枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=54&stk=8a9a5252231757a73eba155a91f46e31"
+          },
+          {
+            "name": "[一般枠・一般ペア枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=55&stk=d4987eabb45c3e6b357bd3f5109f0900"
+          }
+        ],
+        "otherLinks": [
+          {
+            "name": "申込確認はこちら",
+            "url": "https://tixplus.jp/login/"
+          },
+          {
+            "name": "チケットトレードはこちら",
+            "url": "https://trade.tixplus.jp/artists/tour/15512"
+          }
+        ],
+        "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
+      }
+    },
+    {
       "performanceId": "P2611_10",
       "category": "誕生日",
       "title": "長谷川雅誕生日",
@@ -1262,6 +1487,70 @@
         "member_89"
       ],
       "link": "https://ske48.co.jp/schedule/detail/47810"
+    },
+    {
+      "performanceId": "P2611_91",
+      "category": "公演",
+      "title": "チームKⅡ「シアターの女神」公演 松本慈子生誕祭＜18:30開演＞",
+      "date": "2026-11-20",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_67",
+        "member_5",
+        "member_82",
+        "member_48",
+        "member_8",
+        "member_95",
+        "member_86",
+        "member_97",
+        "member_52",
+        "member_75",
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60569",
+      "ticketInfo": {
+        "applicationPeriod": "2026年10月30日(金)18:00～11月1日(日)23:59",
+        "lotteryResultPeriod": "2026年11月5日(木)15:00～11月5日(木)23:00",
+        "ticketDisplay": "2026年11月6日(金)18:00 ※座席表示は後日となります",
+        "tradePeriod": "2026年11月6日(金)18:00～公演当日11:59",
+        "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠(生誕祭確約枠)」「一般枠・一般ペア枠」となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
+        "applyLinks": [
+          {
+            "name": "[ファンクラブ枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=56&stk=51423db9af697ee4023b49666a24dbc9"
+          },
+          {
+            "name": "[12周年特別枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=57&stk=13d1f018d021bb64358e87dc53af6264"
+          },
+          {
+            "name": "[SKE48 Mobile会員枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=58&stk=8b8235470a00ecd80b55741c34268e7c"
+          },
+          {
+            "name": "[100発100中/98中権利枠(生誕祭確約枠)] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=59&stk=4d0b7e096c5be93d1c4222824695f4b8"
+          },
+          {
+            "name": "[一般枠・一般ペア枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15512&precede=60&stk=28146daca79fcf8a2293249fdee23223"
+          }
+        ],
+        "otherLinks": [
+          {
+            "name": "申込確認はこちら",
+            "url": "https://tixplus.jp/login/"
+          },
+          {
+            "name": "チケットトレードはこちら",
+            "url": "https://trade.tixplus.jp/artists/tour/15512"
+          }
+        ],
+        "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
+      }
     },
     {
       "performanceId": "P2611_59",
