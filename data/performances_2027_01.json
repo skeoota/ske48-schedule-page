@@ -1,0 +1,122 @@
+{
+  "yearMonth": "2027-01",
+  "performances": [
+    {
+      "performanceId": "P2701_01",
+      "category": "イベント",
+      "title": "TOKAI RADIO公開収録 みつ吉とＳＫＥ４８の愉快な仲間たち！みつ吉フェスやっちゃうでちょっ！Part４ ～２じゃないよ放送４０００回突破したからって調子に乗ってる場合じゃないよ！～",
+      "date": "2027-01-17",
+      "time": "",
+      "venue": "中日ホール（名古屋市中区栄 4-1-1 中日ビル 6 階）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_9",
+        "member_16",
+        "member_26",
+        "member_34",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_67",
+        "member_74",
+        "member_75",
+        "member_76",
+        "member_77",
+        "member_78",
+        "member_79",
+        "member_81",
+        "member_86",
+        "member_89",
+        "member_90",
+        "member_91",
+        "member_93",
+        "member_94",
+        "member_95",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60306"
+    },
+    {
+      "performanceId": "P2701_07",
+      "category": "誕生日",
+      "title": "中尾楓華誕生日",
+      "date": "2027-01-17",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_109"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/59184"
+    },
+    {
+      "performanceId": "P2701_02",
+      "category": "イベント",
+      "title": "STU48の7ならべ×SKE48の大富豪はおわらない！第3回STU48&SKE48合同ライブ",
+      "date": "2027-01-22",
+      "time": "",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_67",
+        "member_82",
+        "member_8",
+        "member_19",
+        "member_64",
+        "member_92",
+        "member_72",
+        "member_94",
+        "member_99",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60552"
+    },
+    {
+      "performanceId": "P2701_03",
+      "category": "イベント",
+      "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地でトーク会・握手会 @AICHI SKY EXPO",
+      "date": "2027-01-23",
+      "time": "",
+      "venue": "AICHI SKY EXPO",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/59386"
+    },
+    {
+      "performanceId": "P2701_04",
+      "category": "イベント",
+      "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地でトーク会・握手会 @AICHI SKY EXPO",
+      "date": "2027-01-24",
+      "time": "",
+      "venue": "AICHI SKY EXPO",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/59387"
+    },
+    {
+      "performanceId": "P2701_05",
+      "category": "イベント",
+      "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地でトーク会・握手会 @幕張メッセ",
+      "date": "2027-01-30",
+      "time": "",
+      "venue": "幕張メッセ",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/59388"
+    },
+    {
+      "performanceId": "P2701_06",
+      "category": "イベント",
+      "title": "SKE48 37thシングル｢ため息未来｣（劇場盤）現地でトーク会・握手会 @幕張メッセ",
+      "date": "2027-01-31",
+      "time": "",
+      "venue": "幕張メッセ",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/59389"
+    }
+  ]
+}

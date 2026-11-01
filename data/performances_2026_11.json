@@ -1015,6 +1015,22 @@
       "link": "https://ske48.co.jp/schedule/detail/60451"
     },
     {
+      "performanceId": "P2611_106",
+      "category": "メディア",
+      "title": "ニコニコチャンネル「SKE48非公式ちゃんねる」",
+      "date": "2026-11-08",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_43",
+        "member_49",
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60634"
+    },
+    {
       "performanceId": "P2611_79",
       "category": "メディア",
       "title": "テレビ愛知「SKE48 真夜中のウナギたち」",
