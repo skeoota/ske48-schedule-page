@@ -617,6 +617,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60556"
     },
     {
+      "performanceId": "P2611_107",
+      "category": "メディア",
+      "title": "FM AICHI 「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-11-06",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60635"
+    },
+    {
       "performanceId": "P2611_75",
       "category": "公演",
       "title": "「可能性こそが未来」公演 佐々木希美生誕祭＜18:00開演＞",
@@ -1184,6 +1198,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60541"
     },
     {
+      "performanceId": "P2611_108",
+      "category": "メディア",
+      "title": "FM AICHI 「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-11-13",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60636"
+    },
+    {
       "performanceId": "P2611_51",
       "category": "メディア",
       "title": "TOKAI RADIO「NEXTies!」",
@@ -1660,6 +1688,20 @@
       "link": "https://ske48.co.jp/schedule/detail/47810"
     },
     {
+      "performanceId": "P2611_109",
+      "category": "メディア",
+      "title": "FM AICHI 「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-11-20",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60637"
+    },
+    {
       "performanceId": "P2611_91",
       "category": "公演",
       "title": "チームKⅡ「シアターの女神」公演 松本慈子生誕祭＜18:30開演＞",
@@ -1956,6 +1998,20 @@
         "member_95"
       ],
       "link": "https://ske48.co.jp/schedule/detail/54691"
+    },
+    {
+      "performanceId": "P2611_110",
+      "category": "メディア",
+      "title": "FM AICHI 「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-11-27",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60638"
     },
     {
       "performanceId": "P2611_67",
