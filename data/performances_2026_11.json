@@ -631,6 +631,22 @@
       "link": "https://ske48.co.jp/schedule/detail/60635"
     },
     {
+      "performanceId": "P2611_111",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」",
+      "date": "2026-11-06",
+      "time": "",
+      "venue": "サンシャインサカエ 1F",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_44",
+        "member_89",
+        "member_105"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60643"
+    },
+    {
       "performanceId": "P2611_75",
       "category": "公演",
       "title": "「可能性こそが未来」公演 佐々木希美生誕祭＜18:00開演＞",
@@ -895,6 +911,19 @@
         "member_78"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60378"
+    },
+    {
+      "performanceId": "P2611_114",
+      "category": "メディア",
+      "title": "NATSLIVE「グイグイちかちゃん横丁」",
+      "date": "2026-11-07",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60651"
     },
     {
       "performanceId": "P2611_45",
@@ -1210,6 +1239,21 @@
         "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60636"
+    },
+    {
+      "performanceId": "P2611_112",
+      "category": "イベント",
+      "title": "「050-5893-5336展（ひとのでんわ展）」",
+      "date": "2026-11-13",
+      "time": "",
+      "venue": "名古屋 PARCO 南館 9F PARCO HALL",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_49",
+        "member_89"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60650"
     },
     {
       "performanceId": "P2611_51",
@@ -2012,6 +2056,22 @@
         "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60638"
+    },
+    {
+      "performanceId": "P2611_113",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」",
+      "date": "2026-11-27",
+      "time": "",
+      "venue": "サンシャインサカエ 1F",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_94",
+        "member_95",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60644"
     },
     {
       "performanceId": "P2611_67",
