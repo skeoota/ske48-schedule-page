@@ -446,6 +446,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60586"
     },
     {
+      "performanceId": "P2611_116",
+      "category": "メディア",
+      "title": "「週刊SPA!」",
+      "date": "2026-11-04",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_108"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60656"
+    },
+    {
       "performanceId": "P2611_32",
       "category": "公演",
       "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
@@ -645,6 +658,21 @@
         "member_105"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60643"
+    },
+    {
+      "performanceId": "P2611_117",
+      "category": "メディア",
+      "title": "「朝日新聞」夕刊（大阪本社版）",
+      "date": "2026-11-06",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60657"
     },
     {
       "performanceId": "P2611_75",
@@ -2200,6 +2228,20 @@
         "member_16"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60161"
+    },
+    {
+      "performanceId": "P2611_115",
+      "category": "イベント",
+      "title": "LOVEあいち・スペシャルコラボ「サムライ・ニンジャ フェスティバル2026」",
+      "date": "2026-11-29",
+      "time": "10:00",
+      "venue": "県営都市公園大高緑地 若草山周辺（名古屋市緑区大高町字高山 1-1 ）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_82",
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60658"
     }
   ]
 }
