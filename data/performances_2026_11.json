@@ -836,6 +836,32 @@
       "link": "https://ske48.co.jp/schedule/detail/60584"
     },
     {
+      "performanceId": "P2611_118",
+      "category": "イベント",
+      "title": "「ウルフドッグス名古屋vsジェイテクトSTINGS愛知 戦」",
+      "date": "2026-11-07",
+      "time": "",
+      "venue": "豊田合成記念体育館エントリオ （愛知県稲沢市下津北山 1 丁目 16-47 ）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_75",
+        "member_82",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60660"
+    },
+    {
+      "performanceId": "P2611_119",
+      "category": "メディア",
+      "title": "「朝日新聞デジタル」",
+      "date": "2026-11-07",
+      "time": "10:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/60666"
+    },
+    {
       "performanceId": "P2611_44",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -2242,6 +2268,19 @@
         "member_86"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60658"
+    },
+    {
+      "performanceId": "P2611_120",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-11-30",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_92"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60631"
     }
   ]
 }

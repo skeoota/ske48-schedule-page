@@ -28,6 +28,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60324"
     },
     {
+      "performanceId": "P2612_19",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-12-07",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_92"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60632"
+    },
+    {
       "performanceId": "P2612_01",
       "category": "イベント",
       "title": "「arrowsプレゼンツ SKE48 8期生トークショー＆ファン交流イベント」",
@@ -104,6 +117,33 @@
         "member_8"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60180"
+    },
+    {
+      "performanceId": "P2612_18",
+      "category": "イベント",
+      "title": "LOVEあいち・スペシャルコラボ「あいちロボフェス2026・みんなでつくろう！ロボットとくらす未来！」",
+      "date": "2026-12-13",
+      "time": "10:00",
+      "venue": "愛知県国際展示場（ Aichi Sky Expo ）展示ホール C",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60665"
+    },
+    {
+      "performanceId": "P2612_20",
+      "category": "メディア",
+      "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
+      "date": "2026-12-14",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_92"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60633"
     },
     {
       "performanceId": "P2612_08",
