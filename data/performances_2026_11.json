@@ -1379,6 +1379,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60594"
     },
     {
+      "performanceId": "P2611_128",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-11-13",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60670"
+    },
+    {
       "performanceId": "P2611_15",
       "category": "イベント",
       "title": "SKE48 37th single「ため息未来」オンライン1on1トーク会",

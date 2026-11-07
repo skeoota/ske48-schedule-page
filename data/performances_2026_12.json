@@ -208,6 +208,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60429"
     },
     {
+      "performanceId": "P2612_21",
+      "category": "メディア",
+      "title": "「NAGANO Christmas Market 2026」",
+      "date": "2026-12-19",
+      "time": "11:00",
+      "venue": "長野駅東口公園",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_81",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60668"
+    },
+    {
       "performanceId": "P2612_15",
       "category": "イベント",
       "title": "30-DELUX NAGOYA 5周年記念 Special STAGE「DoえりゃーX 名古屋！」",
