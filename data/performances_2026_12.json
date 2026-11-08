@@ -87,6 +87,25 @@
       "link": "https://ske48.co.jp/schedule/detail/60494"
     },
     {
+      "performanceId": "P2612_22",
+      "category": "イベント",
+      "title": "「ッスッゴイライブ-8th Anniversary SP-」",
+      "date": "2026-12-10",
+      "time": "",
+      "venue": "渋谷LOVEZ（東京都渋谷区宇田川町９−５）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_50",
+        "member_74",
+        "member_75",
+        "member_76",
+        "member_78",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60697"
+    },
+    {
       "performanceId": "P2612_13",
       "category": "イベント",
       "title": "SKE48 初恋の瞬間 1st LIVE 恋する瞬間",

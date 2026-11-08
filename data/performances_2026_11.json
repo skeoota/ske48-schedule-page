@@ -1048,6 +1048,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60158"
     },
     {
+      "performanceId": "P2611_129",
+      "category": "メディア",
+      "title": "NHK名古屋「高専ロボコン2026 東海北陸地区大会」",
+      "date": "2026-11-08",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60694"
+    },
+    {
       "performanceId": "P2611_77",
       "category": "公演",
       "title": "チームE「RESET」公演＜17:00開演＞",
@@ -1473,6 +1486,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60118"
     },
     {
+      "performanceId": "P2611_131",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-11-14",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_47",
+        "member_64",
+        "member_93"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60705"
+    },
+    {
       "performanceId": "P2611_52",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -1510,6 +1538,21 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60362"
+    },
+    {
+      "performanceId": "P2611_130",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-11-14",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_16",
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60701"
     },
     {
       "performanceId": "P2611_55",
@@ -1660,6 +1703,27 @@
         "member_26"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60537"
+    },
+    {
+      "performanceId": "P2611_132",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-11-16",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_19",
+        "member_77",
+        "member_81",
+        "member_85",
+        "member_86",
+        "member_96",
+        "member_97",
+        "member_102"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60698"
     },
     {
       "performanceId": "P2611_57",
@@ -1985,6 +2049,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60137"
     },
     {
+      "performanceId": "P2611_133",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-11-21",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_16",
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60702"
+    },
+    {
       "performanceId": "P2611_62",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -2073,6 +2152,21 @@
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/60045"
+    },
+    {
+      "performanceId": "P2611_134",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-11-23",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_19",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60699"
     },
     {
       "performanceId": "P2611_121",
@@ -2467,6 +2561,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60138"
     },
     {
+      "performanceId": "P2611_135",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48のひだまりハートカフェ」",
+      "date": "2026-11-28",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_16",
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60704"
+    },
+    {
       "performanceId": "P2611_69",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -2593,6 +2702,21 @@
         "member_92"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60631"
+    },
+    {
+      "performanceId": "P2611_136",
+      "category": "メディア",
+      "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
+      "date": "2026-11-30",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_19",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60700"
     }
   ]
 }
