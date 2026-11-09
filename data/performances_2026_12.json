@@ -2,6 +2,34 @@
   "yearMonth": "2026-12",
   "performances": [
     {
+      "performanceId": "P2612_23",
+      "category": "メディア",
+      "title": "Pococha「18周年振り返りアフタートーク」",
+      "date": "2026-12-01",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_64",
+        "member_72"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60719"
+    },
+    {
+      "performanceId": "P2612_24",
+      "category": "メディア",
+      "title": "Pococha「18周年振り返りアフタートーク」",
+      "date": "2026-12-02",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_93",
+        "member_101"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60720"
+    },
+    {
       "performanceId": "P2612_06",
       "category": "誕生日",
       "title": "井田玲音名誕生日",
@@ -13,6 +41,49 @@
         "member_47"
       ],
       "link": "https://ske48.co.jp/schedule/detail/47800"
+    },
+    {
+      "performanceId": "P2612_25",
+      "category": "メディア",
+      "title": "Pococha「18周年振り返りアフタートーク」",
+      "date": "2026-12-03",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_75"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60721"
+    },
+    {
+      "performanceId": "P2612_26",
+      "category": "メディア",
+      "title": "Pococha「18周年振り返りアフタートーク」",
+      "date": "2026-12-04",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_75"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60722"
+    },
+    {
+      "performanceId": "P2612_27",
+      "category": "メディア",
+      "title": "Pococha「18周年振り返りアフタートーク」",
+      "date": "2026-12-05",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_9",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60723"
     },
     {
       "performanceId": "P2612_12",
@@ -28,6 +99,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60324"
     },
     {
+      "performanceId": "P2612_28",
+      "category": "メディア",
+      "title": "Pococha「18周年振り返りアフタートーク」",
+      "date": "2026-12-06",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_108",
+        "member_109",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60724"
+    },
+    {
       "performanceId": "P2612_19",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
@@ -39,6 +125,20 @@
         "member_92"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60632"
+    },
+    {
+      "performanceId": "P2612_29",
+      "category": "メディア",
+      "title": "Pococha「18周年振り返りアフタートーク」",
+      "date": "2026-12-07",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_76",
+        "member_79"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60725"
     },
     {
       "performanceId": "P2612_01",
@@ -73,6 +173,20 @@
       "link": "https://ske48.co.jp/schedule/detail/47952"
     },
     {
+      "performanceId": "P2612_30",
+      "category": "メディア",
+      "title": "Pococha「18周年振り返りアフタートーク」",
+      "date": "2026-12-08",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60726"
+    },
+    {
       "performanceId": "P2612_16",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -85,6 +199,20 @@
         "member_76"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60494"
+    },
+    {
+      "performanceId": "P2612_31",
+      "category": "メディア",
+      "title": "Pococha「18周年振り返りアフタートーク」",
+      "date": "2026-12-09",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_90",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60727"
     },
     {
       "performanceId": "P2612_22",
@@ -123,6 +251,21 @@
         "member_102"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60327"
+    },
+    {
+      "performanceId": "P2612_32",
+      "category": "メディア",
+      "title": "Pococha「18周年振り返りアフタートーク」",
+      "date": "2026-12-10",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_26",
+        "member_92"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60728"
     },
     {
       "performanceId": "P2612_02",

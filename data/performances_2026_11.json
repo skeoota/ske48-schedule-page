@@ -1186,6 +1186,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60503"
     },
     {
+      "performanceId": "P2611_137",
+      "category": "メディア",
+      "title": "Pococha「18周年コンサート事前配信」",
+      "date": "2026-11-09",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_43"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60708"
+    },
+    {
       "performanceId": "P2611_34",
       "category": "メディア",
       "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",
@@ -1239,6 +1253,20 @@
         "member_2"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60475"
+    },
+    {
+      "performanceId": "P2611_138",
+      "category": "メディア",
+      "title": "Pococha「18周年コンサート事前配信」",
+      "date": "2026-11-10",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_95"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60710"
     },
     {
       "performanceId": "P2611_101",
@@ -1363,6 +1391,20 @@
         "member_44"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60579"
+    },
+    {
+      "performanceId": "P2611_139",
+      "category": "メディア",
+      "title": "Pococha「18周年コンサート事前配信」",
+      "date": "2026-11-13",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_34",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60711"
     },
     {
       "performanceId": "P2611_51",
@@ -1555,6 +1597,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60701"
     },
     {
+      "performanceId": "P2611_140",
+      "category": "メディア",
+      "title": "Pococha「18周年コンサート事前配信」",
+      "date": "2026-11-14",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_94",
+        "member_99",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60712"
+    },
+    {
       "performanceId": "P2611_55",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -1676,6 +1733,21 @@
       }
     },
     {
+      "performanceId": "P2611_141",
+      "category": "メディア",
+      "title": "Pococha「18周年コンサート事前配信」",
+      "date": "2026-11-15",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_86",
+        "member_97",
+        "member_102"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60713"
+    },
+    {
       "performanceId": "P2611_37",
       "category": "メディア",
       "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
@@ -1703,6 +1775,20 @@
         "member_26"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60537"
+    },
+    {
+      "performanceId": "P2611_142",
+      "category": "メディア",
+      "title": "Pococha「18周年コンサート事前配信」",
+      "date": "2026-11-16",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_23",
+        "member_77"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60714"
     },
     {
       "performanceId": "P2611_132",
@@ -1737,6 +1823,20 @@
         "member_2"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60476"
+    },
+    {
+      "performanceId": "P2611_143",
+      "category": "メディア",
+      "title": "Pococha「18周年コンサート事前配信」",
+      "date": "2026-11-17",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_78",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60715"
     },
     {
       "performanceId": "P2611_89",
@@ -1801,6 +1901,20 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2611_144",
+      "category": "メディア",
+      "title": "Pococha「18周年コンサート事前配信」",
+      "date": "2026-11-18",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_81",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60716"
     },
     {
       "performanceId": "P2611_09",
@@ -1893,6 +2007,20 @@
       }
     },
     {
+      "performanceId": "P2611_145",
+      "category": "メディア",
+      "title": "Pococha「18周年コンサート事前配信」",
+      "date": "2026-11-19",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_47",
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60717"
+    },
+    {
       "performanceId": "P2611_10",
       "category": "誕生日",
       "title": "長谷川雅誕生日",
@@ -1982,6 +2110,21 @@
         ],
         "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
       }
+    },
+    {
+      "performanceId": "P2611_146",
+      "category": "メディア",
+      "title": "Pococha「18周年コンサート事前配信」",
+      "date": "2026-11-20",
+      "time": "20:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_74",
+        "member_89"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60718"
     },
     {
       "performanceId": "P2611_59",
@@ -2090,6 +2233,17 @@
       "link": "https://ske48.co.jp/schedule/detail/60160"
     },
     {
+      "performanceId": "P2611_147",
+      "category": "メディア",
+      "title": "Pococha「会場内特別配信&コンサート直前配信」",
+      "date": "2026-11-22",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/60729"
+    },
+    {
       "performanceId": "P2611_17",
       "category": "イベント",
       "title": "SKE48 18th Anniversary Festival 2026",
@@ -2141,6 +2295,17 @@
         "member_94"
       ],
       "link": "https://ske48.co.jp/schedule/detail/54690"
+    },
+    {
+      "performanceId": "P2611_148",
+      "category": "メディア",
+      "title": "Pococha「会場内特別配信&コンサート直前配信」",
+      "date": "2026-11-23",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [],
+      "link": "https://ske48.co.jp/schedule/detail/60730"
     },
     {
       "performanceId": "P2611_18",
