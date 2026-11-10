@@ -904,6 +904,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60135"
     },
     {
+      "performanceId": "P2611_149",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2026-11-07",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60754"
+    },
+    {
       "performanceId": "P2611_76",
       "category": "公演",
       "title": "チームS「ずっと君を探している」公演 南澤恋々生誕祭＜17:00開演＞",
@@ -1567,6 +1580,19 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60557"
+    },
+    {
+      "performanceId": "P2611_150",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2026-11-14",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60755"
     },
     {
       "performanceId": "P2611_22",
