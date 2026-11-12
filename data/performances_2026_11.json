@@ -1816,6 +1816,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60537"
     },
     {
+      "performanceId": "P2611_152",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-11-16",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60595"
+    },
+    {
       "performanceId": "P2611_142",
       "category": "メディア",
       "title": "Pococha「18周年コンサート事前配信」",
@@ -1849,6 +1863,20 @@
         "member_102"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60698"
+    },
+    {
+      "performanceId": "P2611_153",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-11-17",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_77",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60596"
     },
     {
       "performanceId": "P2611_57",
@@ -1956,6 +1984,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60716"
     },
     {
+      "performanceId": "P2611_154",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-11-18",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_72"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60597"
+    },
+    {
       "performanceId": "P2611_09",
       "category": "誕生日",
       "title": "松本慈子誕生日",
@@ -1980,6 +2022,20 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60460"
+    },
+    {
+      "performanceId": "P2611_155",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-11-19",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_16",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60598"
     },
     {
       "performanceId": "P2611_90",
@@ -2085,6 +2141,20 @@
         "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60637"
+    },
+    {
+      "performanceId": "P2611_156",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-11-20",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_96",
+        "member_102"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60599"
     },
     {
       "performanceId": "P2611_91",
@@ -2287,7 +2357,7 @@
       "category": "イベント",
       "title": "SKE48 18th Anniversary Festival 2026",
       "date": "2026-11-22",
-      "time": "16:00",
+      "time": "",
       "venue": "Niterra 日本特殊陶業市民会館フォレストホール",
       "status": "SCHEDULED",
       "castIds": [],
@@ -2351,11 +2421,25 @@
       "category": "イベント",
       "title": "SKE48 18th Anniversary Festival 2026",
       "date": "2026-11-23",
-      "time": "16:00",
+      "time": "",
       "venue": "Niterra 日本特殊陶業市民会館フォレストホール",
       "status": "SCHEDULED",
       "castIds": [],
       "link": "https://ske48.co.jp/schedule/detail/60045"
+    },
+    {
+      "performanceId": "P2611_157",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-11-23",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_89"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60600"
     },
     {
       "performanceId": "P2611_134",
@@ -2371,6 +2455,20 @@
         "member_77"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60699"
+    },
+    {
+      "performanceId": "P2611_158",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-11-24",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_44"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60601"
     },
     {
       "performanceId": "P2611_121",
@@ -2461,6 +2559,20 @@
         "member_97"
       ],
       "link": "https://ske48.co.jp/schedule/detail/54693"
+    },
+    {
+      "performanceId": "P2611_159",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-11-25",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_86",
+        "member_97"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60602"
     },
     {
       "performanceId": "P2611_74",
@@ -2554,6 +2666,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60461"
     },
     {
+      "performanceId": "P2611_160",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-11-26",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_94"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60603"
+    },
+    {
       "performanceId": "P2611_03",
       "category": "イベント",
       "title": "TOKAI RADIO × PIA PRODUCE 舞台『約三十の嘘』supported by サービス付き高齢者向け住宅 ガジュマル",
@@ -2608,6 +2734,20 @@
         "member_97"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60644"
+    },
+    {
+      "performanceId": "P2611_161",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-11-27",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_76",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60604"
     },
     {
       "performanceId": "P2611_123",
