@@ -1406,6 +1406,39 @@
       "link": "https://ske48.co.jp/schedule/detail/60650"
     },
     {
+      "performanceId": "P2611_162",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」",
+      "date": "2026-11-13",
+      "time": "",
+      "venue": "サンシャインサカエ 1F",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_48",
+        "member_74",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60772"
+    },
+    {
+      "performanceId": "P2611_163",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」",
+      "date": "2026-11-13",
+      "time": "",
+      "venue": "サンシャインサカエ 1F",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_106",
+        "member_107",
+        "member_108",
+        "member_109",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60773"
+    },
+    {
       "performanceId": "P2611_127",
       "category": "メディア",
       "title": "テレビ愛知「キン・ドニーチ」",
@@ -1801,6 +1834,20 @@
         "member_78"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60452"
+    },
+    {
+      "performanceId": "P2611_164",
+      "category": "メディア",
+      "title": "Pococha「あたヒロ2026 アフターコラボ配信」",
+      "date": "2026-11-15",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67",
+        "member_86"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60785"
     },
     {
       "performanceId": "P2611_80",
