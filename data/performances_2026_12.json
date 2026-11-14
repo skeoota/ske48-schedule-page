@@ -668,6 +668,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60728"
     },
     {
+      "performanceId": "P2612_74",
+      "category": "イベント",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい公開録音 vol.23」",
+      "date": "2026-12-11",
+      "time": "",
+      "venue": "CBC1スタホール（愛知県名古屋市中区新栄1-2-8 CBC会",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_49",
+        "member_50"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60790"
+    },
+    {
       "performanceId": "P2612_44",
       "category": "メディア",
       "title": "TOKAI RADIO「NEXTies!」",
@@ -770,6 +785,22 @@
         "member_16"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60745"
+    },
+    {
+      "performanceId": "P2612_75",
+      "category": "イベント",
+      "title": "柳ケ瀬クリスマスパーティー「SKE48のひだまりハートカフェ／SKE48の岐阜県だって地元ですっ！公開収録」",
+      "date": "2026-12-13",
+      "time": "",
+      "venue": "柳ケ瀬グラッスル 35 G テラス （〒 500-8879 岐阜県岐阜市徹明通２丁目１８）",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_67",
+        "member_78",
+        "member_93"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60791"
     },
     {
       "performanceId": "P2612_18",

@@ -2296,6 +2296,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60468"
     },
     {
+      "performanceId": "P2611_165",
+      "category": "メディア",
+      "title": "ZIP-FM「FAIR NEXT INNOVATION  ICONIC MOMENTS」",
+      "date": "2026-11-20",
+      "time": "26:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60671"
+    },
+    {
       "performanceId": "P2611_61",
       "category": "メディア",
       "title": "「東京スポーツ」発売",
@@ -2333,6 +2347,21 @@
         "member_49"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60048"
+    },
+    {
+      "performanceId": "P2611_166",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-11-21",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_49",
+        "member_81"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60706"
     },
     {
       "performanceId": "P2611_60",
