@@ -2729,6 +2729,20 @@
       }
     },
     {
+      "performanceId": "P2611_167",
+      "category": "メディア",
+      "title": "Pococha「あたヒロ2026 アフターコラボ配信」",
+      "date": "2026-11-25",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_85",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60795"
+    },
+    {
       "performanceId": "P2611_66",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",

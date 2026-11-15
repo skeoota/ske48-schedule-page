@@ -488,6 +488,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60724"
     },
     {
+      "performanceId": "P2612_76",
+      "category": "メディア",
+      "title": "Pococha「あたヒロ2026 アフターコラボ配信」",
+      "date": "2026-12-06",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_76"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60796"
+    },
+    {
       "performanceId": "P2612_19",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
