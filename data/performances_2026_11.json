@@ -2440,6 +2440,22 @@
       "link": "https://ske48.co.jp/schedule/detail/60044"
     },
     {
+      "performanceId": "P2611_168",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
+      "date": "2026-11-22",
+      "time": "19:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60752"
+    },
+    {
       "performanceId": "P2611_81",
       "category": "メディア",
       "title": "テレビ愛知「SKE48 真夜中のウナギたち」",
@@ -3059,6 +3075,22 @@
         "member_86"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60658"
+    },
+    {
+      "performanceId": "P2611_169",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
+      "date": "2026-11-29",
+      "time": "19:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60753"
     },
     {
       "performanceId": "P2611_124",
