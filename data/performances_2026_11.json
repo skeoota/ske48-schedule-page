@@ -1926,6 +1926,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60596"
     },
     {
+      "performanceId": "P2611_170",
+      "category": "メディア",
+      "title": "CBCラジオ「ドラ魂キング」",
+      "date": "2026-11-17",
+      "time": "16:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60804"
+    },
+    {
       "performanceId": "P2611_57",
       "category": "メディア",
       "title": "K-MIX「Pococha presents SKE48 赤堀君江の『きみのはなし。』」",
@@ -1951,6 +1964,21 @@
         "member_85"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60715"
+    },
+    {
+      "performanceId": "P2611_171",
+      "category": "メディア",
+      "title": "「朝日新聞」朝刊（愛知県版）",
+      "date": "2026-11-18",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60805"
     },
     {
       "performanceId": "P2611_89",
