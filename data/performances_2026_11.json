@@ -578,6 +578,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60588"
     },
     {
+      "performanceId": "P2611_172",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-11-05",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_23",
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60811"
+    },
+    {
       "performanceId": "P2611_02",
       "category": "イベント",
       "title": "TOKAI RADIO主催「あたヒロ2026 -いつでもあたしがヒロイン神うたアイドル歌合戦-」",
@@ -1364,6 +1379,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60593"
     },
     {
+      "performanceId": "P2611_173",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-11-12",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_85",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60812"
+    },
+    {
       "performanceId": "P2611_85",
       "category": "メディア",
       "title": "「Platinum FLASH」Vol.26",
@@ -1981,6 +2011,34 @@
       "link": "https://ske48.co.jp/schedule/detail/60805"
     },
     {
+      "performanceId": "P2611_175",
+      "category": "メディア",
+      "title": "「週刊SPA!」",
+      "date": "2026-11-18",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_106"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60821"
+    },
+    {
+      "performanceId": "P2611_174",
+      "category": "メディア",
+      "title": "「Walkerplus」",
+      "date": "2026-11-18",
+      "time": "18:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_23",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60819"
+    },
+    {
       "performanceId": "P2611_89",
       "category": "公演",
       "title": "チームE「RESET」公演＜18:30開演＞",
@@ -2113,6 +2171,21 @@
       "link": "https://ske48.co.jp/schedule/detail/60598"
     },
     {
+      "performanceId": "P2611_177",
+      "category": "メディア",
+      "title": "「Walkerplus」",
+      "date": "2026-11-19",
+      "time": "18:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_23",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60820"
+    },
+    {
       "performanceId": "P2611_90",
       "category": "公演",
       "title": "チームS「ずっと君を探している」公演＜18:30開演＞",
@@ -2189,6 +2262,21 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60717"
+    },
+    {
+      "performanceId": "P2611_176",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-11-19",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_9",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60814"
     },
     {
       "performanceId": "P2611_10",
@@ -2403,6 +2491,20 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60137"
+    },
+    {
+      "performanceId": "P2611_178",
+      "category": "メディア",
+      "title": "長野朝日放送「駅テレマルシェ」",
+      "date": "2026-11-21",
+      "time": "11:15",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_81",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60667"
     },
     {
       "performanceId": "P2611_133",
@@ -2787,6 +2889,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60795"
     },
     {
+      "performanceId": "P2611_179",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2026-11-25",
+      "time": "22:58",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60571"
+    },
+    {
       "performanceId": "P2611_66",
       "category": "メディア",
       "title": "やしの実FM（エフエム豊橋）「さとかほLAB」",
@@ -2812,6 +2928,21 @@
         "member_94"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60603"
+    },
+    {
+      "performanceId": "P2611_180",
+      "category": "メディア",
+      "title": "CBCラジオ「SKE48 なるべくしゃべりたい」",
+      "date": "2026-11-26",
+      "time": "23:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_5",
+        "member_9",
+        "member_52"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60815"
     },
     {
       "performanceId": "P2611_03",

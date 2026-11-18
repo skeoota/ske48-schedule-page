@@ -502,6 +502,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60796"
     },
     {
+      "performanceId": "P2612_77",
+      "category": "メディア",
+      "title": "BS-TBS「SASUKEアイドル予選会2026 激闘の舞台裏完全密着SP」",
+      "date": "2026-12-06",
+      "time": "23:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60822"
+    },
+    {
       "performanceId": "P2612_19",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
@@ -1071,6 +1085,20 @@
         "member_16"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60746"
+    },
+    {
+      "performanceId": "P2612_78",
+      "category": "メディア",
+      "title": "TBSチャンネル1「SASUKEアイドル予選会2026完全版」",
+      "date": "2026-12-20",
+      "time": "21:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60823"
     },
     {
       "performanceId": "P2612_58",
