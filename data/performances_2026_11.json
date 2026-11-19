@@ -2328,7 +2328,6 @@
       "venue": "SKE48劇場",
       "status": "SCHEDULED",
       "castIds": [
-        "member_3",
         "member_67",
         "member_5",
         "member_82",
@@ -2339,7 +2338,8 @@
         "member_97",
         "member_52",
         "member_75",
-        "member_19"
+        "member_19",
+        "member_94"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60569",
       "ticketInfo": {
@@ -3013,6 +3013,19 @@
         "member_90"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60604"
+    },
+    {
+      "performanceId": "P2611_181",
+      "category": "メディア",
+      "title": "テレビ愛知「キン・ドニーチ」",
+      "date": "2026-11-27",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60832"
     },
     {
       "performanceId": "P2611_123",
