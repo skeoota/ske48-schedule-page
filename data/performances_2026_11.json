@@ -2480,6 +2480,34 @@
       "link": "https://ske48.co.jp/schedule/detail/60706"
     },
     {
+      "performanceId": "P2611_182",
+      "category": "イベント",
+      "title": "「SKE48 PETIT CAFÉ」",
+      "date": "2026-11-21",
+      "time": "",
+      "venue": "11月21日(土)…サンシャインサカエ 1F 11月22日(日)、23日(月祝）…Niterra日本特殊陶業市民会館フォレストホール",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_5",
+        "member_9",
+        "member_16",
+        "member_23",
+        "member_26",
+        "member_43",
+        "member_44",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
+        "member_74",
+        "member_78",
+        "member_81",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60835"
+    },
+    {
       "performanceId": "P2611_60",
       "category": "メディア",
       "title": "FM AICHI「TAKE ON presents 鎌田菜月のTAKE A RIDE」",
@@ -2505,6 +2533,19 @@
         "member_91"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60667"
+    },
+    {
+      "performanceId": "P2611_183",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2026-11-21",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60852"
     },
     {
       "performanceId": "P2611_133",
