@@ -366,6 +366,19 @@
       }
     },
     {
+      "performanceId": "P2612_85",
+      "category": "メディア",
+      "title": "NATSLIVE「キッチンダービーくまちゃん杯」",
+      "date": "2026-12-04",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60653"
+    },
+    {
       "performanceId": "P2612_26",
       "category": "メディア",
       "title": "Pococha「18周年振り返りアフタートーク」",
@@ -1063,6 +1076,22 @@
       "link": "https://ske48.co.jp/schedule/detail/60665"
     },
     {
+      "performanceId": "P2612_86",
+      "category": "メディア",
+      "title": "テレビ愛知「SKE48 真夜中のウナギたち」",
+      "date": "2026-12-13",
+      "time": "24:50",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_82",
+        "member_91",
+        "member_95",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60827"
+    },
+    {
       "performanceId": "P2612_20",
       "category": "メディア",
       "title": "FM AICHI「DD HIGH SCHOOL☆トライーネ！」",
@@ -1470,6 +1499,22 @@
         "member_16"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60747"
+    },
+    {
+      "performanceId": "P2612_87",
+      "category": "メディア",
+      "title": "テレビ愛知「SKE48 真夜中のウナギたち」",
+      "date": "2026-12-27",
+      "time": "24:50",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_82",
+        "member_91",
+        "member_95",
+        "member_96"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60828"
     },
     {
       "performanceId": "P2612_10",
