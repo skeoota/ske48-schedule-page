@@ -1361,6 +1361,50 @@
       "link": "https://ske48.co.jp/schedule/detail/60823"
     },
     {
+      "performanceId": "P2612_88",
+      "category": "イベント",
+      "title": "「SKE48 オンラインクリスマスパーティー」",
+      "date": "2026-12-21",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_16",
+        "member_43",
+        "member_49",
+        "member_50",
+        "member_52",
+        "member_67",
+        "member_81",
+        "member_82",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60863"
+    },
+    {
+      "performanceId": "P2612_89",
+      "category": "イベント",
+      "title": "「SKE48 オンラインクリスマスパーティー」",
+      "date": "2026-12-22",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_23",
+        "member_26",
+        "member_44",
+        "member_47",
+        "member_74",
+        "member_77",
+        "member_78",
+        "member_79",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60864"
+    },
+    {
       "performanceId": "P2612_58",
       "category": "メディア",
       "title": "K-MIX「Pococha presents SKE48 赤堀君江の『きみのはなし。』」",
@@ -1372,6 +1416,28 @@
         "member_2"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60481"
+    },
+    {
+      "performanceId": "P2612_90",
+      "category": "イベント",
+      "title": "「SKE48 オンラインクリスマスパーティー」",
+      "date": "2026-12-23",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_5",
+        "member_8",
+        "member_19",
+        "member_34",
+        "member_64",
+        "member_72",
+        "member_92",
+        "member_93",
+        "member_104"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60865"
     },
     {
       "performanceId": "P2612_17",
@@ -1399,6 +1465,50 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60465"
+    },
+    {
+      "performanceId": "P2612_91",
+      "category": "イベント",
+      "title": "「SKE48 オンラインクリスマスパーティー」",
+      "date": "2026-12-24",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_76",
+        "member_86",
+        "member_90",
+        "member_94",
+        "member_95",
+        "member_96",
+        "member_97",
+        "member_99",
+        "member_100"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60866"
+    },
+    {
+      "performanceId": "P2612_92",
+      "category": "イベント",
+      "title": "「SKE48 オンラインクリスマスパーティー」",
+      "date": "2026-12-25",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_13",
+        "member_48",
+        "member_75",
+        "member_89",
+        "member_101",
+        "member_102",
+        "member_106",
+        "member_108",
+        "member_109",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60867"
     },
     {
       "performanceId": "P2612_60",

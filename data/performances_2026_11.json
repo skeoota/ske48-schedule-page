@@ -3239,6 +3239,19 @@
       "link": "https://ske48.co.jp/schedule/detail/60138"
     },
     {
+      "performanceId": "P2611_185",
+      "category": "メディア",
+      "title": "スターキャット12（地デジ12ch）「ドラナビ」",
+      "date": "2026-11-28",
+      "time": "13:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_49"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60869"
+    },
+    {
       "performanceId": "P2611_135",
       "category": "メディア",
       "title": "岐阜放送「SKE48のひだまりハートカフェ」",
