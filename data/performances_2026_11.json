@@ -2838,6 +2838,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60602"
     },
     {
+      "performanceId": "P2611_186",
+      "category": "イベント",
+      "title": "「がブリチキン。一日店長」",
+      "date": "2026-11-25",
+      "time": "11:00",
+      "venue": "がブリチキン。鶴舞店",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_75"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60875"
+    },
+    {
       "performanceId": "P2611_74",
       "category": "メディア",
       "title": "響ラジオステーション「SKE48 二次元同好会 好きが高じて暴走してしまうこともあるかもしれません！」",
@@ -3224,6 +3238,21 @@
         "member_13"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60152"
+    },
+    {
+      "performanceId": "P2611_187",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡1+1+1は3じゃないよ！」",
+      "date": "2026-11-28",
+      "time": "",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_19",
+        "member_47",
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60877"
     },
     {
       "performanceId": "P2611_71",
