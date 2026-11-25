@@ -185,6 +185,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60720"
     },
     {
+      "performanceId": "P2612_93",
+      "category": "メディア",
+      "title": "テレビ愛知「愛知あたりまえ俱楽部」",
+      "date": "2026-12-02",
+      "time": "22:58",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_85"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60572"
+    },
+    {
       "performanceId": "P2612_06",
       "category": "誕生日",
       "title": "井田玲音名誕生日",
@@ -443,6 +457,19 @@
         "member_48"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60740"
+    },
+    {
+      "performanceId": "P2612_94",
+      "category": "メディア",
+      "title": "メ～テレ「Digった！」",
+      "date": "2026-12-05",
+      "time": "16:27",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60881"
     },
     {
       "performanceId": "P2612_79",
@@ -804,6 +831,19 @@
         "member_81"
       ],
       "link": "https://ske48.co.jp/schedule/detail/47952"
+    },
+    {
+      "performanceId": "P2612_95",
+      "category": "メディア",
+      "title": "メ～テレ「Digった！」",
+      "date": "2026-12-08",
+      "time": "11:40",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60882"
     },
     {
       "performanceId": "P2612_30",
