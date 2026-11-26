@@ -3440,6 +3440,37 @@
       "link": "https://ske48.co.jp/schedule/detail/60631"
     },
     {
+      "performanceId": "P2611_188",
+      "category": "メディア",
+      "title": "ニコニコチャンネル「SKE48非公式ちゃんねる」",
+      "date": "2026-11-30",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_2",
+        "member_9",
+        "member_50",
+        "member_74"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60889"
+    },
+    {
+      "performanceId": "P2611_189",
+      "category": "メディア",
+      "title": "ファミリーマートプレゼンツ『竹内由恵のいちばんナビ』",
+      "date": "2026-11-30",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60894"
+    },
+    {
       "performanceId": "P2611_136",
       "category": "メディア",
       "title": "岐阜放送「SKE48の岐阜県だって地元ですっ！」",

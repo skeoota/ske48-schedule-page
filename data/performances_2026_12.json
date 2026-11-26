@@ -682,6 +682,22 @@
       "link": "https://ske48.co.jp/schedule/detail/60724"
     },
     {
+      "performanceId": "P2612_96",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
+      "date": "2026-12-06",
+      "time": "19:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_74",
+        "member_89",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60896"
+    },
+    {
       "performanceId": "P2612_76",
       "category": "メディア",
       "title": "Pococha「あたヒロ2026 アフターコラボ配信」",
@@ -785,6 +801,21 @@
         "member_92"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60632"
+    },
+    {
+      "performanceId": "P2612_97",
+      "category": "メディア",
+      "title": "ファミリーマートプレゼンツ『竹内由恵のいちばんナビ』",
+      "date": "2026-12-07",
+      "time": "20:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_74",
+        "member_78"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60895"
     },
     {
       "performanceId": "P2612_29",
@@ -1114,6 +1145,22 @@
         "member_74"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60665"
+    },
+    {
+      "performanceId": "P2612_98",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48の作戦会議 supported by Pococha」",
+      "date": "2026-12-13",
+      "time": "19:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_26",
+        "member_74",
+        "member_89",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60897"
     },
     {
       "performanceId": "P2612_86",
