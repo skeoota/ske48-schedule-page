@@ -3363,6 +3363,22 @@
       "link": "https://ske48.co.jp/schedule/detail/60753"
     },
     {
+      "performanceId": "P2611_190",
+      "category": "イベント",
+      "title": "「WONDER WEST LIVE vol.10」",
+      "date": "2026-11-30",
+      "time": "",
+      "venue": "名古屋 PARCO 西館 1 階 店頭イベントスペース",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_64",
+        "member_89",
+        "member_90"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60899"
+    },
+    {
       "performanceId": "P2611_124",
       "category": "公演",
       "title": "チームKⅡ「シアターの女神」公演 近藤海琴生誕祭＜18:30開演＞",
@@ -3484,6 +3500,20 @@
         "member_77"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60700"
+    },
+    {
+      "performanceId": "P2611_191",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-11-30",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_94",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60605"
     }
   ]
 }

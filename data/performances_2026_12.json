@@ -107,6 +107,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60478"
     },
     {
+      "performanceId": "P2612_102",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-12-01",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_9",
+        "member_82"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60606"
+    },
+    {
       "performanceId": "P2612_69",
       "category": "公演",
       "title": "チームS「ずっと君を探している」公演 原優寧生誕祭＜18:30開演＞",
@@ -183,6 +197,20 @@
         "member_101"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60720"
+    },
+    {
+      "performanceId": "P2612_103",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-12-02",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_4",
+        "member_8"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60607"
     },
     {
       "performanceId": "P2612_93",
@@ -303,6 +331,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60721"
     },
     {
+      "performanceId": "P2612_104",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-12-03",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_106"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60608"
+    },
+    {
       "performanceId": "P2612_82",
       "category": "イベント",
       "title": "笠松競馬場 『レジェンドハンター記念』開催日イベント",
@@ -314,6 +356,19 @@
         "member_26"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60848"
+    },
+    {
+      "performanceId": "P2612_106",
+      "category": "メディア",
+      "title": "テレビ愛知「キン・ドニーチ」",
+      "date": "2026-12-04",
+      "time": "17:30",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_67"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60833"
     },
     {
       "performanceId": "P2612_71",
@@ -393,6 +448,20 @@
       "link": "https://ske48.co.jp/schedule/detail/60653"
     },
     {
+      "performanceId": "P2612_107",
+      "category": "メディア",
+      "title": "FM AICHI 「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-12-04",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60902"
+    },
+    {
       "performanceId": "P2612_26",
       "category": "メディア",
       "title": "Pococha「18周年振り返りアフタートーク」",
@@ -418,6 +487,20 @@
         "member_44"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60470"
+    },
+    {
+      "performanceId": "P2612_105",
+      "category": "メディア",
+      "title": "TOKAI RADIO「SKE48♡１+１は2じゃないよ！」",
+      "date": "2026-12-04",
+      "time": "21:45",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_93",
+        "member_109"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60609"
     },
     {
       "performanceId": "P2612_37",
@@ -1013,6 +1096,84 @@
       "link": "https://ske48.co.jp/schedule/detail/60790"
     },
     {
+      "performanceId": "P2612_99",
+      "category": "公演",
+      "title": "チームKⅡ「シアターの女神」公演＜18:30開演＞",
+      "date": "2026-12-11",
+      "time": "18:30",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_3",
+        "member_67",
+        "member_5",
+        "member_82",
+        "member_48",
+        "member_8",
+        "member_95",
+        "member_86",
+        "member_97",
+        "member_52",
+        "member_75",
+        "member_19"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60907",
+      "ticketInfo": {
+        "applicationPeriod": "2026年11月27日(金)18:00～11月29日(日)23:59",
+        "lotteryResultPeriod": "2026年12月2日(水)15:00～12月2日(水)23:00",
+        "ticketDisplay": "2026年12月3日(木)18:00 ※座席表示は後日となります",
+        "tradePeriod": "2026年12月3日(木)18:00～公演当日11:59",
+        "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠」「一般枠・一般ペア枠」となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
+        "applyLinks": [
+          {
+            "name": "[ファンクラブ枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=36&stk=5cb7e18051ef208358a818744baa8ab4"
+          },
+          {
+            "name": "[12周年特別枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=37&stk=9ee2d91c8985a06821c7bc7ecfe9e2b1"
+          },
+          {
+            "name": "[SKE48 Mobile会員枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=38&stk=31232fe659a2664301729f8ef1539637"
+          },
+          {
+            "name": "[100発100中/98中権利枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=39&stk=bd363638d2b89d93403b3cafd5472334"
+          },
+          {
+            "name": "[一般枠・一般ペア枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=40&stk=02e5469e93ab90dfeb3564b9c1609b45"
+          }
+        ],
+        "otherLinks": [
+          {
+            "name": "申込確認はこちら",
+            "url": "https://tixplus.jp/login/"
+          },
+          {
+            "name": "チケットトレードはこちら",
+            "url": "https://trade.tixplus.jp/artists/tour/15668"
+          }
+        ],
+        "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
+      }
+    },
+    {
+      "performanceId": "P2612_108",
+      "category": "メディア",
+      "title": "FM AICHI 「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-12-11",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60903"
+    },
+    {
       "performanceId": "P2612_44",
       "category": "メディア",
       "title": "TOKAI RADIO「NEXTies!」",
@@ -1091,6 +1252,70 @@
       "link": "https://ske48.co.jp/schedule/detail/60758"
     },
     {
+      "performanceId": "P2612_100",
+      "category": "公演",
+      "title": "「可能性こそが未来」公演＜17:00開演＞",
+      "date": "2026-12-12",
+      "time": "17:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_99",
+        "member_96",
+        "member_93",
+        "member_94",
+        "member_100",
+        "member_104",
+        "member_92",
+        "member_106",
+        "member_108",
+        "member_101",
+        "member_109",
+        "member_110"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60908",
+      "ticketInfo": {
+        "applicationPeriod": "2026年11月27日(金)18:00～11月29日(日)23:59",
+        "lotteryResultPeriod": "2026年12月2日(水)15:00～12月2日(水)23:00",
+        "ticketDisplay": "2026年12月3日(木)18:00 ※座席表示は後日となります",
+        "tradePeriod": "2026年12月3日(木)18:00～公演当日11:59",
+        "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠」「一般枠・一般ペア枠」となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
+        "applyLinks": [
+          {
+            "name": "[ファンクラブ枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=41&stk=6ad40db120097275cee1af7f9aebd810"
+          },
+          {
+            "name": "[12周年特別枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=42&stk=469b976d75a605ae4c53c4e1e152c5f8"
+          },
+          {
+            "name": "[SKE48 Mobile会員枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=43&stk=399b9f8f29ba62f905306b830718eb04"
+          },
+          {
+            "name": "[100発100中/98中権利枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=44&stk=7b1ea55972c7985071d2aa81a39d5857"
+          },
+          {
+            "name": "[一般枠・一般ペア枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=45&stk=a65ef106d269d6c7166fa04e41fa4717"
+          }
+        ],
+        "otherLinks": [
+          {
+            "name": "申込確認はこちら",
+            "url": "https://tixplus.jp/login/"
+          },
+          {
+            "name": "チケットトレードはこちら",
+            "url": "https://trade.tixplus.jp/artists/tour/15668"
+          }
+        ],
+        "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
+      }
+    },
+    {
       "performanceId": "P2612_45",
       "category": "メディア",
       "title": "サンテレビ「バキバキ☆ビート！Ⅱ」",
@@ -1145,6 +1370,70 @@
         "member_74"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60665"
+    },
+    {
+      "performanceId": "P2612_101",
+      "category": "公演",
+      "title": "チームS「ずっと君を探している」公演伊藤虹々美生誕祭＜17:00開演＞",
+      "date": "2026-12-13",
+      "time": "17:00",
+      "venue": "SKE48劇場",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_4",
+        "member_81",
+        "member_23",
+        "member_49",
+        "member_50",
+        "member_96",
+        "member_9",
+        "member_76",
+        "member_16",
+        "member_90",
+        "member_91"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60909",
+      "ticketInfo": {
+        "applicationPeriod": "2026年11月27日(金)18:00～11月29日(日)23:59",
+        "lotteryResultPeriod": "2026年12月2日(水)15:00～12月2日(水)23:00",
+        "ticketDisplay": "2026年12月3日(木)18:00 ※座席表示は後日となります",
+        "tradePeriod": "2026年12月3日(木)18:00～公演当日11:59",
+        "notes": "応募枠は「ファンクラブ枠」「12周年特別枠」「SKE48 Mobile会員枠」「100発100中/98中権利枠(生誕祭確約枠)」「一般枠・一般ペア枠」となります。 ※出演メンバーは急遽変更となる場合がございます。 また、今後の状況によっては公演が中止となる可能性もございますのでご了承ください。 ※女性ペア枠にてお申込みご希望の方は劇場メールフォームよりご申請ください。劇場メールフォームとチケプラ重複でのご応募はお控えください。 ※各先行、応募の際はSKE48 オフィシャルサイトより注意事項をご確認頂き、同意した方のみお申し込みください。 ※開演時間等の変更の可能性もございますので、ご了承の程お願い申し上げます。",
+        "applyLinks": [
+          {
+            "name": "[ファンクラブ枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=46&stk=2693a46295569248dc46eea571f3f416"
+          },
+          {
+            "name": "[12周年特別枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=47&stk=da347ef442e96a3e6cd43044ee86e2f0"
+          },
+          {
+            "name": "[SKE48 Mobile会員枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=48&stk=45e65991d0b637a16bdacdcb60172ebd"
+          },
+          {
+            "name": "[100発100中/98中権利枠(生誕祭確約枠)] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=49&stk=005a65db273f601b5253cc9c6a876eab"
+          },
+          {
+            "name": "[一般枠・一般ペア枠] 申し込む",
+            "url": "https://tixplus.jp/ticket/order/login.php?tour=15668&precede=50&stk=d1633694dd8710ea619c8beb4edb52b5"
+          }
+        ],
+        "otherLinks": [
+          {
+            "name": "申込確認はこちら",
+            "url": "https://tixplus.jp/login/"
+          },
+          {
+            "name": "チケットトレードはこちら",
+            "url": "https://trade.tixplus.jp/artists/tour/15668"
+          }
+        ],
+        "tixplusUrl": "https://tixplus.jp/feature/ske48_theater_ticket/"
+      }
     },
     {
       "performanceId": "P2612_98",
@@ -1242,6 +1531,20 @@
         "member_52"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60464"
+    },
+    {
+      "performanceId": "P2612_109",
+      "category": "メディア",
+      "title": "FM AICHI 「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-12-18",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60904"
     },
     {
       "performanceId": "P2612_52",
@@ -1596,6 +1899,20 @@
         "member_110"
       ],
       "link": "https://ske48.co.jp/schedule/detail/60867"
+    },
+    {
+      "performanceId": "P2612_110",
+      "category": "メディア",
+      "title": "FM AICHI 「FUJIMAKI GROUP presents SKE48のF&Cミュージック」",
+      "date": "2026-12-25",
+      "time": "19:00",
+      "venue": "외부 행사장",
+      "status": "SCHEDULED",
+      "castIds": [
+        "member_43",
+        "member_48"
+      ],
+      "link": "https://ske48.co.jp/schedule/detail/60905"
     },
     {
       "performanceId": "P2612_60",
